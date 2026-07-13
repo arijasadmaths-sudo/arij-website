@@ -1,0 +1,1739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Cambridge Mathematics Interview Preparation | Arij Asad Maths
+  </title>
+
+  <meta
+    name="description"
+    content="Cambridge Mathematics interview preparation with Arij Asad, a Cambridge Mathematics graduate and former Cambridge admissions interviewer. Realistic mock interviews with detailed feedback."
+  >
+
+  <meta name="theme-color" content="#111111">
+
+  <link
+    rel="canonical"
+    href="https://arijasadmaths-sudo.github.io/arij-website/interviews.html"
+  >
+
+  <style>
+    :root {
+      --black: #111111;
+      --charcoal: #1b1b1b;
+      --cream: #f7f5f0;
+      --cream-dark: #eee8dc;
+      --white: #ffffff;
+      --gold: #b48a3c;
+      --gold-light: #ead9b6;
+      --text: #1c1c1c;
+      --muted: #656565;
+      --border: #e3dccf;
+      --shadow: 0 18px 50px rgba(20, 20, 20, 0.08);
+      --radius: 22px;
+      --max-width: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--text);
+      font-family:
+        Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max-width));
+      margin: 0 auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 20px;
+      z-index: 9999;
+      padding: 12px 18px;
+      background: var(--black);
+      color: var(--white);
+      border-radius: 8px;
+    }
+
+    .skip-link:focus {
+      top: 20px;
+    }
+
+    /* Navigation */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(247, 245, 240, 0.95);
+      border-bottom: 1px solid rgba(180, 138, 60, 0.18);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      color: var(--black);
+      font-size: 21px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      text-decoration: none;
+    }
+
+    .brand span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      color: #333333;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--gold);
+    }
+
+    .nav-home {
+      color: #73551d !important;
+    }
+
+    .nav-contact {
+      padding: 10px 17px;
+      background: var(--black);
+      color: var(--white) !important;
+      border-radius: 999px;
+    }
+
+    .nav-contact:hover,
+    .nav-contact:focus-visible {
+      background: var(--gold);
+      color: var(--black) !important;
+    }
+
+    .menu-button {
+      display: none;
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--white);
+      color: var(--black);
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    /* General */
+
+    section {
+      scroll-margin-top: 95px;
+    }
+
+    .section {
+      padding: 95px 0;
+    }
+
+    .section-white {
+      background: var(--white);
+    }
+
+    .section-dark {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 21px;
+      color: #6f511b;
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 32px;
+      height: 2px;
+      background: var(--gold);
+    }
+
+    .section-dark .eyebrow {
+      color: var(--gold-light);
+    }
+
+    .section-heading {
+      max-width: 790px;
+      margin-bottom: 42px;
+    }
+
+    .section-heading.center {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(36px, 5vw, 54px);
+      font-weight: 600;
+      letter-spacing: -1.7px;
+      line-height: 1.08;
+    }
+
+    .section-dark .section-heading h2 {
+      color: var(--white);
+    }
+
+    .section-heading p {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .section-dark .section-heading p {
+      color: #bdbdbd;
+    }
+
+    /* Hero */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 105px 0 90px;
+      background:
+        radial-gradient(
+          circle at 86% 18%,
+          rgba(180, 138, 60, 0.21),
+          transparent 29%
+        ),
+        radial-gradient(
+          circle at 8% 90%,
+          rgba(180, 138, 60, 0.10),
+          transparent 26%
+        ),
+        var(--cream);
+    }
+
+    .hero::before {
+      content: "?";
+      position: absolute;
+      top: 2px;
+      right: 7%;
+      color: rgba(180, 138, 60, 0.075);
+      font-family: Georgia, serif;
+      font-size: clamp(220px, 31vw, 430px);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .breadcrumb {
+      position: relative;
+      margin-bottom: 27px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .breadcrumb a {
+      color: #72531c;
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(290px, 0.8fr);
+      gap: 70px;
+      align-items: center;
+    }
+
+    h1 {
+      max-width: 830px;
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(50px, 7.5vw, 84px);
+      font-weight: 600;
+      letter-spacing: -3.5px;
+      line-height: 0.98;
+    }
+
+    .hero-highlight {
+      color: var(--gold);
+    }
+
+    .hero-copy {
+      max-width: 760px;
+      margin: 28px 0 0;
+      color: #4d4d4d;
+      font-size: clamp(18px, 2vw, 21px);
+      line-height: 1.75;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 34px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 50px;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 21px;
+      border: 1px solid transparent;
+      border-radius: 11px;
+      font-weight: 780;
+      text-align: center;
+      text-decoration: none;
+      transition:
+        transform 160ms ease,
+        background 160ms ease,
+        border-color 160ms ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .button-primary:hover {
+      background: var(--gold);
+      color: var(--black);
+    }
+
+    .button-secondary {
+      border-color: #cfc7ba;
+      background: rgba(255, 255, 255, 0.7);
+      color: var(--black);
+    }
+
+    .button-secondary:hover {
+      border-color: var(--gold);
+      background: var(--white);
+    }
+
+    .hero-panel {
+      position: relative;
+      padding: 32px;
+      background: linear-gradient(150deg, #1d1d1d, #0d0d0d);
+      color: var(--white);
+      border: 1px solid rgba(234, 217, 182, 0.5);
+      border-radius: var(--radius);
+      box-shadow: 0 26px 65px rgba(0, 0, 0, 0.21);
+    }
+
+    .hero-panel-label {
+      margin: 0 0 9px;
+      color: var(--gold-light);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .hero-panel h2 {
+      margin: 0 0 21px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .credential-list {
+      display: grid;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .credential-list li {
+      position: relative;
+      padding: 15px 0 15px 25px;
+      border-top: 1px solid rgba(255, 255, 255, 0.11);
+      color: #e4e4e4;
+      font-size: 15px;
+    }
+
+    .credential-list li::before {
+      content: "◆";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 8px;
+      transform: translateY(5px);
+    }
+
+    /* Skills strip */
+
+    .skills-strip {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .skill {
+      min-height: 135px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 28px;
+      border-right: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .skill:last-child {
+      border-right: 0;
+    }
+
+    .skill-title {
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 24px;
+      line-height: 1.15;
+    }
+
+    .skill-label {
+      margin-top: 8px;
+      color: #bfbfbf;
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    /* What interviews assess */
+
+    .assessment-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .assessment-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 295px;
+      padding: 31px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .assessment-card h3 {
+      margin: 17px 0 12px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 27px;
+      line-height: 1.18;
+    }
+
+    .assessment-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .card-number {
+      color: var(--gold);
+      font-family: Georgia, serif;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .card-symbol {
+      position: absolute;
+      right: 20px;
+      bottom: -35px;
+      color: rgba(180, 138, 60, 0.08);
+      font-family: Georgia, serif;
+      font-size: 125px;
+      line-height: 1;
+    }
+
+    /* Session structure */
+
+    .session-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 19px;
+    }
+
+    .session-card {
+      padding: 30px;
+      background: #191919;
+      border: 1px solid #393939;
+      border-radius: var(--radius);
+    }
+
+    .session-time {
+      display: inline-block;
+      margin-bottom: 18px;
+      padding: 7px 11px;
+      background: rgba(180, 138, 60, 0.18);
+      color: var(--gold-light);
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+    }
+
+    .session-card h3 {
+      margin: 0 0 11px;
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 27px;
+    }
+
+    .session-card p {
+      margin: 0;
+      color: #c7c7c7;
+    }
+
+    .session-note {
+      margin-top: 24px;
+      padding: 23px 27px;
+      background: rgba(180, 138, 60, 0.14);
+      border: 1px solid rgba(180, 138, 60, 0.4);
+      border-radius: 14px;
+      color: #dedede;
+    }
+
+    /* Common difficulties */
+
+    .difficulty-layout {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 65px;
+      align-items: start;
+    }
+
+    .difficulty-intro {
+      padding: 36px;
+      background: var(--cream);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+
+    .difficulty-intro p {
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .difficulty-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .difficulty {
+      display: grid;
+      grid-template-columns: 45px 1fr;
+      gap: 16px;
+      padding: 20px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    .difficulty-icon {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      background: var(--black);
+      color: var(--gold-light);
+      border-radius: 11px;
+      font-weight: 850;
+    }
+
+    .difficulty strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--black);
+    }
+
+    .difficulty p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* Preparation process */
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 17px;
+    }
+
+    .process-card {
+      padding: 28px;
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 17px;
+    }
+
+    .process-number {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 19px;
+      background: var(--black);
+      color: var(--gold-light);
+      border-radius: 50%;
+      font-family: Georgia, serif;
+      font-weight: 700;
+    }
+
+    .process-card h3 {
+      margin: 0 0 10px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+    }
+
+    .process-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* Interviewer insight */
+
+    .insight-layout {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .insight-copy p {
+      color: #c8c8c8;
+      font-size: 17px;
+    }
+
+    .insight-card {
+      padding: 36px;
+      background: #191919;
+      border: 1px solid rgba(180, 138, 60, 0.52);
+      border-radius: var(--radius);
+    }
+
+    .insight-card h3 {
+      margin: 0 0 17px;
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+    }
+
+    .insight-card ul {
+      display: grid;
+      gap: 13px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .insight-card li {
+      position: relative;
+      padding-left: 24px;
+      color: #d0d0d0;
+    }
+
+    .insight-card li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--gold-light);
+      font-weight: 850;
+    }
+
+    /* Official guidance */
+
+    .guidance-box {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 35px;
+      align-items: center;
+      padding: 36px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .guidance-box h3 {
+      margin: 0 0 10px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+    }
+
+    .guidance-box p {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+    }
+
+    /* FAQ */
+
+    .faq-list {
+      max-width: 900px;
+      margin: 0 auto;
+      border-top: 1px solid var(--border);
+    }
+
+    details {
+      border-bottom: 1px solid var(--border);
+    }
+
+    summary {
+      position: relative;
+      padding: 24px 45px 24px 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 21px;
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: "+";
+      position: absolute;
+      top: 20px;
+      right: 5px;
+      color: var(--gold);
+      font-family: system-ui, sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+    }
+
+    details[open] summary::after {
+      content: "−";
+    }
+
+    details p {
+      max-width: 780px;
+      margin: -4px 0 24px;
+      color: var(--muted);
+    }
+
+    /* Contact */
+
+    .contact-box {
+      position: relative;
+      overflow: hidden;
+      padding: 62px;
+      background: linear-gradient(135deg, #1d1d1d, #0b0b0b);
+      color: var(--white);
+      border: 1px solid rgba(180, 138, 60, 0.65);
+      border-radius: 28px;
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.18);
+    }
+
+    .contact-box::after {
+      content: "→";
+      position: absolute;
+      right: 25px;
+      bottom: -100px;
+      color: rgba(234, 217, 182, 0.065);
+      font-family: Georgia, serif;
+      font-size: 280px;
+      line-height: 1;
+    }
+
+    .contact-content {
+      position: relative;
+      z-index: 2;
+      max-width: 770px;
+    }
+
+    .contact-box h2 {
+      margin: 0;
+      color: var(--white);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 5vw, 57px);
+      font-weight: 600;
+      letter-spacing: -1.7px;
+      line-height: 1.08;
+    }
+
+    .contact-box p {
+      max-width: 690px;
+      margin: 20px 0 0;
+      color: #cecece;
+      font-size: 18px;
+    }
+
+    .contact-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 30px;
+    }
+
+    .contact-email {
+      background: var(--gold-light);
+      color: var(--black);
+    }
+
+    .contact-email:hover {
+      background: var(--white);
+    }
+
+    .contact-secondary {
+      border-color: #555555;
+      background: transparent;
+      color: var(--white);
+    }
+
+    .contact-secondary:hover {
+      border-color: var(--gold);
+      background: #202020;
+    }
+
+    /* Footer */
+
+    footer {
+      padding: 38px 0;
+      background: var(--black);
+      color: #bdbdbd;
+      border-top: 1px solid #2b2b2b;
+    }
+
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .footer-brand {
+      color: var(--white);
+      font-weight: 800;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .footer-links a {
+      color: #bdbdbd;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--gold-light);
+    }
+
+    /* Responsive */
+
+    @media (max-width: 950px) {
+      .hero-grid,
+      .difficulty-layout,
+      .insight-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 80px;
+      }
+
+      .hero-panel {
+        max-width: 680px;
+      }
+
+      .assessment-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .session-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .container {
+        width: min(calc(100% - 28px), var(--max-width));
+      }
+
+      .nav {
+        min-height: 68px;
+      }
+
+      .menu-button {
+        display: block;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 68px;
+        right: 14px;
+        left: 14px;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2px;
+        padding: 13px;
+        background: var(--white);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 11px 12px;
+        border-radius: 8px;
+      }
+
+      .nav-contact {
+        margin-top: 5px;
+        text-align: center;
+      }
+
+      h1 {
+        letter-spacing: -2.5px;
+      }
+
+      .hero-buttons,
+      .contact-buttons {
+        flex-direction: column;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .skills-grid,
+      .process-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .skill {
+        min-height: 105px;
+        border-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      }
+
+      .skill:last-child {
+        border-bottom: 0;
+      }
+
+      .guidance-box {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 72px 0;
+      }
+
+      .contact-box {
+        padding: 40px 25px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .hero-panel,
+      .assessment-card,
+      .session-card,
+      .difficulty-intro,
+      .insight-card,
+      .guidance-box {
+        padding: 24px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        Arij Asad <span>Maths</span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        Menu
+      </button>
+
+      <nav
+        class="nav-links"
+        id="main-navigation"
+        aria-label="Main navigation"
+      >
+        <a class="nav-home" href="index.html">Home</a>
+        <a href="#assessed">What is assessed</a>
+        <a href="#session">Session structure</a>
+        <a href="#preparation">Preparation</a>
+        <a href="#faq">Questions</a>
+        <a class="nav-contact" href="#contact">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          &nbsp; / &nbsp;
+          Cambridge interview preparation
+        </div>
+
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">
+              Cambridge mathematics admissions
+            </div>
+
+            <h1>
+              Mathematics interview
+              <span class="hero-highlight">preparation.</span>
+            </h1>
+
+            <p class="hero-copy">
+              Cambridge mathematics interviews are live academic
+              conversations. Students must engage with unfamiliar problems,
+              explain their ideas clearly, listen carefully and respond
+              productively to guidance. Preparation should therefore develop
+              genuine mathematical thinking rather than rehearsed answers.
+            </p>
+
+            <div class="hero-buttons">
+              <a class="button button-primary" href="#session">
+                See how sessions work
+              </a>
+
+              <a class="button button-secondary" href="#contact">
+                Book a mock interview
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <p class="hero-panel-label">
+              Preparation with a former interviewer
+            </p>
+
+            <h2>
+              Practise the process, not a script.
+            </h2>
+
+            <ul class="credential-list">
+              <li>
+                Former mathematics admissions interviewer at Homerton College,
+                Cambridge
+              </li>
+
+              <li>
+                Experience assessing applicants and contributing to admissions
+                decisions
+              </li>
+
+              <li>
+                University of Cambridge Mathematics graduate
+              </li>
+
+              <li>
+                STEP examiner and former TMUA and ESAT assessment associate
+              </li>
+
+              <li>
+                More than seven years of private tuition experience
+              </li>
+
+              <li>
+                Extensive experience teaching high-attaining students
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-strip" aria-label="Core interview skills">
+      <div class="container skills-grid">
+        <div class="skill">
+          <span class="skill-title">Think aloud</span>
+          <span class="skill-label">
+            Make mathematical reasoning visible
+          </span>
+        </div>
+
+        <div class="skill">
+          <span class="skill-title">Explore</span>
+          <span class="skill-label">
+            Test ideas rather than waiting for certainty
+          </span>
+        </div>
+
+        <div class="skill">
+          <span class="skill-title">Respond</span>
+          <span class="skill-label">
+            Use hints and questions productively
+          </span>
+        </div>
+
+        <div class="skill">
+          <span class="skill-title">Communicate</span>
+          <span class="skill-label">
+            Explain ideas with clarity and precision
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="assessed">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">
+            What interviewers assess
+          </div>
+
+          <h2>
+            How a student thinks when the route is not obvious.
+          </h2>
+
+          <p>
+            Interview performance is not simply about reaching the correct
+            final answer. The discussion reveals how the student approaches
+            new material, communicates and develops ideas.
+          </p>
+        </div>
+
+        <div class="assessment-grid">
+          <article class="assessment-card">
+            <span class="card-number">01</span>
+
+            <h3>Independent thinking</h3>
+
+            <p>
+              Identify useful observations, suggest possible approaches and
+              begin making progress without waiting to be told exactly what to
+              do.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">?</span>
+          </article>
+
+          <article class="assessment-card">
+            <span class="card-number">02</span>
+
+            <h3>Mathematical communication</h3>
+
+            <p>
+              Explain reasoning clearly, use accurate notation and help the
+              interviewer understand the motivation behind each step.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">→</span>
+          </article>
+
+          <article class="assessment-card">
+            <span class="card-number">03</span>
+
+            <h3>Response to guidance</h3>
+
+            <p>
+              Listen carefully to questions and hints, reconsider an approach
+              when necessary and use new information to move the solution
+              forward.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">∴</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="session">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">
+            Interview preparation session
+          </div>
+
+          <h2>
+            A realistic mock followed by detailed feedback.
+          </h2>
+
+          <p>
+            Each session is structured to give the student genuine interview
+            experience, while still providing enough time afterwards to
+            understand and improve their performance.
+          </p>
+        </div>
+
+        <div class="session-grid">
+          <article class="session-card">
+            <span class="session-time">First 30 minutes</span>
+
+            <h3>Mock interview</h3>
+
+            <p>
+              The student works through unfamiliar mathematical problems in a
+              realistic interview environment. I ask questions, offer hints
+              and adapt the discussion in response to their ideas.
+            </p>
+          </article>
+
+          <article class="session-card">
+            <span class="session-time">Next 30 minutes</span>
+
+            <h3>Feedback and discussion</h3>
+
+            <p>
+              We review the student's mathematical reasoning, communication,
+              response to hints and overall interview technique, including
+              specific examples from the mock.
+            </p>
+          </article>
+
+          <article class="session-card">
+            <span class="session-time">After the session</span>
+
+            <h3>Tailored next steps</h3>
+
+            <p>
+              The student receives clear priorities and, where appropriate,
+              further problems selected to strengthen the particular skills
+              identified during the interview.
+            </p>
+          </article>
+        </div>
+
+        <div class="session-note">
+          Questions are not supplied in advance. The aim is to reproduce the
+          experience of meeting unfamiliar mathematics and developing a
+          solution through discussion.
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">
+            Common difficulties
+          </div>
+
+          <h2>
+            Strong mathematics does not automatically produce a strong interview.
+          </h2>
+        </div>
+
+        <div class="difficulty-layout">
+          <div class="difficulty-intro">
+            <p>
+              Students sometimes focus so heavily on producing the correct
+              answer that they forget the interview is a conversation. The
+              interviewer can only assess reasoning that the student makes
+              visible.
+            </p>
+          </div>
+
+          <div class="difficulty-list">
+            <article class="difficulty">
+              <div class="difficulty-icon">1</div>
+
+              <div>
+                <strong>Working silently for too long</strong>
+
+                <p>
+                  Carrying out significant reasoning internally without
+                  explaining observations, uncertainty or the intended
+                  approach.
+                </p>
+              </div>
+            </article>
+
+            <article class="difficulty">
+              <div class="difficulty-icon">2</div>
+
+              <div>
+                <strong>Forcing remembered knowledge</strong>
+
+                <p>
+                  Trying to apply a familiar theorem or technique before
+                  understanding the actual structure of the problem.
+                </p>
+              </div>
+            </article>
+
+            <article class="difficulty">
+              <div class="difficulty-icon">3</div>
+
+              <div>
+                <strong>Overexplaining routine details</strong>
+
+                <p>
+                  Spending too long describing straightforward algebra while
+                  failing to explain the important mathematical decision.
+                </p>
+              </div>
+            </article>
+
+            <article class="difficulty">
+              <div class="difficulty-icon">4</div>
+
+              <div>
+                <strong>Failing to use a hint</strong>
+
+                <p>
+                  Treating guidance as evidence of failure rather than a normal
+                  part of an academic discussion and an opportunity to develop
+                  the solution.
+                </p>
+              </div>
+            </article>
+
+            <article class="difficulty">
+              <div class="difficulty-icon">5</div>
+
+              <div>
+                <strong>Giving up when the first approach fails</strong>
+
+                <p>
+                  Becoming discouraged rather than summarising what has been
+                  learned and trying a different representation or special
+                  case.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="preparation">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">
+            Preparation process
+          </div>
+
+          <h2>
+            Build confidence through genuine mathematical discussion.
+          </h2>
+
+          <p>
+            Interview preparation should improve the student's ability to
+            solve unfamiliar problems, not teach rehearsed performances or
+            memorised phrases.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card">
+            <div class="process-number">1</div>
+
+            <h3>Explore</h3>
+
+            <p>
+              Develop the habit of testing examples, identifying patterns and
+              suggesting possible routes through unfamiliar problems.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">2</div>
+
+            <h3>Explain</h3>
+
+            <p>
+              Practise communicating the important mathematical ideas clearly
+              without narrating every minor calculation.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">3</div>
+
+            <h3>Respond</h3>
+
+            <p>
+              Learn to interpret hints, questions and challenges as useful
+              information rather than interruptions.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">4</div>
+
+            <h3>Reflect</h3>
+
+            <p>
+              Use detailed feedback to identify recurring habits and improve
+              both mathematical reasoning and interview communication.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container insight-layout">
+        <div class="insight-copy">
+          <div class="section-heading">
+            <div class="eyebrow">
+              Interviewer insight
+            </div>
+
+            <h2>
+              Preparation informed by direct admissions experience.
+            </h2>
+          </div>
+
+          <p>
+            I previously interviewed mathematics applicants at Homerton
+            College, Cambridge, assessing candidates through live
+            problem-solving discussions and contributing to admissions
+            decisions.
+          </p>
+
+          <p>
+            This experience informs the questions I select, the way I respond
+            to students during a mock interview and the feedback I provide
+            afterwards.
+          </p>
+
+          <p>
+            My aim is not to reproduce supposedly secret questions or teach a
+            performance. It is to help students show their mathematical
+            potential more clearly when faced with unfamiliar material.
+          </p>
+        </div>
+
+        <aside class="insight-card">
+          <h3>Students learn to</h3>
+
+          <ul>
+            <li>Start productively even when unsure of the full solution</li>
+            <li>Explain the purpose behind their mathematical steps</li>
+            <li>Balance thinking time with clear communication</li>
+            <li>Recognise and use interviewer guidance</li>
+            <li>Recover calmly from mistakes or unsuccessful approaches</li>
+            <li>Maintain a focused mathematical conversation</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">
+            Official guidance
+          </div>
+
+          <h2>
+            Understand the process from Cambridge itself.
+          </h2>
+        </div>
+
+        <div class="guidance-box">
+          <div>
+            <h3>University of Cambridge interview guidance</h3>
+
+            <p>
+              Cambridge publishes free official information explaining the
+              purpose of interviews, what applicants may be asked to do and
+              how arrangements can vary between subjects and Colleges.
+            </p>
+          </div>
+
+          <a
+            class="button button-primary"
+            href="https://www.undergraduate.study.cam.ac.uk/apply/after/cambridge-interviews"
+            target="_blank"
+            rel="noopener"
+          >
+            View official guidance
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="faq">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">
+            Frequently asked questions
+          </div>
+
+          <h2>
+            Interview preparation questions.
+          </h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>
+              Is the mock interview intended to predict the admissions outcome?
+            </summary>
+
+            <p>
+              No. Admissions decisions depend on the complete application and
+              the judgement of the relevant College. The purpose of the mock is
+              to give the student realistic practice and identify areas that
+              can be improved.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Will the student be given the questions beforehand?
+            </summary>
+
+            <p>
+              No. Encountering unfamiliar material is central to the exercise.
+              The mock assesses how the student begins, develops ideas and
+              responds to discussion rather than how well they can reproduce a
+              prepared solution.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Does the session include personal statement questions?
+            </summary>
+
+            <p>
+              The main focus is mathematical problem solving. Where useful, a
+              small part of the session can also address discussing academic
+              interests, course motivation or material mentioned in the
+              application.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              How many mock interviews should a student complete?
+            </summary>
+
+            <p>
+              This depends on the student's existing experience and the time
+              available. Some students benefit from one detailed mock, while
+              others need several sessions to practise applying feedback and
+              develop more consistent communication.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Can the session prepare students for online interviews?
+            </summary>
+
+            <p>
+              Yes. Sessions take place online and can include sharing written
+              working, explaining diagrams and managing the practical aspects
+              of solving mathematics through video call.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Is this service endorsed by the University of Cambridge?
+            </summary>
+
+            <p>
+              No. Arij Asad Maths is an independent tuition service and is not
+              endorsed by the University. Applicants should also read the free
+              official guidance published by Cambridge and their interviewing
+              College.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-content">
+            <div class="eyebrow">
+              Interview enquiries
+            </div>
+
+            <h2>
+              Arrange a Cambridge mathematics mock interview.
+            </h2>
+
+            <p>
+              A free consultation call or video chat is available to discuss
+              the student's application, interview experience so far and the
+              most suitable form of preparation.
+            </p>
+
+            <div class="contact-buttons">
+              <a
+                class="button contact-email"
+                href="mailto:arijasadmaths@gmail.com?subject=Cambridge%20mathematics%20interview%20enquiry"
+              >
+                Email Arij
+              </a>
+
+              <a
+                class="button contact-secondary"
+                href="index.html"
+              >
+                Return to the homepage
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <div class="footer-brand">Arij Asad Maths</div>
+        <div>Specialist online mathematics tuition</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="#assessed">What is assessed</a>
+        <a href="#session">Session structure</a>
+        <a href="#preparation">Preparation</a>
+        <a href="mailto:arijasadmaths@gmail.com">Contact</a>
+      </div>
+
+      <div>
+        © 2026 Arij Asad Maths
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector(".menu-button");
+    const navigation = document.querySelector(".nav-links");
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = navigation.classList.toggle("open");
+
+      menuButton.setAttribute(
+        "aria-expanded",
+        String(isOpen)
+      );
+    });
+
+    navigation.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navigation.classList.remove("open");
+        menuButton.setAttribute("aria-expanded", "false");
+      });
+    });
+  </script>
+</body>
+</html>
