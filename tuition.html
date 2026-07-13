@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Tuition Options | Arij Asad Maths
+  </title>
+
+  <meta
+    name="description"
+    content="Online mathematics tuition for A Level, Further Mathematics, TMUA, STEP, Cambridge interviews and selected university mathematics with Arij Asad."
+  >
+
+  <meta name="theme-color" content="#111111">
+
+  <link
+    rel="canonical"
+    href="https://arijasadmaths-sudo.github.io/arij-website/tuition.html"
+  >
+
+  <style>
+    :root {
+      --black: #111111;
+      --charcoal: #1b1b1b;
+      --cream: #f7f5f0;
+      --white: #ffffff;
+      --gold: #b48a3c;
+      --gold-light: #ead9b6;
+      --text: #1c1c1c;
+      --muted: #656565;
+      --border: #e3dccf;
+      --shadow: 0 18px 50px rgba(20, 20, 20, 0.08);
+      --radius: 22px;
+      --max-width: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--text);
+      font-family:
+        Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max-width));
+      margin: 0 auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 20px;
+      z-index: 9999;
+      padding: 12px 18px;
+      border-radius: 8px;
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .skip-link:focus {
+      top: 20px;
+    }
+
+    /* Navigation */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid rgba(180, 138, 60, 0.18);
+      background: rgba(247, 245, 240, 0.95);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      color: var(--black);
+      font-size: 21px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      text-decoration: none;
+    }
+
+    .brand span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      color: #333333;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--gold);
+    }
+
+    .nav-home {
+      color: #73551d !important;
+    }
+
+    .nav-contact {
+      padding: 10px 17px;
+      border-radius: 999px;
+      background: var(--black);
+      color: var(--white) !important;
+    }
+
+    .nav-contact:hover {
+      background: var(--gold);
+      color: var(--black) !important;
+    }
+
+    .menu-button {
+      display: none;
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--white);
+      color: var(--black);
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    /* General */
+
+    section {
+      scroll-margin-top: 95px;
+    }
+
+    .section {
+      padding: 95px 0;
+    }
+
+    .section-white {
+      background: var(--white);
+    }
+
+    .section-dark {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 21px;
+      color: #6f511b;
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 32px;
+      height: 2px;
+      background: var(--gold);
+    }
+
+    .section-dark .eyebrow {
+      color: var(--gold-light);
+    }
+
+    .section-heading {
+      max-width: 790px;
+      margin-bottom: 42px;
+    }
+
+    .section-heading.center {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(36px, 5vw, 54px);
+      font-weight: 600;
+      letter-spacing: -1.7px;
+      line-height: 1.08;
+    }
+
+    .section-dark .section-heading h2 {
+      color: var(--white);
+    }
+
+    .section-heading p {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .section-dark .section-heading p {
+      color: #bdbdbd;
+    }
+
+    /* Hero */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 105px 0 90px;
+      background:
+        radial-gradient(
+          circle at 86% 18%,
+          rgba(180, 138, 60, 0.21),
+          transparent 29%
+        ),
+        radial-gradient(
+          circle at 8% 90%,
+          rgba(180, 138, 60, 0.10),
+          transparent 26%
+        ),
+        var(--cream);
+    }
+
+    .hero::before {
+      content: "£";
+      position: absolute;
+      top: 15px;
+      right: 7%;
+      color: rgba(180, 138, 60, 0.07);
+      font-family: Georgia, serif;
+      font-size: clamp(210px, 30vw, 410px);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .breadcrumb {
+      position: relative;
+      margin-bottom: 27px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .breadcrumb a {
+      color: #72531c;
+      text-decoration: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(290px, 0.8fr);
+      gap: 70px;
+      align-items: center;
+    }
+
+    h1 {
+      max-width: 800px;
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(52px, 8vw, 88px);
+      font-weight: 600;
+      letter-spacing: -3.5px;
+      line-height: 0.97;
+    }
+
+    .hero-highlight {
+      color: var(--gold);
+    }
+
+    .hero-copy {
+      max-width: 750px;
+      margin: 28px 0 0;
+      color: #4d4d4d;
+      font-size: clamp(18px, 2vw, 21px);
+      line-height: 1.75;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 34px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 50px;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 21px;
+      border: 1px solid transparent;
+      border-radius: 11px;
+      font-weight: 780;
+      text-align: center;
+      text-decoration: none;
+      transition:
+        transform 160ms ease,
+        background 160ms ease,
+        border-color 160ms ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .button-primary:hover {
+      background: var(--gold);
+      color: var(--black);
+    }
+
+    .button-secondary {
+      border-color: #cfc7ba;
+      background: rgba(255, 255, 255, 0.7);
+      color: var(--black);
+    }
+
+    .button-secondary:hover {
+      border-color: var(--gold);
+      background: var(--white);
+    }
+
+    .hero-panel {
+      padding: 32px;
+      border: 1px solid rgba(234, 217, 182, 0.5);
+      border-radius: var(--radius);
+      background: linear-gradient(150deg, #1d1d1d, #0d0d0d);
+      color: var(--white);
+      box-shadow: 0 26px 65px rgba(0, 0, 0, 0.21);
+    }
+
+    .hero-panel-label {
+      margin: 0 0 9px;
+      color: var(--gold-light);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .hero-panel h2 {
+      margin: 0 0 21px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .hero-list {
+      display: grid;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .hero-list li {
+      position: relative;
+      padding: 15px 0 15px 25px;
+      border-top: 1px solid rgba(255, 255, 255, 0.11);
+      color: #e4e4e4;
+      font-size: 15px;
+    }
+
+    .hero-list li::before {
+      content: "◆";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 8px;
+      transform: translateY(5px);
+    }
+
+    /* Service cards */
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .service-card {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      min-height: 380px;
+      flex-direction: column;
+      padding: 33px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .service-card.featured {
+      border-color: rgba(180, 138, 60, 0.55);
+    }
+
+    .service-label {
+      margin-bottom: 15px;
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 1.1px;
+      text-transform: uppercase;
+    }
+
+    .service-card h3 {
+      margin: 0 0 11px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 29px;
+      line-height: 1.15;
+    }
+
+    .service-card > p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .price {
+      margin: 23px 0 4px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 31px;
+      line-height: 1.15;
+    }
+
+    .price-note {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .service-list {
+      display: grid;
+      gap: 9px;
+      margin: 23px 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .service-list li {
+      position: relative;
+      padding-left: 23px;
+      color: #454545;
+      font-size: 15px;
+    }
+
+    .service-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-weight: 850;
+    }
+
+    .card-link {
+      margin-top: auto;
+      color: #72531c;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .card-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Specialist pricing */
+
+    .specialist-layout {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .specialist-quote {
+      padding: 36px;
+      border: 1px solid rgba(180, 138, 60, 0.5);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(
+          145deg,
+          rgba(180, 138, 60, 0.21),
+          rgba(255, 255, 255, 0.04)
+        );
+    }
+
+    .specialist-quote p {
+      margin: 0;
+      color: #ededed;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      line-height: 1.5;
+    }
+
+    .pricing-points {
+      display: grid;
+      gap: 14px;
+    }
+
+    .pricing-point {
+      padding: 20px;
+      border: 1px solid #353535;
+      border-radius: 14px;
+      background: #191919;
+    }
+
+    .pricing-point strong {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--gold-light);
+    }
+
+    .pricing-point p {
+      margin: 0;
+      color: #bebebe;
+      font-size: 15px;
+    }
+
+    /* Process */
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 17px;
+    }
+
+    .process-card {
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 17px;
+      background: var(--cream);
+    }
+
+    .process-number {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 19px;
+      border-radius: 50%;
+      background: var(--black);
+      color: var(--gold-light);
+      font-family: Georgia, serif;
+      font-weight: 700;
+    }
+
+    .process-card h3 {
+      margin: 0 0 10px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+    }
+
+    .process-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* Policies */
+
+    .policy-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .policy-card {
+      padding: 27px;
+      border: 1px solid var(--border);
+      border-radius: 17px;
+      background: var(--white);
+    }
+
+    .policy-card h3 {
+      margin: 0 0 10px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+    }
+
+    .policy-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* FAQ */
+
+    .faq-list {
+      max-width: 900px;
+      margin: 0 auto;
+      border-top: 1px solid var(--border);
+    }
+
+    details {
+      border-bottom: 1px solid var(--border);
+    }
+
+    summary {
+      position: relative;
+      padding: 24px 45px 24px 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 21px;
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: "+";
+      position: absolute;
+      top: 20px;
+      right: 5px;
+      color: var(--gold);
+      font-family: system-ui, sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+    }
+
+    details[open] summary::after {
+      content: "−";
+    }
+
+    details p {
+      max-width: 780px;
+      margin: -4px 0 24px;
+      color: var(--muted);
+    }
+
+    /* Contact */
+
+    .contact-box {
+      position: relative;
+      overflow: hidden;
+      padding: 62px;
+      border: 1px solid rgba(180, 138, 60, 0.65);
+      border-radius: 28px;
+      background: linear-gradient(135deg, #1d1d1d, #0b0b0b);
+      color: var(--white);
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.18);
+    }
+
+    .contact-box::after {
+      content: "π";
+      position: absolute;
+      right: 32px;
+      bottom: -95px;
+      color: rgba(234, 217, 182, 0.07);
+      font-family: Georgia, serif;
+      font-size: 270px;
+      line-height: 1;
+    }
+
+    .contact-content {
+      position: relative;
+      z-index: 2;
+      max-width: 770px;
+    }
+
+    .contact-box h2 {
+      margin: 0;
+      color: var(--white);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 5vw, 57px);
+      font-weight: 600;
+      letter-spacing: -1.7px;
+      line-height: 1.08;
+    }
+
+    .contact-box p {
+      max-width: 690px;
+      margin: 20px 0 0;
+      color: #cecece;
+      font-size: 18px;
+    }
+
+    .contact-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 30px;
+    }
+
+    .contact-email {
+      background: var(--gold-light);
+      color: var(--black);
+    }
+
+    .contact-email:hover {
+      background: var(--white);
+    }
+
+    .contact-secondary {
+      border-color: #555555;
+      background: transparent;
+      color: var(--white);
+    }
+
+    .contact-secondary:hover {
+      border-color: var(--gold);
+      background: #202020;
+    }
+
+    /* Footer */
+
+    footer {
+      padding: 38px 0;
+      border-top: 1px solid #2b2b2b;
+      background: var(--black);
+      color: #bdbdbd;
+    }
+
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .footer-brand {
+      color: var(--white);
+      font-weight: 800;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .footer-links a {
+      color: #bdbdbd;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--gold-light);
+    }
+
+    /* Responsive */
+
+    @media (max-width: 950px) {
+      .hero-grid,
+      .specialist-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 80px;
+      }
+
+      .hero-panel {
+        max-width: 680px;
+      }
+
+      .process-grid,
+      .policy-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 720px) {
+      .container {
+        width: min(calc(100% - 28px), var(--max-width));
+      }
+
+      .nav {
+        min-height: 68px;
+      }
+
+      .menu-button {
+        display: block;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 68px;
+        right: 14px;
+        left: 14px;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2px;
+        padding: 13px;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        background: var(--white);
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 11px 12px;
+        border-radius: 8px;
+      }
+
+      .nav-contact {
+        margin-top: 5px;
+        text-align: center;
+      }
+
+      h1 {
+        letter-spacing: -2.5px;
+      }
+
+      .hero-buttons,
+      .contact-buttons {
+        flex-direction: column;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .services-grid,
+      .process-grid,
+      .policy-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 72px 0;
+      }
+
+      .contact-box {
+        padding: 40px 25px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .hero-panel,
+      .service-card,
+      .specialist-quote {
+        padding: 24px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        Arij Asad <span>Maths</span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        Menu
+      </button>
+
+      <nav
+        class="nav-links"
+        id="main-navigation"
+        aria-label="Main navigation"
+      >
+        <a class="nav-home" href="index.html">Home</a>
+        <a href="#options">Tuition options</a>
+        <a href="#pricing">Specialist pricing</a>
+        <a href="#process">How it works</a>
+        <a href="#faq">Questions</a>
+        <a class="nav-contact" href="#contact">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          &nbsp; / &nbsp;
+          Tuition options
+        </div>
+
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">
+              Individual online tuition
+            </div>
+
+            <h1>
+              Tuition shaped around
+              <span class="hero-highlight">the student.</span>
+            </h1>
+
+            <p class="hero-copy">
+              Individual support for A Level and Further Mathematics,
+              competitive university admissions and selected university-level
+              mathematics. Lessons are adapted to the student's current level,
+              goals and preparation timeline.
+            </p>
+
+            <div class="hero-buttons">
+              <a class="button button-primary" href="#options">
+                View tuition options
+              </a>
+
+              <a class="button button-secondary" href="#contact">
+                Book a free consultation
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <p class="hero-panel-label">
+              Specialist mathematics support
+            </p>
+
+            <h2>
+              More than a standard hourly lesson.
+            </h2>
+
+            <ul class="hero-list">
+              <li>One-to-one online teaching</li>
+              <li>Carefully selected work between sessions</li>
+              <li>Detailed feedback on written solutions</li>
+              <li>Preparation tailored to individual goals</li>
+              <li>Support from school mathematics to university level</li>
+              <li>Direct examining and admissions experience</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="options">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">Tuition options</div>
+
+          <h2>
+            Choose the support that matches your goals.
+          </h2>
+
+          <p>
+            A consultation is available before booking so that the most
+            appropriate structure can be agreed.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card featured">
+            <div class="service-label">
+              Standard academic tuition
+            </div>
+
+            <h3>A Level and Further Mathematics</h3>
+
+            <p>
+              Individual support with course content, examination preparation,
+              problem solving and extension work for students aiming to
+              strengthen their understanding or reach the highest grades.
+            </p>
+
+            <div class="price">£90</div>
+            <div class="price-note">One-hour online lesson</div>
+
+            <div class="price">£340</div>
+            <div class="price-note">Block of four one-hour lessons</div>
+
+            <ul class="service-list">
+              <li>Personalised lesson content</li>
+              <li>Exam and problem-solving support</li>
+              <li>Optional work between sessions</li>
+              <li>Regular or occasional lessons</li>
+            </ul>
+
+            <a
+              class="card-link"
+              href="mailto:arijasadmaths@gmail.com?subject=A%20Level%20mathematics%20tuition%20enquiry"
+            >
+              Enquire about A Level tuition →
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-label">
+              Admissions test preparation
+            </div>
+
+            <h3>TMUA preparation</h3>
+
+            <p>
+              Targeted preparation focused on mathematical fluency,
+              problem-solving judgement, accuracy and performance under time
+              pressure.
+            </p>
+
+            <div class="price">By enquiry</div>
+
+            <div class="price-note">
+              Recommended format and fee confirmed after consultation
+            </div>
+
+            <ul class="service-list">
+              <li>Diagnostic assessment</li>
+              <li>Targeted multiple-choice practice</li>
+              <li>Timed paper preparation</li>
+              <li>Detailed error analysis</li>
+            </ul>
+
+            <a class="card-link" href="tmua.html">
+              View TMUA preparation →
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-label">
+              Examiner-led preparation
+            </div>
+
+            <h3>STEP preparation</h3>
+
+            <p>
+              Specialist support with difficult problem solving, written
+              mathematical arguments, paper strategy and examiner-focused
+              feedback on complete solutions.
+            </p>
+
+            <div class="price">By enquiry</div>
+
+            <div class="price-note">
+              Quoted according to paper, level and preparation required
+            </div>
+
+            <ul class="service-list">
+              <li>STEP 2 and STEP 3 support</li>
+              <li>Detailed marking outside lessons</li>
+              <li>Examiner-informed feedback</li>
+              <li>Individual preparation plans</li>
+            </ul>
+
+            <a class="card-link" href="step.html">
+              View STEP preparation →
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-label">
+              Cambridge admissions
+            </div>
+
+            <h3>Mathematics interview preparation</h3>
+
+            <p>
+              Realistic Cambridge-style mock interviews followed by detailed
+              feedback on mathematical thinking, communication and response to
+              guidance.
+            </p>
+
+            <div class="price">By enquiry</div>
+
+            <div class="price-note">
+              Individual mocks and preparation programmes available
+            </div>
+
+            <ul class="service-list">
+              <li>Realistic mock interview</li>
+              <li>Detailed feedback and discussion</li>
+              <li>Tailored follow-up exercises</li>
+              <li>Single sessions or packages</li>
+            </ul>
+
+            <a class="card-link" href="interviews.html">
+              View interview preparation →
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-label">
+              Advanced mathematics
+            </div>
+
+            <h3>University mathematics</h3>
+
+            <p>
+              Tuition is available for selected undergraduate mathematics
+              modules, particularly applied mathematics, differential
+              equations and fluid dynamics.
+            </p>
+
+            <div class="price">By enquiry</div>
+
+            <div class="price-note">
+              Availability depends on the course and module content
+            </div>
+
+            <ul class="service-list">
+              <li>Selected undergraduate modules</li>
+              <li>Applied mathematics support</li>
+              <li>Problem sheet preparation</li>
+              <li>Conceptual and technical guidance</li>
+            </ul>
+
+            <a
+              class="card-link"
+              href="mailto:arijasadmaths@gmail.com?subject=University%20mathematics%20tuition%20enquiry"
+            >
+              Enquire about university tuition →
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-label">
+              Other support
+            </div>
+
+            <h3>Individual requirements</h3>
+
+            <p>
+              Support may also be available for GCSE Mathematics, enrichment,
+              Olympiad-style problem solving and other mathematics admissions
+              preparation.
+            </p>
+
+            <div class="price">Please enquire</div>
+
+            <div class="price-note">
+              Subject to suitability and current availability
+            </div>
+
+            <ul class="service-list">
+              <li>Individual academic goals</li>
+              <li>Short-term intensive preparation</li>
+              <li>Enrichment and extension work</li>
+              <li>Advice on suitable resources</li>
+            </ul>
+
+            <a
+              class="card-link"
+              href="mailto:arijasadmaths@gmail.com?subject=Mathematics%20tuition%20enquiry"
+            >
+              Discuss your requirements →
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="pricing">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">
+            Specialist admissions services
+          </div>
+
+          <h2>
+            Pricing reflects the preparation involved.
+          </h2>
+
+          <p>
+            STEP and interview preparation often involve substantial work
+            outside the live session, including selecting suitable material,
+            reviewing written work and preparing detailed feedback.
+          </p>
+        </div>
+
+        <div class="specialist-layout">
+          <div class="specialist-quote">
+            <p>
+              A clear quotation is provided before booking. There is no
+              obligation to continue after the initial consultation.
+            </p>
+          </div>
+
+          <div class="pricing-points">
+            <article class="pricing-point">
+              <strong>Student level</strong>
+
+              <p>
+                The student's current preparation and the mathematical level
+                of the work required.
+              </p>
+            </article>
+
+            <article class="pricing-point">
+              <strong>Preparation and marking</strong>
+
+              <p>
+                The amount of written work, marking and individual lesson
+                preparation required outside the session.
+              </p>
+            </article>
+
+            <article class="pricing-point">
+              <strong>Programme structure</strong>
+
+              <p>
+                Whether support involves a single consultation, individual
+                sessions or a structured preparation programme.
+              </p>
+            </article>
+
+            <article class="pricing-point">
+              <strong>Timing and availability</strong>
+
+              <p>
+                The student's deadline, lesson frequency and availability
+                during peak admissions periods.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="process">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">How it works</div>
+
+          <h2>
+            A straightforward process from enquiry to tuition.
+          </h2>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card">
+            <div class="process-number">1</div>
+
+            <h3>Enquire</h3>
+
+            <p>
+              Share the student's level, goals, relevant examinations and
+              preferred lesson frequency.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">2</div>
+
+            <h3>Consultation</h3>
+
+            <p>
+              Discuss current preparation and identify the type of support
+              likely to be most useful.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">3</div>
+
+            <h3>Recommendation</h3>
+
+            <p>
+              Receive a proposed lesson format, current availability and a
+              clear fee before booking.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">4</div>
+
+            <h3>Begin tuition</h3>
+
+            <p>
+              Lessons and independent work are adapted as the student's needs
+              and performance develop.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">Practical information</div>
+
+          <h2>
+            Before booking.
+          </h2>
+        </div>
+
+        <div class="policy-grid">
+          <article class="policy-card">
+            <h3>Online lessons</h3>
+
+            <p>
+              Tuition is delivered online and is available to students in the
+              UK, China and elsewhere.
+            </p>
+          </article>
+
+          <article class="policy-card">
+            <h3>Payment</h3>
+
+            <p>
+              Payment arrangements and any package terms are confirmed before
+              the first booked session.
+            </p>
+          </article>
+
+          <article class="policy-card">
+            <h3>Availability</h3>
+
+            <p>
+              Availability varies during the year, particularly around TMUA,
+              interview and STEP preparation periods.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="faq">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">
+            Frequently asked questions
+          </div>
+
+          <h2>
+            Tuition and booking questions.
+          </h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>
+              Is a regular weekly commitment required?
+            </summary>
+
+            <p>
+              No. Regular tuition, short preparation programmes and individual
+              specialist sessions may all be available depending on the
+              student's needs.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Why are STEP and interview fees not listed?
+            </summary>
+
+            <p>
+              These services vary substantially in scope. A programme may
+              involve marking, preparation outside lessons, mock interviews
+              and tailored follow-up work. A clear quotation is therefore
+              provided after discussing the student's requirements.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Can students book a single session?
+            </summary>
+
+            <p>
+              Yes, where appropriate. Some students book an individual
+              consultation, mock interview or focused problem-solving session,
+              while others benefit from ongoing tuition.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Is work provided between lessons?
+            </summary>
+
+            <p>
+              For admissions preparation, students are usually given carefully
+              selected work between sessions. The amount depends on their
+              available time and preparation goals.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Are lessons available to students outside the UK?
+            </summary>
+
+            <p>
+              Yes. Lessons are online and can be arranged for students in
+              different time zones, subject to availability.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-content">
+            <div class="eyebrow">
+              Tuition enquiries
+            </div>
+
+            <h2>
+              Discuss the support you are looking for.
+            </h2>
+
+            <p>
+              Include the student's year group, course or examination, current
+              level, goals, location or time zone and preferred lesson
+              frequency.
+            </p>
+
+            <div class="contact-buttons">
+              <a
+                class="button contact-email"
+                href="mailto:arijasadmaths@gmail.com?subject=Tuition%20enquiry"
+              >
+                Email Arij
+              </a>
+
+              <a
+                class="button contact-secondary"
+                href="index.html"
+              >
+                Return to the homepage
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <div class="footer-brand">Arij Asad Maths</div>
+        <div>Specialist online mathematics tuition</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="tmua.html">TMUA</a>
+        <a href="step.html">STEP</a>
+        <a href="interviews.html">Interviews</a>
+        <a href="mailto:arijasadmaths@gmail.com">Contact</a>
+      </div>
+
+      <div>
+        © 2026 Arij Asad Maths
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector(".menu-button");
+    const navigation = document.querySelector(".nav-links");
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = navigation.classList.toggle("open");
+
+      menuButton.setAttribute(
+        "aria-expanded",
+        String(isOpen)
+      );
+    });
+
+    navigation.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navigation.classList.remove("open");
+        menuButton.setAttribute("aria-expanded", "false");
+      });
+    });
+  </script>
+</body>
+</html>
