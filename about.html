@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    About Arij Asad | Arij Asad Maths
+  </title>
+
+  <meta
+    name="description"
+    content="Learn about Arij Asad, a Cambridge Mathematics graduate, STEP examiner, former Cambridge interviewer, mathematics tutor and PhD researcher in fluid dynamics."
+  >
+
+  <meta name="theme-color" content="#111111">
+
+  <link
+    rel="canonical"
+    href="https://arijasadmaths-sudo.github.io/arij-website/about.html"
+  >
+
+  <style>
+    :root {
+      --black: #111111;
+      --charcoal: #1b1b1b;
+      --cream: #f7f5f0;
+      --cream-dark: #eee8dc;
+      --white: #ffffff;
+      --gold: #b48a3c;
+      --gold-light: #ead9b6;
+      --text: #1c1c1c;
+      --muted: #656565;
+      --border: #e3dccf;
+      --shadow: 0 18px 50px rgba(20, 20, 20, 0.08);
+      --radius: 22px;
+      --max-width: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--text);
+      font-family:
+        Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max-width));
+      margin: 0 auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 20px;
+      z-index: 9999;
+      padding: 12px 18px;
+      border-radius: 8px;
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .skip-link:focus {
+      top: 20px;
+    }
+
+    /* Navigation */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid rgba(180, 138, 60, 0.18);
+      background: rgba(247, 245, 240, 0.95);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      color: var(--black);
+      font-size: 21px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      text-decoration: none;
+    }
+
+    .brand span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      color: #333333;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--gold);
+    }
+
+    .nav-home {
+      color: #73551d !important;
+    }
+
+    .nav-contact {
+      padding: 10px 17px;
+      border-radius: 999px;
+      background: var(--black);
+      color: var(--white) !important;
+    }
+
+    .nav-contact:hover {
+      background: var(--gold);
+      color: var(--black) !important;
+    }
+
+    .menu-button {
+      display: none;
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--white);
+      color: var(--black);
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    /* Shared */
+
+    section {
+      scroll-margin-top: 95px;
+    }
+
+    .section {
+      padding: 95px 0;
+    }
+
+    .section-white {
+      background: var(--white);
+    }
+
+    .section-dark {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 21px;
+      color: #6f511b;
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 32px;
+      height: 2px;
+      background: var(--gold);
+    }
+
+    .section-dark .eyebrow {
+      color: var(--gold-light);
+    }
+
+    .section-heading {
+      max-width: 790px;
+      margin-bottom: 42px;
+    }
+
+    .section-heading.center {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(36px, 5vw, 54px);
+      font-weight: 600;
+      letter-spacing: -1.7px;
+      line-height: 1.08;
+    }
+
+    .section-dark .section-heading h2 {
+      color: var(--white);
+    }
+
+    .section-heading p {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .section-dark .section-heading p {
+      color: #bdbdbd;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 50px;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 21px;
+      border: 1px solid transparent;
+      border-radius: 11px;
+      font-weight: 780;
+      text-align: center;
+      text-decoration: none;
+      transition:
+        transform 160ms ease,
+        background 160ms ease,
+        border-color 160ms ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .button-primary:hover {
+      background: var(--gold);
+      color: var(--black);
+    }
+
+    .button-secondary {
+      border-color: #cfc7ba;
+      background: rgba(255, 255, 255, 0.7);
+      color: var(--black);
+    }
+
+    .button-secondary:hover {
+      border-color: var(--gold);
+      background: var(--white);
+    }
+
+    /* Hero */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 105px 0 90px;
+      background:
+        radial-gradient(
+          circle at 86% 18%,
+          rgba(180, 138, 60, 0.21),
+          transparent 29%
+        ),
+        radial-gradient(
+          circle at 8% 90%,
+          rgba(180, 138, 60, 0.10),
+          transparent 26%
+        ),
+        var(--cream);
+    }
+
+    .hero::before {
+      content: "A";
+      position: absolute;
+      top: -5px;
+      right: 5%;
+      color: rgba(180, 138, 60, 0.07);
+      font-family: Georgia, serif;
+      font-size: clamp(230px, 32vw, 440px);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .breadcrumb {
+      position: relative;
+      margin-bottom: 27px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .breadcrumb a {
+      color: #72531c;
+      text-decoration: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(290px, 0.8fr);
+      gap: 70px;
+      align-items: center;
+    }
+
+    h1 {
+      max-width: 800px;
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(52px, 8vw, 88px);
+      font-weight: 600;
+      letter-spacing: -3.5px;
+      line-height: 0.97;
+    }
+
+    .hero-highlight {
+      color: var(--gold);
+    }
+
+    .hero-copy {
+      max-width: 750px;
+      margin: 28px 0 0;
+      color: #4d4d4d;
+      font-size: clamp(18px, 2vw, 21px);
+      line-height: 1.75;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 34px;
+    }
+
+    .hero-panel {
+      padding: 32px;
+      border: 1px solid rgba(234, 217, 182, 0.5);
+      border-radius: var(--radius);
+      background: linear-gradient(150deg, #1d1d1d, #0d0d0d);
+      color: var(--white);
+      box-shadow: 0 26px 65px rgba(0, 0, 0, 0.21);
+    }
+
+    .hero-panel-label {
+      margin: 0 0 9px;
+      color: var(--gold-light);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .hero-panel h2 {
+      margin: 0 0 21px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .credential-list {
+      display: grid;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .credential-list li {
+      position: relative;
+      padding: 15px 0 15px 25px;
+      border-top: 1px solid rgba(255, 255, 255, 0.11);
+      color: #e4e4e4;
+      font-size: 15px;
+    }
+
+    .credential-list li::before {
+      content: "◆";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 8px;
+      transform: translateY(5px);
+    }
+
+    /* Facts */
+
+    .facts {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .facts-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .fact {
+      min-height: 130px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 28px;
+      border-right: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .fact:last-child {
+      border-right: 0;
+    }
+
+    .fact-value {
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 29px;
+      line-height: 1.1;
+    }
+
+    .fact-label {
+      margin-top: 8px;
+      color: #bfbfbf;
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    /* Story */
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 65px;
+      align-items: start;
+    }
+
+    .story-quote {
+      position: sticky;
+      top: 110px;
+      padding: 36px;
+      border-left: 4px solid var(--gold);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      background: var(--cream);
+    }
+
+    .story-quote p {
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      line-height: 1.5;
+    }
+
+    .story-copy p {
+      margin-top: 0;
+      color: #4f4f4f;
+      font-size: 17px;
+    }
+
+    .story-copy p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Roles */
+
+    .roles-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .role-card {
+      padding: 28px;
+      border: 1px solid #343434;
+      border-radius: 17px;
+      background: #191919;
+    }
+
+    .role-number {
+      display: block;
+      margin-bottom: 16px;
+      color: var(--gold-light);
+      font-family: Georgia, serif;
+      font-size: 15px;
+    }
+
+    .role-card h3 {
+      margin: 0 0 10px;
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 23px;
+      line-height: 1.2;
+    }
+
+    .role-card p {
+      margin: 0;
+      color: #c5c5c5;
+      font-size: 15px;
+    }
+
+    /* Teaching */
+
+    .teaching-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .teaching-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 285px;
+      padding: 31px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .teaching-card h3 {
+      margin: 17px 0 12px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 27px;
+      line-height: 1.18;
+    }
+
+    .teaching-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .card-number {
+      color: var(--gold);
+      font-family: Georgia, serif;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .card-symbol {
+      position: absolute;
+      right: 20px;
+      bottom: -35px;
+      color: rgba(180, 138, 60, 0.08);
+      font-family: Georgia, serif;
+      font-size: 125px;
+      line-height: 1;
+    }
+
+    /* Research and outreach */
+
+    .split-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .feature-card {
+      display: flex;
+      min-height: 380px;
+      flex-direction: column;
+      padding: 35px;
+      border-radius: var(--radius);
+    }
+
+    .feature-card-dark {
+      border: 1px solid rgba(180, 138, 60, 0.5);
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .feature-card-light {
+      border: 1px solid var(--border);
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .feature-card h3 {
+      margin: 0 0 14px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 31px;
+      line-height: 1.15;
+    }
+
+    .feature-card-dark h3 {
+      color: var(--gold-light);
+    }
+
+    .feature-card p {
+      margin-top: 0;
+      color: var(--muted);
+    }
+
+    .feature-card-dark p {
+      color: #c7c7c7;
+    }
+
+    .feature-list {
+      display: grid;
+      gap: 10px;
+      margin: 20px 0 27px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .feature-list li {
+      position: relative;
+      padding-left: 24px;
+    }
+
+    .feature-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-weight: 850;
+    }
+
+    .feature-card-dark .feature-list li {
+      color: #dedede;
+    }
+
+    .feature-link {
+      margin-top: auto;
+      color: #72531c;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .feature-card-dark .feature-link {
+      color: var(--gold-light);
+    }
+
+    .feature-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Timeline */
+
+    .timeline {
+      max-width: 900px;
+      margin: 0 auto;
+      border-left: 2px solid var(--gold);
+    }
+
+    .timeline-item {
+      position: relative;
+      padding: 0 0 38px 38px;
+    }
+
+    .timeline-item:last-child {
+      padding-bottom: 0;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: -8px;
+      width: 14px;
+      height: 14px;
+      border: 3px solid var(--white);
+      border-radius: 50%;
+      background: var(--gold);
+    }
+
+    .timeline-label {
+      margin-bottom: 6px;
+      color: var(--gold-light);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .timeline-item h3 {
+      margin: 0 0 8px;
+      color: var(--white);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 24px;
+    }
+
+    .timeline-item p {
+      margin: 0;
+      color: #bfbfbf;
+    }
+
+    /* Contact */
+
+    .contact-box {
+      position: relative;
+      overflow: hidden;
+      padding: 62px;
+      border: 1px solid rgba(180, 138, 60, 0.65);
+      border-radius: 28px;
+      background: linear-gradient(135deg, #1d1d1d, #0b0b0b);
+      color: var(--white);
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.18);
+    }
+
+    .contact-box::after {
+      content: "∑";
+      position: absolute;
+      right: 30px;
+      bottom: -95px;
+      color: rgba(234, 217, 182, 0.07);
+      font-family: Georgia, serif;
+      font-size: 270px;
+      line-height: 1;
+    }
+
+    .contact-content {
+      position: relative;
+      z-index: 2;
+      max-width: 770px;
+    }
+
+    .contact-box h2 {
+      margin: 0;
+      color: var(--white);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 5vw, 57px);
+      font-weight: 600;
+      letter-spacing: -1.7px;
+      line-height: 1.08;
+    }
+
+    .contact-box p {
+      max-width: 690px;
+      margin: 20px 0 0;
+      color: #cecece;
+      font-size: 18px;
+    }
+
+    .contact-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 30px;
+    }
+
+    .contact-email {
+      background: var(--gold-light);
+      color: var(--black);
+    }
+
+    .contact-email:hover {
+      background: var(--white);
+    }
+
+    .contact-secondary {
+      border-color: #555555;
+      background: transparent;
+      color: var(--white);
+    }
+
+    .contact-secondary:hover {
+      border-color: var(--gold);
+      background: #202020;
+    }
+
+    /* Footer */
+
+    footer {
+      padding: 38px 0;
+      border-top: 1px solid #2b2b2b;
+      background: var(--black);
+      color: #bdbdbd;
+    }
+
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .footer-brand {
+      color: var(--white);
+      font-weight: 800;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .footer-links a {
+      color: #bdbdbd;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--gold-light);
+    }
+
+    /* Responsive */
+
+    @media (max-width: 950px) {
+      .hero-grid,
+      .story-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 80px;
+      }
+
+      .hero-panel {
+        max-width: 680px;
+      }
+
+      .story-quote {
+        position: static;
+      }
+
+      .roles-grid,
+      .teaching-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 720px) {
+      .container {
+        width: min(calc(100% - 28px), var(--max-width));
+      }
+
+      .nav {
+        min-height: 68px;
+      }
+
+      .menu-button {
+        display: block;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 68px;
+        right: 14px;
+        left: 14px;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2px;
+        padding: 13px;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        background: var(--white);
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 11px 12px;
+        border-radius: 8px;
+      }
+
+      .nav-contact {
+        margin-top: 5px;
+        text-align: center;
+      }
+
+      h1 {
+        letter-spacing: -2.5px;
+      }
+
+      .hero-buttons,
+      .contact-buttons {
+        flex-direction: column;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .facts-grid,
+      .roles-grid,
+      .teaching-grid,
+      .split-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .fact {
+        min-height: 105px;
+        border-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      }
+
+      .fact:last-child {
+        border-bottom: 0;
+      }
+
+      .section {
+        padding: 72px 0;
+      }
+
+      .contact-box {
+        padding: 40px 25px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .hero-panel,
+      .story-quote,
+      .role-card,
+      .teaching-card,
+      .feature-card {
+        padding: 24px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        Arij Asad <span>Maths</span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        Menu
+      </button>
+
+      <nav
+        class="nav-links"
+        id="main-navigation"
+        aria-label="Main navigation"
+      >
+        <a class="nav-home" href="index.html">Home</a>
+        <a href="#background">Background</a>
+        <a href="#experience">Experience</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#research-outreach">Research and outreach</a>
+        <a class="nav-contact" href="#contact">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          &nbsp; / &nbsp;
+          About Arij
+        </div>
+
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">
+              About Arij Asad
+            </div>
+
+            <h1>
+              Mathematics, teaching and
+              <span class="hero-highlight">opportunity.</span>
+            </h1>
+
+            <p class="hero-copy">
+              I am a Cambridge Mathematics graduate, STEP examiner, former
+              Cambridge admissions interviewer and PhD researcher in fluid
+              dynamics. My work combines specialist private tuition with
+              examining, university teaching, mathematical research and
+              widening participation.
+            </p>
+
+            <div class="hero-buttons">
+              <a class="button button-primary" href="#background">
+                Read my background
+              </a>
+
+              <a class="button button-secondary" href="#contact">
+                Discuss tuition
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <p class="hero-panel-label">
+              Current and previous roles
+            </p>
+
+            <h2>
+              Experience across mathematics education.
+            </h2>
+
+            <ul class="credential-list">
+              <li>University of Cambridge Mathematics graduate</li>
+              <li>PhD researcher in fluid dynamics at Bristol</li>
+              <li>STEP examiner and marking supervisor</li>
+              <li>Former Cambridge mathematics interviewer</li>
+              <li>Former Pearson VUE Assessment Associate for TMUA and ESAT</li>
+              <li>Director of the She Talks Science STEP Summer School</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="facts" aria-label="Experience summary">
+      <div class="container facts-grid">
+        <div class="fact">
+          <span class="fact-value">Cambridge</span>
+          <span class="fact-label">
+            Undergraduate Mathematics degree
+          </span>
+        </div>
+
+        <div class="fact">
+          <span class="fact-value">150+</span>
+          <span class="fact-label">
+            Students taught
+          </span>
+        </div>
+
+        <div class="fact">
+          <span class="fact-value">7 years</span>
+          <span class="fact-label">
+            Private tuition experience
+          </span>
+        </div>
+
+        <div class="fact">
+          <span class="fact-value">STEP</span>
+          <span class="fact-label">
+            Examining and marking experience
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="background">
+      <div class="container story-grid">
+        <div class="story-quote">
+          <p>
+            I want students to experience difficult mathematics as something
+            they can explore, understand and eventually solve—not something
+            that is accessible only to a small group of naturally confident
+            people.
+          </p>
+        </div>
+
+        <div class="story-copy">
+          <div class="section-heading">
+            <div class="eyebrow">
+              My background
+            </div>
+
+            <h2>
+              From Cambridge mathematics to fluid dynamics research.
+            </h2>
+          </div>
+
+          <p>
+            I studied Mathematics at Murray Edwards College, University of
+            Cambridge. My undergraduate experience introduced me to the depth,
+            creativity and challenge of university mathematics, as well as the
+            distinctive style of teaching provided through Cambridge
+            supervisions.
+          </p>
+
+          <p>
+            I later began a PhD in fluid dynamics at the University of
+            Bristol. My research concerns the mixing of plumes in confined
+            environments, with applications to the safe storage of nuclear
+            waste.
+          </p>
+
+          <p>
+            Alongside my research, I have continued teaching mathematics at
+            school and university level. This combination of research,
+            examining and tutoring allows me to help students see both the
+            precision required in examinations and the broader mathematical
+            ideas that make the subject interesting.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="experience">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">
+            Professional experience
+          </div>
+
+          <h2>
+            Direct experience of the assessments students are preparing for.
+          </h2>
+
+          <p>
+            My tuition is informed by work across examination, admissions,
+            assessment development and university teaching.
+          </p>
+        </div>
+
+        <div class="roles-grid">
+          <article class="role-card">
+            <span class="role-number">01</span>
+
+            <h3>STEP examiner</h3>
+
+            <p>
+              I assess candidate solutions and have direct insight into how
+              mathematical reasoning, clarity and meaningful progress are
+              rewarded.
+            </p>
+          </article>
+
+          <article class="role-card">
+            <span class="role-number">02</span>
+
+            <h3>Cambridge interviewer</h3>
+
+            <p>
+              I previously interviewed Mathematics applicants at Homerton
+              College and contributed to admissions decisions.
+            </p>
+          </article>
+
+          <article class="role-card">
+            <span class="role-number">03</span>
+
+            <h3>TMUA and ESAT assessment</h3>
+
+            <p>
+              As a Pearson VUE Assessment Associate, I was involved in
+              reviewing and vetting questions for TMUA and ESAT.
+            </p>
+          </article>
+
+          <article class="role-card">
+            <span class="role-number">04</span>
+
+            <h3>University teaching</h3>
+
+            <p>
+              I have taught undergraduate Mathematics at Bristol and
+              supervised Fluid Dynamics II students at Cambridge.
+            </p>
+          </article>
+
+          <article class="role-card">
+            <span class="role-number">05</span>
+
+            <h3>STEP Summer School</h3>
+
+            <p>
+              I direct the She Talks Science STEP Summer School at Murray
+              Edwards College, Cambridge.
+            </p>
+          </article>
+
+          <article class="role-card">
+            <span class="role-number">06</span>
+
+            <h3>Private tuition</h3>
+
+            <p>
+              I have taught more than 150 students, including students
+              preparing for TMUA, STEP, interviews and university Mathematics.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="teaching">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">
+            Teaching philosophy
+          </div>
+
+          <h2>
+            Develop the student, not just the solution.
+          </h2>
+
+          <p>
+            Strong preparation should improve how a student approaches future
+            problems independently, rather than only helping them complete the
+            problem currently in front of them.
+          </p>
+        </div>
+
+        <div class="teaching-grid">
+          <article class="teaching-card">
+            <span class="card-number">01</span>
+
+            <h3>Carefully judged guidance</h3>
+
+            <p>
+              I use hints and questions to help students restart productive
+              thinking without removing the central challenge.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">?</span>
+          </article>
+
+          <article class="teaching-card">
+            <span class="card-number">02</span>
+
+            <h3>Broad problem experience</h3>
+
+            <p>
+              Students encounter a wide range of mathematical ideas so they
+              become more adaptable when a question looks unfamiliar.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">∑</span>
+          </article>
+
+          <article class="teaching-card">
+            <span class="card-number">03</span>
+
+            <h3>Honest, detailed feedback</h3>
+
+            <p>
+              Feedback addresses mathematical understanding, written
+              communication, efficiency, exam technique and independent work.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">✓</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="research-outreach">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">
+            Beyond private tuition
+          </div>
+
+          <h2>
+            Research and widening participation.
+          </h2>
+        </div>
+
+        <div class="split-grid">
+          <article class="feature-card feature-card-dark">
+            <h3>Mathematical research</h3>
+
+            <p>
+              My PhD research uses theoretical, experimental and computational
+              fluid dynamics to study how buoyant plumes mix within confined
+              environments.
+            </p>
+
+            <ul class="feature-list">
+              <li>Applied mathematics and fluid dynamics</li>
+              <li>Laboratory experiments and imaging</li>
+              <li>Mathematical modelling</li>
+              <li>Computational simulation and data analysis</li>
+            </ul>
+
+            <a
+              class="feature-link"
+              href="https://www.arijasad.com/research"
+              target="_blank"
+              rel="noopener"
+            >
+              View my current research page →
+            </a>
+          </article>
+
+          <article class="feature-card feature-card-light">
+            <h3>Access and outreach</h3>
+
+            <p>
+              I have worked across mathematics outreach, university access
+              programmes and widening-participation initiatives supporting
+              students considering competitive university courses.
+            </p>
+
+            <ul class="feature-list">
+              <li>She Talks Science STEP Summer School</li>
+              <li>University of Bristol widening participation</li>
+              <li>The Brilliant Club</li>
+              <li>Summer schools and university access programmes</li>
+            </ul>
+
+            <a
+              class="feature-link"
+              href="https://www.arijasad.com/price-list"
+              target="_blank"
+              rel="noopener"
+            >
+              View my current outreach page →
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="journey">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">
+            Academic and teaching journey
+          </div>
+
+          <h2>
+            Mathematics from several perspectives.
+          </h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-label">
+              Undergraduate study
+            </div>
+
+            <h3>University of Cambridge</h3>
+
+            <p>
+              Studied Mathematics at Murray Edwards College and experienced
+              Cambridge lectures, example sheets and small-group supervisions.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-label">
+              Teaching and outreach
+            </div>
+
+            <h3>Supporting students beyond the classroom</h3>
+
+            <p>
+              Developed experience across private tuition, summer schools,
+              university outreach and widening-participation programmes.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-label">
+              Doctoral research
+            </div>
+
+            <h3>University of Bristol</h3>
+
+            <p>
+              Began PhD research in applied mathematics and fluid dynamics,
+              alongside undergraduate teaching.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-label">
+              Admissions and assessment
+            </div>
+
+            <h3>STEP, TMUA, ESAT and Cambridge interviews</h3>
+
+            <p>
+              Built direct professional experience across examining,
+              assessment review and university admissions interviews.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-label">
+              Current work
+            </div>
+
+            <h3>Arij Asad Maths</h3>
+
+            <p>
+              Provides specialist mathematics tuition combining subject
+              expertise with direct assessment and admissions experience.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-content">
+            <div class="eyebrow">
+              Work with Arij
+            </div>
+
+            <h2>
+              Discuss tuition or specialist mathematics support.
+            </h2>
+
+            <p>
+              Please include the student's year group, course or examination,
+              current preparation, goals, location or time zone and preferred
+              lesson frequency.
+            </p>
+
+            <div class="contact-buttons">
+              <a
+                class="button contact-email"
+                href="mailto:arijasadmaths@gmail.com?subject=Mathematics%20tuition%20enquiry"
+              >
+                Email Arij
+              </a>
+
+              <a
+                class="button contact-secondary"
+                href="tuition.html"
+              >
+                View tuition options
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <div class="footer-brand">Arij Asad Maths</div>
+        <div>Specialist online mathematics tuition</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="tuition.html">Tuition</a>
+        <a href="tmua.html">TMUA</a>
+        <a href="step.html">STEP</a>
+        <a href="interviews.html">Interviews</a>
+        <a href="mailto:arijasadmaths@gmail.com">Contact</a>
+      </div>
+
+      <div>
+        © 2026 Arij Asad Maths
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector(".menu-button");
+    const navigation = document.querySelector(".nav-links");
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = navigation.classList.toggle("open");
+
+      menuButton.setAttribute(
+        "aria-expanded",
+        String(isOpen)
+      );
+    });
+
+    navigation.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navigation.classList.remove("open");
+        menuButton.setAttribute("aria-expanded", "false");
+      });
+    });
+  </script>
+</body>
+</html>
