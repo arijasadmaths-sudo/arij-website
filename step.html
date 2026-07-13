@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    STEP Preparation | Arij Asad Maths
+  </title>
+
+  <meta
+    name="description"
+    content="Specialist online STEP 2 and STEP 3 tuition with Arij Asad, a Cambridge Mathematics graduate, STEP examiner and marking supervisor."
+  >
+
+  <meta name="theme-color" content="#111111">
+
+  <link
+    rel="canonical"
+    href="https://arijasadmaths-sudo.github.io/arij-website/step.html"
+  >
+
+  <style>
+    :root {
+      --black: #111111;
+      --charcoal: #1b1b1b;
+      --cream: #f7f5f0;
+      --cream-dark: #eee8dc;
+      --white: #ffffff;
+      --gold: #b48a3c;
+      --gold-light: #ead9b6;
+      --text: #1c1c1c;
+      --muted: #656565;
+      --border: #e3dccf;
+      --shadow: 0 18px 50px rgba(20, 20, 20, 0.08);
+      --radius: 22px;
+      --max-width: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--text);
+      font-family:
+        Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max-width));
+      margin: 0 auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 20px;
+      z-index: 9999;
+      padding: 12px 18px;
+      background: var(--black);
+      color: var(--white);
+      border-radius: 8px;
+    }
+
+    .skip-link:focus {
+      top: 20px;
+    }
+
+    /* Navigation */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(247, 245, 240, 0.95);
+      border-bottom: 1px solid rgba(180, 138, 60, 0.18);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      color: var(--black);
+      font-size: 21px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      text-decoration: none;
+    }
+
+    .brand span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      color: #333333;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--gold);
+    }
+
+    .nav-home {
+      color: #73551d !important;
+    }
+
+    .nav-contact {
+      padding: 10px 17px;
+      background: var(--black);
+      color: var(--white) !important;
+      border-radius: 999px;
+    }
+
+    .nav-contact:hover,
+    .nav-contact:focus-visible {
+      background: var(--gold);
+      color: var(--black) !important;
+    }
+
+    .menu-button {
+      display: none;
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--white);
+      color: var(--black);
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    /* Shared styles */
+
+    section {
+      scroll-margin-top: 95px;
+    }
+
+    .section {
+      padding: 95px 0;
+    }
+
+    .section-white {
+      background: var(--white);
+    }
+
+    .section-dark {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 21px;
+      color: #6f511b;
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 32px;
+      height: 2px;
+      background: var(--gold);
+    }
+
+    .section-dark .eyebrow {
+      color: var(--gold-light);
+    }
+
+    .section-heading {
+      max-width: 790px;
+      margin-bottom: 42px;
+    }
+
+    .section-heading.center {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(36px, 5vw, 54px);
+      font-weight: 600;
+      letter-spacing: -1.7px;
+      line-height: 1.08;
+    }
+
+    .section-dark .section-heading h2 {
+      color: var(--white);
+    }
+
+    .section-heading p {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .section-dark .section-heading p {
+      color: #bdbdbd;
+    }
+
+    /* Hero */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 105px 0 90px;
+      background:
+        radial-gradient(
+          circle at 86% 18%,
+          rgba(180, 138, 60, 0.21),
+          transparent 29%
+        ),
+        radial-gradient(
+          circle at 8% 90%,
+          rgba(180, 138, 60, 0.10),
+          transparent 26%
+        ),
+        var(--cream);
+    }
+
+    .hero::before {
+      content: "∫";
+      position: absolute;
+      top: 15px;
+      right: 7%;
+      color: rgba(180, 138, 60, 0.08);
+      font-family: Georgia, serif;
+      font-size: clamp(210px, 30vw, 410px);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .breadcrumb {
+      position: relative;
+      margin-bottom: 27px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .breadcrumb a {
+      color: #72531c;
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(290px, 0.8fr);
+      gap: 70px;
+      align-items: center;
+    }
+
+    h1 {
+      max-width: 790px;
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(52px, 8vw, 88px);
+      font-weight: 600;
+      letter-spacing: -3.5px;
+      line-height: 0.97;
+    }
+
+    .hero-highlight {
+      color: var(--gold);
+    }
+
+    .hero-copy {
+      max-width: 750px;
+      margin: 28px 0 0;
+      color: #4d4d4d;
+      font-size: clamp(18px, 2vw, 21px);
+      line-height: 1.75;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 34px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 50px;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 21px;
+      border: 1px solid transparent;
+      border-radius: 11px;
+      font-weight: 780;
+      text-align: center;
+      text-decoration: none;
+      transition:
+        transform 160ms ease,
+        background 160ms ease,
+        border-color 160ms ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .button-primary:hover {
+      background: var(--gold);
+      color: var(--black);
+    }
+
+    .button-secondary {
+      border-color: #cfc7ba;
+      background: rgba(255, 255, 255, 0.7);
+      color: var(--black);
+    }
+
+    .button-secondary:hover {
+      border-color: var(--gold);
+      background: var(--white);
+    }
+
+    .hero-panel {
+      position: relative;
+      padding: 32px;
+      background: linear-gradient(150deg, #1d1d1d, #0d0d0d);
+      color: var(--white);
+      border: 1px solid rgba(234, 217, 182, 0.5);
+      border-radius: var(--radius);
+      box-shadow: 0 26px 65px rgba(0, 0, 0, 0.21);
+    }
+
+    .hero-panel-label {
+      margin: 0 0 9px;
+      color: var(--gold-light);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .hero-panel h2 {
+      margin: 0 0 21px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .credential-list {
+      display: grid;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .credential-list li {
+      position: relative;
+      padding: 15px 0 15px 25px;
+      border-top: 1px solid rgba(255, 255, 255, 0.11);
+      color: #e4e4e4;
+      font-size: 15px;
+    }
+
+    .credential-list li::before {
+      content: "◆";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 8px;
+      transform: translateY(5px);
+    }
+
+    /* Facts strip */
+
+    .facts {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .facts-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .fact {
+      min-height: 135px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 28px;
+      border-right: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .fact:last-child {
+      border-right: 0;
+    }
+
+    .fact-value {
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
+      line-height: 1.1;
+    }
+
+    .fact-label {
+      margin-top: 7px;
+      color: #bfbfbf;
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    /* What STEP rewards */
+
+    .reward-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .reward-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 290px;
+      padding: 31px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .reward-card h3 {
+      margin: 17px 0 12px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 27px;
+      line-height: 1.18;
+    }
+
+    .reward-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .card-number {
+      color: var(--gold);
+      font-family: Georgia, serif;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .card-symbol {
+      position: absolute;
+      right: 20px;
+      bottom: -35px;
+      color: rgba(180, 138, 60, 0.08);
+      font-family: Georgia, serif;
+      font-size: 125px;
+      line-height: 1;
+    }
+
+    /* Format */
+
+    .format-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .format-card {
+      position: relative;
+      overflow: hidden;
+      padding: 34px;
+      background: #191919;
+      border: 1px solid #393939;
+      border-radius: var(--radius);
+    }
+
+    .format-card h3 {
+      margin: 0 0 11px;
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 31px;
+    }
+
+    .format-card > p {
+      margin: 0 0 24px;
+      color: #c8c8c8;
+    }
+
+    .format-list {
+      display: grid;
+      gap: 11px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .format-list li {
+      position: relative;
+      padding-left: 24px;
+      color: #dedede;
+    }
+
+    .format-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--gold-light);
+      font-weight: 850;
+    }
+
+    .format-note {
+      grid-column: 1 / -1;
+      padding: 23px 27px;
+      background: rgba(180, 138, 60, 0.14);
+      border: 1px solid rgba(180, 138, 60, 0.4);
+      border-radius: 14px;
+      color: #dedede;
+    }
+
+    /* Difficulties */
+
+    .difficulty-layout {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 65px;
+      align-items: start;
+    }
+
+    .difficulty-intro {
+      padding: 36px;
+      background: var(--cream);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+
+    .difficulty-intro p {
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .difficulty-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .difficulty {
+      display: grid;
+      grid-template-columns: 45px 1fr;
+      gap: 16px;
+      padding: 20px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    .difficulty-icon {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      background: var(--black);
+      color: var(--gold-light);
+      border-radius: 11px;
+      font-weight: 850;
+    }
+
+    .difficulty strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--black);
+    }
+
+    .difficulty p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* Preparation */
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 17px;
+    }
+
+    .process-card {
+      padding: 28px;
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 17px;
+    }
+
+    .process-number {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 19px;
+      background: var(--black);
+      color: var(--gold-light);
+      border-radius: 50%;
+      font-family: Georgia, serif;
+      font-weight: 700;
+    }
+
+    .process-card h3 {
+      margin: 0 0 10px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+    }
+
+    .process-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* Examiner insight */
+
+    .insight-layout {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .insight-copy p {
+      color: #c8c8c8;
+      font-size: 17px;
+    }
+
+    .insight-card {
+      padding: 36px;
+      background: #191919;
+      border: 1px solid rgba(180, 138, 60, 0.52);
+      border-radius: var(--radius);
+    }
+
+    .insight-card h3 {
+      margin: 0 0 17px;
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+    }
+
+    .insight-card ul {
+      display: grid;
+      gap: 13px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .insight-card li {
+      position: relative;
+      padding-left: 24px;
+      color: #d0d0d0;
+    }
+
+    .insight-card li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--gold-light);
+      font-weight: 850;
+    }
+
+    /* Resources */
+
+    .resource-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .resource-card {
+      display: flex;
+      flex-direction: column;
+      padding: 28px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 17px;
+      box-shadow: var(--shadow);
+    }
+
+    .resource-card h3 {
+      margin: 0 0 9px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 23px;
+    }
+
+    .resource-card p {
+      flex-grow: 1;
+      margin: 0 0 18px;
+      color: var(--muted);
+    }
+
+    .resource-link {
+      color: #72531c;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .resource-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Testimonial */
+
+    .testimonial {
+      position: relative;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 48px;
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .testimonial-mark {
+      position: absolute;
+      top: -12px;
+      left: 31px;
+      color: var(--gold);
+      font-family: Georgia, serif;
+      font-size: 94px;
+      line-height: 1;
+    }
+
+    .testimonial blockquote {
+      margin: 15px 0 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(21px, 3vw, 28px);
+      line-height: 1.55;
+    }
+
+    .testimonial cite {
+      display: block;
+      margin-top: 23px;
+      color: var(--muted);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+    }
+
+    /* FAQ */
+
+    .faq-list {
+      max-width: 900px;
+      margin: 0 auto;
+      border-top: 1px solid var(--border);
+    }
+
+    details {
+      border-bottom: 1px solid var(--border);
+    }
+
+    summary {
+      position: relative;
+      padding: 24px 45px 24px 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 21px;
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: "+";
+      position: absolute;
+      top: 20px;
+      right: 5px;
+      color: var(--gold);
+      font-family: system-ui, sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+    }
+
+    details[open] summary::after {
+      content: "−";
+    }
+
+    details p {
+      max-width: 760px;
+      margin: -4px 0 24px;
+      color: var(--muted);
+    }
+
+    /* Contact */
+
+    .contact-box {
+      position: relative;
+      overflow: hidden;
+      padding: 62px;
+      background: linear-gradient(135deg, #1d1d1d, #0b0b0b);
+      color: var(--white);
+      border: 1px solid rgba(180, 138, 60, 0.65);
+      border-radius: 28px;
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.18);
+    }
+
+    .contact-box::after {
+      content: "∑";
+      position: absolute;
+      right: 32px;
+      bottom: -95px;
+      color: rgba(234, 217, 182, 0.07);
+      font-family: Georgia, serif;
+      font-size: 270px;
+      line-height: 1;
+    }
+
+    .contact-content {
+      position: relative;
+      z-index: 2;
+      max-width: 760px;
+    }
+
+    .contact-box h2 {
+      margin: 0;
+      color: var(--white);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 5vw, 57px);
+      font-weight: 600;
+      letter-spacing: -1.7px;
+      line-height: 1.08;
+    }
+
+    .contact-box p {
+      max-width: 680px;
+      margin: 20px 0 0;
+      color: #cecece;
+      font-size: 18px;
+    }
+
+    .contact-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 30px;
+    }
+
+    .contact-email {
+      background: var(--gold-light);
+      color: var(--black);
+    }
+
+    .contact-email:hover {
+      background: var(--white);
+    }
+
+    .contact-secondary {
+      border-color: #555555;
+      background: transparent;
+      color: var(--white);
+    }
+
+    .contact-secondary:hover {
+      border-color: var(--gold);
+      background: #202020;
+    }
+
+    /* Footer */
+
+    footer {
+      padding: 38px 0;
+      background: var(--black);
+      color: #bdbdbd;
+      border-top: 1px solid #2b2b2b;
+    }
+
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .footer-brand {
+      color: var(--white);
+      font-weight: 800;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .footer-links a {
+      color: #bdbdbd;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--gold-light);
+    }
+
+    /* Mobile */
+
+    @media (max-width: 950px) {
+      .hero-grid,
+      .difficulty-layout,
+      .insight-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 80px;
+      }
+
+      .hero-panel {
+        max-width: 670px;
+      }
+
+      .reward-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 720px) {
+      .container {
+        width: min(calc(100% - 28px), var(--max-width));
+      }
+
+      .nav {
+        min-height: 68px;
+      }
+
+      .menu-button {
+        display: block;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 68px;
+        right: 14px;
+        left: 14px;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2px;
+        padding: 13px;
+        background: var(--white);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 11px 12px;
+        border-radius: 8px;
+      }
+
+      .nav-contact {
+        margin-top: 5px;
+        text-align: center;
+      }
+
+      h1 {
+        letter-spacing: -2.5px;
+      }
+
+      .hero-buttons,
+      .contact-buttons {
+        flex-direction: column;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .facts-grid,
+      .format-grid,
+      .process-grid,
+      .resource-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .fact {
+        min-height: 105px;
+        border-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      }
+
+      .fact:last-child {
+        border-bottom: 0;
+      }
+
+      .format-note {
+        grid-column: auto;
+      }
+
+      .section {
+        padding: 72px 0;
+      }
+
+      .testimonial {
+        padding: 40px 25px 30px;
+      }
+
+      .contact-box {
+        padding: 40px 25px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .hero-panel,
+      .reward-card,
+      .format-card,
+      .difficulty-intro,
+      .insight-card {
+        padding: 24px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        Arij Asad <span>Maths</span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        Menu
+      </button>
+
+      <nav
+        class="nav-links"
+        id="main-navigation"
+        aria-label="Main navigation"
+      >
+        <a class="nav-home" href="index.html">Home</a>
+        <a href="#format">Format</a>
+        <a href="#preparation">Preparation</a>
+        <a href="#resources">Resources</a>
+        <a href="#faq">Questions</a>
+        <a class="nav-contact" href="#contact">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          &nbsp; / &nbsp;
+          STEP preparation
+        </div>
+
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">
+              Cambridge mathematics preparation
+            </div>
+
+            <h1>
+              STEP
+              <span class="hero-highlight">preparation.</span>
+            </h1>
+
+            <p class="hero-copy">
+              The Sixth Term Examination Paper assesses depth of
+              understanding, mathematical maturity and the ability to
+              construct logical solutions. Unlike standard school
+              examinations, success in STEP depends not only on reaching the
+              correct answer, but on communicating a clear and complete
+              mathematical argument.
+            </p>
+
+            <div class="hero-buttons">
+              <a class="button button-primary" href="#preparation">
+                How preparation works
+              </a>
+
+              <a class="button button-secondary" href="#contact">
+                Book a free consultation
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <p class="hero-panel-label">
+              Examiner-led preparation
+            </p>
+
+            <h2>
+              Learn what distinguishes strong STEP scripts.
+            </h2>
+
+            <ul class="credential-list">
+              <li>STEP examiner and marking supervisor</li>
+
+              <li>
+                Direct experience assessing complete candidate scripts
+              </li>
+
+              <li>
+                Cambridge Mathematics graduate
+              </li>
+
+              <li>
+                Director of the She Talks Science STEP Summer School
+              </li>
+
+              <li>
+                Extensive experience preparing students for STEP 2 and STEP 3
+              </li>
+
+              <li>
+                Undergraduate mathematics teaching experience
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="facts" aria-label="STEP format summary">
+      <div class="container facts-grid">
+        <div class="fact">
+          <span class="fact-value">STEP 2</span>
+          <span class="fact-label">
+            A Level Mathematics and AS Further Mathematics
+          </span>
+        </div>
+
+        <div class="fact">
+          <span class="fact-value">STEP 3</span>
+          <span class="fact-label">
+            A Level Mathematics and Further Mathematics
+          </span>
+        </div>
+
+        <div class="fact">
+          <span class="fact-value">3 hours</span>
+          <span class="fact-label">
+            For each examination paper
+          </span>
+        </div>
+
+        <div class="fact">
+          <span class="fact-value">Best 6</span>
+          <span class="fact-label">
+            Answers determine the final mark
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="what-step-tests">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">What STEP rewards</div>
+
+          <h2>
+            Much more than remembering techniques.
+          </h2>
+
+          <p>
+            STEP problems require students to combine mathematical knowledge
+            with insight, persistence and clear written communication.
+          </p>
+        </div>
+
+        <div class="reward-grid">
+          <article class="reward-card">
+            <span class="card-number">01</span>
+
+            <h3>Depth of understanding</h3>
+
+            <p>
+              Recognise why mathematical methods work and adapt them when a
+              problem does not resemble a familiar textbook exercise.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">∵</span>
+          </article>
+
+          <article class="reward-card">
+            <span class="card-number">02</span>
+
+            <h3>Mathematical persistence</h3>
+
+            <p>
+              Make sustained progress through a long problem, respond
+              productively when an approach fails and extract useful partial
+              results.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">→</span>
+          </article>
+
+          <article class="reward-card">
+            <span class="card-number">03</span>
+
+            <h3>Clear written solutions</h3>
+
+            <p>
+              Present a logical argument with sufficient explanation,
+              appropriate notation and enough working for an examiner to
+              follow every important step.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">∴</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="format">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">Paper format</div>
+
+          <h2>
+            STEP 2 and STEP 3.
+          </h2>
+
+          <p>
+            Both examinations follow the same overall paper structure,
+            although STEP 3 draws on more advanced Further Mathematics
+            content.
+          </p>
+        </div>
+
+        <div class="format-grid">
+          <article class="format-card">
+            <h3>STEP 2</h3>
+
+            <p>
+              Based principally on A Level Mathematics and AS Level Further
+              Mathematics content.
+            </p>
+
+            <ul class="format-list">
+              <li>Three-hour written paper</li>
+              <li>Eight Pure Mathematics questions</li>
+              <li>Two Mechanics questions</li>
+              <li>Two Probability and Statistics questions</li>
+              <li>Each question marked out of 20</li>
+            </ul>
+          </article>
+
+          <article class="format-card">
+            <h3>STEP 3</h3>
+
+            <p>
+              Based principally on A Level Mathematics and full A Level
+              Further Mathematics content.
+            </p>
+
+            <ul class="format-list">
+              <li>Three-hour written paper</li>
+              <li>Eight Pure Mathematics questions</li>
+              <li>Two Mechanics questions</li>
+              <li>Two Probability and Statistics questions</li>
+              <li>Each question marked out of 20</li>
+            </ul>
+          </article>
+
+          <div class="format-note">
+            Candidates may attempt questions from any section. All attempted
+            answers are marked, but the final total is based on the six
+            highest-scoring answers. Calculators and formula booklets are not
+            permitted.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">Common difficulties</div>
+
+          <h2>
+            Why strong students still lose marks.
+          </h2>
+        </div>
+
+        <div class="difficulty-layout">
+          <div class="difficulty-intro">
+            <p>
+              STEP rewards meaningful progress. A student does not always
+              need to finish a problem to earn substantial credit, but their
+              reasoning must be clear enough for that progress to be
+              recognised.
+            </p>
+          </div>
+
+          <div class="difficulty-list">
+            <article class="difficulty">
+              <div class="difficulty-icon">1</div>
+
+              <div>
+                <strong>Starting without understanding the structure</strong>
+
+                <p>
+                  Beginning calculations immediately without identifying what
+                  the earlier parts are intended to establish.
+                </p>
+              </div>
+            </article>
+
+            <article class="difficulty">
+              <div class="difficulty-icon">2</div>
+
+              <div>
+                <strong>Abandoning problems too quickly</strong>
+
+                <p>
+                  Treating an incomplete solution as worthless rather than
+                  finding the next useful observation and earning partial
+                  credit.
+                </p>
+              </div>
+            </article>
+
+            <article class="difficulty">
+              <div class="difficulty-icon">3</div>
+
+              <div>
+                <strong>Insufficient justification</strong>
+
+                <p>
+                  Omitting important reasoning, positivity conditions, special
+                  cases or explanations because the conclusion feels obvious.
+                </p>
+              </div>
+            </article>
+
+            <article class="difficulty">
+              <div class="difficulty-icon">4</div>
+
+              <div>
+                <strong>Poor question selection</strong>
+
+                <p>
+                  Spending too much of the examination on an unsuitable
+                  problem instead of identifying questions that offer the
+                  strongest route to substantial marks.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="preparation">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">Preparation process</div>
+
+          <h2>
+            Build the skills gradually, then apply them under pressure.
+          </h2>
+
+          <p>
+            STEP preparation should begin with developing mathematical
+            maturity and eventually progress towards complete timed papers
+            and detailed examination feedback.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card">
+            <div class="process-number">1</div>
+
+            <h3>Build foundations</h3>
+
+            <p>
+              Strengthen core algebra, calculus, proof, sequences, geometry
+              and other specification knowledge.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">2</div>
+
+            <h3>Develop ideas</h3>
+
+            <p>
+              Work through carefully selected problems with hints that
+              encourage progress without removing the challenge.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">3</div>
+
+            <h3>Write complete solutions</h3>
+
+            <p>
+              Turn informal reasoning into clear, logical and examiner-readable
+              mathematical arguments.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">4</div>
+
+            <h3>Refine exam strategy</h3>
+
+            <p>
+              Use timed work to improve question selection, persistence,
+              pacing and the ability to recover when stuck.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container insight-layout">
+        <div class="insight-copy">
+          <div class="section-heading">
+            <div class="eyebrow">Examiner insight</div>
+
+            <h2>
+              Preparation informed by how STEP is actually marked.
+            </h2>
+          </div>
+
+          <p>
+            As a STEP examiner and marking supervisor, I have direct
+            experience of how candidate scripts are assessed and what
+            distinguishes high-scoring solutions from weaker ones.
+          </p>
+
+          <p>
+            This allows tuition to address not only how to solve difficult
+            problems, but how to communicate progress in a way that earns the
+            marks available.
+          </p>
+
+          <p>
+            Students receive feedback on mathematical accuracy, clarity,
+            efficiency, notation and the completeness of their arguments.
+          </p>
+        </div>
+
+        <aside class="insight-card">
+          <h3>Students learn to</h3>
+
+          <ul>
+            <li>Recognise where method marks are available</li>
+            <li>Explain important steps rather than merely state results</li>
+            <li>Use earlier parts of a question effectively</li>
+            <li>Persist productively when a complete solution is not immediate</li>
+            <li>Select questions strategically under examination conditions</li>
+            <li>Present solutions that are clear, logical and easy to follow</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="resources">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">Free STEP resources</div>
+
+          <h2>
+            Official papers, specifications and preparation support.
+          </h2>
+
+          <p>
+            These resources provide the best starting point for understanding
+            the syllabus and building experience with authentic STEP
+            questions.
+          </p>
+        </div>
+
+        <div class="resource-grid">
+          <article class="resource-card">
+            <h3>Official OCR STEP page</h3>
+
+            <p>
+              Current information about STEP, registration, scoring, results
+              and examination administration.
+            </p>
+
+            <a
+              class="resource-link"
+              href="https://www.ocr.org.uk/students/step-mathematics/"
+              target="_blank"
+              rel="noopener"
+            >
+              Visit the official STEP page →
+            </a>
+          </article>
+
+          <article class="resource-card">
+            <h3>2026 STEP specification</h3>
+
+            <p>
+              The complete specification for STEP 2 and STEP 3 examinations
+              from June 2026 onwards.
+            </p>
+
+            <a
+              class="resource-link"
+              href="https://www.ocr.org.uk/Images/696329-step-specification-2026.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Open the STEP specification →
+            </a>
+          </article>
+
+          <article class="resource-card">
+            <h3>Past papers and mark schemes</h3>
+
+            <p>
+              Official past papers, solutions, mark schemes and further
+              preparation material provided through OCR.
+            </p>
+
+            <a
+              class="resource-link"
+              href="https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+              target="_blank"
+              rel="noopener"
+            >
+              Explore official past papers →
+            </a>
+          </article>
+
+          <article class="resource-card">
+            <h3>STEP Support Programme</h3>
+
+            <p>
+              Free assignments, modules and a searchable database of STEP
+              questions organised by topic and level.
+            </p>
+
+            <a
+              class="resource-link"
+              href="https://step.maths.org/"
+              target="_blank"
+              rel="noopener"
+            >
+              Visit the STEP Support Programme →
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">Student feedback</div>
+
+          <h2>
+            Preparation with clear expectations.
+          </h2>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-mark" aria-hidden="true">“</div>
+
+          <blockquote>
+            I liked that Arij was clear about the level of preparation needed
+            for STEP, and her incredible knowledge base and advice about exam
+            technique meant that I got the most out of the sessions. I would
+            highly recommend her.
+          </blockquote>
+
+          <cite>STEP student</cite>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">Frequently asked questions</div>
+
+          <h2>
+            STEP preparation questions.
+          </h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>
+              When should a student begin preparing for STEP?
+            </summary>
+
+            <p>
+              Students benefit from beginning problem-solving preparation
+              well before receiving an offer. This allows them to develop
+              mathematical maturity gradually rather than attempting to learn
+              STEP technique in only a few months.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Is STEP preparation mainly about completing past papers?
+            </summary>
+
+            <p>
+              Past papers are important, but completing them without detailed
+              reflection is not enough. Students also need targeted work on
+              mathematical techniques, problem-solving habits, solution
+              writing and examination strategy.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Does a student need to complete six full solutions?
+            </summary>
+
+            <p>
+              Not necessarily. The six best answers contribute to the final
+              score, and substantial partial progress can earn marks. However,
+              students should aim to develop the ability to complete problems
+              and communicate their reasoning fully.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Are both STEP 2 and STEP 3 covered?
+            </summary>
+
+            <p>
+              Yes. Tuition can focus on STEP 2, STEP 3 or both papers,
+              depending on the student's offer, current mathematical
+              background and preparation needs.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Are lessons available to students outside the UK?
+            </summary>
+
+            <p>
+              Yes. Tuition is delivered online and is available to students
+              in the UK, China and elsewhere. Work can be shared before and
+              after each lesson.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-content">
+            <div class="eyebrow">STEP enquiries</div>
+
+            <h2>
+              Discuss your STEP preparation.
+            </h2>
+
+            <p>
+              A free consultation call or video chat is available to discuss
+              the student's current level, target course, offer requirements
+              and preparation so far.
+            </p>
+
+            <div class="contact-buttons">
+              <a
+                class="button contact-email"
+                href="mailto:arijasadmaths@gmail.com?subject=STEP%20tuition%20enquiry"
+              >
+                Email Arij
+              </a>
+
+              <a
+                class="button contact-secondary"
+                href="index.html"
+              >
+                Return to the homepage
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <div class="footer-brand">Arij Asad Maths</div>
+        <div>Specialist online mathematics tuition</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="#format">STEP format</a>
+        <a href="#preparation">Preparation</a>
+        <a href="#resources">Resources</a>
+        <a href="mailto:arijasadmaths@gmail.com">Contact</a>
+      </div>
+
+      <div>
+        © 2026 Arij Asad Maths
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector(".menu-button");
+    const navigation = document.querySelector(".nav-links");
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = navigation.classList.toggle("open");
+
+      menuButton.setAttribute(
+        "aria-expanded",
+        String(isOpen)
+      );
+    });
+
+    navigation.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navigation.classList.remove("open");
+        menuButton.setAttribute("aria-expanded", "false");
+      });
+    });
+  </script>
+</body>
+</html>
