@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    TMUA Preparation | Arij Asad Maths
+  </title>
+
+  <meta
+    name="description"
+    content="Specialist online TMUA tuition with Arij Asad, a Cambridge Mathematics graduate and former Pearson VUE Assessment Associate involved in reviewing TMUA and ESAT questions."
+  >
+
+  <meta name="theme-color" content="#111111">
+
+  <style>
+    :root {
+      --black: #111111;
+      --charcoal: #1b1b1b;
+      --cream: #f7f5f0;
+      --cream-dark: #eee8dc;
+      --white: #ffffff;
+      --gold: #b48a3c;
+      --gold-light: #ead9b6;
+      --text: #1c1c1c;
+      --muted: #656565;
+      --border: #e3dccf;
+      --shadow: 0 18px 50px rgba(20, 20, 20, 0.08);
+      --radius: 22px;
+      --max-width: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--text);
+      font-family:
+        Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max-width));
+      margin: 0 auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 20px;
+      z-index: 9999;
+      padding: 12px 18px;
+      background: var(--black);
+      color: var(--white);
+      border-radius: 8px;
+    }
+
+    .skip-link:focus {
+      top: 20px;
+    }
+
+    /* Navigation */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(247, 245, 240, 0.95);
+      border-bottom: 1px solid rgba(180, 138, 60, 0.18);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      color: var(--black);
+      font-size: 21px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      text-decoration: none;
+    }
+
+    .brand span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      color: #333333;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--gold);
+    }
+
+    .nav-home {
+      color: #73551d !important;
+    }
+
+    .nav-contact {
+      padding: 10px 17px;
+      background: var(--black);
+      color: var(--white) !important;
+      border-radius: 999px;
+    }
+
+    .nav-contact:hover,
+    .nav-contact:focus-visible {
+      background: var(--gold);
+      color: var(--black) !important;
+    }
+
+    .menu-button {
+      display: none;
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--white);
+      color: var(--black);
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    /* General */
+
+    section {
+      scroll-margin-top: 95px;
+    }
+
+    .section {
+      padding: 95px 0;
+    }
+
+    .section-white {
+      background: var(--white);
+    }
+
+    .section-dark {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 21px;
+      color: #6f511b;
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 32px;
+      height: 2px;
+      background: var(--gold);
+    }
+
+    .section-dark .eyebrow {
+      color: var(--gold-light);
+    }
+
+    .section-heading {
+      max-width: 780px;
+      margin-bottom: 42px;
+    }
+
+    .section-heading.center {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(36px, 5vw, 54px);
+      font-weight: 600;
+      letter-spacing: -1.7px;
+      line-height: 1.08;
+    }
+
+    .section-dark .section-heading h2 {
+      color: var(--white);
+    }
+
+    .section-heading p {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .section-dark .section-heading p {
+      color: #bdbdbd;
+    }
+
+    /* Hero */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 105px 0 90px;
+      background:
+        radial-gradient(
+          circle at 86% 18%,
+          rgba(180, 138, 60, 0.21),
+          transparent 29%
+        ),
+        radial-gradient(
+          circle at 8% 90%,
+          rgba(180, 138, 60, 0.10),
+          transparent 26%
+        ),
+        var(--cream);
+    }
+
+    .hero::before {
+      content: "∴";
+      position: absolute;
+      top: 25px;
+      right: 5%;
+      color: rgba(180, 138, 60, 0.08);
+      font-family: Georgia, serif;
+      font-size: clamp(180px, 27vw, 370px);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .breadcrumb {
+      position: relative;
+      margin-bottom: 27px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .breadcrumb a {
+      color: #72531c;
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(290px, 0.8fr);
+      gap: 70px;
+      align-items: center;
+    }
+
+    h1 {
+      max-width: 790px;
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(52px, 8vw, 88px);
+      font-weight: 600;
+      letter-spacing: -3.5px;
+      line-height: 0.97;
+    }
+
+    .hero-highlight {
+      color: var(--gold);
+    }
+
+    .hero-copy {
+      max-width: 740px;
+      margin: 28px 0 0;
+      color: #4d4d4d;
+      font-size: clamp(18px, 2vw, 21px);
+      line-height: 1.75;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 34px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 50px;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 21px;
+      border: 1px solid transparent;
+      border-radius: 11px;
+      font-weight: 780;
+      text-align: center;
+      text-decoration: none;
+      transition:
+        transform 160ms ease,
+        background 160ms ease,
+        border-color 160ms ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .button-primary:hover {
+      background: var(--gold);
+      color: var(--black);
+    }
+
+    .button-secondary {
+      border-color: #cfc7ba;
+      background: rgba(255, 255, 255, 0.7);
+      color: var(--black);
+    }
+
+    .button-secondary:hover {
+      border-color: var(--gold);
+      background: var(--white);
+    }
+
+    .hero-panel {
+      position: relative;
+      padding: 32px;
+      background: linear-gradient(150deg, #1d1d1d, #0d0d0d);
+      color: var(--white);
+      border: 1px solid rgba(234, 217, 182, 0.5);
+      border-radius: var(--radius);
+      box-shadow: 0 26px 65px rgba(0, 0, 0, 0.21);
+    }
+
+    .hero-panel-label {
+      margin: 0 0 9px;
+      color: var(--gold-light);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .hero-panel h2 {
+      margin: 0 0 21px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .credential-list {
+      display: grid;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .credential-list li {
+      position: relative;
+      padding: 15px 0 15px 25px;
+      border-top: 1px solid rgba(255, 255, 255, 0.11);
+      color: #e4e4e4;
+      font-size: 15px;
+    }
+
+    .credential-list li::before {
+      content: "◆";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 8px;
+      transform: translateY(5px);
+    }
+
+    /* Core pillars */
+
+    .pillars {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .pillar-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .pillar {
+      min-height: 155px;
+      padding: 31px;
+      border-right: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .pillar:last-child {
+      border-right: 0;
+    }
+
+    .pillar-number {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--gold-light);
+      font-family: Georgia, serif;
+      font-size: 31px;
+      line-height: 1;
+    }
+
+    .pillar strong {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 17px;
+    }
+
+    .pillar p {
+      margin: 0;
+      color: #bfbfbf;
+      font-size: 14px;
+    }
+
+    /* What TMUA tests */
+
+    .test-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .test-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 285px;
+      padding: 31px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .test-card h3 {
+      margin: 17px 0 12px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 27px;
+      line-height: 1.18;
+    }
+
+    .test-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .card-number {
+      color: var(--gold);
+      font-family: Georgia, serif;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .card-symbol {
+      position: absolute;
+      right: 20px;
+      bottom: -32px;
+      color: rgba(180, 138, 60, 0.08);
+      font-family: Georgia, serif;
+      font-size: 125px;
+      line-height: 1;
+    }
+
+    /* Pitfalls */
+
+    .pitfall-layout {
+      display: grid;
+      grid-template-columns: 0.8fr 1.2fr;
+      gap: 65px;
+      align-items: start;
+    }
+
+    .pitfall-intro {
+      padding: 36px;
+      background:
+        linear-gradient(
+          145deg,
+          rgba(180, 138, 60, 0.22),
+          rgba(255, 255, 255, 0.04)
+        );
+      border: 1px solid rgba(180, 138, 60, 0.43);
+      border-radius: var(--radius);
+    }
+
+    .pitfall-intro p {
+      margin: 0;
+      color: #dedede;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 24px;
+      line-height: 1.5;
+    }
+
+    .pitfall-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .pitfall {
+      display: grid;
+      grid-template-columns: 45px 1fr;
+      gap: 16px;
+      padding: 20px;
+      background: #191919;
+      border: 1px solid #353535;
+      border-radius: 14px;
+    }
+
+    .pitfall-icon {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      background: var(--gold-light);
+      color: var(--black);
+      border-radius: 11px;
+      font-weight: 850;
+    }
+
+    .pitfall strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--white);
+    }
+
+    .pitfall p {
+      margin: 0;
+      color: #bdbdbd;
+      font-size: 15px;
+    }
+
+    /* Process */
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 17px;
+    }
+
+    .process-card {
+      position: relative;
+      padding: 28px;
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 17px;
+    }
+
+    .process-number {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 19px;
+      background: var(--black);
+      color: var(--gold-light);
+      border-radius: 50%;
+      font-family: Georgia, serif;
+      font-weight: 700;
+    }
+
+    .process-card h3 {
+      margin: 0 0 10px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+    }
+
+    .process-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* Tutor insight */
+
+    .insight-layout {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .insight-copy p {
+      color: #c8c8c8;
+      font-size: 17px;
+    }
+
+    .insight-copy p:last-child {
+      margin-bottom: 0;
+    }
+
+    .insight-card {
+      padding: 36px;
+      background: #191919;
+      border: 1px solid rgba(180, 138, 60, 0.52);
+      border-radius: var(--radius);
+    }
+
+    .insight-card h3 {
+      margin: 0 0 17px;
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+    }
+
+    .insight-card ul {
+      display: grid;
+      gap: 13px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .insight-card li {
+      position: relative;
+      padding-left: 24px;
+      color: #d0d0d0;
+    }
+
+    .insight-card li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--gold-light);
+      font-weight: 850;
+    }
+
+    /* Tuition includes */
+
+    .included-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .included-card {
+      padding: 27px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+    }
+
+    .included-card h3 {
+      margin: 0 0 9px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+    }
+
+    .included-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    /* FAQ */
+
+    .faq-list {
+      max-width: 900px;
+      margin: 0 auto;
+      border-top: 1px solid var(--border);
+    }
+
+    details {
+      border-bottom: 1px solid var(--border);
+    }
+
+    summary {
+      position: relative;
+      padding: 24px 45px 24px 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 21px;
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: "+";
+      position: absolute;
+      top: 20px;
+      right: 5px;
+      color: var(--gold);
+      font-family: system-ui, sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+    }
+
+    details[open] summary::after {
+      content: "−";
+    }
+
+    details p {
+      max-width: 760px;
+      margin: -4px 0 24px;
+      color: var(--muted);
+    }
+
+    /* Contact */
+
+    .contact-box {
+      position: relative;
+      overflow: hidden;
+      padding: 62px;
+      background: linear-gradient(135deg, #1d1d1d, #0b0b0b);
+      color: var(--white);
+      border: 1px solid rgba(180, 138, 60, 0.65);
+      border-radius: 28px;
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.18);
+    }
+
+    .contact-box::after {
+      content: "x";
+      position: absolute;
+      right: 42px;
+      bottom: -95px;
+      color: rgba(234, 217, 182, 0.07);
+      font-family: Georgia, serif;
+      font-size: 280px;
+      font-style: italic;
+      line-height: 1;
+    }
+
+    .contact-content {
+      position: relative;
+      z-index: 2;
+      max-width: 760px;
+    }
+
+    .contact-box h2 {
+      margin: 0;
+      color: var(--white);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 5vw, 57px);
+      font-weight: 600;
+      letter-spacing: -1.7px;
+      line-height: 1.08;
+    }
+
+    .contact-box p {
+      max-width: 680px;
+      margin: 20px 0 0;
+      color: #cecece;
+      font-size: 18px;
+    }
+
+    .contact-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 30px;
+    }
+
+    .contact-email {
+      background: var(--gold-light);
+      color: var(--black);
+    }
+
+    .contact-email:hover {
+      background: var(--white);
+    }
+
+    .contact-secondary {
+      border-color: #555555;
+      background: transparent;
+      color: var(--white);
+    }
+
+    .contact-secondary:hover {
+      border-color: var(--gold);
+      background: #202020;
+    }
+
+    /* Footer */
+
+    footer {
+      padding: 38px 0;
+      background: var(--black);
+      color: #bdbdbd;
+      border-top: 1px solid #2b2b2b;
+    }
+
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .footer-brand {
+      color: var(--white);
+      font-weight: 800;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .footer-links a {
+      color: #bdbdbd;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--gold-light);
+    }
+
+    /* Mobile */
+
+    @media (max-width: 950px) {
+      .hero-grid,
+      .pitfall-layout,
+      .insight-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 80px;
+      }
+
+      .hero-panel {
+        max-width: 670px;
+      }
+
+      .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .test-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .container {
+        width: min(calc(100% - 28px), var(--max-width));
+      }
+
+      .nav {
+        min-height: 68px;
+      }
+
+      .menu-button {
+        display: block;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 68px;
+        right: 14px;
+        left: 14px;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2px;
+        padding: 13px;
+        background: var(--white);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 11px 12px;
+        border-radius: 8px;
+      }
+
+      .nav-contact {
+        margin-top: 5px;
+        text-align: center;
+      }
+
+      h1 {
+        letter-spacing: -2.5px;
+      }
+
+      .hero-buttons,
+      .contact-buttons {
+        flex-direction: column;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .pillar-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .pillar {
+        min-height: 0;
+        border-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      }
+
+      .pillar:last-child {
+        border-bottom: 0;
+      }
+
+      .process-grid,
+      .included-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 72px 0;
+      }
+
+      .contact-box {
+        padding: 40px 25px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .hero-panel,
+      .test-card,
+      .pitfall-intro,
+      .insight-card {
+        padding: 24px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        Arij Asad <span>Maths</span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        Menu
+      </button>
+
+      <nav
+        class="nav-links"
+        id="main-navigation"
+        aria-label="Main navigation"
+      >
+        <a class="nav-home" href="index.html">Home</a>
+        <a href="#what-it-tests">What TMUA tests</a>
+        <a href="#preparation">Preparation</a>
+        <a href="#faq">Questions</a>
+        <a class="nav-contact" href="#contact">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          &nbsp; / &nbsp;
+          TMUA preparation
+        </div>
+
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">
+              University admissions preparation
+            </div>
+
+            <h1>
+              TMUA
+              <span class="hero-highlight">preparation.</span>
+            </h1>
+
+            <p class="hero-copy">
+              The Test of Mathematics for University Admission assesses
+              mathematical thinking, fluency and problem-solving beyond the
+              demands of a standard A Level examination. Strong performance
+              requires more than knowing the content: students need speed,
+              precision and the ability to apply core principles in unfamiliar
+              contexts.
+            </p>
+
+            <div class="hero-buttons">
+              <a class="button button-primary" href="#preparation">
+                How preparation works
+              </a>
+
+              <a class="button button-secondary" href="#contact">
+                Book a free consultation
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <p class="hero-panel-label">
+              Preparation informed by direct experience
+            </p>
+
+            <h2>
+              Understand what the test is really assessing.
+            </h2>
+
+            <ul class="credential-list">
+              <li>
+                Former Pearson VUE Assessment Associate for TMUA and ESAT
+              </li>
+
+              <li>
+                Directly involved in reviewing and vetting assessment questions
+              </li>
+
+              <li>
+                Detailed understanding of question design and common pitfalls
+              </li>
+
+              <li>
+                Cambridge Mathematics graduate and experienced admissions tutor
+              </li>
+
+              <li>
+                More than seven years of private tuition experience
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="pillars" aria-label="Core TMUA skills">
+      <div class="container pillar-grid">
+        <article class="pillar">
+          <span class="pillar-number">01</span>
+          <strong>Speed</strong>
+          <p>
+            Make productive decisions without spending too long on one route.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <span class="pillar-number">02</span>
+          <strong>Precision</strong>
+          <p>
+            Read carefully, control algebra and avoid preventable errors.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <span class="pillar-number">03</span>
+          <strong>Adaptability</strong>
+          <p>
+            Apply familiar mathematics when the problem itself looks unfamiliar.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="what-it-tests">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">What TMUA tests</div>
+
+          <h2>
+            Knowledge is only the starting point.
+          </h2>
+
+          <p>
+            The assessment rewards students who can recognise structure,
+            connect ideas and make accurate mathematical decisions under time
+            pressure.
+          </p>
+        </div>
+
+        <div class="test-grid">
+          <article class="test-card">
+            <span class="card-number">01</span>
+
+            <h3>Mathematical thinking</h3>
+
+            <p>
+              Identify the important features of a problem, distinguish useful
+              information from distraction and select a promising approach.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">∵</span>
+          </article>
+
+          <article class="test-card">
+            <span class="card-number">02</span>
+
+            <h3>Fluency and accuracy</h3>
+
+            <p>
+              Work confidently with algebra, functions, geometry, sequences,
+              probability and logical arguments without losing control of the
+              detail.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">=</span>
+          </article>
+
+          <article class="test-card">
+            <span class="card-number">03</span>
+
+            <h3>Unfamiliar problem solving</h3>
+
+            <p>
+              Adapt familiar principles to questions that do not immediately
+              resemble standard textbook exercises or rehearsed methods.
+            </p>
+
+            <span class="card-symbol" aria-hidden="true">?</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">Common difficulties</div>
+
+          <h2>
+            Why mathematically strong students can still underperform.
+          </h2>
+        </div>
+
+        <div class="pitfall-layout">
+          <div class="pitfall-intro">
+            <p>
+              TMUA questions often use accessible mathematics in a way that
+              demands excellent judgement. Small errors in reading, logic or
+              timing can therefore make a large difference.
+            </p>
+          </div>
+
+          <div class="pitfall-list">
+            <article class="pitfall">
+              <div class="pitfall-icon">1</div>
+
+              <div>
+                <strong>Forcing a familiar technique</strong>
+
+                <p>
+                  Trying to apply a remembered method before fully reading and
+                  understanding what the question is asking.
+                </p>
+              </div>
+            </article>
+
+            <article class="pitfall">
+              <div class="pitfall-icon">2</div>
+
+              <div>
+                <strong>Losing time on one approach</strong>
+
+                <p>
+                  Continuing with an inefficient route rather than stepping
+                  back, testing another representation or moving on.
+                </p>
+              </div>
+            </article>
+
+            <article class="pitfall">
+              <div class="pitfall-icon">3</div>
+
+              <div>
+                <strong>Careless algebra or interpretation</strong>
+
+                <p>
+                  Missing a sign, restriction, special case or logical
+                  condition despite understanding the underlying mathematics.
+                </p>
+              </div>
+            </article>
+
+            <article class="pitfall">
+              <div class="pitfall-icon">4</div>
+
+              <div>
+                <strong>Practising without reflection</strong>
+
+                <p>
+                  Completing large numbers of questions without identifying
+                  patterns in errors or improving the decisions made under
+                  pressure.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="preparation">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">Preparation process</div>
+
+          <h2>
+            Structured practice with a clear purpose.
+          </h2>
+
+          <p>
+            Preparation is tailored to the individual student rather than
+            following a fixed set of generic lessons.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card">
+            <div class="process-number">1</div>
+
+            <h3>Diagnose</h3>
+
+            <p>
+              Identify strengths, gaps, recurring errors and current
+              performance under realistic time pressure.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">2</div>
+
+            <h3>Strengthen</h3>
+
+            <p>
+              Build fluency in the underlying mathematics and introduce more
+              efficient ways to view common problem types.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">3</div>
+
+            <h3>Apply</h3>
+
+            <p>
+              Work through carefully selected unfamiliar problems, including
+              timed multiple-choice practice where appropriate.
+            </p>
+          </article>
+
+          <article class="process-card">
+            <div class="process-number">4</div>
+
+            <h3>Refine</h3>
+
+            <p>
+              Analyse mistakes, improve decision-making and develop a reliable
+              strategy for the full assessment.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container insight-layout">
+        <div class="insight-copy">
+          <div class="section-heading">
+            <div class="eyebrow">Assessment insight</div>
+
+            <h2>
+              Preparation informed by the design of the test itself.
+            </h2>
+          </div>
+
+          <p>
+            Through my previous work as a Pearson VUE Assessment Associate, I
+            was directly involved in reviewing and vetting questions for both
+            TMUA and ESAT.
+          </p>
+
+          <p>
+            This gave me detailed insight into how assessment questions are
+            constructed, the reasoning they are intended to test and the
+            pitfalls that can cause otherwise strong students to lose marks.
+          </p>
+
+          <p>
+            My tuition combines this assessment insight with extensive
+            experience teaching high-attaining students and preparing them for
+            competitive mathematics admissions.
+          </p>
+        </div>
+
+        <aside class="insight-card">
+          <h3>Students develop</h3>
+
+          <ul>
+            <li>More efficient approaches to multiple-choice problems</li>
+            <li>Greater confidence with unfamiliar mathematical situations</li>
+            <li>Stronger control of timing and question selection</li>
+            <li>More accurate algebraic and logical reasoning</li>
+            <li>A clear method for reviewing and learning from mistakes</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">TMUA tuition</div>
+
+          <h2>
+            What preparation can include.
+          </h2>
+        </div>
+
+        <div class="included-grid">
+          <article class="included-card">
+            <h3>Individual online lessons</h3>
+
+            <p>
+              Sessions focused on the student's particular mathematical needs,
+              pace and admissions goals.
+            </p>
+          </article>
+
+          <article class="included-card">
+            <h3>Carefully selected practice</h3>
+
+            <p>
+              Problems chosen to address specific weaknesses and expose the
+              student to a broad range of reasoning styles.
+            </p>
+          </article>
+
+          <article class="included-card">
+            <h3>Timed paper work</h3>
+
+            <p>
+              Support with pacing, question selection and maintaining accuracy
+              when working under realistic restrictions.
+            </p>
+          </article>
+
+          <article class="included-card">
+            <h3>Detailed feedback</h3>
+
+            <p>
+              Discussion of both incorrect answers and inefficient approaches,
+              with clear priorities for subsequent practice.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="faq">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">Frequently asked questions</div>
+
+          <h2>
+            TMUA preparation questions.
+          </h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>
+              Is knowing the A Level content enough for TMUA?
+            </summary>
+
+            <p>
+              Content knowledge is essential, but it is not enough on its own.
+              Students must also become quick and accurate at recognising how
+              familiar mathematics applies within unfamiliar questions.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Does tuition consist only of completing past papers?
+            </summary>
+
+            <p>
+              No. Past papers are useful, but preparation also involves
+              strengthening specific mathematical skills, practising targeted
+              problem types and analysing the reasoning behind both correct and
+              incorrect answers.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Can lessons be adapted around a student's schoolwork?
+            </summary>
+
+            <p>
+              Yes. The balance between content review, problem-solving practice
+              and timed assessment work is adjusted according to the student's
+              current level and available preparation time.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Are sessions available to students outside the UK?
+            </summary>
+
+            <p>
+              Yes. Tuition is delivered online and is available to students in
+              the UK, China and elsewhere. Materials can be shared before and
+              after each lesson.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-content">
+            <div class="eyebrow">TMUA enquiries</div>
+
+            <h2>
+              Discuss your TMUA preparation.
+            </h2>
+
+            <p>
+              A free consultation call or video chat is available to discuss
+              the student's current level, target universities, preparation so
+              far and the most suitable form of support.
+            </p>
+
+            <div class="contact-buttons">
+              <a
+                class="button contact-email"
+                href="mailto:arijasadmaths@gmail.com?subject=TMUA tuition enquiry"
+              >
+                Email Arij
+              </a>
+
+              <a
+                class="button contact-secondary"
+                href="index.html"
+              >
+                Return to the homepage
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <div class="footer-brand">Arij Asad Maths</div>
+        <div>Specialist online mathematics tuition</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="#what-it-tests">About TMUA</a>
+        <a href="#preparation">Preparation</a>
+        <a href="mailto:arijasadmaths@gmail.com">Contact</a>
+      </div>
+
+      <div>
+        © 2026 Arij Asad Maths
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector(".menu-button");
+    const navigation = document.querySelector(".nav-links");
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = navigation.classList.toggle("open");
+
+      menuButton.setAttribute(
+        "aria-expanded",
+        String(isOpen)
+      );
+    });
+
+    navigation.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navigation.classList.remove("open");
+        menuButton.setAttribute("aria-expanded", "false");
+      });
+    });
+  </script>
+</body>
+</html>
