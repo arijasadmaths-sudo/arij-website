@@ -793,7 +793,61 @@
     }
 
     /* Mobile */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
+.testimonial-card {
+  position: relative;
+  display: flex;
+  min-height: 330px;
+  flex-direction: column;
+  padding: 38px 30px 30px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--cream);
+  box-shadow: var(--shadow);
+}
+
+.testimonial-quote {
+  position: absolute;
+  top: -11px;
+  left: 25px;
+  color: var(--gold);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 78px;
+  line-height: 1;
+}
+
+.testimonial-card blockquote {
+  flex-grow: 1;
+  margin: 15px 0 24px;
+  color: var(--black);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 1.55;
+}
+
+.testimonial-card cite {
+  color: var(--muted);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card {
+    min-height: 0;
+  }
+}
     @media (max-width: 920px) {
       .hero-grid,
       .approach-grid,
@@ -1303,31 +1357,56 @@
       </div>
     </section>
 
-    <section class="section" id="testimonial">
-      <div class="container">
-        <div class="section-heading center">
-          <div class="eyebrow">Student feedback</div>
+<section class="section" id="testimonial">
+  <div class="container">
+    <div class="section-heading center">
+      <div class="eyebrow">Student feedback</div>
 
-          <h2>
-            Support that develops independence.
-          </h2>
-        </div>
+      <h2>
+        Support that develops independent mathematicians.
+      </h2>
+    </div>
 
-        <div class="testimonial">
-          <div class="testimonial-mark" aria-hidden="true">“</div>
+    <div class="testimonial-grid">
 
-          <blockquote>
-            Arij is an amazing teacher. When I made mistakes she was able to
-            guide me back on track without giving too much away, which helped
-            me improve my problem solving so much. Her knowledge and advice
-            about exam technique meant that I got the most out of the
-            sessions.
-          </blockquote>
+      <article class="testimonial-card">
+        <div class="testimonial-quote" aria-hidden="true">“</div>
 
-          <cite>STEP student</cite>
-        </div>
-      </div>
-    </section>
+        <blockquote>
+          Teaching was very good. Some questions were quite difficult,
+          but Arij was very good at explaining things.
+        </blockquote>
+
+        <cite>STEP Summer School student</cite>
+      </article>
+
+      <article class="testimonial-card">
+        <div class="testimonial-quote" aria-hidden="true">“</div>
+
+        <blockquote>
+          The questions were difficult, but Arij helped me work through
+          them so I could maintain a level of independent learning.
+        </blockquote>
+
+        <cite>STEP student</cite>
+      </article>
+
+      <article class="testimonial-card">
+        <div class="testimonial-quote" aria-hidden="true">“</div>
+
+        <blockquote>
+          Thank you for all of your help with the STEP preparation.
+          Every lesson was extremely useful, and I am very grateful for
+          all the work you put in outside of just the lessons, marking my
+          work as well as giving me lots of guidance throughout.
+        </blockquote>
+
+        <cite>STEP student</cite>
+      </article>
+
+    </div>
+  </div>
+</section>
 
     <section class="section section-white" id="international">
       <div class="container international-grid">
