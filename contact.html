@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Contact Arij | Arij Asad Maths
+  </title>
+
+  <meta
+    name="description"
+    content="Contact Arij Asad Maths about online tuition for A Level Mathematics, Further Mathematics, TMUA, STEP and Cambridge mathematics interviews."
+  >
+
+  <meta name="theme-color" content="#111111">
+
+  <link
+    rel="canonical"
+    href="https://arijasadmaths-sudo.github.io/arij-website/contact.html"
+  >
+
+  <style>
+    :root {
+      --black: #111111;
+      --charcoal: #1b1b1b;
+      --cream: #f7f5f0;
+      --white: #ffffff;
+      --gold: #b48a3c;
+      --gold-light: #ead9b6;
+      --text: #1c1c1c;
+      --muted: #656565;
+      --border: #e3dccf;
+      --shadow: 0 18px 50px rgba(20, 20, 20, 0.08);
+      --radius: 22px;
+      --max-width: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--text);
+      font-family:
+        Inter, ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max-width));
+      margin: 0 auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 20px;
+      z-index: 9999;
+      padding: 12px 18px;
+      border-radius: 8px;
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .skip-link:focus {
+      top: 20px;
+    }
+
+    /* Navigation */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid rgba(180, 138, 60, 0.18);
+      background: rgba(247, 245, 240, 0.95);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      color: var(--black);
+      font-size: 21px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      text-decoration: none;
+    }
+
+    .brand span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+
+    .nav-links a {
+      color: #333333;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--gold);
+    }
+
+    .nav-contact {
+      padding: 10px 17px;
+      border-radius: 999px;
+      background: var(--black);
+      color: var(--white) !important;
+    }
+
+    .menu-button {
+      display: none;
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--white);
+      color: var(--black);
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    /* Shared */
+
+    section {
+      scroll-margin-top: 95px;
+    }
+
+    .section {
+      padding: 95px 0;
+    }
+
+    .section-white {
+      background: var(--white);
+    }
+
+    .section-dark {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 21px;
+      color: #6f511b;
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 32px;
+      height: 2px;
+      background: var(--gold);
+    }
+
+    .section-dark .eyebrow {
+      color: var(--gold-light);
+    }
+
+    .section-heading {
+      max-width: 790px;
+      margin-bottom: 42px;
+    }
+
+    .section-heading.center {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(36px, 5vw, 54px);
+      font-weight: 600;
+      letter-spacing: -1.7px;
+      line-height: 1.08;
+    }
+
+    .section-dark .section-heading h2 {
+      color: var(--white);
+    }
+
+    .section-heading p {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .section-dark .section-heading p {
+      color: #bdbdbd;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 50px;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 21px;
+      border: 1px solid transparent;
+      border-radius: 11px;
+      font-weight: 780;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      transition:
+        transform 160ms ease,
+        background 160ms ease,
+        border-color 160ms ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .button-primary:hover {
+      background: var(--gold);
+      color: var(--black);
+    }
+
+    .button-secondary {
+      border-color: #cfc7ba;
+      background: rgba(255, 255, 255, 0.7);
+      color: var(--black);
+    }
+
+    .button-secondary:hover {
+      border-color: var(--gold);
+      background: var(--white);
+    }
+
+    /* Hero */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 105px 0 90px;
+      background:
+        radial-gradient(
+          circle at 86% 18%,
+          rgba(180, 138, 60, 0.21),
+          transparent 29%
+        ),
+        radial-gradient(
+          circle at 8% 90%,
+          rgba(180, 138, 60, 0.10),
+          transparent 26%
+        ),
+        var(--cream);
+    }
+
+    .hero::before {
+      content: "@";
+      position: absolute;
+      top: -10px;
+      right: 4%;
+      color: rgba(180, 138, 60, 0.07);
+      font-family: Georgia, serif;
+      font-size: clamp(210px, 30vw, 410px);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .breadcrumb {
+      position: relative;
+      margin-bottom: 27px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .breadcrumb a {
+      color: #72531c;
+      text-decoration: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(290px, 0.8fr);
+      gap: 70px;
+      align-items: center;
+    }
+
+    h1 {
+      max-width: 800px;
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(52px, 8vw, 88px);
+      font-weight: 600;
+      letter-spacing: -3.5px;
+      line-height: 0.97;
+    }
+
+    .hero-highlight {
+      color: var(--gold);
+    }
+
+    .hero-copy {
+      max-width: 750px;
+      margin: 28px 0 0;
+      color: #4d4d4d;
+      font-size: clamp(18px, 2vw, 21px);
+      line-height: 1.75;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 34px;
+    }
+
+    .hero-panel {
+      padding: 32px;
+      border: 1px solid rgba(234, 217, 182, 0.5);
+      border-radius: var(--radius);
+      background: linear-gradient(150deg, #1d1d1d, #0d0d0d);
+      color: var(--white);
+      box-shadow: 0 26px 65px rgba(0, 0, 0, 0.21);
+    }
+
+    .hero-panel-label {
+      margin: 0 0 9px;
+      color: var(--gold-light);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .hero-panel h2 {
+      margin: 0 0 20px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .contact-detail {
+      padding: 17px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.11);
+    }
+
+    .contact-detail strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--gold-light);
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .contact-detail a {
+      overflow-wrap: anywhere;
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    .contact-detail a:hover {
+      color: var(--gold-light);
+    }
+
+    /* Enquiry choices */
+
+    .choice-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 19px;
+    }
+
+    .choice-card {
+      display: flex;
+      min-height: 280px;
+      flex-direction: column;
+      padding: 29px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .choice-label {
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .choice-card h3 {
+      margin: 16px 0 10px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      line-height: 1.2;
+    }
+
+    .choice-card p {
+      flex-grow: 1;
+      margin: 0 0 22px;
+      color: var(--muted);
+    }
+
+    .choice-link {
+      color: #72531c;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .choice-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Form */
+
+    .form-layout {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 32px;
+      align-items: start;
+    }
+
+    .form-card {
+      padding: 38px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .form-card h3 {
+      margin: 0 0 8px;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 31px;
+    }
+
+    .form-intro {
+      margin: 0 0 28px;
+      color: var(--muted);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 19px;
+    }
+
+    .form-group {
+      display: grid;
+      gap: 8px;
+    }
+
+    .form-group.full {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      color: var(--black);
+      font-size: 14px;
+      font-weight: 750;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 13px 14px;
+      border: 1px solid #d4ccbd;
+      border-radius: 10px;
+      outline: none;
+      background: #fdfcf9;
+      color: var(--black);
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(180, 138, 60, 0.13);
+    }
+
+    textarea {
+      min-height: 150px;
+      resize: vertical;
+    }
+
+    .form-note {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .form-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .copy-status {
+      min-height: 24px;
+      margin-top: 11px;
+      color: #72531c;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    /* Checklist */
+
+    .checklist-card {
+      position: sticky;
+      top: 105px;
+      padding: 32px;
+      border: 1px solid rgba(180, 138, 60, 0.5);
+      border-radius: var(--radius);
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .checklist-card h3 {
+      margin: 0 0 12px;
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+    }
+
+    .checklist-card > p {
+      margin: 0 0 22px;
+      color: #c6c6c6;
+    }
+
+    .checklist {
+      display: grid;
+      gap: 13px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .checklist li {
+      position: relative;
+      padding-left: 25px;
+      color: #dedede;
+    }
+
+    .checklist li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--gold-light);
+      font-weight: 850;
+    }
+
+    /* Consultation */
+
+    .consultation-grid {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .consultation-quote {
+      padding: 36px;
+      border-left: 4px solid var(--gold);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      background: var(--cream);
+    }
+
+    .consultation-quote p {
+      margin: 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 25px;
+      line-height: 1.5;
+    }
+
+    .consultation-copy p {
+      color: #4f4f4f;
+      font-size: 17px;
+    }
+
+    .consultation-list {
+      display: grid;
+      gap: 12px;
+      margin: 25px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .consultation-list li {
+      position: relative;
+      padding: 17px 17px 17px 48px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--cream);
+    }
+
+    .consultation-list li::before {
+      content: "◆";
+      position: absolute;
+      top: 18px;
+      left: 20px;
+      color: var(--gold);
+      font-size: 10px;
+    }
+
+    /* International */
+
+    .international-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 55px;
+      align-items: center;
+    }
+
+    .international-copy p {
+      color: #c5c5c5;
+      font-size: 17px;
+    }
+
+    .international-card {
+      padding: 34px;
+      border: 1px solid rgba(180, 138, 60, 0.5);
+      border-radius: var(--radius);
+      background: #191919;
+    }
+
+    .international-card h3 {
+      margin: 0 0 13px;
+      color: var(--gold-light);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+    }
+
+    .international-card p {
+      margin: 0;
+      color: #c7c7c7;
+    }
+
+    .international-note {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(180, 138, 60, 0.18);
+      color: var(--gold-light);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    /* FAQ */
+
+    .faq-list {
+      max-width: 900px;
+      margin: 0 auto;
+      border-top: 1px solid var(--border);
+    }
+
+    details {
+      border-bottom: 1px solid var(--border);
+    }
+
+    summary {
+      position: relative;
+      padding: 24px 45px 24px 0;
+      color: var(--black);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 21px;
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: "+";
+      position: absolute;
+      top: 20px;
+      right: 5px;
+      color: var(--gold);
+      font-family: system-ui, sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+    }
+
+    details[open] summary::after {
+      content: "−";
+    }
+
+    details p {
+      max-width: 780px;
+      margin: -4px 0 24px;
+      color: var(--muted);
+    }
+
+    /* Footer */
+
+    footer {
+      padding: 38px 0;
+      border-top: 1px solid #2b2b2b;
+      background: var(--black);
+      color: #bdbdbd;
+    }
+
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .footer-brand {
+      color: var(--white);
+      font-weight: 800;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .footer-links a {
+      color: #bdbdbd;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--gold-light);
+    }
+
+    /* Responsive */
+
+    @media (max-width: 950px) {
+      .hero-grid,
+      .form-layout,
+      .consultation-grid,
+      .international-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 80px;
+      }
+
+      .hero-panel {
+        max-width: 680px;
+      }
+
+      .choice-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .checklist-card {
+        position: static;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .container {
+        width: min(calc(100% - 28px), var(--max-width));
+      }
+
+      .nav {
+        min-height: 68px;
+      }
+
+      .menu-button {
+        display: block;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 68px;
+        right: 14px;
+        left: 14px;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2px;
+        padding: 13px;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        background: var(--white);
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 11px 12px;
+        border-radius: 8px;
+      }
+
+      .nav-contact {
+        margin-top: 5px;
+        text-align: center;
+      }
+
+      h1 {
+        letter-spacing: -2.5px;
+      }
+
+      .hero-buttons,
+      .form-actions {
+        flex-direction: column;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .choice-grid,
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .form-group.full {
+        grid-column: auto;
+      }
+
+      .section {
+        padding: 72px 0;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .hero-panel,
+      .choice-card,
+      .form-card,
+      .checklist-card,
+      .consultation-quote,
+      .international-card {
+        padding: 24px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        Arij Asad <span>Maths</span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        Menu
+      </button>
+
+      <nav
+        class="nav-links"
+        id="main-navigation"
+        aria-label="Main navigation"
+      >
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="tuition.html">Tuition</a>
+        <a href="tmua.html">TMUA</a>
+        <a href="step.html">STEP</a>
+        <a href="interviews.html">Interviews</a>
+        <a class="nav-contact" href="#enquiry-form">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          &nbsp; / &nbsp;
+          Contact
+        </div>
+
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">
+              Contact Arij Asad Maths
+            </div>
+
+            <h1>
+              Start with a
+              <span class="hero-highlight">conversation.</span>
+            </h1>
+
+            <p class="hero-copy">
+              Get in touch to discuss online tuition for A Level and Further
+              Mathematics, TMUA, STEP, Cambridge mathematics interviews or
+              selected university-level mathematics.
+            </p>
+
+            <div class="hero-buttons">
+              <a
+                class="button button-primary"
+                href="#enquiry-form"
+              >
+                Send a tuition enquiry
+              </a>
+
+              <a
+                class="button button-secondary"
+                href="mailto:arijasadmaths@gmail.com?subject=Tuition%20enquiry"
+              >
+                Email Arij directly
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <p class="hero-panel-label">
+              Contact details
+            </p>
+
+            <h2>
+              Choose the appropriate email.
+            </h2>
+
+            <div class="contact-detail">
+              <strong>Teaching and tuition</strong>
+
+              <a href="mailto:arijasadmaths@gmail.com">
+                arijasadmaths@gmail.com
+              </a>
+            </div>
+
+            <div class="contact-detail">
+              <strong>Research enquiries</strong>
+
+              <a href="mailto:kn22417@bristol.ac.uk">
+                kn22417@bristol.ac.uk
+              </a>
+            </div>
+
+            <div class="contact-detail">
+              <strong>Lesson format</strong>
+              Online tuition for students in the UK and internationally
+            </div>
+
+            <div class="contact-detail">
+              <strong>Initial discussion</strong>
+              A free consultation call or video chat may be arranged
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">
+            What are you enquiring about?
+          </div>
+
+          <h2>
+            Find the most relevant information first.
+          </h2>
+        </div>
+
+        <div class="choice-grid">
+          <article class="choice-card">
+            <div class="choice-label">School mathematics</div>
+
+            <h3>A Level and Further Mathematics</h3>
+
+            <p>
+              Regular or occasional individual tuition, examination support
+              and mathematical extension work.
+            </p>
+
+            <a class="choice-link" href="tuition.html">
+              View tuition and pricing →
+            </a>
+          </article>
+
+          <article class="choice-card">
+            <div class="choice-label">Admissions test</div>
+
+            <h3>TMUA preparation</h3>
+
+            <p>
+              Targeted preparation for mathematical fluency, reasoning,
+              multiple-choice technique and performance under time pressure.
+            </p>
+
+            <a class="choice-link" href="tmua.html">
+              View TMUA preparation →
+            </a>
+          </article>
+
+          <article class="choice-card">
+            <div class="choice-label">Cambridge admissions</div>
+
+            <h3>STEP preparation</h3>
+
+            <p>
+              Examiner-led support with difficult problems, written solutions,
+              marking and examination strategy.
+            </p>
+
+            <a class="choice-link" href="step.html">
+              View STEP preparation →
+            </a>
+          </article>
+
+          <article class="choice-card">
+            <div class="choice-label">Cambridge admissions</div>
+
+            <h3>Mathematics interviews</h3>
+
+            <p>
+              Realistic mock interviews followed by detailed discussion,
+              feedback and tailored preparation.
+            </p>
+
+            <a class="choice-link" href="interviews.html">
+              View interview preparation →
+            </a>
+          </article>
+
+          <article class="choice-card">
+            <div class="choice-label">Advanced study</div>
+
+            <h3>University mathematics</h3>
+
+            <p>
+              Selected undergraduate modules, particularly applied
+              mathematics, differential equations and fluid dynamics.
+            </p>
+
+            <a
+              class="choice-link"
+              href="mailto:arijasadmaths@gmail.com?subject=University%20mathematics%20tuition%20enquiry"
+            >
+              Enquire about suitability →
+            </a>
+          </article>
+
+          <article class="choice-card">
+            <div class="choice-label">Professional contact</div>
+
+            <h3>Research and other enquiries</h3>
+
+            <p>
+              Research correspondence, outreach, teaching projects, speaking
+              invitations and other professional enquiries.
+            </p>
+
+            <a
+              class="choice-link"
+              href="mailto:kn22417@bristol.ac.uk?subject=Research%20or%20professional%20enquiry"
+            >
+              Send a research enquiry →
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="section section-white"
+      id="enquiry-form"
+    >
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">
+            Tuition enquiry
+          </div>
+
+          <h2>
+            Tell me about the student and their goals.
+          </h2>
+
+          <p>
+            Complete the details below. Pressing the button will prepare an
+            email in your device’s email application for you to review and
+            send.
+          </p>
+        </div>
+
+        <div class="form-layout">
+          <div class="form-card">
+            <h3>Enquiry details</h3>
+
+            <p class="form-intro">
+              Fields marked with an asterisk are required.
+            </p>
+
+            <form id="enquiry-form-fields">
+              <div class="form-grid">
+
+                <div class="form-group">
+                  <label for="name">
+                    Your name *
+                  </label>
+
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    required
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="student-name">
+                    Student’s name
+                  </label>
+
+                  <input
+                    id="student-name"
+                    name="student-name"
+                    type="text"
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="email">
+                    Your email address *
+                  </label>
+
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="service">
+                    Type of support *
+                  </label>
+
+                  <select
+                    id="service"
+                    name="service"
+                    required
+                  >
+                    <option value="">
+                      Select one
+                    </option>
+
+                    <option>
+                      A Level Mathematics
+                    </option>
+
+                    <option>
+                      Further Mathematics
+                    </option>
+
+                    <option>
+                      TMUA preparation
+                    </option>
+
+                    <option>
+                      STEP preparation
+                    </option>
+
+                    <option>
+                      Cambridge mathematics interview preparation
+                    </option>
+
+                    <option>
+                      University mathematics
+                    </option>
+
+                    <option>
+                      Other mathematics support
+                    </option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="level">
+                    Year group or current level
+                  </label>
+
+                  <input
+                    id="level"
+                    name="level"
+                    type="text"
+                    placeholder="For example, Year 12 or predicted A*"
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="location">
+                    Location or time zone
+                  </label>
+
+                  <input
+                    id="location"
+                    name="location"
+                    type="text"
+                    placeholder="For example, Shanghai or UK time"
+                  >
+                </div>
+
+                <div class="form-group">
+                  <label for="frequency">
+                    Preferred lesson frequency
+                  </label>
+
+                  <select
+                    id="frequency"
+                    name="frequency"
+                  >
+                    <option>
+                      Not sure yet
+                    </option>
+
+                    <option>
+                      One specialist session
+                    </option>
+
+                    <option>
+                      Weekly lessons
+                    </option>
+
+                    <option>
+                      Twice-weekly lessons
+                    </option>
+
+                    <option>
+                      Short intensive programme
+                    </option>
+
+                    <option>
+                      Occasional support
+                    </option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="deadline">
+                    Relevant examination or deadline
+                  </label>
+
+                  <input
+                    id="deadline"
+                    name="deadline"
+                    type="text"
+                    placeholder="Include the date where known"
+                  >
+                </div>
+
+                <div class="form-group full">
+                  <label for="message">
+                    Current preparation and goals *
+                  </label>
+
+                  <textarea
+                    id="message"
+                    name="message"
+                    required
+                    placeholder="Please describe the student’s current preparation, areas of difficulty and what you hope to achieve."
+                  ></textarea>
+                </div>
+
+              </div>
+
+              <div class="form-actions">
+                <button
+                  class="button button-primary"
+                  type="submit"
+                >
+                  Prepare enquiry email
+                </button>
+
+                <button
+                  class="button button-secondary"
+                  id="copy-email"
+                  type="button"
+                >
+                  Copy email address
+                </button>
+              </div>
+
+              <div
+                class="copy-status"
+                id="copy-status"
+                aria-live="polite"
+              ></div>
+
+              <p class="form-note">
+                This page does not store the information entered. The completed
+                message is transferred to your own email application.
+              </p>
+            </form>
+          </div>
+
+          <aside class="checklist-card">
+            <h3>What to include</h3>
+
+            <p>
+              Providing these details makes it easier to recommend suitable
+              support and confirm availability.
+            </p>
+
+            <ul class="checklist">
+              <li>The student’s year group and current level</li>
+              <li>The course, test or university application</li>
+              <li>Relevant examination dates or deadlines</li>
+              <li>Preparation completed so far</li>
+              <li>Current strengths and areas of difficulty</li>
+              <li>Location or time zone</li>
+              <li>Preferred lesson frequency</li>
+              <li>Any urgent timing requirements</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="consultation">
+      <div class="container consultation-grid">
+        <div class="consultation-quote">
+          <p>
+            A consultation allows us to establish whether the tuition is a
+            good fit before either side commits to a programme of lessons.
+          </p>
+        </div>
+
+        <div class="consultation-copy">
+          <div class="section-heading">
+            <div class="eyebrow">
+              Free initial consultation
+            </div>
+
+            <h2>
+              Discuss the student’s needs before booking.
+            </h2>
+          </div>
+
+          <p>
+            A short call or video chat may be arranged to discuss the
+            student’s goals, current preparation and the most useful form of
+            support.
+          </p>
+
+          <ul class="consultation-list">
+            <li>
+              Discuss the student’s current level and intended application
+            </li>
+
+            <li>
+              Decide whether regular tuition or specialist sessions are more
+              suitable
+            </li>
+
+            <li>
+              Confirm availability, lesson structure and fees before booking
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container international-grid">
+        <div class="international-copy">
+          <div class="section-heading">
+            <div class="eyebrow">
+              International students
+            </div>
+
+            <h2>
+              Online tuition across different time zones.
+            </h2>
+          </div>
+
+          <p>
+            Lessons are available to students in the UK, China and elsewhere,
+            subject to scheduling. Please include your city or time zone in
+            your initial message.
+          </p>
+
+          <p>
+            Lesson materials and written work can be exchanged electronically
+            before and after sessions.
+          </p>
+        </div>
+
+        <aside class="international-card">
+          <h3>Students and families in China</h3>
+
+          <p>
+            Email is currently the simplest way to make an initial enquiry.
+            WeChat contact details can then be shared directly where useful.
+          </p>
+
+          <span class="international-note">
+            Chinese-language contact page coming later
+          </span>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-white" id="faq">
+      <div class="container">
+        <div class="section-heading center">
+          <div class="eyebrow">
+            Frequently asked questions
+          </div>
+
+          <h2>
+            Contact and booking questions.
+          </h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>
+              How quickly will I receive a response?
+            </summary>
+
+            <p>
+              Response time varies with teaching and examination commitments.
+              Please include any urgent deadline clearly in the subject or
+              opening line of your email.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Does sending an enquiry commit me to booking?
+            </summary>
+
+            <p>
+              No. The initial enquiry and consultation are intended to
+              establish whether the service is suitable before lessons are
+              booked.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Can a parent make the initial enquiry?
+            </summary>
+
+            <p>
+              Yes. Parents, guardians and students may all make enquiries.
+              Please identify who the tuition is for and include the student’s
+              current level.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Can I enquire through WeChat?
+            </summary>
+
+            <p>
+              WeChat details can be shared after an initial email enquiry.
+              Please include your WeChat name in the message where relevant.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Are urgent or intensive programmes available?
+            </summary>
+
+            <p>
+              They may be available depending on timing and existing
+              commitments. Include the examination date and required lesson
+              frequency in your message.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <div class="footer-brand">Arij Asad Maths</div>
+        <div>Specialist online mathematics tuition</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="tuition.html">Tuition</a>
+        <a href="tmua.html">TMUA</a>
+        <a href="step.html">STEP</a>
+        <a href="interviews.html">Interviews</a>
+      </div>
+
+      <div>
+        © 2026 Arij Asad Maths
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector(".menu-button");
+    const navigation = document.querySelector(".nav-links");
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = navigation.classList.toggle("open");
+
+      menuButton.setAttribute(
+        "aria-expanded",
+        String(isOpen)
+      );
+    });
+
+    navigation.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navigation.classList.remove("open");
+        menuButton.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    const enquiryForm = document.querySelector("#enquiry-form-fields");
+    const copyButton = document.querySelector("#copy-email");
+    const copyStatus = document.querySelector("#copy-status");
+
+    enquiryForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      if (!enquiryForm.reportValidity()) {
+        return;
+      }
+
+      const name = document.querySelector("#name").value.trim();
+      const studentName =
+        document.querySelector("#student-name").value.trim();
+      const email = document.querySelector("#email").value.trim();
+      const service = document.querySelector("#service").value;
+      const level = document.querySelector("#level").value.trim();
+      const location = document.querySelector("#location").value.trim();
+      const frequency = document.querySelector("#frequency").value;
+      const deadline = document.querySelector("#deadline").value.trim();
+      const message = document.querySelector("#message").value.trim();
+
+      const subject = `${service} enquiry`;
+
+      const body = [
+        `Hello Arij,`,
+        ``,
+        `I would like to enquire about ${service}.`,
+        ``,
+        `Name: ${name}`,
+        `Student's name: ${studentName || "Not provided"}`,
+        `Reply email: ${email}`,
+        `Year group or current level: ${level || "Not provided"}`,
+        `Location or time zone: ${location || "Not provided"}`,
+        `Preferred lesson frequency: ${frequency}`,
+        `Relevant examination or deadline: ${deadline || "Not provided"}`,
+        ``,
+        `Current preparation and goals:`,
+        message,
+        ``,
+        `Best wishes,`,
+        name
+      ].join("\n");
+
+      const mailtoLink =
+        `mailto:arijasadmaths@gmail.com` +
+        `?subject=${encodeURIComponent(subject)}` +
+        `&body=${encodeURIComponent(body)}`;
+
+      window.location.href = mailtoLink;
+    });
+
+    copyButton.addEventListener("click", async () => {
+      const emailAddress = "arijasadmaths@gmail.com";
+
+      try {
+        await navigator.clipboard.writeText(emailAddress);
+        copyStatus.textContent = "Email address copied.";
+      } catch (error) {
+        copyStatus.textContent =
+          `Please copy manually: ${emailAddress}`;
+      }
+    });
+  </script>
+</body>
+</html>
