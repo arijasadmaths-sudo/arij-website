@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Arij Asad Maths｜TMUA、STEP 与剑桥数学面试辅导
+  </title>
+
+  <meta
+    name="description"
+    content="Arij Asad Maths 提供在线 TMUA、STEP、剑桥数学面试、A Level 数学及进阶数学辅导。剑桥大学数学系毕业，STEP 阅卷员，曾任剑桥数学招生面试官。"
+  >
+
+  <meta name="theme-color" content="#111111">
+
+  <link
+    rel="canonical"
+    href="https://arijasadmaths-sudo.github.io/arij-website/zh.html"
+  >
+
+  <style>
+    :root {
+      --black: #111111;
+      --charcoal: #1b1b1b;
+      --cream: #f7f5f0;
+      --white: #ffffff;
+      --gold: #b48a3c;
+      --gold-light: #ead9b6;
+      --text: #1c1c1c;
+      --muted: #656565;
+      --border: #e3dccf;
+      --shadow: 0 18px 50px rgba(20, 20, 20, 0.08);
+      --radius: 22px;
+      --max-width: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--text);
+      font-family:
+        "Microsoft YaHei",
+        "PingFang SC",
+        "Noto Sans CJK SC",
+        Arial,
+        sans-serif;
+      line-height: 1.8;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .container {
+      width: min(calc(100% - 40px), var(--max-width));
+      margin: 0 auto;
+    }
+
+    section {
+      scroll-margin-top: 92px;
+    }
+
+    .section {
+      padding: 92px 0;
+    }
+
+    .section-white {
+      background: var(--white);
+    }
+
+    .section-dark {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    /* Navigation */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid rgba(180, 138, 60, 0.18);
+      background: rgba(247, 245, 240, 0.95);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+
+    .brand {
+      color: var(--black);
+      font-size: 21px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      text-decoration: none;
+    }
+
+    .brand span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+
+    .nav-links a {
+      color: #333333;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--gold);
+    }
+
+    .language-link {
+      color: #72531c !important;
+    }
+
+    .nav-contact {
+      padding: 10px 17px;
+      border-radius: 999px;
+      background: var(--black);
+      color: var(--white) !important;
+    }
+
+    .nav-contact:hover {
+      background: var(--gold);
+      color: var(--black) !important;
+    }
+
+    .menu-button {
+      display: none;
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--white);
+      color: var(--black);
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    /* Shared */
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 21px;
+      color: #6f511b;
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 32px;
+      height: 2px;
+      background: var(--gold);
+    }
+
+    .section-dark .eyebrow {
+      color: var(--gold-light);
+    }
+
+    .section-heading {
+      max-width: 790px;
+      margin-bottom: 42px;
+    }
+
+    .section-heading.center {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+
+    .section-heading h2 {
+      margin: 0;
+      color: var(--black);
+      font-family:
+        Georgia,
+        "Songti SC",
+        "SimSun",
+        serif;
+      font-size: clamp(34px, 5vw, 52px);
+      font-weight: 600;
+      letter-spacing: -1px;
+      line-height: 1.25;
+    }
+
+    .section-dark .section-heading h2 {
+      color: var(--white);
+    }
+
+    .section-heading p {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .section-dark .section-heading p {
+      color: #bdbdbd;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 50px;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 22px;
+      border: 1px solid transparent;
+      border-radius: 11px;
+      font-weight: 780;
+      text-align: center;
+      text-decoration: none;
+      transition:
+        transform 160ms ease,
+        background 160ms ease,
+        border-color 160ms ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .button-primary:hover {
+      background: var(--gold);
+      color: var(--black);
+    }
+
+    .button-secondary {
+      border-color: #cfc7ba;
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--black);
+    }
+
+    .button-secondary:hover {
+      border-color: var(--gold);
+      background: var(--white);
+    }
+
+    /* Hero */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 105px 0 90px;
+      background:
+        radial-gradient(
+          circle at 86% 18%,
+          rgba(180, 138, 60, 0.21),
+          transparent 29%
+        ),
+        radial-gradient(
+          circle at 8% 90%,
+          rgba(180, 138, 60, 0.10),
+          transparent 26%
+        ),
+        var(--cream);
+    }
+
+    .hero::before {
+      content: "数";
+      position: absolute;
+      top: -20px;
+      right: 5%;
+      color: rgba(180, 138, 60, 0.07);
+      font-family: "Songti SC", "SimSun", serif;
+      font-size: clamp(220px, 31vw, 430px);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns:
+        minmax(0, 1.2fr)
+        minmax(290px, 0.8fr);
+      gap: 70px;
+      align-items: center;
+    }
+
+    h1 {
+      max-width: 850px;
+      margin: 0;
+      color: var(--black);
+      font-family:
+        Georgia,
+        "Songti SC",
+        "SimSun",
+        serif;
+      font-size: clamp(46px, 7vw, 78px);
+      font-weight: 600;
+      letter-spacing: -2px;
+      line-height: 1.15;
+    }
+
+    .hero-highlight {
+      color: var(--gold);
+    }
+
+    .hero-copy {
+      max-width: 760px;
+      margin: 28px 0 0;
+      color: #4d4d4d;
+      font-size: clamp(18px, 2vw, 21px);
+      line-height: 1.9;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 34px;
+    }
+
+    .hero-panel {
+      padding: 32px;
+      border: 1px solid rgba(234, 217, 182, 0.5);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(150deg, #1d1d1d, #0d0d0d);
+      color: var(--white);
+      box-shadow: 0 26px 65px rgba(0, 0, 0, 0.21);
+    }
+
+    .hero-panel-label {
+      margin: 0 0 9px;
+      color: var(--gold-light);
+      font-size: 12px;
+      font-weight: 850;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+
+    .hero-panel h2 {
+      margin: 0 0 21px;
+      font-family:
+        Georgia,
+        "Songti SC",
+        "SimSun",
+        serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.45;
+    }
+
+    .credential-list {
+      display: grid;
+      gap: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .credential-list li {
+      position: relative;
+      padding: 15px 0 15px 25px;
+      border-top: 1px solid rgba(255, 255, 255, 0.11);
+      color: #e4e4e4;
+      font-size: 15px;
+    }
+
+    .credential-list li::before {
+      content: "◆";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-size: 8px;
+      transform: translateY(6px);
+    }
+
+    /* Trust strip */
+
+    .trust-strip {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .trust-item {
+      min-height: 130px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 28px;
+      border-right: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .trust-item:last-child {
+      border-right: 0;
+    }
+
+    .trust-value {
+      color: var(--gold-light);
+      font-family:
+        Georgia,
+        "Songti SC",
+        "SimSun",
+        serif;
+      font-size: 29px;
+      line-height: 1.2;
+    }
+
+    .trust-label {
+      margin-top: 8px;
+      color: #bfbfbf;
+      font-size: 13px;
+      font-weight: 650;
+    }
+
+    /* Services */
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 21px;
+    }
+
+    .service-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 340px;
+      display: flex;
+      flex-direction: column;
+      padding: 32px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .service-number {
+      color: var(--gold);
+      font-family: Georgia, serif;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .service-card h3 {
+      margin: 17px 0 12px;
+      color: var(--black);
+      font-family:
+        Georgia,
+        "Songti SC",
+        "SimSun",
+        serif;
+      font-size: 29px;
+      line-height: 1.35;
+    }
+
+    .service-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .service-points {
+      display: grid;
+      gap: 8px;
+      margin: 22px 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .service-points li {
+      position: relative;
+      padding-left: 23px;
+      color: #484848;
+      font-size: 15px;
+    }
+
+    .service-points li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--gold);
+      font-weight: 850;
+    }
+
+    .service-link {
+      margin-top: auto;
+      color: #72531c;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .service-link:hover {
+      text-decoration: underline;
+    }
+
+    .service-symbol {
+      position: absolute;
+      right: 22px;
+      bottom: -37px;
+      color: rgba(180, 138, 60, 0.075);
+      font-family: Georgia, serif;
+      font-size: 125px;
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    /* Approach */
+
+    .approach-grid {
+      display: grid;
+      grid-template-columns: 0.82fr 1.18fr;
+      gap: 65px;
+      align-items: start;
+    }
+
+    .approach-quote {
+      padding: 36px;
+      border-left: 4px solid var(--gold);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      background: var(--cream);
+    }
+
+    .approach-quote p {
+      margin: 0;
+      color: var(--black);
+      font-family:
+        Georgia,
+        "Songti SC",
+        "SimSun",
+        serif;
+      font-size: 24px;
+      line-height: 1.7;
+    }
+
+    .approach-copy p {
+      color: #4f4f4f;
+      font-size: 17px;
+    }
+
+    .approach-points {
+      display: grid;
+      gap: 13px;
+      margin-top: 27px;
+    }
+
+    .approach-point {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      gap: 15px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: 13px;
+      background: var(--cream);
+    }
+
+    .point-number {
+      width: 39px;
+      height: 39px;
+      display: grid;
+      place-items: center;
+      border-radius: 10px;
+      background: var(--black);
+      color: var(--gold-light);
+      font-weight: 850;
+    }
+
+    .approach-point strong {
+      color: var(--black);
+    }
+
+    /* Experience */
+
+    .experience-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .experience-card {
+      padding: 28px;
+      border: 1px solid #343434;
+      border-radius: 17px;
+      background: #191919;
+    }
+
+    .experience-card h3 {
+      margin: 0 0 10px;
+      color: var(--gold-light);
+      font-family:
+        Georgia,
+        "Songti SC",
+        "SimSun",
+        serif;
+      font-size: 23px;
+      line-height: 1.4;
+    }
+
+    .experience-card p {
+      margin: 0;
+      color: #c5c5c5;
+      font-size: 15px;
+    }
+
+    /* Testimonials */
+
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .testimonial-card {
+      position: relative;
+      display: flex;
+      min-height: 340px;
+      flex-direction: column;
+      padding: 42px 30px 30px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--cream);
+      box-shadow: var(--shadow);
+    }
+
+    .testimonial-mark {
+      position: absolute;
+      top: -9px;
+      left: 24px;
+      color: var(--gold);
+      font-family: Georgia, serif;
+      font-size: 80px;
+      line-height: 1;
+    }
+
+    .testimonial-card blockquote {
+      flex-grow: 1;
+      margin: 15px 0 24px;
+      color: var(--black);
+      font-family:
+        Georgia,
+        "Songti SC",
+        "SimSun",
+        serif;
+      font-size: 19px;
+      line-height: 1.75;
+    }
+
+    .testimonial-card cite {
+      color: var(--muted);
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
+
+    /* International */
+
+    .international-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 58px;
+      align-items: center;
+    }
+
+    .international-copy p {
+      color: #c7c7c7;
+      font-size: 17px;
+    }
+
+    .china-card {
+      padding: 35px;
+      border: 1px solid rgba(180, 138, 60, 0.53);
+      border-radius: var(--radius);
+      background: #191919;
+    }
+
+    .china-card h3 {
+      margin: 0 0 14px;
+      color: var(--gold-light);
+      font-family:
+        Georgia,
+        "Songti SC",
+        "SimSun",
+        serif;
+      font-size: 29px;
+    }
+
+    .china-card p {
+      margin: 0;
+      color: #c8c8c8;
+    }
+
+    .china-list {
+      display: grid;
+      gap: 11px;
+      margin: 23px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .china-list li {
+      position: relative;
+      padding-left: 24px;
+      color: #dedede;
+    }
+
+    .china-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--gold-light);
+      font-weight: 850;
+    }
+
+    /* Contact */
+
+    .contact-box {
+      position: relative;
+      overflow: hidden;
+      padding: 62px;
+      border: 1px solid rgba(180, 138, 60, 0.65);
+      border-radius: 28px;
+      background:
+        linear-gradient(135deg, #1d1d1d, #0b0b0b);
+      color: var(--white);
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.18);
+    }
+
+    .contact-box::after {
+      content: "π";
+      position: absolute;
+      right: 30px;
+      bottom: -100px;
+      color: rgba(234, 217, 182, 0.07);
+      font-family: Georgia, serif;
+      font-size: 275px;
+      line-height: 1;
+    }
+
+    .contact-content {
+      position: relative;
+      z-index: 2;
+      max-width: 790px;
+    }
+
+    .contact-box h2 {
+      margin: 0;
+      color: var(--white);
+      font-family:
+        Georgia,
+        "Songti SC",
+        "SimSun",
+        serif;
+      font-size: clamp(36px, 5vw, 55px);
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    .contact-box p {
+      max-width: 700px;
+      margin: 20px 0 0;
+      color: #cecece;
+      font-size: 18px;
+    }
+
+    .contact-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 30px;
+    }
+
+    .contact-email {
+      background: var(--gold-light);
+      color: var(--black);
+    }
+
+    .contact-email:hover {
+      background: var(--white);
+    }
+
+    .contact-secondary {
+      border-color: #555555;
+      background: transparent;
+      color: var(--white);
+    }
+
+    .contact-secondary:hover {
+      border-color: var(--gold);
+      background: #202020;
+    }
+
+    /* Footer */
+
+    footer {
+      padding: 38px 0;
+      border-top: 1px solid #2b2b2b;
+      background: var(--black);
+      color: #bdbdbd;
+    }
+
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .footer-brand {
+      color: var(--white);
+      font-weight: 800;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .footer-links a {
+      color: #bdbdbd;
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--gold-light);
+    }
+
+    .disclaimer {
+      max-width: 420px;
+      color: #8f8f8f;
+      font-size: 12px;
+    }
+
+    /* Responsive */
+
+    @media (max-width: 950px) {
+      .hero-grid,
+      .approach-grid,
+      .international-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 80px;
+      }
+
+      .hero-panel {
+        max-width: 680px;
+      }
+
+      .experience-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .testimonial-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .testimonial-card {
+        min-height: 0;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .container {
+        width: min(calc(100% - 28px), var(--max-width));
+      }
+
+      .nav {
+        min-height: 68px;
+      }
+
+      .menu-button {
+        display: block;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: 68px;
+        right: 14px;
+        left: 14px;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 2px;
+        padding: 13px;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        background: var(--white);
+        box-shadow: var(--shadow);
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        padding: 11px 12px;
+        border-radius: 8px;
+      }
+
+      .nav-contact {
+        margin-top: 5px;
+        text-align: center;
+      }
+
+      h1 {
+        letter-spacing: -1px;
+      }
+
+      .hero-buttons,
+      .contact-buttons {
+        flex-direction: column;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .trust-grid,
+      .services-grid,
+      .experience-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-item {
+        min-height: 105px;
+        border-right: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      }
+
+      .trust-item:last-child {
+        border-bottom: 0;
+      }
+
+      .section {
+        padding: 72px 0;
+      }
+
+      .contact-box {
+        padding: 40px 25px;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .hero-panel,
+      .service-card,
+      .approach-quote,
+      .experience-card,
+      .testimonial-card,
+      .china-card {
+        padding: 24px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+
+      <a class="brand" href="zh.html">
+        Arij Asad <span>Maths</span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        菜单
+      </button>
+
+      <nav
+        class="nav-links"
+        id="main-navigation"
+        aria-label="主导航"
+      >
+        <a href="#services">课程服务</a>
+        <a href="#approach">教学方式</a>
+        <a href="#experience">专业经历</a>
+        <a href="#feedback">学生评价</a>
+        <a class="language-link" href="index.html">English</a>
+        <a class="nav-contact" href="#contact">咨询课程</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container hero-grid">
+
+        <div>
+          <div class="eyebrow">
+            专业在线数学辅导
+          </div>
+
+          <h1>
+            为高难度数学建立真正的
+            <span class="hero-highlight">思维能力。</span>
+          </h1>
+
+          <p class="hero-copy">
+            提供 TMUA、STEP、剑桥大学数学专业面试、
+            A Level 数学及进阶数学的一对一在线辅导。
+            课程不仅关注知识点，也帮助学生提升独立思考、
+            数学表达和解决陌生问题的能力。
+          </p>
+
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#services">
+              查看课程服务
+            </a>
+
+            <a class="button button-secondary" href="#contact">
+              预约免费沟通
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <p class="hero-panel-label">
+            Arij Asad
+          </p>
+
+          <h2>
+            结合教学、考试评阅与大学招生经验。
+          </h2>
+
+          <ul class="credential-list">
+            <li>剑桥大学数学系毕业</li>
+
+            <li>STEP 阅卷员及阅卷主管</li>
+
+            <li>
+              曾任剑桥大学 Homerton College
+              数学专业招生面试官
+            </li>
+
+            <li>
+              曾任 Pearson VUE 评估专员，
+              参与 TMUA 和 ESAT 试题审核
+            </li>
+
+            <li>
+              She Talks Science STEP 夏校负责人
+            </li>
+
+            <li>
+              布里斯托大学流体力学博士研究人员
+            </li>
+          </ul>
+        </aside>
+
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+
+        <div class="trust-item">
+          <span class="trust-value">150+</span>
+          <span class="trust-label">已辅导学生人数</span>
+        </div>
+
+        <div class="trust-item">
+          <span class="trust-value">7 年</span>
+          <span class="trust-label">一对一辅导经验</span>
+        </div>
+
+        <div class="trust-item">
+          <span class="trust-value">STEP</span>
+          <span class="trust-label">直接阅卷经验</span>
+        </div>
+
+        <div class="trust-item">
+          <span class="trust-value">Cambridge</span>
+          <span class="trust-label">招生面试经验</span>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+
+        <div class="section-heading">
+          <div class="eyebrow">
+            课程服务
+          </div>
+
+          <h2>
+            针对不同阶段学生的个性化支持。
+          </h2>
+
+          <p>
+            每位学生的课程内容都会根据当前水平、目标院校、
+            考试时间和准备进度进行调整。
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card">
+            <span class="service-number">01</span>
+
+            <h3>TMUA 入学考试辅导</h3>
+
+            <p>
+              帮助学生提高解题速度、准确率和数学判断能力，
+              学会在时间压力下处理陌生的选择题。
+            </p>
+
+            <ul class="service-points">
+              <li>诊断当前水平与薄弱环节</li>
+              <li>针对性选择题训练</li>
+              <li>计时练习与考试策略</li>
+              <li>深入分析错误原因</li>
+            </ul>
+
+            <a class="service-link" href="tmua.html">
+              查看英文 TMUA 课程页面 →
+            </a>
+
+            <span class="service-symbol" aria-hidden="true">∴</span>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">02</span>
+
+            <h3>STEP 2 与 STEP 3 辅导</h3>
+
+            <p>
+              提升学生处理长题、构建完整证明和书写清晰数学解答的能力。
+              反馈结合实际 STEP 阅卷经验。
+            </p>
+
+            <ul class="service-points">
+              <li>高难度数学问题训练</li>
+              <li>完整解答的批改与反馈</li>
+              <li>部分得分与书写规范</li>
+              <li>选题、时间管理和考试策略</li>
+            </ul>
+
+            <a class="service-link" href="step.html">
+              查看英文 STEP 课程页面 →
+            </a>
+
+            <span class="service-symbol" aria-hidden="true">∫</span>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">03</span>
+
+            <h3>剑桥数学面试准备</h3>
+
+            <p>
+              通过真实风格的模拟面试，练习思考表达、
+              回应提示以及在陌生问题中持续推进。
+            </p>
+
+            <ul class="service-points">
+              <li>30 分钟模拟数学面试</li>
+              <li>30 分钟详细反馈与讨论</li>
+              <li>分析数学思维与表达方式</li>
+              <li>根据表现安排后续练习</li>
+            </ul>
+
+            <a class="service-link" href="interviews.html">
+              查看英文面试辅导页面 →
+            </a>
+
+            <span class="service-symbol" aria-hidden="true">?</span>
+          </article>
+
+          <article class="service-card">
+            <span class="service-number">04</span>
+
+            <h3>A Level 与进阶数学</h3>
+
+            <p>
+              适合希望巩固课程内容、提高考试成绩，
+              或进一步提升数学思维和解题能力的学生。
+            </p>
+
+            <ul class="service-points">
+              <li>一对一在线课程</li>
+              <li>根据考试局和学生水平安排内容</li>
+              <li>考试题与拓展题训练</li>
+              <li>可安排长期或阶段性课程</li>
+            </ul>
+
+            <a class="service-link" href="tuition.html">
+              查看英文课程及收费页面 →
+            </a>
+
+            <span class="service-symbol" aria-hidden="true">π</span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="section section-white"
+      id="approach"
+    >
+      <div class="container approach-grid">
+
+        <div class="approach-quote">
+          <p>
+            我的目标并不是直接告诉学生答案，
+            而是通过适当的提示，帮助学生重新开始有效思考，
+            并逐渐学会独立解决问题。
+          </p>
+        </div>
+
+        <div class="approach-copy">
+
+          <div class="section-heading">
+            <div class="eyebrow">
+              教学方式
+            </div>
+
+            <h2>
+              提供帮助，但不拿走问题的挑战。
+            </h2>
+          </div>
+
+          <p>
+            对于入学考试、STEP 和面试准备，
+            学生通常会在课前或课后完成经过挑选的练习。
+            课程会重点讨论学生的思考过程、
+            关键决策和遇到困难时的应对方式。
+          </p>
+
+          <p>
+            这种方式不仅帮助学生完成当前的问题，
+            也让他们积累可以迁移到未来题目中的数学方法。
+          </p>
+
+          <div class="approach-points">
+
+            <div class="approach-point">
+              <div class="point-number">1</div>
+
+              <div>
+                <strong>独立尝试</strong><br>
+                学生先尝试经过挑选的数学问题。
+              </div>
+            </div>
+
+            <div class="approach-point">
+              <div class="point-number">2</div>
+
+              <div>
+                <strong>有目的的提示</strong><br>
+                提示帮助学生继续思考，而不是直接给出解法。
+              </div>
+            </div>
+
+            <div class="approach-point">
+              <div class="point-number">3</div>
+
+              <div>
+                <strong>详细反馈</strong><br>
+                分析数学理解、表达、效率和考试策略。
+              </div>
+            </div>
+
+            <div class="approach-point">
+              <div class="point-number">4</div>
+
+              <div>
+                <strong>巩固与迁移</strong><br>
+                通过后续练习将方法应用到新的问题中。
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section
+      class="section section-dark"
+      id="experience"
+    >
+      <div class="container">
+
+        <div class="section-heading center">
+          <div class="eyebrow">
+            专业经历
+          </div>
+
+          <h2>
+            对考试、评阅和招生过程有直接了解。
+          </h2>
+
+          <p>
+            辅导内容不仅来自多年教学经验，
+            也来自对相关考试和大学招生流程的实际参与。
+          </p>
+        </div>
+
+        <div class="experience-grid">
+
+          <article class="experience-card">
+            <h3>STEP 阅卷</h3>
+
+            <p>
+              直接评阅考生解答，了解数学推理、
+              书写清晰度和有效进展如何获得分数。
+            </p>
+          </article>
+
+          <article class="experience-card">
+            <h3>TMUA 与 ESAT</h3>
+
+            <p>
+              曾作为 Pearson VUE 评估专员，
+              参与两项考试的试题审核与质量检查。
+            </p>
+          </article>
+
+          <article class="experience-card">
+            <h3>剑桥招生面试</h3>
+
+            <p>
+              曾在 Homerton College 面试数学申请者，
+              并参与招生评估。
+            </p>
+          </article>
+
+          <article class="experience-card">
+            <h3>剑桥数学背景</h3>
+
+            <p>
+              毕业于剑桥大学 Murray Edwards College 数学系，
+              了解完整的申请、面试和大学学习过程。
+            </p>
+          </article>
+
+          <article class="experience-card">
+            <h3>大学数学教学</h3>
+
+            <p>
+              具有布里斯托大学本科数学教学经验，
+              也曾在剑桥大学教授 Fluid Dynamics II。
+            </p>
+          </article>
+
+          <article class="experience-card">
+            <h3>STEP 夏校</h3>
+
+            <p>
+              负责剑桥大学 Murray Edwards College 的
+              She Talks Science STEP Summer School。
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="section"
+      id="feedback"
+    >
+      <div class="container">
+
+        <div class="section-heading center">
+          <div class="eyebrow">
+            学生评价
+          </div>
+
+          <h2>
+            在获得支持的同时保持独立思考。
+          </h2>
+        </div>
+
+        <div class="testimonial-grid">
+
+          <article class="testimonial-card">
+            <div class="testimonial-mark" aria-hidden="true">
+              “
+            </div>
+
+            <blockquote>
+              教学非常好。有些题目难度很高，
+              但 Arij 非常擅长把问题解释清楚。
+            </blockquote>
+
+            <cite>STEP 夏校学生</cite>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-mark" aria-hidden="true">
+              “
+            </div>
+
+            <blockquote>
+              题目很难，但 Arij 会帮助我一步一步推进，
+              同时让我保持独立学习和思考。
+            </blockquote>
+
+            <cite>STEP 学生</cite>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-mark" aria-hidden="true">
+              “
+            </div>
+
+            <blockquote>
+              每一节 STEP 课程都非常有用。
+              我也非常感谢你在课程之外投入的时间，
+              包括批改作业以及在整个准备过程中给予大量指导。
+            </blockquote>
+
+            <cite>STEP 学生</cite>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container international-grid">
+
+        <div class="international-copy">
+          <div class="section-heading">
+            <div class="eyebrow">
+              中国及国际学生
+            </div>
+
+            <h2>
+              不同地区的学生都可以参加在线课程。
+            </h2>
+          </div>
+
+          <p>
+            课程通过在线视频进行，可为英国、中国及其他地区的学生安排。
+            课前和课后的材料可以通过电子方式发送和批改。
+          </p>
+
+          <p>
+            首次联系时，请说明学生所在城市或时区、
+            当前年级、目标考试以及希望的上课频率。
+          </p>
+        </div>
+
+        <aside class="china-card">
+          <h3>适合中国家庭的联系流程</h3>
+
+          <p>
+            首次咨询建议通过电子邮件进行。
+            确认学生的需求和课程是否合适后，
+            可以根据需要通过微信继续沟通。
+          </p>
+
+          <ul class="china-list">
+            <li>请介绍学生当前年级和数学水平</li>
+            <li>说明目标大学、考试或申请方向</li>
+            <li>提供考试时间和已完成的准备</li>
+            <li>注明所在城市、时区和理想上课频率</li>
+          </ul>
+        </aside>
+
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+
+        <div class="contact-box">
+          <div class="contact-content">
+
+            <div class="eyebrow">
+              课程咨询
+            </div>
+
+            <h2>
+              联系 Arij，讨论适合学生的课程安排。
+            </h2>
+
+            <p>
+              可以先通过电子邮件介绍学生的情况。
+              如有需要，可安排一次免费的简短电话或视频沟通，
+              讨论学生的目标、当前准备和合适的辅导方式。
+            </p>
+
+            <div class="contact-buttons">
+              <a
+                class="button contact-email"
+                href="mailto:arijasadmaths@gmail.com?subject=中文课程咨询"
+              >
+                发送邮件咨询
+              </a>
+
+              <a
+                class="button contact-secondary"
+                href="contact.html"
+              >
+                查看英文联系页面
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+
+      <div>
+        <div class="footer-brand">
+          Arij Asad Maths
+        </div>
+
+        <div>
+          专业在线数学辅导
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#services">课程服务</a>
+        <a href="#experience">专业经历</a>
+        <a href="#feedback">学生评价</a>
+        <a href="index.html">English</a>
+        <a href="mailto:arijasadmaths@gmail.com">联系</a>
+      </div>
+
+      <div class="disclaimer">
+        本网站提供独立数学辅导服务，
+        与剑桥大学及其他大学或考试机构不存在隶属或官方认可关系。
+        © 2026 Arij Asad Maths
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+    const menuButton =
+      document.querySelector(".menu-button");
+
+    const navigation =
+      document.querySelector(".nav-links");
+
+    menuButton.addEventListener("click", () => {
+      const isOpen =
+        navigation.classList.toggle("open");
+
+      menuButton.setAttribute(
+        "aria-expanded",
+        String(isOpen)
+      );
+    });
+
+    navigation.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navigation.classList.remove("open");
+
+        menuButton.setAttribute(
+          "aria-expanded",
+          "false"
+        );
+      });
+    });
+  </script>
+
+</body>
+</html>
