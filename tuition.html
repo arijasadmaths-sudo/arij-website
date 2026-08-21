@@ -1556,5 +1556,16 @@
       });
     });
   </script>
+    <script>
+  document.querySelectorAll('a[href^="mailto:"]').forEach((link) => {
+    link.addEventListener("click", () => {
+      gtag("event", "generate_lead", {
+        method: "email",
+        page_path: window.location.pathname,
+        link_url: link.href
+      });
+    });
+  });
+</script>
 </body>
 </html>
