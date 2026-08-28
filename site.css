@@ -48,6 +48,9 @@ body:not(.resource-page) .nav-links {
   grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.92fr);
   align-items: stretch;
   gap: 0;
+  max-width: 1040px;
+  margin-right: auto;
+  margin-left: auto;
   overflow: hidden;
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -56,14 +59,14 @@ body:not(.resource-page) .nav-links {
 }
 
 .teaching-proof__image {
-  min-height: 430px;
+  display: flex;
+  align-items: center;
+  background: var(--cream-dark);
 }
 
 .teaching-proof__image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
 }
 
 .teaching-proof__content {
@@ -693,10 +696,6 @@ body:not(.resource-page) .nav-links {
     grid-template-columns: 1fr;
   }
 
-  .teaching-proof__image {
-    min-height: 380px;
-  }
-
   .article-aside {
     position: static;
     order: -1;
@@ -756,10 +755,6 @@ body:not(.resource-page) .nav-links {
 }
 
 @media (max-width: 720px) {
-  .teaching-proof__image {
-    min-height: 310px;
-  }
-
   .teaching-proof__content,
   .resource-card,
   .resource-cta {
