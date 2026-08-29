@@ -34,6 +34,7 @@ if (copyButton && copyStatus) {
 (() => {
   const consentKey = "arij_maths_analytics_consent";
   const analyticsId = "G-8D2Z5HRSR5";
+  const analyticsDisableKey = "ga-disable-" + analyticsId;
   let analyticsLoaded = false;
 
   const getConsent = () => {
@@ -52,11 +53,43 @@ if (copyButton && copyStatus) {
     }
   };
 
+  const removeAnalyticsCookies = () => {
+    const cookieNames = document.cookie
+      .split(";")
+      .map((cookie) => cookie.split("=")[0].trim())
+      .filter((name) => name === "_ga" || name.startsWith("_ga_"));
+
+    cookieNames.forEach((name) => {
+      const expiry = name + "=; Max-Age=0; path=/; SameSite=Lax";
+      document.cookie = expiry;
+      document.cookie = expiry + "; domain=maths.arijasad.com";
+      document.cookie = expiry + "; domain=.arijasad.com";
+    });
+  };
+
+  const disableAnalytics = () => {
+    window[analyticsDisableKey] = true;
+
+    if (typeof window.gtag === "function") {
+      window.gtag("consent", "update", {
+        analytics_storage: "denied",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied"
+      });
+    }
+
+    document.querySelector("script[data-arij-analytics]")?.remove();
+    analyticsLoaded = false;
+    removeAnalyticsCookies();
+  };
+
   const loadAnalytics = () => {
     if (analyticsLoaded || document.querySelector("script[data-arij-analytics]")) {
       return;
     }
 
+    window[analyticsDisableKey] = false;
     analyticsLoaded = true;
     window.dataLayer = window.dataLayer || [];
     window.gtag = function () {
@@ -109,6 +142,7 @@ if (copyButton && copyStatus) {
 
     banner.querySelector("[data-cookie-reject]").addEventListener("click", () => {
       saveConsent("rejected");
+      disableAnalytics();
       closeBanner();
     });
 
@@ -123,7 +157,9 @@ if (copyButton && copyStatus) {
   const consent = getConsent();
   if (consent === "accepted") {
     loadAnalytics();
-  } else if (consent !== "rejected") {
+  } else if (consent === "rejected") {
+    disableAnalytics();
+  } else {
     showBanner();
   }
 
