@@ -35,6 +35,7 @@ if (copyButton && copyStatus) {
   const consentKey = "arij_maths_analytics_consent";
   const analyticsId = "G-8D2Z5HRSR5";
   const analyticsDisableKey = "ga-disable-" + analyticsId;
+  const leadEventKey = "arij_maths_lead_recorded";
   let analyticsLoaded = false;
 
   const getConsent = () => {
@@ -64,6 +65,27 @@ if (copyButton && copyStatus) {
       document.cookie = expiry;
       document.cookie = expiry + "; domain=maths.arijasad.com";
       document.cookie = expiry + "; domain=.arijasad.com";
+    });
+  };
+
+  const recordLeadConversion = () => {
+    if (!document.body?.hasAttribute("data-enquiry-confirmation") || typeof window.gtag !== "function") {
+      return;
+    }
+
+    try {
+      if (window.sessionStorage.getItem(leadEventKey) === "true") {
+        return;
+      }
+      window.sessionStorage.setItem(leadEventKey, "true");
+    } catch (error) {
+      // Continue without duplicate protection if session storage is unavailable.
+    }
+
+    window.gtag("event", "generate_lead", {
+      method: "website_form",
+      page_path: window.location.pathname,
+      transport_type: "beacon"
     });
   };
 
@@ -104,6 +126,7 @@ if (copyButton && copyStatus) {
     });
     window.gtag("js", new Date());
     window.gtag("config", analyticsId);
+    recordLeadConversion();
 
     const script = document.createElement("script");
     script.async = true;
@@ -122,10 +145,10 @@ if (copyButton && copyStatus) {
     const banner = document.createElement("section");
     banner.className = "cookie-banner";
     banner.setAttribute("role", "region");
-    banner.setAttribute("aria-label", "Cookie choices");
+    banner.setAttribute("aria-labelledby", "cookie-banner-title");
     banner.innerHTML = `
       <div class="cookie-banner__copy">
-        <strong>Choose your cookie settings</strong>
+        <strong id="cookie-banner-title" tabindex="-1">Choose your cookie settings</strong>
         <p>This site uses essential browser storage and, only with your permission, Google Analytics to understand which pages are useful. <a href="privacy.html">Read the privacy notice</a>.</p>
       </div>
       <div class="cookie-banner__actions">
@@ -147,7 +170,7 @@ if (copyButton && copyStatus) {
     });
 
     document.body.appendChild(banner);
-    banner.querySelector("[data-cookie-accept]").focus();
+    banner.querySelector("#cookie-banner-title").focus();
   };
 
   document.querySelectorAll("[data-cookie-settings]").forEach((button) => {

@@ -870,14 +870,43 @@ body:not(.resource-page) .nav-links {
   cursor: pointer;
 }
 
-.cookie-button--primary {
+.cookie-button--primary,
+.cookie-button--secondary {
   background: #ead9b6;
   color: #111111;
 }
 
-.cookie-button--secondary {
-  background: transparent;
-  color: #ffffff;
+.cookie-button:hover,
+.cookie-button:focus-visible {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+
+.practice-problem {
+  margin: 30px 0;
+  padding: 22px;
+  border: 1px solid rgba(17, 17, 17, 0.14);
+  border-radius: 14px;
+  background: #ffffff;
+}
+
+.practice-problem h2 {
+  margin-top: 0;
+}
+
+.practice-problem details {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(17, 17, 17, 0.12);
+}
+
+.practice-problem summary {
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.practice-problem details p:last-child {
+  margin-bottom: 0;
 }
 
 .form-honeypot {

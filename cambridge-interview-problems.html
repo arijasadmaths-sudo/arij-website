@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Five Cambridge Maths Interview Practice Problems | Arij Asad</title>
+  <meta name="description" content="Five mathematics interview practice problems with graduated hints and solution outlines for developing problem solving and mathematical communication.">
+  <link rel="canonical" href="https://maths.arijasad.com/cambridge-interview-problems.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <meta name="theme-color" content="#111111">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Five Cambridge Maths Interview Practice Problems">
+  <meta property="og:description" content="Discussion-led practice problems with graduated hints and solution outlines.">
+  <meta property="og:url" content="https://maths.arijasad.com/cambridge-interview-problems.html">
+  <meta property="og:image" content="https://maths.arijasad.com/assets/social-preview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://maths.arijasad.com/assets/social-preview.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Five Cambridge Maths Interview Practice Problems",
+    "datePublished": "2026-08-29",
+    "dateModified": "2026-08-29",
+    "author": {
+      "@type": "Person",
+      "name": "Arij Asad",
+      "url": "https://maths.arijasad.com/about.html"
+    },
+    "mainEntityOfPage": "https://maths.arijasad.com/cambridge-interview-problems.html"
+  }
+  </script>
+</head>
+<body class="resource-page">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Arij Asad <span>Maths</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-navigation">Menu</button>
+      <nav class="nav-links" id="main-navigation" aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="tuition.html">Tuition</a>
+        <a href="tmua.html">TMUA</a><a href="step.html">STEP</a><a href="interviews.html">Interviews</a>
+        <a href="resources.html" aria-current="page">Resources</a><a href="zh.html">中文</a>
+        <a class="nav-contact" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <header class="article-hero">
+      <div class="container">
+        <div class="breadcrumbs"><a href="resources.html">Resources</a> / Interview practice problems</div>
+        <div class="eyebrow">Cambridge interview practice</div>
+        <h1>Five problems for practising <span>mathematical discussion.</span></h1>
+        <p class="resource-lede">
+          The aim is not to produce five silent written solutions. Explain each
+          decision aloud, test ideas and use the hints only when progress stops.
+        </p>
+        <div class="article-meta">
+          <span>By Arij Asad, former Cambridge Mathematics interviewer</span>
+          <span>Published 29 August 2026</span>
+          <span>Approximately 12 minutes</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="container article-layout">
+      <article class="article-body">
+        <p>
+          These questions are written as interview-style practice rather than as a
+          prediction of any university's admissions material. Ask another person to
+          reveal the hints one at a time if possible. A useful attempt includes false
+          starts, provided they are explained and reassessed.
+        </p>
+
+        <div class="article-callout">
+          <strong>How to use the problems</strong>
+          Spend a few minutes exploring aloud before opening a hint. State what is
+          known, try small cases, describe any pattern and say what would count as a
+          proof. After finishing, explain the solution again in a shorter form.
+        </div>
+
+        <section class="practice-problem" id="roots">
+          <h2>1. Two positive roots</h2>
+          <p>For which real values of <em>t</em> does the equation</p>
+          <p><strong>x² − 2tx + t + 2 = 0</strong></p>
+          <p>have two distinct positive real roots?</p>
+          <details><summary>Hint 1</summary><p>Separate “real and distinct” from “both positive”. What does the discriminant tell you?</p></details>
+          <details><summary>Hint 2</summary><p>If the roots are r and s, use r + s and rs rather than solving explicitly.</p></details>
+          <details><summary>Solution outline</summary><p>The discriminant is 4(t² − t − 2), so distinct real roots require t &lt; −1 or t &gt; 2. By Vieta, r + s = 2t and rs = t + 2. Two positive roots require a positive sum and product. Combining all conditions gives <strong>t &gt; 2</strong>.</p></details>
+        </section>
+
+        <section class="practice-problem" id="divisibility">
+          <h2>2. A divisibility claim</h2>
+          <p>Prove that n³ − n is divisible by 6 for every integer n.</p>
+          <details><summary>Hint 1</summary><p>Factorise the expression completely.</p></details>
+          <details><summary>Hint 2</summary><p>What must occur among any three consecutive integers?</p></details>
+          <details><summary>Solution outline</summary><p>Write n³ − n = n(n − 1)(n + 1). These are three consecutive integers. At least one is even and exactly one is divisible by 3, so their product is divisible by both 2 and 3 and therefore by 6.</p></details>
+        </section>
+
+        <section class="practice-problem" id="rectangle">
+          <h2>3. The largest rectangle</h2>
+          <p>A rectangle has fixed perimeter P. Which dimensions give the greatest area, and how do you know the maximum is global?</p>
+          <details><summary>Hint 1</summary><p>If one side is x, express the other side and the area in terms of x.</p></details>
+          <details><summary>Hint 2</summary><p>Complete the square. This also answers the question about a global maximum.</p></details>
+          <details><summary>Solution outline</summary><p>The second side is P/2 − x, so A = x(P/2 − x) = P²/16 − (x − P/4)². The squared term is never negative, so A ≤ P²/16, with equality when both sides are P/4. The rectangle of greatest area is therefore a square.</p></details>
+        </section>
+
+        <section class="practice-problem" id="sequence">
+          <h2>4. A sequence approaching √2</h2>
+          <p>Let x₁ &gt; √2 and define</p>
+          <p><strong>x<sub>n+1</sub> = ½(x<sub>n</sub> + 2/x<sub>n</sub>).</strong></p>
+          <p>Show that the sequence converges and find its limit.</p>
+          <details><summary>Hint 1</summary><p>Compare x<sub>n+1</sub> first with √2 and then with x<sub>n</sub>.</p></details>
+          <details><summary>Hint 2</summary><p>Factor the numerators of x<sub>n+1</sub> − √2 and x<sub>n+1</sub> − x<sub>n</sub>.</p></details>
+          <details><summary>Solution outline</summary><p>If x<sub>n</sub> &gt; √2, then x<sub>n+1</sub> − √2 = (x<sub>n</sub> − √2)²/(2x<sub>n</sub>) &gt; 0, so the sequence stays above √2. Also x<sub>n+1</sub> − x<sub>n</sub> = (2 − x<sub>n</sub>²)/(2x<sub>n</sub>) &lt; 0, so it decreases. It is decreasing and bounded below, hence convergent. If its limit is L &gt; 0, then L = ½(L + 2/L), giving L² = 2 and therefore <strong>L = √2</strong>.</p></details>
+        </section>
+
+        <section class="practice-problem" id="pigeonhole">
+          <h2>5. A consecutive sum</h2>
+          <p>Given any n integers a₁, a₂, …, a<sub>n</sub>, prove that some non-empty consecutive block has sum divisible by n.</p>
+          <details><summary>Hint 1</summary><p>Consider the n partial sums s<sub>k</sub> = a₁ + ··· + a<sub>k</sub>.</p></details>
+          <details><summary>Hint 2</summary><p>Look at the remainders of these partial sums when divided by n. What happens if none has remainder 0?</p></details>
+          <details><summary>Solution outline</summary><p>If some s<sub>k</sub> is divisible by n, the block a₁ + ··· + a<sub>k</sub> works. Otherwise the n partial sums occupy only the n − 1 non-zero remainder classes, so two have the same remainder. If s<sub>i</sub> and s<sub>j</sub> have the same remainder with i &lt; j, then s<sub>j</sub> − s<sub>i</sub> = a<sub>i+1</sub> + ··· + a<sub>j</sub> is divisible by n.</p></details>
+        </section>
+
+        <h2 id="reflection">Questions to ask after each solution</h2>
+        <ul>
+          <li>What was the first observation that genuinely reduced the problem?</li>
+          <li>Which assumption or example was useful, and which was a distraction?</li>
+          <li>Where did the argument move from evidence to proof?</li>
+          <li>Could the solution be explained coherently without repeating every calculation?</li>
+          <li>What natural extension would you investigate next?</li>
+        </ul>
+
+        <p class="article-disclaimer">
+          These independent practice problems are not Cambridge admissions questions
+          and are not endorsed by the University of Cambridge or any college. They do
+          not use confidential interview material.
+        </p>
+      </article>
+
+      <aside class="article-aside" aria-label="On this page">
+        <strong>Problems</strong>
+        <p>Explain, test and respond to hints rather than working silently.</p>
+        <a href="#roots">Positive roots</a>
+        <a href="#divisibility">Divisibility</a>
+        <a href="#rectangle">Maximum area</a>
+        <a href="#sequence">Convergent sequence</a>
+        <a href="#pigeonhole">Consecutive sum</a>
+        <a href="#reflection">Reflection</a>
+        <a href="interviews.html">Interview preparation</a>
+      </aside>
+    </div>
+
+    <section class="resource-section resource-section--white">
+      <div class="container"><div class="resource-cta"><div><h2>Practise the discussion, not only the answer.</h2><p>Mock interviews provide feedback on reasoning, communication and response to guidance.</p></div><a class="resource-button" href="contact.html">Discuss interview preparation</a></div></div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-content"><div><div class="footer-brand">Arij Asad Maths</div><div>Specialist online mathematics tuition</div></div><div class="footer-links"><a href="tuition.html">Tuition</a><a href="resources.html">Resources</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><button class="cookie-settings-link" type="button" data-cookie-settings>Cookie settings</button></div><div>© 2026 Arij Asad Maths</div></div></footer>
+  <script src="site.js" defer></script>
+</body>
+</html>
