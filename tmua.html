@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8D2Z5HRSR5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-8D2Z5HRSR5');
-  </script>
   <meta charset="UTF-8">
 
   <meta
@@ -1703,6 +1695,10 @@
         <a href="#what-it-tests">TMUA skills</a>
         <a href="#preparation">How tuition works</a>
         <a href="mailto:arijasadmaths@gmail.com">Contact</a>
+      
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <button class="cookie-settings-link" type="button" data-cookie-settings>Cookie settings</button>
       </div>
 
       <div>
@@ -1710,39 +1706,6 @@
       </div>
     </div>
   </footer>
-
-  <script>
-    const menuButton = document.querySelector(".menu-button");
-    const navigation = document.querySelector(".nav-links");
-
-    menuButton.addEventListener("click", () => {
-      const isOpen = navigation.classList.toggle("open");
-
-      menuButton.setAttribute(
-        "aria-expanded",
-        String(isOpen)
-      );
-    });
-
-    navigation.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        navigation.classList.remove("open");
-        menuButton.setAttribute("aria-expanded", "false");
-      });
-    });
-  </script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('a[href^="mailto:"]').forEach(function (link) {
-      link.addEventListener("click", function () {
-        gtag("event", "contact_click", {
-          link_url: link.href,
-          page_path: window.location.pathname,
-          transport_type: "beacon"
-        });
-      });
-    });
-  });
-</script>
+  <script src="site.js" defer></script>
 </body>
 </html>

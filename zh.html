@@ -1616,6 +1616,10 @@
         <a href="#feedback">学生评价</a>
         <a href="index.html">English</a>
         <a href="mailto:arijasadmaths@gmail.com">联系</a>
+      
+        <a href="privacy.html">隐私</a>
+        <a href="terms.html">条款</a>
+        <button class="cookie-settings-link" type="button" data-cookie-settings>Cookie 设置</button>
       </div>
 
       <div class="disclaimer">
@@ -1626,47 +1630,6 @@
 
     </div>
   </footer>
-
-  <script>
-    const menuButton =
-      document.querySelector(".menu-button");
-
-    const navigation =
-      document.querySelector(".nav-links");
-
-    menuButton.addEventListener("click", () => {
-      const isOpen =
-        navigation.classList.toggle("open");
-
-      menuButton.setAttribute(
-        "aria-expanded",
-        String(isOpen)
-      );
-    });
-
-    navigation.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        navigation.classList.remove("open");
-
-        menuButton.setAttribute(
-          "aria-expanded",
-          "false"
-        );
-      });
-    });
-  </script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('a[href^="mailto:"]').forEach(function (link) {
-      link.addEventListener("click", function () {
-        gtag("event", "contact_click", {
-          link_url: link.href,
-          page_path: window.location.pathname,
-          transport_type: "beacon"
-        });
-      });
-    });
-  });
-</script>
+  <script src="site.js" defer></script>
 </body>
 </html>

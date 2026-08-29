@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8D2Z5HRSR5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-8D2Z5HRSR5');
-  </script>
   <meta charset="UTF-8">
 
   <meta
@@ -1024,9 +1016,9 @@
           </h2>
 
           <p>
-            Please send an enquiry with the student's current level, goals and
-            timeline. Availability, the recommended session structure and fees
-            are provided in response to an enquiry.
+            Standard online tuition is £150 per 60-minute session. Short
+            intensives, specialist marking and packages are quoted clearly
+            before booking.
           </p>
         </div>
 
@@ -1054,7 +1046,7 @@
 
             <a
               class="card-link"
-              href="mailto:arijasadmaths@gmail.com?subject=A%20Level%20mathematics%20tuition%20enquiry"
+              href="contact.html#enquiry-form"
             >
               Enquire about A Level tuition →
             </a>
@@ -1157,7 +1149,7 @@
 
             <a
               class="card-link"
-              href="mailto:arijasadmaths@gmail.com?subject=University%20mathematics%20tuition%20enquiry"
+              href="contact.html#enquiry-form"
             >
               Enquire about university tuition →
             </a>
@@ -1185,7 +1177,7 @@
 
             <a
               class="card-link"
-              href="mailto:arijasadmaths@gmail.com?subject=Mathematics%20tuition%20enquiry"
+              href="contact.html#enquiry-form"
             >
               Discuss your requirements →
             </a>
@@ -1343,8 +1335,9 @@
             <h3>Payment</h3>
 
             <p>
-              Payment arrangements and any package terms are confirmed before
-              the first booked session.
+              Payment is made in advance. A lesson or regular slot is reserved once
+              payment has been received. Full details are set out in the
+              <a href="terms.html">tuition terms</a>.
             </p>
           </article>
 
@@ -1457,7 +1450,7 @@
             <div class="contact-buttons">
               <a
                 class="button contact-email"
-                href="mailto:arijasadmaths@gmail.com?subject=Tuition%20enquiry"
+                href="contact.html#enquiry-form"
               >
                 Email Arij
               </a>
@@ -1489,6 +1482,10 @@
         <a href="step.html">STEP</a>
         <a href="interviews.html">Interviews</a>
         <a href="mailto:arijasadmaths@gmail.com">Contact</a>
+      
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <button class="cookie-settings-link" type="button" data-cookie-settings>Cookie settings</button>
       </div>
 
       <div>
@@ -1496,39 +1493,6 @@
       </div>
     </div>
   </footer>
-
-  <script>
-    const menuButton = document.querySelector(".menu-button");
-    const navigation = document.querySelector(".nav-links");
-
-    menuButton.addEventListener("click", () => {
-      const isOpen = navigation.classList.toggle("open");
-
-      menuButton.setAttribute(
-        "aria-expanded",
-        String(isOpen)
-      );
-    });
-
-    navigation.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        navigation.classList.remove("open");
-        menuButton.setAttribute("aria-expanded", "false");
-      });
-    });
-  </script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('a[href^="mailto:"]').forEach(function (link) {
-      link.addEventListener("click", function () {
-        gtag("event", "contact_click", {
-          link_url: link.href,
-          page_path: window.location.pathname,
-          transport_type: "beacon"
-        });
-      });
-    });
-  });
-</script>
+  <script src="site.js" defer></script>
 </body>
 </html>

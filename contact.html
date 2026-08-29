@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8D2Z5HRSR5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-8D2Z5HRSR5');
-  </script>
   <meta charset="UTF-8">
 
   <meta
@@ -1191,7 +1183,24 @@
               Fields marked with an asterisk are required.
             </p>
 
-            <form id="enquiry-form-fields">
+            <form
+              id="enquiry-form-fields"
+              action="https://formsubmit.co/arijasadmaths@gmail.com"
+              method="POST"
+              accept-charset="UTF-8"
+            >
+              <input type="hidden" name="_subject" value="New tuition enquiry from maths.arijasad.com">
+              <input type="hidden" name="_next" value="https://maths.arijasad.com/thank-you.html">
+              <input type="hidden" name="_template" value="table">
+              <input
+                type="hidden"
+                name="_autoresponse"
+                value="Thank you for your tuition enquiry. I have received your message and will respond as soon as I can. Best wishes, Arij Asad"
+              >
+              <div class="form-honeypot" aria-hidden="true">
+                <label for="website">Leave this field empty</label>
+                <input id="website" type="text" name="_honey" tabindex="-1" autocomplete="off">
+              </div>
               <div class="form-grid">
 
                 <div class="form-group">
@@ -1215,7 +1224,7 @@
 
                   <input
                     id="student-name"
-                    name="student-name"
+                    name="student_name"
                     type="text"
                   >
                 </div>
@@ -1372,7 +1381,7 @@
                   class="button button-primary"
                   type="submit"
                 >
-                  Prepare enquiry email
+                  Send enquiry
                 </button>
 
                 <button
@@ -1391,8 +1400,10 @@
               ></div>
 
               <p class="form-note">
-                This page does not store the information entered. The completed
-                message is transferred to your own email application.
+                Your enquiry is sent through FormSubmit to Arij’s inbox. If the
+                student is under 18, a parent or guardian should submit the form.
+                Please do not include sensitive personal information. See the
+                <a href="privacy.html">privacy notice</a>.
               </p>
             </form>
           </div>
@@ -1594,6 +1605,10 @@
         <a href="tmua.html">TMUA</a>
         <a href="step.html">STEP</a>
         <a href="interviews.html">Interviews</a>
+      
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <button class="cookie-settings-link" type="button" data-cookie-settings>Cookie settings</button>
       </div>
 
       <div>
@@ -1601,103 +1616,6 @@
       </div>
     </div>
   </footer>
-
-  <script>
-    const menuButton = document.querySelector(".menu-button");
-    const navigation = document.querySelector(".nav-links");
-
-    menuButton.addEventListener("click", () => {
-      const isOpen = navigation.classList.toggle("open");
-
-      menuButton.setAttribute(
-        "aria-expanded",
-        String(isOpen)
-      );
-    });
-
-    navigation.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        navigation.classList.remove("open");
-        menuButton.setAttribute("aria-expanded", "false");
-      });
-    });
-
-    const enquiryForm = document.querySelector("#enquiry-form-fields");
-    const copyButton = document.querySelector("#copy-email");
-    const copyStatus = document.querySelector("#copy-status");
-
-    enquiryForm.addEventListener("submit", (event) => {
-      event.preventDefault();
-
-      if (!enquiryForm.reportValidity()) {
-        return;
-      }
-
-      const name = document.querySelector("#name").value.trim();
-      const studentName =
-        document.querySelector("#student-name").value.trim();
-      const email = document.querySelector("#email").value.trim();
-      const service = document.querySelector("#service").value;
-      const level = document.querySelector("#level").value.trim();
-      const location = document.querySelector("#location").value.trim();
-      const frequency = document.querySelector("#frequency").value;
-      const deadline = document.querySelector("#deadline").value.trim();
-      const message = document.querySelector("#message").value.trim();
-
-      const subject = `${service} enquiry`;
-
-      const body = [
-        `Hello Arij,`,
-        ``,
-        `I would like to enquire about ${service}.`,
-        ``,
-        `Name: ${name}`,
-        `Student's name: ${studentName || "Not provided"}`,
-        `Reply email: ${email}`,
-        `Year group or current level: ${level || "Not provided"}`,
-        `Location or time zone: ${location || "Not provided"}`,
-        `Preferred lesson frequency: ${frequency}`,
-        `Relevant examination or deadline: ${deadline || "Not provided"}`,
-        ``,
-        `Current preparation and goals:`,
-        message,
-        ``,
-        `Best wishes,`,
-        name
-      ].join("\n");
-
-      const mailtoLink =
-        `mailto:arijasadmaths@gmail.com` +
-        `?subject=${encodeURIComponent(subject)}` +
-        `&body=${encodeURIComponent(body)}`;
-
-      window.location.href = mailtoLink;
-    });
-
-    copyButton.addEventListener("click", async () => {
-      const emailAddress = "arijasadmaths@gmail.com";
-
-      try {
-        await navigator.clipboard.writeText(emailAddress);
-        copyStatus.textContent = "Email address copied.";
-      } catch (error) {
-        copyStatus.textContent =
-          `Please copy manually: ${emailAddress}`;
-      }
-    });
-  </script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('a[href^="mailto:"]').forEach(function (link) {
-      link.addEventListener("click", function () {
-        gtag("event", "contact_click", {
-          link_url: link.href,
-          page_path: window.location.pathname,
-          transport_type: "beacon"
-        });
-      });
-    });
-  });
-</script>
+  <script src="site.js" defer></script>
 </body>
 </html>
