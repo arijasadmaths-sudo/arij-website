@@ -31,6 +31,19 @@ if (copyButton && copyStatus) {
   });
 }
 
+const serviceSelect = document.querySelector("#service");
+
+if (serviceSelect) {
+  const requestedService = new URLSearchParams(window.location.search).get("service");
+  const matchingOption = Array.from(serviceSelect.options).find(
+    (option) => option.textContent.trim() === requestedService
+  );
+
+  if (matchingOption) {
+    serviceSelect.value = matchingOption.value;
+  }
+}
+
 (() => {
   const consentKey = "arij_maths_analytics_consent";
   const analyticsId = "G-8D2Z5HRSR5";

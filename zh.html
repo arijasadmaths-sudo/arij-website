@@ -46,7 +46,7 @@
       --charcoal: #1b1b1b;
       --cream: #f7f5f0;
       --white: #ffffff;
-      --gold: #b48a3c;
+      --gold: #72531c;
       --gold-light: #ead9b6;
       --text: #1c1c1c;
       --muted: #656565;
@@ -79,6 +79,21 @@
 
     a {
       color: inherit;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 2000;
+      padding: 10px 14px;
+      background: var(--black);
+      color: var(--white);
+      transform: translateY(-160%);
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
     }
 
     button {
@@ -1033,6 +1048,7 @@
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
 
   <header class="site-header">
     <div class="container nav">
@@ -1060,14 +1076,14 @@
         <a href="#experience">专业经历</a>
         <a href="#feedback">学生评价</a>
         <a href="resources.html">备考资源</a>
-        <a class="language-link" href="index.html">English</a>
+        <a class="language-link" href="/" hreflang="en-GB" lang="en">English</a>
         <a class="nav-contact" href="#contact">咨询课程</a>
       </nav>
 
     </div>
   </header>
 
-  <main>
+  <main id="main-content">
 
     <section class="hero">
       <div class="container hero-grid">
@@ -1146,7 +1162,7 @@
         </div>
 
         <div class="trust-item">
-          <span class="trust-value">7 年</span>
+          <span class="trust-value">7+ 年</span>
           <span class="trust-label">一对一辅导经验</span>
         </div>
 
@@ -1464,7 +1480,7 @@
 
         <div class="testimonial-grid">
 
-          <article class="testimonial-card">
+          <div class="testimonial-card">
             <div class="testimonial-mark" aria-hidden="true">
               “
             </div>
@@ -1475,9 +1491,9 @@
             </blockquote>
 
             <cite>STEP 夏校学生</cite>
-          </article>
+          </div>
 
-          <article class="testimonial-card">
+          <div class="testimonial-card">
             <div class="testimonial-mark" aria-hidden="true">
               “
             </div>
@@ -1488,9 +1504,9 @@
             </blockquote>
 
             <cite>STEP 学生</cite>
-          </article>
+          </div>
 
-          <article class="testimonial-card">
+          <div class="testimonial-card">
             <div class="testimonial-mark" aria-hidden="true">
               “
             </div>
@@ -1502,7 +1518,7 @@
             </blockquote>
 
             <cite>STEP 学生</cite>
-          </article>
+          </div>
 
         </div>
       </div>
@@ -1614,7 +1630,7 @@
         <a href="#services">课程服务</a>
         <a href="#experience">专业经历</a>
         <a href="#feedback">学生评价</a>
-        <a href="index.html">English</a>
+        <a href="/" hreflang="en-GB" lang="en">English</a>
         <a href="mailto:arijasadmaths@gmail.com">联系</a>
       
         <a href="privacy.html">隐私</a>
