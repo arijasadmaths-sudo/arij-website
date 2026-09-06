@@ -793,6 +793,22 @@ body:not(.resource-page) .nav-links {
 }
 
 
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
+.profile-links a {
+  color: #72531c;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* Privacy, policies and cookie controls */
 
 .cookie-settings-link {
