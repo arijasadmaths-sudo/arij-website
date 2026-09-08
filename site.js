@@ -155,18 +155,33 @@ if (serviceSelect) {
   const showBanner = () => {
     closeBanner();
 
+    const isChinese = document.documentElement.lang.toLowerCase().startsWith("zh");
+    const copy = isChinese ? {
+      title: "选择 Cookie 设置",
+      description: "本网站使用必要的浏览器存储功能，并且仅在获得您的同意后，使用 Google Analytics 了解哪些页面对访客有帮助。",
+      privacy: "阅读隐私声明（英文）",
+      reject: "拒绝分析 Cookie",
+      accept: "接受分析 Cookie"
+    } : {
+      title: "Choose your cookie settings",
+      description: "This site uses essential browser storage and, only with your permission, Google Analytics to understand which pages are useful.",
+      privacy: "Read the privacy notice",
+      reject: "Reject analytics",
+      accept: "Accept analytics"
+    };
     const banner = document.createElement("section");
     banner.className = "cookie-banner";
+    banner.lang = isChinese ? "zh-CN" : "en-GB";
     banner.setAttribute("role", "region");
     banner.setAttribute("aria-labelledby", "cookie-banner-title");
     banner.innerHTML = `
       <div class="cookie-banner__copy">
-        <strong id="cookie-banner-title" tabindex="-1">Choose your cookie settings</strong>
-        <p>This site uses essential browser storage and, only with your permission, Google Analytics to understand which pages are useful. <a href="privacy.html">Read the privacy notice</a>.</p>
+        <strong id="cookie-banner-title" tabindex="-1">${copy.title}</strong>
+        <p>${copy.description} <a href="privacy.html" hreflang="en">${copy.privacy}</a>${isChinese ? "。" : "."}</p>
       </div>
       <div class="cookie-banner__actions">
-        <button class="cookie-button cookie-button--secondary" type="button" data-cookie-reject>Reject analytics</button>
-        <button class="cookie-button cookie-button--primary" type="button" data-cookie-accept>Accept analytics</button>
+        <button class="cookie-button cookie-button--secondary" type="button" data-cookie-reject>${copy.reject}</button>
+        <button class="cookie-button cookie-button--primary" type="button" data-cookie-accept>${copy.accept}</button>
       </div>
     `;
 

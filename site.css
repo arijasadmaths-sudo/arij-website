@@ -267,6 +267,10 @@ body:not(.resource-page) .nav-links {
   max-width: 850px;
 }
 
+.contact-box .eyebrow {
+  color: #ead9b6;
+}
+
 .resource-page .eyebrow {
   display: inline-flex;
   align-items: center;
@@ -333,6 +337,11 @@ body:not(.resource-page) .nav-links {
 .resource-section--dark h2,
 .resource-section--dark h3 {
   color: var(--white);
+}
+
+.resource-page .resource-section--dark .eyebrow,
+.resource-page .resource-section--dark h2 span {
+  color: var(--gold-light);
 }
 
 .resource-heading {
@@ -495,7 +504,7 @@ body:not(.resource-page) .nav-links {
 .resource-button:hover,
 .resource-button:focus-visible {
   background: var(--gold);
-  color: var(--black) !important;
+  color: #fff !important;
 }
 
 .article-hero {
