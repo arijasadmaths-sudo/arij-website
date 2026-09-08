@@ -126,8 +126,10 @@ body:not(.resource-page) .nav-links {
 }
 
 .guidance-actions .button {
+  min-width: 0;
+  max-width: 100%;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 /* Shared resources and article pages */
@@ -267,6 +269,7 @@ body:not(.resource-page) .nav-links {
   max-width: 850px;
 }
 
+.section-dark .eyebrow,
 .contact-box .eyebrow {
   color: #ead9b6;
 }
@@ -491,14 +494,17 @@ body:not(.resource-page) .nav-links {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  min-width: 0;
+  max-width: 100%;
   min-height: 50px;
   padding: 13px 22px;
   border-radius: 10px;
   background: var(--black);
   color: var(--white) !important;
   font-weight: 800;
+  text-align: center;
   text-decoration: none;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .resource-button:hover,
@@ -720,6 +726,9 @@ body:not(.resource-page) .nav-links {
     right: 20px;
     left: 20px;
     display: none;
+    max-height: calc(100vh - 90px);
+    max-height: calc(100dvh - 90px);
+    overflow-y: auto;
     flex-direction: column;
     align-items: stretch;
     gap: 0;
@@ -735,6 +744,7 @@ body:not(.resource-page) .nav-links {
   }
 
   .resource-page .nav-links a {
+    flex-shrink: 0;
     padding: 11px 12px;
   }
 
@@ -760,6 +770,19 @@ body:not(.resource-page) .nav-links {
   body:not(.resource-page) .nav-contact {
     padding-right: 12px;
     padding-left: 12px;
+  }
+}
+
+@media (max-width: 760px) {
+  body:not(.resource-page) .nav-links.open {
+    max-height: calc(100vh - 82px);
+    max-height: calc(100dvh - 82px);
+    gap: 2px;
+    overflow-y: auto;
+  }
+
+  body:not(.resource-page) .nav-links.open a {
+    flex-shrink: 0;
   }
 }
 
