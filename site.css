@@ -19,60 +19,6 @@ img {
   max-width: 100%;
 }
 
-/* The full plume logo accompanies a readable text name in the compact header. */
-.nav .brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  line-height: 1.15;
-}
-
-.nav .brand-logo {
-  width: 56px;
-  height: 49px;
-  flex: 0 0 56px;
-}
-
-.nav .brand .brand-label {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  color: var(--black);
-  font-size: 20px;
-  white-space: nowrap;
-}
-
-.nav .brand .brand-label > span {
-  color: var(--gold);
-  font-size: 14px;
-  line-height: 1.15;
-}
-
-.footer-logo {
-  display: block;
-  width: 176px;
-  max-width: 100%;
-  margin-bottom: 14px;
-}
-
-.footer-logo img {
-  width: 100%;
-  height: auto;
-}
-
-.brand:focus-visible,
-.footer-logo:focus-visible {
-  outline: 3px solid var(--gold);
-  outline-offset: 5px;
-}
-
-@media (max-width: 400px) {
-  .site-header .nav { gap: 12px; }
-  .nav .brand { gap: 8px; }
-  .nav .brand .brand-label { font-size: 18px; }
-}
-
 body:not(.resource-page) .nav-links {
   gap: 18px;
 }
