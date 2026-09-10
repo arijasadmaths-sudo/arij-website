@@ -85,12 +85,18 @@ def row_html(row, exam):
         variant += (' · ' if variant else '') + row['session']
     label = row.get('label') or str(year)
     context = row.get('exam', LABELS[exam]) + ' ' + label + (' ' + variant if variant else '')
+    paper_context = context + (' by ' + row['creator'] if row.get('creator') else '')
+    answer_context = context + (' — ' + row['creator'] + ' collection' if row.get('creator') else '')
     links = row.get('papers', [])
     papers = [x for x in links if x.get('kind') == 'paper']
     answers = [x for x in links if x.get('kind') != 'paper']
     answers.sort(key=lambda x: {'extended-solutions': 0, 'solutions': 1, 'answers': 2}.get(x.get('kind'), 3))
-    paper_content = ''.join(file_link(x, context) for x in papers) or '<span class="unavailable">Paper not located</span>'
-    answer_content = ''.join(file_link(x, context) for x in answers) or '<span class="unavailable">Solutions not located</span>'
+    paper_content = ''.join(file_link(x, paper_context) for x in papers) or '<span class="unavailable">Paper not located</span>'
+    answer_content = ''.join(file_link(x, answer_context) for x in answers) or '<span class="unavailable">Solutions not located</span>'
+    if row.get('creator'):
+        paper_content += '<span class="source-note">Paper by <strong>' + e(row['creator']) + '</strong></span>'
+        if answers:
+            answer_content += '<span class="source-note">Answer key supplied with the ' + e(row['creator']) + ' collection.</span>'
     if row.get('questionVideos'):
         videos = ''.join(f'<a href="{e(v["url"])}">{e(v["label"])}</a>' for v in row['questionVideos'])
         answer_content += '<details class="question-videos"><summary>Videos by question</summary><div>' + videos + '</div></details>'
@@ -147,7 +153,7 @@ def render(data):
         jumps += '<a href="#ahsme">AHSME: 1950–1999</a>'
     for collection in data.get('community', []):
         c_id = collection.get('id') or re.sub(r'[^a-z0-9]+', '-', collection['title'].lower()).strip('-')
-        jumps += f'<a href="#{e(c_id)}">{e(collection["title"].replace(" — supplied collection", ""))}</a>'
+        jumps += f'<a href="#{e(c_id)}">{e(collection.get("navLabel", collection["title"].replace(" — supplied collection", "")))}</a>'
     for section in data.get('linkSections', []):
         jumps += f'<a href="#{e(section["id"])}">{e(section["title"])}</a>'
     sections = []
@@ -165,6 +171,8 @@ def render(data):
         for collection in data['community']:
             c_id = collection.get('id') or re.sub(r'[^a-z0-9]+', '-', collection['title'].lower()).strip('-')
             communities.append(f'<section class="archive-section" id="{e(c_id)}"><h2>{e(collection["title"])}</h2>')
+            if collection.get('credit'):
+                communities.append('<p class="community-description"><strong>' + e(collection['credit']) + '</strong></p>')
             if collection.get('description'):
                 communities.append('<p class="community-description">' + e(collection['description']) + '</p>')
             communities.append(table(collection['rows'], exam, collection['title']) + '</section>')
@@ -179,6 +187,9 @@ def render(data):
               'url':ORIGIN + path,'description':description,'dateModified':CHECKED,
               'author':{'@type':'Person','@id':ORIGIN+'about.html#arij-asad','name':'Arij Asad'},
               'isPartOf':{'@type':'WebSite','name':'Arij Asad Maths','url':ORIGIN}}
+    if data.get('community'):
+        schema['editor'] = schema.pop('author')
+    source_note = data.get('sourceNote', 'Resources open on their original websites unless labelled as a supplied collection. Papers and solutions remain the work of their respective authors. Missing papers or thresholds are marked explicitly.')
     intro = data.get('intro') or 'Question papers, solutions and historical thresholds, together in one place. Choose the year and paper you are practising.'
     return f'''<!DOCTYPE html>
 <html lang="en-GB">
@@ -215,7 +226,7 @@ def render(data):
       {''.join(sections)}
       {''.join(communities)}
       <aside class="archive-sources"><h2>Sources &amp; archive notes</h2><ul>{sources}</ul>
-      <p class="source-note">Resources open on their original websites unless labelled as a supplied collection. Papers and solutions remain the work of their respective authors. Missing papers or thresholds are marked explicitly.</p></aside>
+      <p class="source-note">{e(source_note)}</p></aside>
       <div class="archive-bottom"><p><a href="{hub}">Back to {e(hub_label.lower())}</a></p><a class="resource-button" href="contact.html?service={'TMUA%20preparation' if exam == 'tmua' else 'Maths%20challenges%20and%20Olympiads'}#enquiry-form">Enquire about {e(name)} tuition</a></div>
     </div>
   </main>

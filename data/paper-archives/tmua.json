@@ -1825,7 +1825,7 @@
       ]
     },
     {
-      "title": "Beyond Horizon — supplied collection",
+      "title": "Beyond Horizon — community papers",
       "description": "Set 1 includes both papers and a spreadsheet of answer keys.",
       "rows": [
         {
@@ -1847,7 +1847,8 @@
           "boundaries": {
             "note": "No score conversion supplied."
           },
-          "note": "Answer key only; no worked solutions supplied."
+          "note": "Answer key only; no worked solutions supplied.",
+          "creator": "Beyond Horizon"
         },
         {
           "year": "Set 1 · Paper 2",
@@ -1868,12 +1869,16 @@
           "boundaries": {
             "note": "No score conversion supplied."
           },
-          "note": "Answer key only; no worked solutions supplied."
+          "note": "Answer key only; no worked solutions supplied.",
+          "creator": "Beyond Horizon"
         }
-      ]
+      ],
+      "id": "beyond-horizon-supplied-collection",
+      "navLabel": "Beyond Horizon",
+      "credit": "Mock papers by Beyond Horizon."
     },
     {
-      "title": "Yotta — supplied collection",
+      "title": "Yotta — community papers",
       "description": "Two practice papers, with an answer key supplied for Paper 2.",
       "rows": [
         {
@@ -1890,7 +1895,8 @@
           "boundaries": {
             "note": "No score conversion supplied."
           },
-          "note": "No answer key or worked solutions supplied."
+          "note": "No answer key or worked solutions supplied.",
+          "creator": "Yotta"
         },
         {
           "year": "Yotta Paper 2",
@@ -1911,9 +1917,13 @@
           "boundaries": {
             "note": "No score conversion supplied."
           },
-          "note": "Answer key only; no worked solutions supplied."
+          "note": "Answer key only; no worked solutions supplied.",
+          "creator": "Yotta"
         }
-      ]
+      ],
+      "id": "yotta-supplied-collection",
+      "navLabel": "Yotta",
+      "credit": "Mock papers by Yotta."
     }
   ],
   "sources": [
@@ -2271,5 +2281,6 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceNote": "This archive is curated by Arij Asad. Papers and solutions remain the work of their credited creators. Links lead to the original publishers, except for the Beyond Horizon and Yotta community downloads hosted here. The original file contents and credits are preserved. Missing papers or thresholds are marked explicitly."
 }

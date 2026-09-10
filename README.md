@@ -23,3 +23,7 @@ Commit both the data and generated pages. The live site needs no Python, build s
 Keep answer keys distinct from worked or extended solutions. Use the exact year, round and sitting; historical formats and score scales can change. Leave missing resources explicit, and identify paid packs and community score estimates. TMUA's public official archive currently ends in 2023; do not label community mocks as official papers.
 
 External materials link to their original publishers. Six supplied Beyond Horizon and Yotta files are stored unchanged under `assets/community-papers/`. Update the catalogue's checked date and sitemap last-modified dates when making substantive changes.
+
+### Creator attribution
+
+Beyond Horizon and Yotta are third-party creators. Credit their mock papers prominently in the collection heading and beside the paper downloads. The covers name “Beyond Horizon” (singular) and “yotta”. The answer keys have no visible creator credit, so describe them as supplied with the corresponding collection without assigning authorship. Generic document metadata is not evidence of who wrote the papers or keys. Preserve the original file contents and existing credits; Arij Asad curates this archive. Retain these attribution fields when adding or regenerating resources.
