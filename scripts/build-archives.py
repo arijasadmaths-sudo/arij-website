@@ -43,6 +43,39 @@ def text(value):
     return str(value)
 
 
+def resource_types(item):
+    """Use reviewed types where supplied; older paper rows retain their kinds."""
+    if 'filterTypes' in item:
+        return set(item['filterTypes'])
+    kind = item.get('kind')
+    label = item.get('label', '').lower()
+    if kind == 'video' or re.search(r'video|youtu\.be|youtube\.com|vimeo\.com', label + ' ' + item.get('url', '')):
+        return {'videos'}
+    result = {'paper': {'papers'}, 'extended-solutions': {'written'},
+              'solutions': {'written'}, 'answers': {'answers'}}.get(kind, {'guides'})
+    if kind == 'paper' and ('answers' in label or 'answer review' in label):
+        result.add('answers')
+    return result
+
+
+def filter_attributes(year, types):
+    year = str(year) if isinstance(year, int) else 'undated'
+    return f'data-archive-entry data-year="{e(year)}" data-types="{e(" ".join(sorted(types)))}"'
+
+
+def filter_controls():
+    return '''<form class="archive-filters" id="archive-filters" aria-label="Filter archive resources" aria-describedby="archive-filter-help" hidden>
+      <div class="archive-filter-fields">
+        <label for="archive-year">Year<select id="archive-year" name="year"><option value="all" selected>All years</option></select></label>
+        <label for="archive-type">Entries with<select id="archive-type" name="type"><option value="all" selected>All resource types</option></select></label>
+        <button class="archive-filter-reset" type="button" data-clear-filters>Clear filters</button>
+      </div>
+      <p id="archive-filter-help">Choose a year and resource type. Matching entries keep their papers, solutions, credits and score information together.</p>
+      <p class="archive-filter-count" id="archive-filter-count" role="status" aria-live="polite" aria-atomic="true"></p>
+    </form>
+    <p class="archive-filter-empty" id="archive-filter-empty" hidden>No entries match these filters. Try another year or clear the filters.</p>'''
+
+
 def file_link(item, context):
     kind = item.get('kind', 'solutions')
     modifier = '--paper' if kind == 'paper' else '--extended' if kind == 'extended-solutions' else ''
@@ -121,6 +154,9 @@ def row_html(row, exam, overall_raw=False):
     paper_context = context + (' by ' + row['creator'] if row.get('creator') else '')
     answer_context = context + (' — ' + row['creator'] + ' collection' if row.get('creator') else '')
     links = row.get('papers', [])
+    types = set().union(*(resource_types(item) for item in links))
+    if row.get('questionVideos'):
+        types.add('videos')
     papers = [x for x in links if x.get('kind') == 'paper']
     answers = [x for x in links if x.get('kind') != 'paper']
     answers.sort(key=lambda x: {'extended-solutions': 0, 'solutions': 1, 'answers': 2}.get(x.get('kind'), 3))
@@ -145,7 +181,7 @@ def row_html(row, exam, overall_raw=False):
     if row.get('solutionNote'):
         answer_content += '<span class="source-note">' + e(row['solutionNote']) + '</span>'
     score_label = score_heading(exam, overall_raw)
-    return (f'<tr role="row"><th role="rowheader" scope="row">{e(label)}' + (f'<span class="year-variant">{e(variant)}</span>' if variant else '') + '</th>'
+    return (f'<tr role="row" {filter_attributes(year, types)}><th role="rowheader" scope="row">{e(label)}' + (f'<span class="year-variant">{e(variant)}</span>' if variant else '') + '</th>'
             + '<td role="cell" class="paper-cell" data-label="Question papers"><div class="file-links">' + paper_content + '</div></td>'
             + '<td role="cell" class="solutions-cell" data-label="Solutions and answers"><div class="file-links">' + answer_content + '</div></td>'
             + '<td role="cell" class="bounds-cell" data-label="' + score_label + '">' + boundary_cell(row, exam) + '</td></tr>')
@@ -218,18 +254,18 @@ def render(data):
         if not group.get('preserveOrder'):
             group_rows.sort(key=lambda r: (-(r['year'] if isinstance(r['year'], int) else 0), str(r.get('sortKey', r.get('variant', '')))))
         group_intro = '<p class="community-description">' + e(group['description']) + '</p>' if group.get('description') else ''
-        sections.append(f'<section class="archive-section" id="{e(group["id"])}"><h2>{e(group["title"])}</h2>' + group_intro
+        sections.append(f'<section class="archive-section" data-archive-group id="{e(group["id"])}"><h2>{e(group["title"])}</h2>' + group_intro
                         + table(group_rows, exam, name + ' papers and scores — ' + group['title']) + '</section>')
     notes = data.get('displayNotes', [])
     notes_html = '<aside class="archive-note">' + ''.join('<p>' + e(n) + '</p>' for n in notes) + '</aside>' if notes else ''
     communities = []
     if data.get('legacyYears'):
-        communities.append('<section class="archive-section" id="ahsme"><h2>Earlier papers: AHSME</h2><p class="community-description">The American High School Mathematics Examination preceded AMC 12. These papers date from 1950–1999 and use historical formats and scoring.</p>' + table(data['legacyYears'], exam, 'AHSME predecessor papers, 1950–1999') + '</section>')
+        communities.append('<section class="archive-section" data-archive-group id="ahsme"><h2>Earlier papers: AHSME</h2><p class="community-description">The American High School Mathematics Examination preceded AMC 12. These papers date from 1950–1999 and use historical formats and scoring.</p>' + table(data['legacyYears'], exam, 'AHSME predecessor papers, 1950–1999') + '</section>')
     if data.get('community'):
-        communities.append('<h2 class="community-heading" id="community-papers">Community <span>practice papers.</span></h2><p class="community-description">Independent practice material. These are not official TMUA papers; any suggested score conversions are the creator’s estimates.</p>')
+        communities.append('<h2 class="community-heading" data-community-heading id="community-papers">Community <span>practice papers.</span></h2><p class="community-description" data-community-heading>Independent practice material. These are not official TMUA papers; any suggested score conversions are the creator’s estimates.</p>')
         for collection in data['community']:
             c_id = collection.get('id') or re.sub(r'[^a-z0-9]+', '-', collection['title'].lower()).strip('-')
-            communities.append(f'<section class="archive-section" id="{e(c_id)}"><h2>{e(collection["title"])}</h2>')
+            communities.append(f'<section class="archive-section" data-archive-group data-community-group id="{e(c_id)}"><h2>{e(collection["title"])}</h2>')
             if collection.get('credit'):
                 communities.append('<p class="community-description"><strong>' + e(collection['credit']) + '</strong></p>')
             if collection.get('description'):
@@ -237,7 +273,7 @@ def render(data):
             communities.append(table(collection['rows'], exam, collection['title']) + '</section>')
     if data.get('linkSections'):
         for section in data['linkSections']:
-            communities.append('<section class="archive-section" id="' + e(section['id']) + '"><h2>' + e(section['title']) + '</h2>')
+            communities.append('<section class="archive-section" data-archive-group id="' + e(section['id']) + '"><h2>' + e(section['title']) + '</h2>')
             if section.get('description'):
                 communities.append('<p class="community-description">' + e(section['description']) + '</p>')
             if section.get('credit'):
@@ -245,7 +281,8 @@ def render(data):
             communities.append('<ul class="archive-link-grid">')
             for item in section['links']:
                 detail = '<span class="source-note">' + e(item['description']) + '</span>' if item.get('description') else ''
-                communities.append('<li><a href="' + e(item['url']) + '">' + e(item['label']) + '</a>' + detail + '</li>')
+                attrs = filter_attributes(item.get('filterYear'), resource_types(item))
+                communities.append('<li ' + attrs + '><a href="' + e(item['url']) + '">' + e(item['label']) + '</a>' + detail + '</li>')
             communities.append('</ul></section>')
     sources = ''.join(f'<li><a href="{e(s["url"])}">{e(s["label"])}</a></li>' for s in data.get('sources', []) + data.get('legacySources', []))
     schema = {'@context':'https://schema.org','@type':'CollectionPage','name':title.split(' | ')[0],
@@ -258,7 +295,7 @@ def render(data):
     intro = data.get('intro') or 'Question papers, solutions and historical thresholds, together in one place. Choose the year and paper you are practising.'
     service = {'tmua':'TMUA%20preparation', 'step':'STEP%20preparation', 'esat':'ESAT%20mathematics%20preparation'}.get(exam, 'Maths%20challenges%20and%20Olympiads')
     enquiry_label = 'ESAT maths' if exam == 'esat' else name
-    css_version = '20260910-guidance1'
+    css_version = '20260910-filters1'
     paper_heading = 'practice papers' if exam == 'esat' else 'past papers'
     curator = '<p class="archive-curator">Curated by <a href="about.html">Arij Asad</a>. Papers, worked solutions and videos are credited to their original creators.</p>' if exam == 'tmua' else ''
     return install_archive_navigation(f'''<!DOCTYPE html>
@@ -293,6 +330,11 @@ def render(data):
     <div class="container">
 {nav}
       {notes_html}
+      <aside class="archive-tuition" aria-label="{e(enquiry_label)} tuition packages">
+        <div><h2>Individual {e(enquiry_label)} tuition packages</h2><p>One-to-one online lessons, tailored problem sheets and structured practice between lessons, planned around your goals and the areas you need to strengthen.</p></div>
+        <a class="resource-button" href="contact.html?service={service}#enquiry-form">Discuss your tuition package</a>
+      </aside>
+      {filter_controls()}
       <nav class="archive-jumps" aria-label="Jump to archive sections"><strong>Jump to:</strong>{jumps}</nav>
       {''.join(sections)}
 {practice_guidance(exam)}
@@ -304,6 +346,7 @@ def render(data):
   </main>
 {footer}
   <script src="site.js" defer></script>
+  <script src="archive-filters.js?v=20260910-1" defer></script>
 </body>
 </html>
 ''', path)
