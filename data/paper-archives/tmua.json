@@ -6,7 +6,8 @@
   "intro": "Official papers and worked answers, followed by community mocks, topic worksheets and video solutions. Score information stays beside the matching paper.",
   "displayNotes": [
     "Official papers currently run from the 2016 practice papers to 2023, plus an early specimen. UAT-UK has not added 2024–2026 past papers to its public archive.",
-    "Historical raw-mark conversions use the older scale. Current TMUA results are scaled and do not have a universal pass mark; community mock conversions are estimates."
+    "Add your Paper 1 and Paper 2 marks for a total out of 40. The boxes show the minimum total needed for overall scores of 7+, 8+ and 9 in that year, with 5+ and 6+ underneath.",
+    "These are historical conversions on the pre-2024 scale. Current TMUA results use a different scale; community mock conversions are estimates."
   ],
   "years": [
     {
@@ -44,16 +45,59 @@
         "https://esat-tmua.ac.uk/tmua-preparation-materials/"
       ],
       "boundaries": {
-        "links": [
-          {
-            "label": "Score conversion (Vantage)",
-            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bced8fac5db3011ae859e6_TMUA%202023%20Score%20Conversion%20Tables.pdf",
-            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
-            "kind": "historical_score_conversion",
-            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
-          }
-        ],
-        "note": "Historical scale; not a current score prediction."
+        "overallRawThresholds": {
+          "5": 16,
+          "6": 19,
+          "7": 26,
+          "8": 34,
+          "9": 38
+        },
+        "maximumMark": 40,
+        "sourceUrl": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bced8fac5db3011ae859e6_TMUA%202023%20Score%20Conversion%20Tables.pdf",
+        "conversionBasis": "Minimum combined raw mark with a published overall score at or above the target.",
+        "overallScoreByRawMark": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.5,
+          1.9,
+          2.4,
+          2.8,
+          3.2,
+          3.5,
+          3.9,
+          4.2,
+          4.5,
+          4.8,
+          5.1,
+          5.4,
+          5.7,
+          6.0,
+          6.2,
+          6.5,
+          6.6,
+          6.7,
+          6.8,
+          6.9,
+          7.0,
+          7.1,
+          7.2,
+          7.3,
+          7.4,
+          7.6,
+          7.7,
+          7.8,
+          8.0,
+          8.2,
+          8.4,
+          8.6,
+          9.0,
+          9.0,
+          9.0
+        ]
       }
     },
     {
@@ -91,16 +135,59 @@
         "https://esat-tmua.ac.uk/tmua-preparation-materials/"
       ],
       "boundaries": {
-        "links": [
-          {
-            "label": "Score conversion (Vantage)",
-            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcedc292985ef20e53c497_TMUA%202022%20Score%20Conversion%20Table.pdf",
-            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
-            "kind": "historical_score_conversion",
-            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
-          }
-        ],
-        "note": "Historical scale; not a current score prediction."
+        "overallRawThresholds": {
+          "5": 17,
+          "6": 21,
+          "7": 27,
+          "8": 34,
+          "9": 38
+        },
+        "maximumMark": 40,
+        "sourceUrl": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcedc292985ef20e53c497_TMUA%202022%20Score%20Conversion%20Table.pdf",
+        "conversionBasis": "Minimum combined raw mark with a published overall score at or above the target.",
+        "overallScoreByRawMark": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.2,
+          1.6,
+          2.1,
+          2.5,
+          2.9,
+          3.2,
+          3.6,
+          3.9,
+          4.2,
+          4.5,
+          4.8,
+          5.1,
+          5.4,
+          5.7,
+          5.9,
+          6.2,
+          6.5,
+          6.6,
+          6.7,
+          6.8,
+          6.9,
+          7.0,
+          7.1,
+          7.2,
+          7.4,
+          7.5,
+          7.6,
+          7.8,
+          8.0,
+          8.1,
+          8.4,
+          8.6,
+          9.0,
+          9.0,
+          9.0
+        ]
       }
     },
     {
@@ -138,16 +225,59 @@
         "https://esat-tmua.ac.uk/tmua-preparation-materials/"
       ],
       "boundaries": {
-        "links": [
-          {
-            "label": "Score conversion (Vantage)",
-            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bceddcdc04933c0a32ca04_TMUA%202021%20Score%20Conversion%20Table.pdf",
-            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
-            "kind": "historical_score_conversion",
-            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
-          }
-        ],
-        "note": "Historical scale; not a current score prediction."
+        "overallRawThresholds": {
+          "5": 19,
+          "6": 23,
+          "7": 28,
+          "8": 35,
+          "9": 38
+        },
+        "maximumMark": 40,
+        "sourceUrl": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bceddcdc04933c0a32ca04_TMUA%202021%20Score%20Conversion%20Table.pdf",
+        "conversionBasis": "Minimum combined raw mark with a published overall score at or above the target.",
+        "overallScoreByRawMark": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.1,
+          1.5,
+          1.9,
+          2.3,
+          2.6,
+          3.0,
+          3.3,
+          3.6,
+          3.9,
+          4.2,
+          4.5,
+          4.8,
+          5.1,
+          5.4,
+          5.6,
+          5.9,
+          6.2,
+          6.5,
+          6.6,
+          6.7,
+          6.8,
+          7.0,
+          7.1,
+          7.2,
+          7.4,
+          7.5,
+          7.7,
+          7.9,
+          8.1,
+          8.3,
+          8.6,
+          9.0,
+          9.0,
+          9.0
+        ]
       }
     },
     {
@@ -185,16 +315,59 @@
         "https://esat-tmua.ac.uk/tmua-preparation-materials/"
       ],
       "boundaries": {
-        "links": [
-          {
-            "label": "Score conversion (Vantage)",
-            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcedf38f40137e229e9c94_TMUA%202020%20Score%20Conversion%20Table.pdf",
-            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
-            "kind": "historical_score_conversion",
-            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
-          }
-        ],
-        "note": "Historical scale; not a current score prediction."
+        "overallRawThresholds": {
+          "5": 19,
+          "6": 23,
+          "7": 28,
+          "8": 35,
+          "9": 38
+        },
+        "maximumMark": 40,
+        "sourceUrl": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcedf38f40137e229e9c94_TMUA%202020%20Score%20Conversion%20Table.pdf",
+        "conversionBasis": "Minimum combined raw mark with a published overall score at or above the target.",
+        "overallScoreByRawMark": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.4,
+          1.8,
+          2.2,
+          2.6,
+          2.9,
+          3.3,
+          3.6,
+          3.9,
+          4.2,
+          4.5,
+          4.8,
+          5.1,
+          5.3,
+          5.6,
+          5.9,
+          6.2,
+          6.5,
+          6.6,
+          6.7,
+          6.8,
+          7.0,
+          7.1,
+          7.2,
+          7.4,
+          7.5,
+          7.7,
+          7.8,
+          8.1,
+          8.3,
+          8.6,
+          9.0,
+          9.0,
+          9.0
+        ]
       }
     },
     {
@@ -232,16 +405,59 @@
         "https://esat-tmua.ac.uk/tmua-preparation-materials/"
       ],
       "boundaries": {
-        "links": [
-          {
-            "label": "Score conversion (Vantage)",
-            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee1103339308260e1803_TMUA%202019%20Score%20Conversion%20Table.pdf",
-            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
-            "kind": "historical_score_conversion",
-            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
-          }
-        ],
-        "note": "Historical scale; not a current score prediction."
+        "overallRawThresholds": {
+          "5": 19,
+          "6": 23,
+          "7": 28,
+          "8": 35,
+          "9": 38
+        },
+        "maximumMark": 40,
+        "sourceUrl": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee1103339308260e1803_TMUA%202019%20Score%20Conversion%20Table.pdf",
+        "conversionBasis": "Minimum combined raw mark with a published overall score at or above the target.",
+        "overallScoreByRawMark": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.1,
+          1.5,
+          1.9,
+          2.3,
+          2.6,
+          3.0,
+          3.3,
+          3.6,
+          3.9,
+          4.2,
+          4.5,
+          4.8,
+          5.1,
+          5.4,
+          5.7,
+          5.9,
+          6.2,
+          6.5,
+          6.6,
+          6.7,
+          6.8,
+          7.0,
+          7.1,
+          7.2,
+          7.4,
+          7.5,
+          7.7,
+          7.9,
+          8.1,
+          8.3,
+          8.6,
+          9.0,
+          9.0,
+          9.0
+        ]
       }
     },
     {
@@ -279,16 +495,59 @@
         "https://esat-tmua.ac.uk/tmua-preparation-materials/"
       ],
       "boundaries": {
-        "links": [
-          {
-            "label": "Score conversion (Vantage)",
-            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee291197dae3638805cc_TMUA%202018%20Score%20Conversion%20Table.pdf",
-            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
-            "kind": "historical_score_conversion",
-            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
-          }
-        ],
-        "note": "Historical scale; not a current score prediction."
+        "overallRawThresholds": {
+          "5": 19,
+          "6": 23,
+          "7": 26,
+          "8": 29,
+          "9": 32
+        },
+        "maximumMark": 40,
+        "sourceUrl": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee291197dae3638805cc_TMUA%202018%20Score%20Conversion%20Table.pdf",
+        "conversionBasis": "Minimum combined raw mark with a published overall score at or above the target.",
+        "overallScoreByRawMark": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.5,
+          1.9,
+          2.3,
+          2.6,
+          3.0,
+          3.3,
+          3.6,
+          3.9,
+          4.2,
+          4.5,
+          4.8,
+          5.1,
+          5.4,
+          5.6,
+          5.9,
+          6.2,
+          6.5,
+          6.8,
+          7.1,
+          7.4,
+          7.7,
+          8.0,
+          8.4,
+          8.8,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ]
       }
     },
     {
@@ -326,16 +585,59 @@
         "https://esat-tmua.ac.uk/tmua-preparation-materials/"
       ],
       "boundaries": {
-        "links": [
-          {
-            "label": "Score conversion (Vantage)",
-            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee4f084c0843e646567d_TMUA%202017%20Score%20Conversion%20Table.pdf",
-            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
-            "kind": "historical_score_conversion",
-            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
-          }
-        ],
-        "note": "Historical scale; not a current score prediction."
+        "overallRawThresholds": {
+          "5": 19,
+          "6": 23,
+          "7": 26,
+          "8": 29,
+          "9": 32
+        },
+        "maximumMark": 40,
+        "sourceUrl": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee4f084c0843e646567d_TMUA%202017%20Score%20Conversion%20Table.pdf",
+        "conversionBasis": "Minimum combined raw mark with a published overall score at or above the target.",
+        "overallScoreByRawMark": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.5,
+          1.9,
+          2.2,
+          2.6,
+          3.0,
+          3.3,
+          3.6,
+          3.9,
+          4.2,
+          4.5,
+          4.8,
+          5.1,
+          5.4,
+          5.6,
+          5.9,
+          6.2,
+          6.5,
+          6.8,
+          7.1,
+          7.4,
+          7.7,
+          8.0,
+          8.4,
+          8.8,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ]
       }
     },
     {
@@ -373,16 +675,59 @@
         "https://esat-tmua.ac.uk/tmua-preparation-materials/"
       ],
       "boundaries": {
-        "links": [
-          {
-            "label": "Score conversion (Vantage)",
-            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee889f3aad6e9027bdfd_TMUA%202016%20Score%20Conversion%20Table.pdf",
-            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
-            "kind": "historical_score_conversion",
-            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
-          }
-        ],
-        "note": "The UAT archive calls these 2016 papers; their covers identify them as practice papers. The linked Vantage score guide is separately attributed."
+        "overallRawThresholds": {
+          "5": 16,
+          "6": 19,
+          "7": 22,
+          "8": 25,
+          "9": 28
+        },
+        "maximumMark": 40,
+        "sourceUrl": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee889f3aad6e9027bdfd_TMUA%202016%20Score%20Conversion%20Table.pdf",
+        "conversionBasis": "Minimum combined raw mark with a published overall score at or above the target.",
+        "overallScoreByRawMark": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.6,
+          2.1,
+          2.6,
+          3.0,
+          3.4,
+          3.8,
+          4.2,
+          4.5,
+          4.8,
+          5.2,
+          5.5,
+          5.8,
+          6.1,
+          6.4,
+          6.7,
+          7.1,
+          7.4,
+          7.7,
+          8.0,
+          8.3,
+          8.7,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ]
       }
     },
     {
@@ -1898,10 +2243,6 @@
     {
       "label": "Current TMUA score guidance",
       "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/02/11111432/TMUA_Explanation_of_Results-October2025_and_January2026.pdf"
-    },
-    {
-      "label": "Historical score conversion tables via Vantage Admissions",
-      "url": "https://www.vantageadmissions.co.uk/resource/tmua-resources"
     },
     {
       "label": "JZ Maths resources",
