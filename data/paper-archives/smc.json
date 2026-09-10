@@ -370,12 +370,6 @@
       "variant": "",
       "papers": [
         {
-          "label": "Papers & solutions 2010–2014 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        },
-        {
           "label": "Extended solutions & investigations",
           "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2014-sol-extended.pdf",
           "kind": "extended-solutions"
@@ -394,18 +388,13 @@
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
         "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2014-sol-extended.pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2013,
       "variant": "",
       "papers": [
-        {
-          "label": "Papers & solutions 2010–2014 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        },
         {
           "label": "Extended solutions & investigations",
           "url": "https://ukmt.org.uk/wp-content/uploads/2024/04/SMC-2013-sol-extended.pdf",
@@ -425,18 +414,13 @@
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
         "https://ukmt.org.uk/wp-content/uploads/2024/04/SMC-2013-sol-extended.pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2012,
       "variant": "",
       "papers": [
-        {
-          "label": "Papers & solutions 2010–2014 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        },
         {
           "label": "Extended solutions (MyMathsCloud)",
           "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/senior-challenge/2012%20Extended%20Solutions.pdf?id=155735569",
@@ -456,18 +440,13 @@
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
         "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/senior-challenge/"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2011,
       "variant": "",
       "papers": [
-        {
-          "label": "Papers & solutions 2010–2014 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        },
         {
           "label": "Extended solutions (MyMathsCloud)",
           "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/senior-challenge/2011%20Extended%20Solutions.pdf?id=155735565",
@@ -487,18 +466,13 @@
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
         "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/senior-challenge/"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2010,
       "variant": "",
       "papers": [
-        {
-          "label": "Papers & solutions 2010–2014 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        },
         {
           "label": "Extended solutions (MyMathsCloud)",
           "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/senior-challenge/2010%20Extended%20Solutions.pdf?id=155735553",
@@ -518,19 +492,13 @@
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
         "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/senior-challenge/"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2009,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 2005–2009 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "bronze": 54,
         "silver": 64,
@@ -543,19 +511,13 @@
         "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2008,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 2005–2009 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "bronze": 51,
         "silver": 61,
@@ -568,19 +530,13 @@
         "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2007,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 2005–2009 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "bronze": 52,
         "silver": 61,
@@ -593,19 +549,13 @@
         "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2006,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 2005–2009 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "bronze": 57,
         "silver": 66,
@@ -618,19 +568,13 @@
         "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2005,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 2005–2009 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "bronze": 60,
         "silver": 71,
@@ -643,19 +587,13 @@
         "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2004,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 1998–2004 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "bronze": 55,
         "silver": 66,
@@ -668,19 +606,13 @@
         "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2003,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 1998–2004 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "bronze": 61,
         "silver": 72,
@@ -693,19 +625,13 @@
         "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2002,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 1998–2004 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "bronze": 47,
         "silver": 57,
@@ -718,19 +644,13 @@
         "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2001,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 1998–2004 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "bronze": 56,
         "silver": 67,
@@ -743,64 +663,47 @@
         "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
         "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 2000,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 1998–2004 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "note": "Historical award thresholds not available in the linked source."
       },
       "sourceUrls": [
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 1999,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 1998–2004 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "note": "Historical award thresholds not available in the linked source."
       },
       "sourceUrls": [
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     },
     {
       "year": 1998,
       "variant": "",
-      "papers": [
-        {
-          "label": "Papers & solutions 1998–2004 (UKMT paid pack)",
-          "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf",
-          "kind": "paper",
-          "access": "paid"
-        }
-      ],
+      "papers": [],
       "boundaries": {
         "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
         "note": "Historical award thresholds not available in the linked source."
       },
       "sourceUrls": [
         "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
-      ]
+      ],
+      "paperUnavailable": "No free standalone paper located."
     }
   ],
   "sources": [

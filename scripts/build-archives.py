@@ -91,7 +91,7 @@ def row_html(row, exam):
     papers = [x for x in links if x.get('kind') == 'paper']
     answers = [x for x in links if x.get('kind') != 'paper']
     answers.sort(key=lambda x: {'extended-solutions': 0, 'solutions': 1, 'answers': 2}.get(x.get('kind'), 3))
-    paper_content = ''.join(file_link(x, paper_context) for x in papers) or '<span class="unavailable">Paper not located</span>'
+    paper_content = ''.join(file_link(x, paper_context) for x in papers) or '<span class="unavailable">' + e(row.get('paperUnavailable', 'Paper not located')) + '</span>'
     answer_content = ''.join(file_link(x, answer_context) for x in answers) or '<span class="unavailable">Solutions not located</span>'
     if row.get('creator'):
         paper_content += '<span class="source-note">Paper by <strong>' + e(row['creator']) + '</strong></span>'

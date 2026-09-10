@@ -22,6 +22,8 @@ Commit both the data and generated pages. The live site needs no Python, build s
 
 Keep answer keys distinct from worked or extended solutions. Use the exact year, round and sitting; historical formats and score scales can change. Leave missing resources explicit, and identify paid packs and community score estimates. TMUA's public official archive currently ends in 2023; do not label community mocks as official papers.
 
+Do not add buttons to general UKMT website pages or paid paper packs. Keep direct paper/solution resources and plain source citations. Mark years without a free standalone paper explicitly.
+
 External materials link to their original publishers. Six supplied Beyond Horizon and Yotta files are stored unchanged under `assets/community-papers/`. Update the catalogue's checked date and sitemap last-modified dates when making substantive changes.
 
 ### Creator attribution
