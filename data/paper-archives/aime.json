@@ -1,0 +1,2497 @@
+{
+  "exam": "aime",
+  "title": "AIME past papers, answers and worked solutions",
+  "years": [
+    {
+      "year": 2026,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2026I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2026I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2026I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2026I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2026,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2026II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2026II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2026II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2026II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2025,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2025I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2025I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2025I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2025I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2025,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2025II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2025II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2025II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2025II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2024,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2024I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2024I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2024I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2024I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2024,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2024II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2024II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2024II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2024II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2023,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2023I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2023I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2023I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2023I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2023,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2023II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2023II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2023II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2023II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2022,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2022I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2022I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2022I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2022I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2022,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2022II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2022II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2022II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2022II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2021,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2021I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2021I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2021I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2021I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2021,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2021II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2021II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2021II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2021II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2020,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2020I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2020I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2020I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2020I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2020,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2020II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2020II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2020II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2020II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      },
+      "note": "The 2020 AIME II questions were used for the American Online Invitational Mathematics Examination (AOIME)."
+    },
+    {
+      "year": 2019,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2019I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2019I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2019I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2019I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2019,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2019II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2019II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2019II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2019II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2018,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2018I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2018I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2018I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2018I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2018,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2018II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2018II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2018II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2018II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2017,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2017I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2017I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2017I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2017I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2017,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2017II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2017II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2017II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2017II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2016,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2016I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2016I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2016I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2016I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2016,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2016II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2016II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2016II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2016II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2015,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2015I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2015I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2015I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2015I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2015,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2015II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2015II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2015II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2015II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2014,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2014I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2014I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2014I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2014I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2014,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2014II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2014II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2014II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2014II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2013,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2013I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2013I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2013I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2013I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2013,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2013II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2013II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2013II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2013II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2012,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2012I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2012I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2012I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2012I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2012,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2012II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2012II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2012II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2012II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2011,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2011I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2011I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2011I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2011I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2011,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2011II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2011II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2011II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2011II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2010,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2010I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2010I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2010I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2010I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2010,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2010II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2010II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2010II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2010II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2009,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2009I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2009I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2009I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2009I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2009,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2009II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2009II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2009II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2009II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2008,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2008I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2008I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2008I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2008I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2008,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2008II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2008II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2008II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2008II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2007,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2007I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2007I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2007I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2007I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2007,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2007II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2007II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2007II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2007II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2006,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2006I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2006I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2006I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2006I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2006,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2006II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2006II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2006II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2006II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2005,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2005I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2005I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2005I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2005I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2005,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2005II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2005II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2005II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2005II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2004,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2004I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2004I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2004I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2004I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2004,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2004II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2004II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2004II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2004II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2003,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2003I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2003I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2003I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2003I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2003,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2003II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2003II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2003II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2003II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2002,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2002I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2002I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2002I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2002I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2002,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2002II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2002II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2002II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2002II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2001,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2001I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2001I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2001I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2001I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2001,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2001II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2001II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2001II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2001II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2000,
+      "variant": "I",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2000I-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2000I/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2000I/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2000I"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 2000,
+      "variant": "II",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2000II-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/2000II/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/2000II/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/2000II"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1999,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1999-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1999/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1999/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1999"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1998,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1998-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1998/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1998/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1998"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1997,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1997-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1997/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1997/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1997"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1996,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1996-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1996/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1996/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1996"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1995,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1995-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1995/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1995/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1995"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1994,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1994-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1994/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1994/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1994"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1993,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1993-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1993/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1993/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1993"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1992,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1992-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1992/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1992/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1992"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1991,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1991-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1991/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1991/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1991"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1990,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1990-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1990/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1990/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1990"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1989,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1989-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1989/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1989/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1989"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1988,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1988-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1988/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1988/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1988"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1987,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1987-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1987/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1987/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1987"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1986,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1986-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1986/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1986/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1986"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1985,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1985-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1985/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1985/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1985"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1984,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1984-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1984/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1984/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1984"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    },
+    {
+      "year": 1983,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1983-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/aime/1983/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/aime/1983/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "No standalone qualifying cutoff.",
+        "sourceUrl": "https://maa.org/maa-invitational-competitions/",
+        "linkLabel": "Selection and eligibility guidance"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/aime/1983"
+      ],
+      "verification": {
+        "sourceStatus": 200,
+        "resourceLinksExtracted": true,
+        "solutionMarkers": 16
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://live.poshenloh.com/past-contests",
+      "label": "LIVE by Po-Shen Loh: MAA-authorised past papers and original worked solutions"
+    },
+    {
+      "url": "https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions",
+      "label": "Art of Problem Solving: AIME problems and solutions archive"
+    },
+    {
+      "url": "https://maa.org/maa-invitational-competitions/",
+      "label": "MAA: AIME and USA(J)MO qualification policies"
+    }
+  ],
+  "notes": [
+    "The archive covers every year from the first AIME in 1983 through 2026; I and II were introduced in 2000.",
+    "Paper PDFs are hosted by LIVE by Po-Shen Loh with MAA permission. The worked solutions and answer keys are external resources, not written by Arij Asad.",
+    "AIME does not use UKMT-style bronze, silver and gold award boundaries. For papers up to 2026, the standard AMC route to USA(J)MO used a combined index rather than one fixed AIME pass mark.",
+    "For 2027, the MAA has changed the format to two 90-minute parts at testing centres, removed the separate I/II administration dates and changed USA(J)MO selection to be primarily based on AIME scores. Check the current MAA rules rather than applying historical combined-index rules to future entry."
+  ],
+  "verification": {
+    "checkedAt": "2026-09-10",
+    "indexStatus": 200,
+    "yearPagesChecked": 71,
+    "failed": [],
+    "method": "Exact year links extracted from the live archive index; paper, solution and answer URLs extracted from each live year page. Representative PDF, solution and answer endpoints checked separately.",
+    "aopsAccess": "AoPS wiki returned HTTP403 during automated retrieval. Primary row links use the fully retrieved LIVE archive instead.",
+    "representativeEndpoints": [
+      {
+        "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1983-exam.pdf",
+        "result": "Fetched as PDF, 6 pages"
+      },
+      {
+        "url": "https://live.poshenloh.com/past-contests/aime/1983/answers",
+        "result": "Fetched answer-key HTML"
+      },
+      {
+        "url": "https://live.poshenloh.com/past-contests/aime/1983/solutions",
+        "result": "Fetched full worked solutions"
+      },
+      {
+        "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-1983-solutions.pdf",
+        "result": "Fetched as PDF, 15 pages"
+      },
+      {
+        "url": "https://live.poshenloh.com/past-contests/aime/2000I/solutions",
+        "result": "Fetched full worked solutions"
+      },
+      {
+        "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2026I-exam.pdf",
+        "result": "Fetched as PDF, 6 pages"
+      },
+      {
+        "url": "https://live.poshenloh.com/past-contests/aime/2026I/solutions",
+        "result": "Fetched full worked solutions"
+      },
+      {
+        "url": "https://live.poshenloh.com/images/past-contests/pdf/aime-2026II-exam.pdf",
+        "result": "Fetched as PDF, 6 pages"
+      },
+      {
+        "url": "https://live.poshenloh.com/past-contests/aime/2026II/solutions",
+        "result": "Fetched full worked solutions"
+      },
+      {
+        "url": "https://live.poshenloh.com/past-contests/aime/2026II/answers",
+        "result": "Fetched answer-key HTML"
+      }
+    ]
+  },
+  "displayNotes": [
+    "1983–1999 had a single paper; 2000–2026 have separate AIME I and II papers. The 2020 second sitting was the online AOIME.",
+    "AIME has no Bronze, Silver or Gold awards and no single standalone score that guarantees Olympiad selection. Historical selection rules should not be applied to upcoming exams."
+  ],
+  "pageTitle": "AIME Past Papers & Worked Solutions | Arij Asad",
+  "description": "AIME past papers, answer keys and detailed worked solutions from 1983 onwards, including AIME I and II, with historical qualification guidance."
+}

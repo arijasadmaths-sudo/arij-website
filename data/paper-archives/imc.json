@@ -1,0 +1,1167 @@
+{
+  "exam": "imc",
+  "title": "Intermediate Mathematical Challenge",
+  "years": [
+    {
+      "year": 2026,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2026/01/IMC_Paper_2026.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2026/01/IMC__2026_Solutions_and_Investigations__web_version_.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2026/01/IMC_Solutions_2026.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 61,
+        "silver": 46,
+        "bronze": 35,
+        "qualification": {
+          "Grey Kangaroo": 61,
+          "Pink Kangaroo": 66,
+          "Cayley Olympiad": 86,
+          "Hamilton Olympiad": 93,
+          "Maclaurin Olympiad": 98
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2025,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2025/01/IMC-2025-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2025/01/IMC-2024-Solutions-and-Investigations.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2025/01/IMC-2025-Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 72,
+        "silver": 52,
+        "bronze": 37,
+        "qualification": {
+          "Grey Kangaroo": 72,
+          "Pink Kangaroo": 82,
+          "Cayley Olympiad": 105,
+          "Hamilton Olympiad": 110,
+          "Maclaurin Olympiad": 116
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": "These thresholds apply to the main IMC paper. Mathsaurus reports separate China/ASEEDER 2025 thresholds: Bronze 54, Silver 69, Gold 89."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2024,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2024/02/IMC_2024-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2024/02/IMC-2024-Extended-Solutions.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2024/02/IMC-2024-Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 77,
+        "silver": 61,
+        "bronze": 47,
+        "qualification": {
+          "Grey Kangaroo": 72,
+          "Pink Kangaroo": 84,
+          "Cayley Olympiad": 101,
+          "Hamilton Olympiad": 106,
+          "Maclaurin Olympiad": 110
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2023,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/IMC_2023_Paper-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/11/IMC-2023-Extended-Solution.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/IMC-2023-Solutions-.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 71,
+        "silver": 55,
+        "bronze": 42,
+        "qualification": {
+          "Grey Kangaroo": 67,
+          "Pink Kangaroo": 77,
+          "Cayley Olympiad": 95,
+          "Hamilton Olympiad": 100,
+          "Maclaurin Olympiad": 103
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2022,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/IMC-2022-Paper-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/IMC-2022-Extended-Solutions-1.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/IMC_2022_Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 81,
+        "silver": 65,
+        "bronze": 50,
+        "qualification": {
+          "Grey Kangaroo": 65,
+          "Pink Kangaroo": 81,
+          "Cayley Olympiad": 101,
+          "Hamilton Olympiad": 111,
+          "Maclaurin Olympiad": 117
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2021,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/IMC-2021-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/IMC-2021-Extended-Solutions.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/IMC-2021-Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 86,
+        "silver": 68,
+        "bronze": 55,
+        "qualification": {
+          "Grey Kangaroo": 68,
+          "Pink Kangaroo": 86,
+          "Cayley Olympiad": 100,
+          "Hamilton Olympiad": 110,
+          "Maclaurin Olympiad": 118
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2020,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/IMC_2020_q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/IMC_2020_extended_.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/IMC_2020_s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 89,
+        "silver": 72,
+        "bronze": 60,
+        "qualification": {
+          "Grey Kangaroo": 80,
+          "Pink Kangaroo": 89,
+          "Cayley Olympiad": 110,
+          "Hamilton Olympiad": 117,
+          "Maclaurin Olympiad": 120
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2019,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2019-q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2019-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2019-s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 71,
+        "silver": 55,
+        "bronze": 43,
+        "qualification": {
+          "Grey Kangaroo": 65,
+          "Pink Kangaroo": 73,
+          "Cayley Olympiad": 91,
+          "Hamilton Olympiad": 99,
+          "Maclaurin Olympiad": 106
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2018,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2018-q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2018-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2018-s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 73,
+        "silver": 59,
+        "bronze": 48,
+        "qualification": {
+          "Grey Kangaroo": 68,
+          "Pink Kangaroo": 76,
+          "Cayley Olympiad": 93,
+          "Hamilton Olympiad": 100,
+          "Maclaurin Olympiad": 104
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2017,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2017-q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2017-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2017-s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 78,
+        "silver": 61,
+        "bronze": 47,
+        "qualification": {
+          "Grey Kangaroo": 72,
+          "Pink Kangaroo": 81,
+          "Cayley Olympiad": 97,
+          "Hamilton Olympiad": 106,
+          "Maclaurin Olympiad": 112
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2016,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2016-q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2016-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2016-s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 62,
+        "silver": 50,
+        "bronze": 40,
+        "qualification": {
+          "Grey Kangaroo": 60,
+          "Pink Kangaroo": 66,
+          "Cayley Olympiad": 81,
+          "Hamilton Olympiad": 89,
+          "Maclaurin Olympiad": 95
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2015,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2015-q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions and investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2015-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/imc-2015-s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 64,
+        "silver": 49,
+        "bronze": 37,
+        "qualification": {
+          "Grey Kangaroo": 61,
+          "Pink Kangaroo": 68,
+          "Cayley Olympiad": 81,
+          "Hamilton Olympiad": 88,
+          "Maclaurin Olympiad": 95
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2014,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2014%20Paper.pdf?id=162902899",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2014-paper"
+        },
+        {
+          "label": "Extended solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2014%20Extended%20Solutions.pdf?id=155278620",
+          "kind": "extended-solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2014-extended-solutions"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2014%20Short%20Solutions.pdf?id=162902912",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2014-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 72,
+        "silver": 55,
+        "bronze": 42,
+        "qualification": {
+          "Grey Kangaroo": 67,
+          "Pink Kangaroo": 78,
+          "Cayley Olympiad": 90,
+          "Hamilton Olympiad": 96,
+          "Maclaurin Olympiad": 103
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/free-past-papers/intermediate-mathematical-challenge-2014",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2013,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2013%20Paper.pdf?id=162902905",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2013-paper"
+        },
+        {
+          "label": "Extended solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2013%20Extended%20Solutions.pdf?id=155278627",
+          "kind": "extended-solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2013-extended-solutions"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2013%20Short%20Solutions.pdf?id=162902911",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2013-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 74,
+        "silver": 59,
+        "bronze": 47,
+        "qualification": {
+          "Grey Kangaroo": 73,
+          "Pink Kangaroo": 84,
+          "Cayley Olympiad": 88,
+          "Hamilton Olympiad": 96,
+          "Maclaurin Olympiad": 103
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2012,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2012%20Paper.pdf?id=162902907",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2012-paper"
+        },
+        {
+          "label": "Extended solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2012%20Extended%20Solutions.pdf?id=155278632",
+          "kind": "extended-solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2012-extended-solutions"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2012%20Short%20Solutions.pdf?id=162902908",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2012-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 77,
+        "silver": 62,
+        "bronze": 50,
+        "qualification": {
+          "Grey Kangaroo": 77,
+          "Pink Kangaroo": 87,
+          "Cayley Olympiad": 90,
+          "Hamilton Olympiad": 96,
+          "Maclaurin Olympiad": 101
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2011,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2011%20Paper.pdf?id=162902906",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2011-paper"
+        },
+        {
+          "label": "Extended solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2011%20Extended%20Solutions.pdf?id=155278618",
+          "kind": "extended-solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2011-extended-solutions"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2011%20Short%20Solutions.pdf?id=162902909",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2011-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 78,
+        "silver": 59,
+        "bronze": 47,
+        "qualification": {
+          "Grey Kangaroo": 77,
+          "Pink Kangaroo": 88,
+          "Cayley Olympiad": 92,
+          "Hamilton Olympiad": 99,
+          "Maclaurin Olympiad": 104
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2010,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2010%20Paper.pdf?id=162902893",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2010-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2010%20Short%20Solutions.pdf?id=162902896",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2010-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 70,
+        "silver": 56,
+        "bronze": 45,
+        "qualification": {
+          "Grey Kangaroo": 70,
+          "Pink Kangaroo": 80,
+          "Cayley Olympiad": 83,
+          "Hamilton Olympiad": 91,
+          "Maclaurin Olympiad": 97
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2009,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2009%20Paper.pdf?id=162902894",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2009-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2009%20Short%20Solutions.pdf?id=162902895",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2009-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 66,
+        "silver": 51,
+        "bronze": 39,
+        "qualification": {
+          "Grey Kangaroo": 66,
+          "Pink Kangaroo": 77,
+          "Cayley Olympiad": 83,
+          "Hamilton Olympiad": 90,
+          "Maclaurin Olympiad": 99
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2008,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2008%20Paper.pdf?id=162902897",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2008-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2008%20Short%20Solutions.pdf?id=162902898",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2008-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 70,
+        "silver": 54,
+        "bronze": 42,
+        "qualification": {
+          "Grey Kangaroo": 70,
+          "Pink Kangaroo": 82,
+          "Cayley Olympiad": 85,
+          "Hamilton Olympiad": 95,
+          "Maclaurin Olympiad": 102
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2007,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2007%20Paper.pdf?id=162902887",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2007-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2007%20Short%20Solutions.pdf?id=162902886",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2007-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 78,
+        "silver": 63,
+        "bronze": 50,
+        "qualification": {
+          "Grey Kangaroo": 78,
+          "Pink Kangaroo": 86,
+          "Cayley Olympiad": 90,
+          "Hamilton Olympiad": 97,
+          "Maclaurin Olympiad": 103
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2006,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2006%20Paper.pdf?id=162902888",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2006-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2006%20Short%20Solutions.pdf?id=162902884",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2006-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 72,
+        "silver": 58,
+        "bronze": 46,
+        "qualification": {
+          "Grey Kangaroo": 72,
+          "Pink Kangaroo": 80,
+          "Cayley Olympiad": 84,
+          "Hamilton Olympiad": 92,
+          "Maclaurin Olympiad": 99
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2005,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2005%20Paper.pdf?id=162902885",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2005-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2005%20Short%20Solutions.pdf?id=162902883",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2005-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 65,
+        "silver": 50,
+        "bronze": 40,
+        "qualification": {
+          "Grey Kangaroo": 64,
+          "Pink Kangaroo": 72,
+          "Cayley Olympiad": 76,
+          "Hamilton Olympiad": 85,
+          "Maclaurin Olympiad": 90
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2004,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2004%20Paper.pdf?id=162902881",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2004-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2004%20Short%20Solutions.pdf?id=162902882",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2004-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 68,
+        "silver": 51,
+        "bronze": 40,
+        "qualification": {
+          "Grey Kangaroo": 67,
+          "Pink Kangaroo": 79,
+          "Cayley Olympiad": 84,
+          "Hamilton Olympiad": 93,
+          "Maclaurin Olympiad": 100
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2003,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2003%20Paper.pdf?id=162902889",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2003-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2003%20Short%20Solutions.pdf?id=162902892",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2003-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 74,
+        "silver": 58,
+        "bronze": 46,
+        "qualification": {
+          "Grey Kangaroo": 75,
+          "Pink Kangaroo": 86,
+          "Cayley Olympiad": 88,
+          "Hamilton Olympiad": 98,
+          "Maclaurin Olympiad": 101
+        },
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2002,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2002%20Paper.pdf?id=162902902",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2002-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2002%20Short%20Solutions.pdf?id=162902903",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2002-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 72,
+        "silver": 62,
+        "bronze": 53,
+        "qualification": null,
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2001,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2001%20Paper.pdf?id=162902901",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2001-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2001%20Short%20Solutions.pdf?id=162902900",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2001-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 57,
+        "silver": 43,
+        "bronze": 32,
+        "qualification": null,
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 2000,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2000%20Paper.pdf?id=162902915",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2000-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/2000%20Short%20Solutions.pdf?id=162902914",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-2000-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 73,
+        "silver": 55,
+        "bronze": 40,
+        "qualification": null,
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 1999,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/1999%20Paper.pdf?id=162902910",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-1999-paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/intermediate-challenge/1999%20Short%20Solutions.pdf?id=162902913",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/intermediate-challenge-1999-short-solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 80,
+        "silver": 64,
+        "bronze": 50,
+        "qualification": null,
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/"
+      ],
+      "paperNote": "UKMT papers hosted by MyMathsCloud."
+    },
+    {
+      "year": 1998,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "gold": 70,
+        "silver": 53,
+        "bronze": 40,
+        "qualification": null,
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ],
+      "paperNote": "Paper not located; official award boundaries are available."
+    },
+    {
+      "year": 1997,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "gold": 81,
+        "silver": 66,
+        "bronze": 55,
+        "qualification": null,
+        "sourceUrl": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "note": null
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+        "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/"
+      ],
+      "paperNote": "Paper not located; official award boundaries are available."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ukmt.org.uk/intermediate-challenges/intermediate-mathematical-challenge-awards",
+      "label": "UKMT official certificate and qualification thresholds"
+    },
+    {
+      "url": "https://ukmt.org.uk/competition-papers/jsf/jet-engine:free-past-papers/tax/challenge-type:70/",
+      "label": "UKMT official free papers and solutions"
+    },
+    {
+      "url": "https://mathsaurus.com/intermediate-maths-challenge-grade-boundaries/",
+      "label": "Mathsaurus IMC papers and boundaries"
+    },
+    {
+      "url": "https://ukmt.org.uk/free-past-papers/intermediate-mathematical-challenge-2014",
+      "label": "UKMT 2014 individual questions and answers"
+    },
+    {
+      "url": "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/intermediate-challenge/",
+      "label": "MyMathsCloud older IMC papers and solutions"
+    }
+  ],
+  "notes": [
+    "Award boundaries 1997–2026 were cross-checked against the UKMT awards page. Follow-on thresholds are conditional on school year and other competition eligibility rules.",
+    "Free full paper and short-solution links cover 1999–2026. Extended solutions cover 2011–2026. Official UKMT-hosted files are used for 2015 onward; older UKMT documents are hosted by MyMathsCloud. No paper links were located for 1997–1998, whose verified award boundaries remain listed.",
+    "The UKMT 2025 extended-solutions filename contains 2024, but its first page explicitly says 29 January 2025 and the document is the 2025 solutions.",
+    "Mathsaurus reports a separate China/ASEEDER 2025 paper. No independently verified direct paper link was located for that variant, so it is not mixed with the main paper.",
+    "Links point to the source publishers; no UKMT papers or solution text are republished.",
+    "Dr Frost has an indexed IMC 2002 interactive worksheet at https://www.drfrost.org/worksheets.php?wid=43, but the current web open returned an empty JavaScript shell, so it has not been used as a direct paper link.",
+    "All 36 direct official PDF links (2015–2026) were opened successfully through web verification on 2026-09-10; each returned a parsed PDF. See imc-pdf-validation.json for the validation record.",
+    "All 36 older MyMathsCloud PDF links were opened and verified as PDFs on 2026-09-10. See imc-mmc-verified.json. Three initial transient web failures succeeded on one retry."
+  ],
+  "displayNotes": [
+    "Minimum award scores are shown for the main IMC paper. Follow-on invitations also depend on school year and eligibility.",
+    "Extended solutions and investigations are prioritised. The 2025 main-paper thresholds differ from those reported for the separate China/ASEEDER paper."
+  ]
+}

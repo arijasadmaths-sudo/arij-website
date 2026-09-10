@@ -1,0 +1,757 @@
+{
+  "exam": "smc",
+  "title": "Senior Mathematical Challenge",
+  "years": [
+    {
+      "year": 2025,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2025/10/SMC_2025_paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2025/10/SMC_2025_Solutions.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2025/10/SMC__2025_Solutions_and_Investigations_web_version__final_.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 46,
+        "silver": 57,
+        "gold": 72,
+        "qualification": "Senior Kangaroo 72; BMO 1 104.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards"
+      ]
+    },
+    {
+      "year": 2024,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2024/10/SMC-2024-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2024/10/SMC_2024_Solutions.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2024/10/SMC_Solutions_and_Investigations_2024_web_version__final_.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 49,
+        "silver": 66,
+        "gold": 83,
+        "qualification": "Senior Kangaroo 83; BMO 1 110.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards"
+      ]
+    },
+    {
+      "year": 2023,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/10/SMC-2023-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/10/SMC-2023-Solutions.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/10/SMC-2023-Extended-Solutions.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 49,
+        "silver": 64,
+        "gold": 80,
+        "qualification": "Senior Kangaroo 80; BMO 1 106.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards"
+      ]
+    },
+    {
+      "year": 2022,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2022-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2022-Solutions.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2022-Extended-Solutions.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 48,
+        "silver": 62,
+        "gold": 76,
+        "qualification": "Senior Kangaroo 76; BMO 1 100.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards"
+      ]
+    },
+    {
+      "year": 2021,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC_2021_paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2021-Solutions.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2021-Extended-Solutions.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 49,
+        "silver": 66,
+        "gold": 85,
+        "qualification": "Senior Kangaroo 85; BMO 1 108.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards"
+      ]
+    },
+    {
+      "year": 2020,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC_2020qp.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC_2020_Solutions.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC_2020_Extended_Solutions.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 59,
+        "silver": 73,
+        "gold": 91,
+        "qualification": "Senior Kangaroo 91; BMO 1 108.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards"
+      ]
+    },
+    {
+      "year": 2019,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC_2019_Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC_2019_Solutions.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC_2019_Extended_Solutions.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 49,
+        "silver": 61,
+        "gold": 76,
+        "qualification": "Senior Kangaroo 76; BMO 1 100.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards"
+      ]
+    },
+    {
+      "year": 2018,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC2018_paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC2018_sol_short.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC2018_sol_extended.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 53,
+        "silver": 67,
+        "gold": 83,
+        "qualification": "Senior Kangaroo 83; BMO 1 102.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards"
+      ]
+    },
+    {
+      "year": 2017,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2017-paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2017-sol-short.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2017-sol-extended.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 57,
+        "silver": 71,
+        "gold": 86,
+        "qualification": "Senior Kangaroo 85; BMO 1 104.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards"
+      ]
+    },
+    {
+      "year": 2016,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/A4SMC_QP16.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2016-sol-short.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2016-sol-extended.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 55,
+        "silver": 71,
+        "gold": 88,
+        "qualification": "Senior Kangaroo 90; BMO 1 106.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards"
+      ]
+    },
+    {
+      "year": 2015,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC15_QP_A4.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2015-sol-short.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2015-sol-extended.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 50,
+        "silver": 65,
+        "gold": 82,
+        "qualification": "Senior Kangaroo 86; BMO 1 104.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards"
+      ]
+    },
+    {
+      "year": 2014,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2014-sol-extended.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 57,
+        "silver": 71,
+        "gold": 84,
+        "qualification": "Senior Kangaroo 89; BMO 1 101.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
+        "https://ukmt.org.uk/wp-content/uploads/2023/08/SMC-2014-sol-extended.pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2013,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2024/04/SMC-2013-sol-extended.pdf",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 53,
+        "silver": 67,
+        "gold": 82,
+        "qualification": "Senior Kangaroo 86; BMO 1 100.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
+        "https://ukmt.org.uk/wp-content/uploads/2024/04/SMC-2013-sol-extended.pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2012,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Extended solutions (MyMathsCloud)",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/senior-challenge/2012%20Extended%20Solutions.pdf?id=155735569",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 49,
+        "silver": 62,
+        "gold": 77,
+        "qualification": "Senior Kangaroo 82; BMO 1 93.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/senior-challenge/"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2011,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Extended solutions (MyMathsCloud)",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/senior-challenge/2011%20Extended%20Solutions.pdf?id=155735565",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 52,
+        "silver": 63,
+        "gold": 79,
+        "qualification": "Senior Kangaroo 84; BMO 1 90.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/senior-challenge/"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2010,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Extended solutions (MyMathsCloud)",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/senior-challenge/2010%20Extended%20Solutions.pdf?id=155735553",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "bronze": 58,
+        "silver": 70,
+        "gold": 85,
+        "qualification": "BMO 1 96.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/senior-challenge/"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2009,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "bronze": 54,
+        "silver": 64,
+        "gold": 79,
+        "qualification": "BMO 1 91.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2008,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "bronze": 51,
+        "silver": 61,
+        "gold": 74,
+        "qualification": "BMO 1 87.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2007,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "bronze": 52,
+        "silver": 61,
+        "gold": 75,
+        "qualification": "BMO 1 88.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2006,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "bronze": 57,
+        "silver": 66,
+        "gold": 80,
+        "qualification": "BMO 1 91.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2005,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "bronze": 60,
+        "silver": 71,
+        "gold": 84,
+        "qualification": "BMO 1 92.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2004,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "bronze": 55,
+        "silver": 66,
+        "gold": 79,
+        "qualification": "BMO 1 92.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2003,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "bronze": 61,
+        "silver": 72,
+        "gold": 87,
+        "qualification": "BMO 1 98.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2002,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "bronze": 47,
+        "silver": 57,
+        "gold": 70,
+        "qualification": "BMO 1 82.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2001,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "bronze": 56,
+        "silver": 67,
+        "gold": 81,
+        "qualification": "BMO 1 91.",
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Qualification is subject to eligibility; follow-on invitations are not determined by score alone."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 2000,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Historical award thresholds not available in the linked source."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 1999,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Historical award thresholds not available in the linked source."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    },
+    {
+      "year": 1998,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "sourceUrl": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+        "note": "Historical award thresholds not available in the linked source."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf"
+      ],
+      "paperUnavailable": "No free standalone paper located."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://mathsaurus.com/senior-maths-challenge-grade-boundaries/",
+      "label": "Mathsaurus SMC papers and grade boundaries"
+    },
+    {
+      "url": "https://ukmt.org.uk/senior-challenges/senior-mathematical-challenge-awards",
+      "label": "Official UKMT awards and thresholds"
+    },
+    {
+      "url": "https://ukmt.org.uk/competition-papers",
+      "label": "Official UKMT competition papers"
+    },
+    {
+      "url": "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/senior-challenge/",
+      "label": "MyMathsCloud archive of UKMT extended solutions"
+    },
+    {
+      "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-1998-2004-downloadable-pdf",
+      "label": "Official UKMT 1998–2004 paper and solution pack (paid)"
+    },
+    {
+      "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2005-2009-downloadable-pdf",
+      "label": "Official UKMT 2005–2009 paper and solution pack (paid)"
+    },
+    {
+      "url": "https://ukmt.org.uk/product/past-papers-senior-mathematical-challenge-2010-2014-downloadable-pdf",
+      "label": "Official UKMT 2010–2014 paper and solution pack (paid)"
+    },
+    {
+      "url": "https://books.google.com/books/about/Senior_Mathematical_Challenge.html?id=dVG9GwAACAAJ",
+      "label": "1988–1996 SMC collection by Tony Gardiner (book information)"
+    }
+  ],
+  "notes": [
+    "Free official question papers and short/extended solutions are linked for 2015–2025. Additional extended solutions are available for 2010–2014; these include the question statements.",
+    "The older 1998–2014 question papers and solutions are available in UKMT paid packs, clearly labelled. No purchase is required to use the free solution links.",
+    "Award and qualification thresholds are recorded from 2001 onward. No verified thresholds are supplied for 1998–2000.",
+    "The 2026 SMC has not yet taken place as of 10 September 2026, so no 2026 question paper or threshold is listed.",
+    "Earlier formats and thresholds can differ from current competitions.",
+    "For still earlier practice, Tony Gardiner’s Senior Mathematical Challenge book contains the 1988–1996 National Mathematics Contest papers with hints and full solutions; this is a book reference, not a free PDF archive."
+  ],
+  "checkedDate": "2026-09-10",
+  "verificationNote": "Resource links extracted from published source pages. HTTP checks returned200 for176 of185 unique resource links across these two datasets; six timed-out PDFs and three blocked UKMT product pages were verified through web retrieval. No404s found.",
+  "displayNotes": [
+    "Compare scores with the matching year: historical scoring rules and qualification requirements can differ. Follow-on entry is also subject to eligibility.",
+    "Some older question papers are available only in paid UKMT packs. Free extended solutions are linked separately where available."
+  ]
+}
