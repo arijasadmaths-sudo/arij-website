@@ -16,9 +16,12 @@ Reviewed source data lives in `data/paper-archives/`. After checking new papers 
 
 ```sh
 python3 scripts/build-archives.py
+python3 scripts/build-navigation.py
 ```
 
 Commit both the data and generated pages. The live site needs no Python, build step or client-side data loading. `archive.css` extends the shared black, cream and gold styles.
+
+`scripts/site_navigation.py` owns the separate past-paper archive bar. `scripts/build-navigation.py` installs it below the main header on every root HTML page; archive generation also includes it automatically. Its scoped styles live in `paper-navigation.css`, including the scrollable row for smaller screens. Keep links root-relative so they also work on the 404 page.
 
 Keep answer keys distinct from worked or extended solutions. Use the exact year, round and sitting; historical formats and score scales can change. Leave missing resources explicit, and identify paid packs and community score estimates. TMUA's public official archive currently ends in 2023; do not label community mocks as official papers.
 

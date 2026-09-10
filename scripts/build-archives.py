@@ -5,6 +5,7 @@ from html import escape
 from collections import defaultdict
 import json
 import re
+from site_navigation import install_archive_navigation
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data' / 'paper-archives'
@@ -165,10 +166,9 @@ def render(data):
     numeric_years = [r['year'] for r in rows if isinstance(r['year'], int)]
     coverage = data.get('coverageLabel') or (f'{min(numeric_years)}–{max(numeric_years)}' if numeric_years else 'Specimen and practice papers')
     paper_count = sum(1 for r in rows if any(x.get('kind') == 'paper' for x in r.get('papers', [])))
-    nav_exams = ADMISSIONS if exam in dict(ADMISSIONS) else EXAMS
-    nav = ''.join(f'<a href="{page_path(k)}"' + (' aria-current="page"' if k == exam else '') + f'>{e(label)}</a>' for k, label in nav_exams)
+    nav = ''
     if exam == 'tmua':
-        nav += '<a href="#community-papers">Community papers</a><a href="tmua-past-papers.html">Past-paper study guide</a>'
+        nav = '<nav class="archive-nav" aria-label="TMUA archive shortcuts"><a href="#community-papers">Community papers</a><a href="tmua-past-papers.html">Past-paper study guide</a></nav>'
     archive_sections = data.get('archiveSections') or [{'id':g.lower().replace(' ', '-'), 'title':g, 'rows':r} for g,r in groups.items()]
     jumps = ''.join(f'<a href="#{e(g["id"])}">{e(g.get("navLabel", g["title"]))}</a>' for g in archive_sections)
     if data.get('legacyYears'):
@@ -224,8 +224,8 @@ def render(data):
     intro = data.get('intro') or 'Question papers, solutions and historical thresholds, together in one place. Choose the year and paper you are practising.'
     service = {'tmua':'TMUA%20preparation', 'step':'STEP%20preparation', 'esat':'ESAT%20mathematics%20preparation'}.get(exam, 'Maths%20challenges%20and%20Olympiads')
     enquiry_label = 'ESAT maths' if exam == 'esat' else name
-    css_version = '20260910-step-esat' if exam in dict(ADMISSIONS) else '20260910'
-    return f'''<!DOCTYPE html>
+    css_version = '20260910-nav1'
+    return install_archive_navigation(f'''<!DOCTYPE html>
 <html lang="en-GB">
 <head>
   <meta charset="UTF-8">
@@ -254,7 +254,7 @@ def render(data):
       <div class="archive-facts"><span>{coverage}</span><span>{paper_count} paper entries</span><span>Checked 10 September 2026</span></div>
     </div></header>
     <div class="container">
-      <nav class="archive-nav" aria-label="Paper archives">{nav}</nav>
+{nav}
       {notes_html}
       <nav class="archive-jumps" aria-label="Jump to archive sections"><strong>Jump to:</strong>{jumps}</nav>
       {''.join(sections)}
@@ -268,7 +268,7 @@ def render(data):
   <script src="site.js" defer></script>
 </body>
 </html>
-'''
+''', path)
 
 
 if __name__ == '__main__':

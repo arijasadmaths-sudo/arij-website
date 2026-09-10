@@ -7,7 +7,8 @@
 .archive-page .archive-intro h1 span { color: #ead9b6; }
 .archive-page .archive-intro p { max-width: 920px; margin: 0; color: #eee8dc; font-size: 1rem; }
 .archive-page .archive-facts { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 20px; color: #ead9b6; font-size: .9rem; }
-.archive-page .archive-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 20px 0; }
+.archive-page .archive-intro + .container { padding-top: 20px; }
+.archive-page .archive-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 0 20px; }
 .archive-page .archive-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 7px 16px; border: 1px solid #d2c8b4; border-radius: 8px; background: #fff; color: #332b1f; font-size: .9rem; font-weight: 700; text-decoration: none; }
 .archive-page .archive-nav a[aria-current="page"], .archive-page .archive-nav a:hover { background: #111; color: #ead9b6; border-color: #111; }
 .archive-page .archive-note { margin: 0 0 24px; padding: 15px 20px; border-left: 4px solid #8a6526; background: #eee8dc; color: #393329; font-size: .95rem; }
