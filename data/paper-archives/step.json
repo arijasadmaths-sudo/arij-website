@@ -1,0 +1,4335 @@
+{
+  "exam": "step",
+  "pageTitle": "STEP Past Papers, Extended Solutions & Grade Boundaries | Arij Asad",
+  "description": "STEP papers from 1987, earlier specimens, extended worked solutions and grade boundaries by year. Includes historical STEP 1 and current STEP 2 and STEP 3.",
+  "intro": "Choose a year, open the paper and work through the solutions alongside its grade boundaries. Explore STEP 2 and STEP 3, the historical STEP 1 archive and free preparation resources.",
+  "coverageLabel": "1986 specimens · 1987–2025 papers · 2026 boundaries",
+  "displayNotes": [
+    "STEP 2 and STEP 3 are the current papers. STEP 1 was last sat in 2019 and was cancelled in 2020. Older papers use historical syllabuses and formats.",
+    "Boundaries are the minimum marks for grades S, 1, 2 and 3, out of 120. Use the boundaries for the exact year and paper. N/A means unavailable or not applicable.",
+    "Extended solutions appear first where available. Community discussions may be incomplete; specific gaps are noted below. MEI provides worked solutions through the guest access described on its website."
+  ],
+  "years": [
+    {
+      "year": 1999,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/99/99-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1999%20STEP%203.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=545882",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=545882",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1999,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/99/99-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1999%20STEP%202.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=545882",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=545882",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1999,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/99/99-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1999%20STEP%201.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=545882",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=545882",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index sends Q3 to a Siklos booklet page rather than a direct forum solution."
+    },
+    {
+      "year": 1998,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/98/98-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1998%20STEP%203.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=357961",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=357961",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "For Q8 use the newer solution superseding the earlier flawed answer."
+    },
+    {
+      "year": 1998,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/98/98-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1998%20STEP%202.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=357961",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=357961",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1998,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/98/98-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1998%20STEP%201.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=357961",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=357961",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1997,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/97/97-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1997%20STEP%203.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=358386",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=358386",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index sends Q4 and Q7 to Siklos booklet pages rather than direct forum solutions."
+    },
+    {
+      "year": 1997,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/97/97-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1997%20STEP%202.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=358386",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=358386",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index sends Q2, Q6 and Q9 to Siklos booklet pages rather than direct forum solutions."
+    },
+    {
+      "year": 1997,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/97/97-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1997%20STEP%201.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=358386",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=358386",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index sends Q4, Q9 and Q12 to Siklos booklet pages rather than direct forum solutions."
+    },
+    {
+      "year": 1996,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/96/96-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1996%20STEP%203.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=358891",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=358891",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index marks Q2 incomplete."
+    },
+    {
+      "year": 1996,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/96/96-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1996%20STEP%202.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=358891",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=358891",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1996,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/96/96-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1996%20STEP%201.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=358891",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=358891",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1995,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/95/95-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1995%20STEP%203.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=359567",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=359567"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index leaves Q13 blank."
+    },
+    {
+      "year": 1995,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/95/95-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1995%20STEP%202.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=359567",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=359567"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1995,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/95/95-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1995%20STEP%201.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=359567",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=359567"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1994,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/94/94-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1994%20STEP%203.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=367072",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=367072"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1994,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/94/94-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1994%20STEP%202.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=367072",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=367072"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1994,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/94/94-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/1994%20STEP%201.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=367072",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=367072"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index marks Q6 incomplete."
+    },
+    {
+      "year": 1993,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/93/93-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1993%20STEP%203%20-%20Further%20B.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=394479",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=394479"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1993,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/93/93-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1993%20STEP%202%20-%20Further%20A.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=394479",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=394479"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1993,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/93/93-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1993%20STEP%201%20-%20Maths.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=394479",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=394479"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1992,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/92/92-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1992%20STEP%203%20-%20Further%20B.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=395459",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=395459"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "For Q9 use the later full solution; the initial contribution is incomplete."
+    },
+    {
+      "year": 1992,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/92/92-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1992%20STEP%202%20-%20Further%20A.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=395459",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=395459"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1992,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/92/92-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1992%20STEP%201%20-%20Maths.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=395459",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=395459"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1991,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/91/91-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1991%20STEP%203%20-%20Further%20B.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=398748",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=398748"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index leaves Q15 blank."
+    },
+    {
+      "year": 1991,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/91/91-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1991%20STEP%202%20-%20Further%20A.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=398748",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=398748"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1991,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/91/91-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1991%20STEP%201%20-%20Maths.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=398748",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=398748"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1990,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/90/90-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1990%20STEP%203%20-%20Further%20B.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=404229",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=404229"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index explicitly flags its Q8 solution as disputed."
+    },
+    {
+      "year": 1990,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/90/90-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1990%20STEP%202%20-%20Further%20A.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=404229",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=404229"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1990,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/90/90-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1990%20STEP%201%20-%20Maths.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=404229",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=404229"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1989,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/89/89-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1989%20STEP%203%20-%20Further%20B.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=519268",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=519268"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index has multiple blank solution entries across all three papers."
+    },
+    {
+      "year": 1989,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/89/89-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1989%20STEP%202%20-%20Further%20A.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=519268",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=519268"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index has multiple blank solution entries across all three papers."
+    },
+    {
+      "year": 1989,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/89/89-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1989%20STEP%201%20-%20Maths.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=519268",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=519268"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index has multiple blank solution entries across all three papers."
+    },
+    {
+      "year": 1988,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/88/88-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1988%20STEP%203%20-%20Further%20B.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=558425",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=558425"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "The community index leaves Q15 blank."
+    },
+    {
+      "year": 1988,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/88/88-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1988%20STEP%202%20-%20Further%20A.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=558425",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=558425"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1988,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/88/88-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1988%20STEP%201%20-%20Maths.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=558425",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=558425"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1987,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/87/87-S3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1987%20STEP%203%20-%20Further%20B.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=448558",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=448558"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1987,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/87/87-S2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1987%20STEP%202%20-%20Further%20A.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=448558",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=448558"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1987,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/87/87-S1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper mirror (PMT)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Papers/Old-Format/1987%20STEP%201%20-%20Maths.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community solutions (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=448558",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+        "https://www.thestudentroom.co.uk/showthread.php?t=448558"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 1986,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Specimen paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/Spec/Spec-S3.pdf",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "label": "1986 specimen"
+    },
+    {
+      "year": 1986,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Specimen paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/Spec/Spec-S2.pdf",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "label": "1986 specimen"
+    },
+    {
+      "year": 1986,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Specimen paper (Cambridge STEP database)",
+          "url": "https://stepdatabase.maths.org/database/db/Spec/Spec-S1.pdf",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://stepdatabase.maths.org/database/index.html",
+        "https://stepdatabase.maths.org/database/database_data.json",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "label": "1986 specimen"
+    },
+    {
+      "year": 2000,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2000_paper-i.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=514177",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 91,
+        "grade1": 69,
+        "grade2": 50,
+        "grade3": 38,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=514177",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2000,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2000_paper-ii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=514177",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 91,
+        "grade1": 65,
+        "grade2": 48,
+        "grade3": 32,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=514177",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2000,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2000_paper-iii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=514177",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 88,
+        "grade1": 66,
+        "grade2": 50,
+        "grade3": 39,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=514177",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2001,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2001_paper-i.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=856635&p=17917541&page=1",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 85,
+        "grade1": 66,
+        "grade2": 50,
+        "grade3": 41,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=856635&p=17917541&page=1",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2001,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2001_paper-ii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=856635&p=17917541&page=1",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 85,
+        "grade1": 62,
+        "grade2": 47,
+        "grade3": 32,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=856635&p=17917541&page=1",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2001,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2001_paper-iii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=856635&p=17917541&page=1",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 77,
+        "grade1": 59,
+        "grade2": 46,
+        "grade3": 32,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=856635&p=17917541&page=1",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2002,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2002_paper-i.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=862415",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 80,
+        "grade1": 61,
+        "grade2": 48,
+        "grade3": 35,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=862415",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2002,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2002_paper-ii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=862415",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 90,
+        "grade1": 65,
+        "grade2": 40,
+        "grade3": 32,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=862415",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2002,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2002_paper-iii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=862415",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 77,
+        "grade1": 56,
+        "grade2": 43,
+        "grade3": 32,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=862415",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "solutionNote": "Some community solutions are partial, including questions 2, 4, 5 and 7."
+    },
+    {
+      "year": 2003,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2003_paper-i.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=876749",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 94,
+        "grade1": 78,
+        "grade2": 60,
+        "grade3": 43,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=876749",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2003,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2003_paper-ii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=876749",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 95,
+        "grade1": 70,
+        "grade2": 55,
+        "grade3": 37,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=876749",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2003,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2003_paper-iii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Community worked-solutions discussion (The Student Room)",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=876749",
+          "kind": "solutions"
+        },
+        {
+          "label": "MEI worked solutions (guest access)",
+          "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/",
+          "kind": "extended-solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 77,
+        "grade1": 56,
+        "grade2": 43,
+        "grade3": 33,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.thestudentroom.co.uk/showthread.php?t=876749",
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2004,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2004-paper-i.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2004%20Hints%20and%20Answers.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 90,
+        "grade1": 72,
+        "grade2": 55,
+        "grade3": 43,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2004,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2004-paper-ii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2004%20Hints%20and%20Answers.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 82,
+        "grade1": 60,
+        "grade2": 49,
+        "grade3": 36,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2004,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2004-paper-iii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2004%20Hints%20and%20Answers.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 75,
+        "grade1": 56,
+        "grade2": 43,
+        "grade3": 33,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2005,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2005-paper-i.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2005%20Hints%20and%20Answers.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 96,
+        "grade1": 80,
+        "grade2": 62,
+        "grade3": 45,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2005,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2005-paper-ii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2005%20Hints%20and%20Answers.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 89,
+        "grade1": 64,
+        "grade2": 49,
+        "grade3": 31,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2005,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2005-paper-iii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2005%20Hints%20and%20Answers.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 80,
+        "grade1": 59,
+        "grade2": 47,
+        "grade3": 35,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2006,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2006_paper-i.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2006%20Hints%20and%20Answers.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 82,
+        "grade1": 67,
+        "grade2": 50,
+        "grade3": 38,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2006,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2006_paper-ii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2006%20Hints%20and%20Answers.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 85,
+        "grade1": 60,
+        "grade2": 49,
+        "grade3": 31,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2006,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2006_paper-iii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2006%20Hints%20and%20Answers.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 80,
+        "grade1": 60,
+        "grade2": 48,
+        "grade3": 34,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2007,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2007-paper-i.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2007%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 81,
+        "grade1": 66,
+        "grade2": 49,
+        "grade3": 36,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2007,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2007-paper-ii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2007%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 95,
+        "grade1": 67,
+        "grade2": 56,
+        "grade3": 35,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2007,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2007-paper-iii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2007%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 86,
+        "grade1": 64,
+        "grade2": 52,
+        "grade3": 35,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2008,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2008-paper-i.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2008%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 81,
+        "grade1": 65,
+        "grade2": 43,
+        "grade3": 29,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2008,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2008-paper-ii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2008%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 94,
+        "grade1": 69,
+        "grade2": 58,
+        "grade3": 35,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2008,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/2008-paper-iii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2008%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 82,
+        "grade1": 63,
+        "grade2": 52,
+        "grade3": 34,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2009,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-i-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2009%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 95,
+        "grade1": 72,
+        "grade2": 58,
+        "grade3": 35,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2009,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-ii-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2009%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 98,
+        "grade1": 71,
+        "grade2": 61,
+        "grade3": 39,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2009,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-iii-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2009%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 95,
+        "grade1": 67,
+        "grade2": 55,
+        "grade3": 38,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2010,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-i.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2010%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 103,
+        "grade1": 84,
+        "grade2": 70,
+        "grade3": 47,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2010,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-ii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2010%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 105,
+        "grade1": 79,
+        "grade2": 64,
+        "grade3": 40,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2010,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-iii.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2010%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 78,
+        "grade1": 56,
+        "grade2": 46,
+        "grade3": 29,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2011,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-1-final-2011.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official question paper (OCR)",
+          "url": "https://www.ocr.org.uk/Images/696594-step-i-2011-mathematics-paper-.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official extended solutions and mark scheme (OCR)",
+          "url": "https://www.ocr.org.uk/Images/696593-step-i-2011-solutions-and-mark-scheme.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2011%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 86,
+        "grade1": 66,
+        "grade2": 47,
+        "grade3": 28,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2011,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-2-final-2011.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2011%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 83,
+        "grade1": 62,
+        "grade2": 49,
+        "grade3": 29,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2011,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-3-final-2011.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2011%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 91,
+        "grade1": 65,
+        "grade2": 52,
+        "grade3": 30,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2012,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-1-2012.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2012%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 93,
+        "grade1": 77,
+        "grade2": 54,
+        "grade3": 35,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2012,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-2-2012.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2012%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 91,
+        "grade1": 72,
+        "grade2": 60,
+        "grade3": 31,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2012,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-3-2012.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2012%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 84,
+        "grade1": 65,
+        "grade2": 53,
+        "grade3": 32,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2013,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-i-2013.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2013%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 100,
+        "grade1": 82,
+        "grade2": 64,
+        "grade3": 40,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2013,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-ii-2013.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2013%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 100,
+        "grade1": 79,
+        "grade2": 67,
+        "grade3": 32,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2013,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-iii-2013.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2013%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 85,
+        "grade1": 63,
+        "grade2": 48,
+        "grade3": 27,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2014,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-i-2014.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2014%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 90,
+        "grade1": 63,
+        "grade2": 43,
+        "grade3": 28,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2014,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-ii-2014.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2014%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 95,
+        "grade1": 74,
+        "grade2": 64,
+        "grade3": 30,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2014,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-iii-2014.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2014%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 81,
+        "grade1": 59,
+        "grade2": 48,
+        "grade3": 28,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2015,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-1-2015.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2015%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 96,
+        "grade1": 65,
+        "grade2": 45,
+        "grade3": 28,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2015,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-2-2015.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2015%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 94,
+        "grade1": 68,
+        "grade2": 60,
+        "grade3": 30,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2015,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-3-2015.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2015%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 88,
+        "grade1": 65,
+        "grade2": 54,
+        "grade3": 29,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2016,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-1-2016.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2016-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2016%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 102,
+        "grade1": 75,
+        "grade2": 60,
+        "grade3": 41,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2016,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-2-2016.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2016-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2016%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 95,
+        "grade1": 74,
+        "grade2": 65,
+        "grade3": 31,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2016,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-3-2016.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2016-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2016%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 88,
+        "grade1": 64,
+        "grade2": 55,
+        "grade3": 32,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2017,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-1-2017.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2017-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2017%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 99,
+        "grade1": 72,
+        "grade2": 55,
+        "grade3": 38,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2017,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-2-2017.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2017-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2017%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 101,
+        "grade1": 80,
+        "grade2": 69,
+        "grade3": 34,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2017,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-3-2017.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2017-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (all three papers; PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2017%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 95,
+        "grade1": 69,
+        "grade2": 57,
+        "grade3": 28,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2018,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-1-2018.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2018-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2018%20STEP%201%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 100,
+        "grade1": 72,
+        "grade2": 51,
+        "grade3": 30,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2018,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-2-2018.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2018-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2018%20STEP%202%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 100,
+        "grade1": 77,
+        "grade2": 65,
+        "grade3": 36,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2018,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step-3-2018.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2018-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2018%20STEP%203%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 87,
+        "grade1": 59,
+        "grade2": 49,
+        "grade3": 27,
+        "maximumMark": 120,
+        "sourceUrl": "https://mathsaurus.com/step-grade-boundaries/",
+        "note": "Historical thresholds transcribed from Mathsaurus; not independently checked against an official results document."
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2019,
+      "variant": "STEP 1",
+      "papers": [
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step_2019_paper1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2019-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2019%20STEP%201%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 105,
+        "grade1": 76,
+        "grade2": 52,
+        "grade3": 30,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/696510-explanation-of-results-for-step-2019.pdf"
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2019,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2023-06/STEP2_2019_Mock.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step_2019_paper2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2019-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2019%20STEP%202%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 90,
+        "grade1": 68,
+        "grade2": 55,
+        "grade3": 30,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/696510-explanation-of-results-for-step-2019.pdf"
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://step.maths.org/worked-step-papers",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2019,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2023-06/STEP3_2019_Mock_0.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2020/03/step_2019_paper3.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2019-solutions.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official hints and solutions (PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2019%20STEP%203%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 77,
+        "grade1": 57,
+        "grade2": 48,
+        "grade3": 27,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/696510-explanation-of-results-for-step-2019.pdf"
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://step.maths.org/worked-step-papers",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2020,
+      "variant": "STEP 1",
+      "papers": [],
+      "boundaries": {},
+      "sourceUrls": [
+        "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://mathsaurus.com/step/"
+      ],
+      "paperUnavailable": "Cancelled",
+      "solutionsUnavailable": "N/A",
+      "note": "STEP 1 was cancelled in 2020."
+    },
+    {
+      "year": 2020,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2023-06/STEP_2_2020_Mock.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/06/STEP-2-2020-v2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2020-solutions-2.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official worked solutions (PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2020%20STEP%202%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 77,
+        "grade1": 54,
+        "grade2": 42,
+        "grade3": 25,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/696511-explanation-of-results-for-step-2020.pdf"
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://step.maths.org/worked-step-papers",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2020,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2023-06/STEP_3_2020_Mock.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (Mathsaurus mirror)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/06/STEP-3-2020-v2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Full typed solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2020-solutions-2.pdf",
+          "kind": "extended-solutions",
+          "credit": "Anonymous contributor, hosted by Mathsaurus."
+        },
+        {
+          "label": "Official worked solutions (PMT mirror)",
+          "url": "https://pmt.physicsandmathstutor.com/download/Admissions/STEP/Solutions-and-Reports/2020%20STEP%203%20Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 88,
+        "grade1": 67,
+        "grade2": 53,
+        "grade3": 30,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/696511-explanation-of-results-for-step-2020.pdf"
+      },
+      "sourceUrls": [
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://step.maths.org/worked-step-papers",
+        "https://mathsaurus.com/step/",
+        "https://www.physicsandmathstutor.com/admissions/step/",
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2026,
+      "variant": "STEP 2",
+      "papers": [],
+      "boundaries": {
+        "gradeS": 84,
+        "grade1": 62,
+        "grade2": 52,
+        "grade3": 34,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/761472-explanation-of-results-for-step-2026.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/761472-explanation-of-results-for-step-2026.pdf"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "note": "2026 boundaries are available. OCR’s preparation page did not list the paper or solutions when checked."
+    },
+    {
+      "year": 2026,
+      "variant": "STEP 3",
+      "papers": [],
+      "boundaries": {
+        "gradeS": 80,
+        "grade1": 56,
+        "grade2": 48,
+        "grade3": 30,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/761472-explanation-of-results-for-step-2026.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/761472-explanation-of-results-for-step-2026.pdf"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A",
+      "note": "2026 boundaries are available. OCR’s preparation page did not list the paper or solutions when checked."
+    },
+    {
+      "year": 2025,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2026-04/STEP2_2025_Mock_0.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2026/05/STEP-2-2025-Question-paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked mark scheme & examiner report (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2026/05/STEP-2-2025-Examiners-report-and-Mark-scheme.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Official OCR year pack (ZIP)",
+          "url": "https://www.ocr.org.uk/Images/750486-2025-past-papers.zip",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 92,
+        "grade1": 75,
+        "grade2": 61,
+        "grade3": 35,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/741440-explanation-of-results-for-step-2025.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/741440-explanation-of-results-for-step-2025.pdf",
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.ocr.org.uk/Images/750486-2025-past-papers.zip",
+        "https://step.maths.org/worked-step-papers"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2025,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2026-04/STEP3_2025_Mock_0.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2026/05/STEP-3-2025-Question-paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked mark scheme & examiner report (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2026/05/STEP-3-2025-Examiners-report-and-Mark-scheme.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Official OCR year pack (ZIP)",
+          "url": "https://www.ocr.org.uk/Images/750486-2025-past-papers.zip",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 86,
+        "grade1": 61,
+        "grade2": 49,
+        "grade3": 27,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/741440-explanation-of-results-for-step-2025.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/741440-explanation-of-results-for-step-2025.pdf",
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.ocr.org.uk/Images/750486-2025-past-papers.zip",
+        "https://step.maths.org/worked-step-papers"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2024,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2025-06/STEP2_2024_Mock.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2026/05/STEP-2-2024-Question-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked mark scheme & examiner report (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2026/05/STEP-2-2024-Examiners-Report-and-Mark-Scheme.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Official OCR year pack (ZIP)",
+          "url": "https://www.ocr.org.uk/Images/725753-2024-past-papers.zip",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 93,
+        "grade1": 69,
+        "grade2": 51,
+        "grade3": 26,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/716229-explanation-of-results-for-step-2024.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/716229-explanation-of-results-for-step-2024.pdf",
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.ocr.org.uk/Images/725753-2024-past-papers.zip",
+        "https://step.maths.org/worked-step-papers"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2024,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2025-06/STEP3_2024_Mock.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2026/05/STEP-3-2024-Question-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked mark scheme & examiner report (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2026/05/STEP-3-2024-Examiners-Report-and-Mark-Scheme.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Official OCR year pack (ZIP)",
+          "url": "https://www.ocr.org.uk/Images/725753-2024-past-papers.zip",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 93,
+        "grade1": 70,
+        "grade2": 57,
+        "grade3": 34,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/716229-explanation-of-results-for-step-2024.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/716229-explanation-of-results-for-step-2024.pdf",
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.ocr.org.uk/Images/725753-2024-past-papers.zip",
+        "https://step.maths.org/worked-step-papers"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2023,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2025-02/2023STEP2Mock.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2024/05/0623_STEP_2_QP.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked mark scheme & examiner report (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2024/05/STEP-2-2023-Examiners-Report-and-Mark-Scheme.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Official OCR year pack (ZIP)",
+          "url": "https://www.ocr.org.uk/Images/707102-2023-past-papers.zip",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 90,
+        "grade1": 65,
+        "grade2": 50,
+        "grade3": 28,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/696514-explanation-of-results-for-step-2023.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/696514-explanation-of-results-for-step-2023.pdf",
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.ocr.org.uk/Images/707102-2023-past-papers.zip",
+        "https://step.maths.org/worked-step-papers"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2023,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2025-02/2023STEP3Mock.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2024/05/0623_STEP_3_QP.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked mark scheme & examiner report (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2024/05/STEP-3-2023-Examiners-Report-and-Mark-Scheme_170424.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Official OCR year pack (ZIP)",
+          "url": "https://www.ocr.org.uk/Images/707102-2023-past-papers.zip",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 85,
+        "grade1": 63,
+        "grade2": 54,
+        "grade3": 32,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/696514-explanation-of-results-for-step-2023.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/696514-explanation-of-results-for-step-2023.pdf",
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.ocr.org.uk/Images/707102-2023-past-papers.zip",
+        "https://step.maths.org/worked-step-papers"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2022,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2023-06/2022STEP2Mock_0.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2023/07/STEP-2-2022-Question-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked mark scheme & examiner report (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2024/05/STEP-2-2022-Examiners-Report-and-Mark-Scheme.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Official OCR year pack (ZIP)",
+          "url": "https://www.ocr.org.uk/Images/696587-2022-past-papers.zip",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 81,
+        "grade1": 62,
+        "grade2": 52,
+        "grade3": 30,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/696513-explanation-of-results-for-step-2022.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/696513-explanation-of-results-for-step-2022.pdf",
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.ocr.org.uk/Images/696587-2022-past-papers.zip",
+        "https://step.maths.org/worked-step-papers"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2022,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2023-06/2022STEP3Mock.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2023/07/STEP-3-2022-Question-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked mark scheme & examiner report (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2024/05/STEP-3-2022-Examiners-Report-and-Mark-Scheme.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Official OCR year pack (ZIP)",
+          "url": "https://www.ocr.org.uk/Images/696587-2022-past-papers.zip",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 82,
+        "grade1": 63,
+        "grade2": 51,
+        "grade3": 29,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/696513-explanation-of-results-for-step-2022.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/696513-explanation-of-results-for-step-2022.pdf",
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.ocr.org.uk/Images/696587-2022-past-papers.zip",
+        "https://step.maths.org/worked-step-papers"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2021,
+      "variant": "STEP 2",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2023-06/STEP_2_2021_Mock_0.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2022/06/STEP-2-2021-Question-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked mark scheme & examiner report (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2024/05/STEP-2-2021-Examiners-Report-and-Mark-Scheme.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Official OCR year pack (ZIP)",
+          "url": "https://www.ocr.org.uk/Images/696588-2021-past-papers.zip",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 92,
+        "grade1": 67,
+        "grade2": 54,
+        "grade3": 28,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/696512-explanation-of-results-for-step-2021.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/696512-explanation-of-results-for-step-2021.pdf",
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.ocr.org.uk/Images/696588-2021-past-papers.zip",
+        "https://step.maths.org/worked-step-papers"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    },
+    {
+      "year": 2021,
+      "variant": "STEP 3",
+      "papers": [
+        {
+          "label": "Extended solutions & commentary",
+          "url": "https://step.maths.org/sites/default/files/2023-06/STEP_3_2021_Mock.pdf",
+          "kind": "extended-solutions",
+          "credit": "University of Cambridge STEP Support Programme."
+        },
+        {
+          "label": "Question paper (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2022/06/STEP-3-2021-Question-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked mark scheme & examiner report (PDF)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2024/05/STEP-3-2021-Examiners-Report-and-Mark-Scheme.pdf",
+          "kind": "solutions"
+        },
+        {
+          "label": "Official OCR year pack (ZIP)",
+          "url": "https://www.ocr.org.uk/Images/696588-2021-past-papers.zip",
+          "kind": "paper"
+        }
+      ],
+      "boundaries": {
+        "gradeS": 89,
+        "grade1": 67,
+        "grade2": 54,
+        "grade3": 29,
+        "maximumMark": 120,
+        "sourceUrl": "https://www.ocr.org.uk/Images/696512-explanation-of-results-for-step-2021.pdf"
+      },
+      "sourceUrls": [
+        "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/",
+        "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/",
+        "https://www.ocr.org.uk/Images/696512-explanation-of-results-for-step-2021.pdf",
+        "https://mathsaurus.com/step-grade-boundaries/",
+        "https://www.ocr.org.uk/Images/696588-2021-past-papers.zip",
+        "https://step.maths.org/worked-step-papers"
+      ],
+      "paperUnavailable": "N/A",
+      "solutionsUnavailable": "N/A"
+    }
+  ],
+  "linkSections": [
+    {
+      "title": "Cambridge STEP Support Programme",
+      "description": "Free preparation modules with hints, topic notes and full solutions, progressing from Foundation work to STEP 2 and STEP 3.",
+      "credit": "University of Cambridge Faculty of Mathematics and Millennium Mathematics Project",
+      "links": [
+        {
+          "label": "Programme home",
+          "url": "https://step.maths.org/"
+        },
+        {
+          "label": "Foundation modules",
+          "url": "https://step.maths.org/assignments/foundation"
+        },
+        {
+          "label": "STEP 2 modules",
+          "url": "https://step.maths.org/assignments/step-2"
+        },
+        {
+          "label": "STEP 3 modules",
+          "url": "https://step.maths.org/assignments/step-3"
+        },
+        {
+          "label": "Foundation video solutions",
+          "url": "https://step.maths.org/step-foundation-assignment-videos"
+        }
+      ],
+      "id": "cambridge-step-support-programme"
+    },
+    {
+      "title": "Cambridge worked STEP papers",
+      "description": "Detailed worked solutions and commentary for STEP 2 and 3, 2019–2025, useful when reviewing timed practice.",
+      "credit": "University of Cambridge STEP Support Programme",
+      "links": [
+        {
+          "label": "Worked-paper collection",
+          "url": "https://step.maths.org/worked-step-papers"
+        },
+        {
+          "label": "2025 STEP 2 worked solutions",
+          "url": "https://step.maths.org/sites/default/files/2026-04/STEP2_2025_Mock_0.pdf"
+        },
+        {
+          "label": "2025 STEP 3 worked solutions",
+          "url": "https://step.maths.org/sites/default/files/2026-04/STEP3_2025_Mock_0.pdf"
+        }
+      ],
+      "id": "cambridge-worked-step-papers"
+    },
+    {
+      "title": "STEP Question Database",
+      "description": "Search individual questions by topic and paper, covering the 1986 specimen papers through 2018.",
+      "credit": "University of Cambridge / maths.org",
+      "links": [
+        {
+          "label": "Search STEP questions",
+          "url": "https://stepdatabase.maths.org/database/index.html"
+        },
+        {
+          "label": "Database home",
+          "url": "https://stepdatabase.maths.org/"
+        }
+      ],
+      "id": "step-question-database"
+    },
+    {
+      "title": "Advanced Problems in Mathematics",
+      "description": "Stephen Siklos's free 2019 second edition offers selected STEP problems, strategic commentary and full solutions. Cambridge recommends this publisher edition of the revised and extended earlier booklets.",
+      "credit": "Stephen Siklos; Open Book Publishers",
+      "links": [
+        {
+          "label": "Free book and downloads",
+          "url": "https://www.openbookpublishers.com/books/10.11647/obp.0181"
+        }
+      ],
+      "id": "advanced-problems-in-mathematics"
+    },
+    {
+      "title": "Underground Mathematics STEP solutions",
+      "description": "Selected STEP questions with detailed explanations and worked solutions, organised within a broader mathematics resource collection.",
+      "credit": "Underground Mathematics, University of Cambridge",
+      "links": [
+        {
+          "label": "Browse STEP questions",
+          "url": "https://undergroundmathematics.org/browse?typeOption=ReviewQuestion&reviewQuestionType=6"
+        }
+      ],
+      "id": "underground-mathematics-step-solutions"
+    },
+    {
+      "title": "Mathsaurus written STEP solutions",
+      "description": "Independent typed worked solutions: STEP I, II and III for 2016–2019, plus STEP II and III for 2020. The author states that these are not official mark schemes.",
+      "credit": "Anonymous Cambridge mathematics graduate and former STEP marker; hosted by Mathsaurus",
+      "links": [
+        {
+          "label": "Creator's collection and attribution",
+          "url": "https://mathsaurus.com/step/"
+        },
+        {
+          "label": "2016 written solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2016-solutions.pdf"
+        },
+        {
+          "label": "2017 written solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2017-solutions.pdf"
+        },
+        {
+          "label": "2018 written solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2018-solutions.pdf"
+        },
+        {
+          "label": "2019 written solutions",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2019-solutions.pdf"
+        },
+        {
+          "label": "2020 written solutions (II and III)",
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2020-solutions-2.pdf"
+        }
+      ],
+      "id": "mathsaurus-written-step-solutions"
+    },
+    {
+      "title": "Mathsaurus STEP video solutions",
+      "description": "Worked videos for selected questions from STEP I, II and III; the source page indexes the individual questions covered.",
+      "credit": "Kevin Olding / Mathsaurus",
+      "links": [
+        {
+          "label": "Video-solution index",
+          "url": "https://mathsaurus.com/step/"
+        },
+        {
+          "label": "STEP video playlist",
+          "url": "https://www.youtube.com/playlist?list=PLUuwecyIK3fg5KUof5d_PnK8xTqb42q3Y"
+        }
+      ],
+      "id": "mathsaurus-step-video-solutions"
+    },
+    {
+      "title": "The Student Room community solutions",
+      "description": "Year-by-year discussions contain contributors' solutions and alternative approaches to older STEP papers. Coverage varies; opening posts sometimes identify missing or incomplete answers.",
+      "credit": "The Student Room mathematics contributors, including SimonM, DFranklin, brianeverit, nota bene, Speleo and others credited at each solution",
+      "links": [
+        {
+          "label": "Historical solution-bank index",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=2403970"
+        },
+        {
+          "label": "1987 community solutions",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=448558"
+        },
+        {
+          "label": "1998 community solutions",
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=357961"
+        }
+      ],
+      "id": "the-student-room-community-solutions"
+    },
+    {
+      "title": "Cambridge STEP information",
+      "description": "The Faculty's official overview explains current paper structure and links preparation materials and exam-board information. Older questions may cover material outside today's specification.",
+      "credit": "University of Cambridge Faculty of Mathematics",
+      "links": [
+        {
+          "label": "Official STEP overview",
+          "url": "https://www.maths.cam.ac.uk/undergrad/admissions/step"
+        }
+      ],
+      "id": "cambridge-step-information"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Mathsaurus STEP resource and attribution page",
+      "url": "https://mathsaurus.com/step/"
+    },
+    {
+      "label": "Cambridge STEP admissions guidance",
+      "url": "https://www.maths.cam.ac.uk/undergrad/admissions/step"
+    },
+    {
+      "label": "Cambridge STEP question database",
+      "url": "https://stepdatabase.maths.org/database/index.html"
+    },
+    {
+      "label": "Cambridge STEP database linked data (source of exact PDF URLs)",
+      "url": "https://stepdatabase.maths.org/database/database_data.json"
+    },
+    {
+      "label": "PMT STEP paper and solution archive",
+      "url": "https://www.physicsandmathstutor.com/admissions/step/"
+    },
+    {
+      "label": "MathsHelper STEP archive",
+      "url": "https://www.mathshelper.co.uk/steppapers.php"
+    },
+    {
+      "label": "MEI worked-solutions guest archive",
+      "url": "https://mei.org.uk/resource/STEP-past-paper-worked-solutions/"
+    },
+    {
+      "label": "Student Room historical solution-bank index",
+      "url": "https://www.thestudentroom.co.uk/showthread.php?t=2403970"
+    },
+    {
+      "label": "Mathsaurus STEP grade boundaries",
+      "url": "https://mathsaurus.com/step-grade-boundaries/"
+    },
+    {
+      "label": "Cambridge worked-paper collection",
+      "url": "https://step.maths.org/worked-step-papers"
+    },
+    {
+      "label": "Official OCR papers and resources",
+      "url": "https://www.ocr.org.uk/students/step-mathematics/preparing-for-step/"
+    },
+    {
+      "label": "OCR STEP scoring and results",
+      "url": "https://www.ocr.org.uk/students/step-mathematics/scoring-and-results/"
+    },
+    {
+      "label": "Cambridge STEP Support Programme",
+      "url": "https://step.maths.org/"
+    },
+    {
+      "label": "Stephen Siklos publisher page",
+      "url": "https://www.openbookpublishers.com/books/10.11647/obp.0181"
+    },
+    {
+      "label": "OCR STEP 2019 Explanation of Results",
+      "url": "https://www.ocr.org.uk/Images/696510-explanation-of-results-for-step-2019.pdf"
+    },
+    {
+      "label": "OCR STEP 2020 Explanation of Results",
+      "url": "https://www.ocr.org.uk/Images/696511-explanation-of-results-for-step-2020.pdf"
+    },
+    {
+      "label": "OCR STEP 2021 Explanation of Results",
+      "url": "https://www.ocr.org.uk/Images/696512-explanation-of-results-for-step-2021.pdf"
+    },
+    {
+      "label": "OCR STEP 2022 Explanation of Results",
+      "url": "https://www.ocr.org.uk/Images/696513-explanation-of-results-for-step-2022.pdf"
+    },
+    {
+      "label": "OCR STEP 2023 Explanation of Results",
+      "url": "https://www.ocr.org.uk/Images/696514-explanation-of-results-for-step-2023.pdf"
+    },
+    {
+      "label": "OCR STEP 2024 Explanation of Results",
+      "url": "https://www.ocr.org.uk/Images/716229-explanation-of-results-for-step-2024.pdf"
+    },
+    {
+      "label": "OCR STEP 2025 Explanation of Results",
+      "url": "https://www.ocr.org.uk/Images/741440-explanation-of-results-for-step-2025.pdf"
+    },
+    {
+      "label": "OCR STEP 2026 Explanation of Results",
+      "url": "https://www.ocr.org.uk/Images/761472-explanation-of-results-for-step-2026.pdf"
+    }
+  ],
+  "sourceNote": "Curated by Arij Asad. Papers and solutions remain the work of their original authors; links open the original provider or the named archive mirror. Historical boundaries for 2000–2018 are transcribed from Mathsaurus; 2019–2026 link to official results documents. No pre-2000 boundaries were located."
+}

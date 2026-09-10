@@ -5,13 +5,15 @@ from html import escape
 from collections import defaultdict
 import json
 import re
+from site_navigation import install_archive_navigation
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data' / 'paper-archives'
 ORIGIN = 'https://maths.arijasad.com/'
 EXAMS = [('jmc', 'JMC'), ('imc', 'IMC'), ('smc', 'SMC'), ('amc10', 'AMC 10'),
          ('amc12', 'AMC 12'), ('aime', 'AIME'), ('bmo', 'BMO')]
-LABELS = dict(EXAMS + [('tmua', 'TMUA')])
+ADMISSIONS = [('tmua', 'TMUA'), ('step', 'STEP'), ('esat', 'ESAT')]
+LABELS = dict(EXAMS + ADMISSIONS)
 CHECKED = '2026-09-10'
 
 
@@ -20,7 +22,17 @@ def e(value):
 
 
 def page_path(exam):
-    return 'tmua-paper-archive.html' if exam == 'tmua' else exam + '-past-papers.html'
+    return exam + '-paper-archive.html' if exam in ('tmua', 'esat') else exam + '-past-papers.html'
+
+
+def score_heading(exam):
+    if exam == 'tmua':
+        return 'Score conversion'
+    if exam == 'step':
+        return 'Grade boundaries'
+    if exam == 'esat':
+        return 'Score guidance'
+    return 'Qualification' if exam in ('aime', 'amc10', 'amc12') else 'Award boundaries'
 
 
 def text(value):
@@ -35,8 +47,12 @@ def file_link(item, context):
     kind = item.get('kind', 'solutions')
     modifier = '--paper' if kind == 'paper' else '--extended' if kind == 'extended-solutions' else ''
     label = item['label']
-    return (f'<a class="file-button file-button{modifier}" href="{e(item["url"])}" '
+    link = (f'<a class="file-button file-button{modifier}" href="{e(item["url"])}" '
             f'aria-label="{e(context + ": " + label)}">{e(label)}</a>')
+    if item.get('credit') or item.get('note'):
+        detail = ' '.join(str(item[k]) for k in ('credit', 'note') if item.get(k))
+        return '<span class="resource-item">' + link + '<span class="source-note">' + e(detail) + '</span></span>'
+    return link
 
 
 def boundary_cell(row, exam):
@@ -45,6 +61,8 @@ def boundary_cell(row, exam):
     labels = [('bronze', 'Bronze'), ('silver', 'Silver'), ('gold', 'Gold'),
               ('merit', 'Merit'), ('distinction', 'Distinction'),
               ('distinguishedHonorRoll', 'Distinguished Honor Roll')]
+    if exam == 'step':
+        labels = [('gradeS', 'S'), ('grade1', '1'), ('grade2', '2'), ('grade3', '3')]
     qualification = b.get('qualification')
     if qualification is not None and not isinstance(qualification, (dict, list)) and len(str(qualification)) < 18:
         label = 'AIME' if exam in ('amc10', 'amc12') else b.get('qualificationLabel', 'Qualification')
@@ -53,7 +71,7 @@ def boundary_cell(row, exam):
     for key, label in labels:
         value = b.get(key)
         if value is not None and not isinstance(value, (dict, list)):
-            awards.append(f'<div class="award-value{" award-value--gold" if key == "gold" else ""}"><dt>{e(label)}</dt><dd>{e(value)}</dd></div>')
+            awards.append(f'<div class="award-value{" award-value--gold" if key in ("gold", "gradeS") else ""}"><dt>{e(label)}</dt><dd>{e(value)}</dd></div>')
     if awards:
         parts.append('<dl class="award-values">' + ''.join(awards) + '</dl>')
     if isinstance(qualification, dict):
@@ -73,7 +91,7 @@ def boundary_cell(row, exam):
     for item in b.get('links', []):
         parts.append(f'<a class="source-note" href="{e(item["url"])}">{e(item["label"])}</a>')
     if not parts:
-        message = 'No standalone qualifying score' if exam == 'aime' else 'Not located in the available sources'
+        message = 'N/A' if exam in ('tmua', 'step', 'esat') else 'No standalone qualifying score' if exam == 'aime' else 'Not located in the available sources'
         parts.append('<span class="unavailable">' + message + '</span>')
     return ''.join(parts)
 
@@ -91,11 +109,13 @@ def row_html(row, exam):
     papers = [x for x in links if x.get('kind') == 'paper']
     answers = [x for x in links if x.get('kind') != 'paper']
     answers.sort(key=lambda x: {'extended-solutions': 0, 'solutions': 1, 'answers': 2}.get(x.get('kind'), 3))
-    paper_content = ''.join(file_link(x, paper_context) for x in papers) or '<span class="unavailable">' + e(row.get('paperUnavailable', 'Paper not located')) + '</span>'
-    answer_content = ''.join(file_link(x, answer_context) for x in answers) or '<span class="unavailable">Solutions not located</span>'
+    missing_paper = 'N/A' if exam == 'tmua' else row.get('paperUnavailable', 'Paper not located')
+    missing_solutions = 'N/A' if exam == 'tmua' else row.get('solutionsUnavailable', 'Solutions not located')
+    paper_content = ''.join(file_link(x, paper_context) for x in papers) or '<span class="unavailable">' + e(missing_paper) + '</span>'
+    answer_content = ''.join(file_link(x, answer_context) for x in answers) or '<span class="unavailable">' + e(missing_solutions) + '</span>'
     if row.get('creator'):
         paper_content += '<span class="source-note">Paper by <strong>' + e(row['creator']) + '</strong></span>'
-        if answers:
+        if any(item.get('kind') == 'answers' for item in answers):
             answer_content += '<span class="source-note">Answer key supplied with the ' + e(row['creator']) + ' collection.</span>'
     if row.get('questionVideos'):
         videos = ''.join(f'<a href="{e(v["url"])}">{e(v["label"])}</a>' for v in row['questionVideos'])
@@ -107,7 +127,9 @@ def row_html(row, exam):
         paper_content += '<span class="source-note">' + e(text(row_note)) + '</span>'
     if row.get('formatNote'):
         paper_content += '<span class="source-note">' + e(text(row['formatNote'])) + '</span>'
-    score_label = 'Score conversion' if exam == 'tmua' else 'Qualification' if exam in ('amc10', 'amc12', 'aime') else 'Award boundaries'
+    if row.get('solutionNote'):
+        answer_content += '<span class="source-note">' + e(row['solutionNote']) + '</span>'
+    score_label = score_heading(exam)
     return (f'<tr role="row"><th role="rowheader" scope="row">{e(label)}' + (f'<span class="year-variant">{e(variant)}</span>' if variant else '') + '</th>'
             + '<td role="cell" class="paper-cell" data-label="Question papers"><div class="file-links">' + paper_content + '</div></td>'
             + '<td role="cell" class="solutions-cell" data-label="Solutions and answers"><div class="file-links">' + answer_content + '</div></td>'
@@ -115,7 +137,7 @@ def row_html(row, exam):
 
 
 def table(rows, exam, caption):
-    bounds_label = 'Score conversion' if exam == 'tmua' else 'Qualification' if exam in ('aime', 'amc10', 'amc12') else 'Award boundaries'
+    bounds_label = score_heading(exam)
     return ('<div class="archive-table-wrap"><table role="table" class="archive-table"><caption>' + e(caption) + '</caption>'
             + '<thead role="rowgroup"><tr role="row"><th role="columnheader" scope="col">Year / paper</th><th role="columnheader" scope="col">Question papers</th><th role="columnheader" scope="col">Solutions &amp; answers</th><th role="columnheader" scope="col">' + bounds_label + '</th></tr></thead><tbody role="rowgroup">'
             + '\n'.join(row_html(r, exam) for r in rows) + '</tbody></table></div>')
@@ -128,8 +150,8 @@ def render(data):
     path = page_path(exam)
     title = data.get('pageTitle') or name + ' Past Papers, Solutions & Boundaries | Arij Asad'
     description = data.get('description') or f'{name} past papers, worked solutions and historical award or qualification boundaries, organised by year. Find extended solutions where available.'
-    hub = 'tmua.html' if exam == 'tmua' else 'maths-challenges.html'
-    hub_label = 'TMUA tuition' if exam == 'tmua' else 'Maths challenges & Olympiads'
+    hub = data.get('hub') or ('tmua.html' if exam == 'tmua' else 'step.html' if exam == 'step' else 'resources.html' if exam == 'esat' else 'maths-challenges.html')
+    hub_label = data.get('hubLabel') or ('TMUA tuition' if exam == 'tmua' else 'STEP tuition' if exam == 'step' else 'Free preparation resources' if exam == 'esat' else 'Maths challenges & Olympiads')
     template = (ROOT / 'maths-challenges.html').read_text()
     header = re.search(r'  <header class="site-header">.*?</header>', template, re.S)[0]
     header = header.replace(' aria-current="page"', '')
@@ -142,13 +164,13 @@ def render(data):
             groups['Specimen papers'].append(row)
     groups = dict(sorted(groups.items(), key=lambda pair: int(pair[0][:-1]) if pair[0][:-1].isdigit() else 0, reverse=True))
     numeric_years = [r['year'] for r in rows if isinstance(r['year'], int)]
-    coverage = f'{min(numeric_years)}–{max(numeric_years)}' if numeric_years else 'Specimen and practice papers'
+    coverage = data.get('coverageLabel') or (f'{min(numeric_years)}–{max(numeric_years)}' if numeric_years else 'Specimen and practice papers')
     paper_count = sum(1 for r in rows if any(x.get('kind') == 'paper' for x in r.get('papers', [])))
-    nav_exams = EXAMS if exam != 'tmua' else [('tmua', 'TMUA archive')]
-    nav = ''.join(f'<a href="{page_path(k)}"' + (' aria-current="page"' if k == exam else '') + f'>{e(label)}</a>' for k, label in nav_exams)
+    nav = ''
     if exam == 'tmua':
-        nav += '<a href="#community-papers">Community papers</a><a href="tmua-past-papers.html">Past-paper study guide</a>'
-    jumps = ''.join(f'<a href="#{e(g.lower().replace(" ", "-"))}">{e(g)}</a>' for g in groups)
+        nav = '<nav class="archive-nav" aria-label="TMUA archive shortcuts"><a href="#community-papers">Community papers</a><a href="tmua-past-papers.html">Past-paper study guide</a></nav>'
+    archive_sections = data.get('archiveSections') or [{'id':g.lower().replace(' ', '-'), 'title':g, 'rows':r} for g,r in groups.items()]
+    jumps = ''.join(f'<a href="#{e(g["id"])}">{e(g.get("navLabel", g["title"]))}</a>' for g in archive_sections)
     if data.get('legacyYears'):
         jumps += '<a href="#ahsme">AHSME: 1950–1999</a>'
     for collection in data.get('community', []):
@@ -157,10 +179,13 @@ def render(data):
     for section in data.get('linkSections', []):
         jumps += f'<a href="#{e(section["id"])}">{e(section["title"])}</a>'
     sections = []
-    for group, group_rows in groups.items():
-        group_rows.sort(key=lambda r: (-(r['year'] if isinstance(r['year'], int) else 0), str(r.get('sortKey', r.get('variant', '')))))
-        sections.append(f'<section class="archive-section" id="{e(group.lower().replace(" ", "-"))}"><h2>{e(group)}</h2>'
-                        + table(group_rows, exam, name + ' papers and scores — ' + group) + '</section>')
+    for group in archive_sections:
+        group_rows = group['rows']
+        if not group.get('preserveOrder'):
+            group_rows.sort(key=lambda r: (-(r['year'] if isinstance(r['year'], int) else 0), str(r.get('sortKey', r.get('variant', '')))))
+        group_intro = '<p class="community-description">' + e(group['description']) + '</p>' if group.get('description') else ''
+        sections.append(f'<section class="archive-section" id="{e(group["id"])}"><h2>{e(group["title"])}</h2>' + group_intro
+                        + table(group_rows, exam, name + ' papers and scores — ' + group['title']) + '</section>')
     notes = data.get('displayNotes', [])
     notes_html = '<aside class="archive-note">' + ''.join('<p>' + e(n) + '</p>' for n in notes) + '</aside>' if notes else ''
     communities = []
@@ -178,20 +203,29 @@ def render(data):
             communities.append(table(collection['rows'], exam, collection['title']) + '</section>')
     if data.get('linkSections'):
         for section in data['linkSections']:
-            communities.append('<section class="archive-section" id="' + e(section['id']) + '"><h2>' + e(section['title']) + '</h2><ul class="archive-link-grid">')
+            communities.append('<section class="archive-section" id="' + e(section['id']) + '"><h2>' + e(section['title']) + '</h2>')
+            if section.get('description'):
+                communities.append('<p class="community-description">' + e(section['description']) + '</p>')
+            if section.get('credit'):
+                communities.append('<p class="source-note">' + e(section['credit']) + '</p>')
+            communities.append('<ul class="archive-link-grid">')
             for item in section['links']:
-                communities.append('<li><a href="' + e(item['url']) + '">' + e(item['label']) + '</a></li>')
+                detail = '<span class="source-note">' + e(item['description']) + '</span>' if item.get('description') else ''
+                communities.append('<li><a href="' + e(item['url']) + '">' + e(item['label']) + '</a>' + detail + '</li>')
             communities.append('</ul></section>')
     sources = ''.join(f'<li><a href="{e(s["url"])}">{e(s["label"])}</a></li>' for s in data.get('sources', []) + data.get('legacySources', []))
     schema = {'@context':'https://schema.org','@type':'CollectionPage','name':title.split(' | ')[0],
               'url':ORIGIN + path,'description':description,'dateModified':CHECKED,
               'author':{'@type':'Person','@id':ORIGIN+'about.html#arij-asad','name':'Arij Asad'},
               'isPartOf':{'@type':'WebSite','name':'Arij Asad Maths','url':ORIGIN}}
-    if data.get('community'):
+    if data.get('community') or exam in ('step', 'esat'):
         schema['editor'] = schema.pop('author')
     source_note = data.get('sourceNote', 'Resources open on their original websites unless labelled as a supplied collection. Papers and solutions remain the work of their respective authors. Missing papers or thresholds are marked explicitly.')
     intro = data.get('intro') or 'Question papers, solutions and historical thresholds, together in one place. Choose the year and paper you are practising.'
-    return f'''<!DOCTYPE html>
+    service = {'tmua':'TMUA%20preparation', 'step':'STEP%20preparation', 'esat':'ESAT%20mathematics%20preparation'}.get(exam, 'Maths%20challenges%20and%20Olympiads')
+    enquiry_label = 'ESAT maths' if exam == 'esat' else name
+    css_version = '20260910-nav1'
+    return install_archive_navigation(f'''<!DOCTYPE html>
 <html lang="en-GB">
 <head>
   <meta charset="UTF-8">
@@ -201,7 +235,7 @@ def render(data):
   <link rel="canonical" href="{ORIGIN + path}">
   <link rel="icon" href="/favicon.ico?v=dd9f0d4a0c" sizes="16x16 32x32 48x48 64x64">
   <link rel="stylesheet" href="site.css?v=challenges-20260910">
-  <link rel="stylesheet" href="archive.css?v=20260910">
+  <link rel="stylesheet" href="archive.css?v={css_version}">
   <meta name="theme-color" content="#111111">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{e(title)}">
@@ -220,21 +254,21 @@ def render(data):
       <div class="archive-facts"><span>{coverage}</span><span>{paper_count} paper entries</span><span>Checked 10 September 2026</span></div>
     </div></header>
     <div class="container">
-      <nav class="archive-nav" aria-label="Paper archives">{nav}</nav>
+{nav}
       {notes_html}
       <nav class="archive-jumps" aria-label="Jump to archive sections"><strong>Jump to:</strong>{jumps}</nav>
       {''.join(sections)}
       {''.join(communities)}
       <aside class="archive-sources"><h2>Sources &amp; archive notes</h2><ul>{sources}</ul>
       <p class="source-note">{e(source_note)}</p></aside>
-      <div class="archive-bottom"><p><a href="{hub}">Back to {e(hub_label.lower())}</a></p><a class="resource-button" href="contact.html?service={'TMUA%20preparation' if exam == 'tmua' else 'Maths%20challenges%20and%20Olympiads'}#enquiry-form">Enquire about {e(name)} tuition</a></div>
+      <div class="archive-bottom"><p><a href="{hub}">Back to {e(hub_label.lower())}</a></p><a class="resource-button" href="contact.html?service={service}#enquiry-form">Enquire about {e(enquiry_label)} tuition</a></div>
     </div>
   </main>
 {footer}
   <script src="site.js" defer></script>
 </body>
 </html>
-'''
+''', path)
 
 
 if __name__ == '__main__':

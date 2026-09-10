@@ -7,7 +7,8 @@
 .archive-page .archive-intro h1 span { color: #ead9b6; }
 .archive-page .archive-intro p { max-width: 920px; margin: 0; color: #eee8dc; font-size: 1rem; }
 .archive-page .archive-facts { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 20px; color: #ead9b6; font-size: .9rem; }
-.archive-page .archive-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 20px 0; }
+.archive-page .archive-intro + .container { padding-top: 20px; }
+.archive-page .archive-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 0 20px; }
 .archive-page .archive-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 7px 16px; border: 1px solid #d2c8b4; border-radius: 8px; background: #fff; color: #332b1f; font-size: .9rem; font-weight: 700; text-decoration: none; }
 .archive-page .archive-nav a[aria-current="page"], .archive-page .archive-nav a:hover { background: #111; color: #ead9b6; border-color: #111; }
 .archive-page .archive-note { margin: 0 0 24px; padding: 15px 20px; border-left: 4px solid #8a6526; background: #eee8dc; color: #393329; font-size: .95rem; }
@@ -32,6 +33,8 @@
 .archive-page .archive-table .solutions-cell { min-width: 245px; width: 32%; }
 .archive-page .archive-table .bounds-cell { min-width: 235px; }
 .archive-page .file-links { display: flex; flex-wrap: wrap; gap: 7px; }
+.archive-page .resource-item { display: inline-flex; flex-direction: column; align-items: flex-start; max-width: 100%; }
+.archive-page .resource-item .source-note { max-width: 34ch; }
 .archive-page a.file-button { display: inline-flex; justify-content: center; align-items: center; min-height: 44px; padding: 8px 13px; border: 1px solid #c5b18b; border-radius: 7px; background: #fff; color: #604310; font-size: .88rem; font-weight: 700; line-height: 1.4; text-decoration: none; }
 .archive-page a.file-button--paper { background: #111; color: #fff; border-color: #111; }
 .archive-page a.file-button--extended { background: #ead9b6; color: #342506; border-color: #b5975f; }
@@ -58,7 +61,8 @@
 .archive-page .question-videos > div { display: flex; flex-wrap: wrap; gap: 8px; padding-top: 8px; }
 .archive-page .question-videos a { display: inline-flex; padding: 5px 9px; background: #eee8dc; color: #513910; border-radius: 4px; }
 .archive-page .archive-link-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 9px; padding: 0; list-style: none; }
-.archive-page .archive-link-grid a { display: block; height: 100%; padding: 12px 16px; background: #fff; border: 1px solid #d9d0c0; border-radius: 7px; color: #634614; text-underline-offset: 3px; }
+.archive-page .archive-link-grid li { display: flex; flex-direction: column; }
+.archive-page .archive-link-grid a { display: block; flex: 1; padding: 12px 16px; background: #fff; border: 1px solid #d9d0c0; border-radius: 7px; color: #634614; text-underline-offset: 3px; }
 @media (max-width: 760px) {
   .archive-page .archive-intro { padding-top: 23px; }
   .archive-page .archive-table, .archive-page .archive-table tbody, .archive-page .archive-table tr, .archive-page .archive-table td, .archive-page .archive-table th { display: block; width: auto; min-width: 0; }
