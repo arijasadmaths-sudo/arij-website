@@ -1118,3 +1118,23 @@ body:not(.resource-page) .nav-links {
     padding: 72px 0 58px;
   }
 }
+
+/* Keep the expanded tuition navigation readable across screen sizes. */
+.challenge-service-card { grid-column: 1 / -1; }
+.challenge-service-card p { max-width: 880px; }
+@media (min-width: 1181px) {
+  body .nav-links, body.resource-page .nav-links { gap: 17px; }
+}
+@media (max-width: 1180px) {
+  body .menu-button, body.resource-page .menu-button { display: inline-flex; }
+  body .nav-links, body.resource-page .nav-links {
+    position: absolute; top: 76px; right: 20px; left: 20px;
+    display: none; max-height: calc(100vh - 90px); max-height: calc(100dvh - 90px);
+    overflow-y: auto; flex-direction: column; align-items: stretch; gap: 0;
+    padding: 12px; border: 1px solid var(--border); border-radius: 14px;
+    background: var(--white); box-shadow: var(--shadow);
+  }
+  body .nav-links.open, body.resource-page .nav-links.open { display: flex; }
+  body .nav-links a, body.resource-page .nav-links a { padding: 11px 12px; font-size: 14px; flex-shrink: 0; }
+  body .nav-contact, body.resource-page .nav-contact { margin-top: 6px; text-align: center; }
+}
