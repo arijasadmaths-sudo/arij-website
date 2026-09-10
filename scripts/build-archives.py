@@ -159,6 +159,24 @@ def table(rows, exam, caption):
             + '\n'.join(row_html(r, exam, overall_raw) for r in rows) + '</tbody></table></div>')
 
 
+def practice_guidance(exam):
+    if exam == 'step':
+        return '''<aside class="archive-note"><p>Working through a STEP paper? Read <a href="strong-step-solution.html">how to write a strong STEP solution</a> for advice on complete arguments and clear working, or <a href="when-to-start-step.html">plan when to start STEP preparation</a>.</p></aside>'''
+    if exam != 'tmua':
+        return ''
+    return '''<section class="archive-guidance archive-section" id="practice-guidance" aria-labelledby="practice-guidance-title">
+      <h2 id="practice-guidance-title">How I recommend using these TMUA past papers</h2>
+      <p class="community-description">A paper is most useful when it changes what you practise next. Look for gaps in knowledge, inefficient methods, misread questions and problems with timing. Preparation advice by <a href="about.html">Arij Asad</a>.</p>
+      <ol class="archive-guidance-grid">
+        <li><h3>1. Start with a diagnosis</h3><p>Attempt an earlier official paper before working through lots of mocks. Mark questions you guessed or solved slowly as well as those you got wrong. Keep some complete paper pairs unseen for later timed practice. Use the <a href="tmua-study-plan.html">TMUA study plan</a> to turn your first attempt into a preparation schedule.</p></li>
+        <li><h3>2. Repair the recurring weakness</h3><p>If logic is causing difficulty, write the direction of each implication explicitly. A counterexample must satisfy the premise while breaking the conclusion: for “if x² = 9, then x = 3”, x = −3 works. Use my <a href="tmua-logic-proof.html">logic and proof guide</a>, then practise with the <a href="#jz-maths-logic-worksheets">JZ Maths logic worksheets</a>.</p></li>
+        <li><h3>3. Find the decision that cost you marks</h3><p>Before opening a worked solution or video, note where your approach stopped working. Would a sketch, a special case or eliminating an option have helped? Close the solution and redo the question after a few days. Review correct answers reached through guesswork too. My <a href="tmua-past-papers.html">past-paper study guide</a> explains how to keep a useful error log.</p></li>
+        <li><h3>4. Practise timing and working on screen</h3><p>Use complete official papers for timed practice, then use the <a href="https://www.pearsonvue.com/us/en/uatuk.html">official computer-based practice tests</a> to get used to reading on screen and navigating the test. <a href="#community-papers">Community mocks</a> provide more unfamiliar questions; use them to identify weaknesses and treat suggested score conversions as estimates.</p></li>
+      </ol>
+      <p class="source-note">For the current specification and test instructions, see <a href="https://esat-tmua.ac.uk/prepare/">UAT-UK’s official preparation guidance</a>.</p>
+    </section>'''
+
+
 def render(data):
     exam = data['exam']
     rows = data['years']
@@ -184,7 +202,7 @@ def render(data):
     paper_count = sum(1 for r in rows if any(x.get('kind') == 'paper' for x in r.get('papers', [])))
     nav = ''
     if exam == 'tmua':
-        nav = '<nav class="archive-nav" aria-label="TMUA archive shortcuts"><a href="#community-papers">Community papers</a><a href="tmua-past-papers.html">Past-paper study guide</a></nav>'
+        nav = '<nav class="archive-nav" aria-label="TMUA archive shortcuts"><a href="#2020s">Official past papers</a><a href="#community-papers">Community papers</a><a href="#practice-guidance">How to practise</a><a href="tmua-past-papers.html">Past-paper study guide</a></nav>'
     archive_sections = data.get('archiveSections') or [{'id':g.lower().replace(' ', '-'), 'title':g, 'rows':r} for g,r in groups.items()]
     jumps = ''.join(f'<a href="#{e(g["id"])}">{e(g.get("navLabel", g["title"]))}</a>' for g in archive_sections)
     if data.get('legacyYears'):
@@ -240,7 +258,9 @@ def render(data):
     intro = data.get('intro') or 'Question papers, solutions and historical thresholds, together in one place. Choose the year and paper you are practising.'
     service = {'tmua':'TMUA%20preparation', 'step':'STEP%20preparation', 'esat':'ESAT%20mathematics%20preparation'}.get(exam, 'Maths%20challenges%20and%20Olympiads')
     enquiry_label = 'ESAT maths' if exam == 'esat' else name
-    css_version = '20260910-nav1'
+    css_version = '20260910-guidance1'
+    paper_heading = 'practice papers' if exam == 'esat' else 'past papers'
+    curator = '<p class="archive-curator">Curated by <a href="about.html">Arij Asad</a>. Papers, worked solutions and videos are credited to their original creators.</p>' if exam == 'tmua' else ''
     return install_archive_navigation(f'''<!DOCTYPE html>
 <html lang="en-GB">
 <head>
@@ -265,8 +285,9 @@ def render(data):
   <main id="main-content">
     <header class="archive-intro"><div class="container">
       <nav class="archive-breadcrumbs" aria-label="Breadcrumb"><a href="{hub}">{e(hub_label)}</a><span aria-hidden="true">/</span><span>{e(name)} archive</span></nav>
-      <h1>{e(name)} papers &amp; <span>solutions.</span></h1>
+      <h1>{e(name)} {paper_heading} &amp; <span>solutions.</span></h1>
       <p>{e(intro)}</p>
+{curator}
       <div class="archive-facts"><span>{coverage}</span><span>{paper_count} paper entries</span><span>Checked 10 September 2026</span></div>
     </div></header>
     <div class="container">
@@ -274,6 +295,7 @@ def render(data):
       {notes_html}
       <nav class="archive-jumps" aria-label="Jump to archive sections"><strong>Jump to:</strong>{jumps}</nav>
       {''.join(sections)}
+{practice_guidance(exam)}
       {''.join(communities)}
       <aside class="archive-sources"><h2>Sources &amp; archive notes</h2><ul>{sources}</ul>
       <p class="source-note">{e(source_note)}</p></aside>
