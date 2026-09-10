@@ -4079,23 +4079,41 @@
       "links": [
         {
           "label": "Programme home",
-          "url": "https://step.maths.org/"
+          "url": "https://step.maths.org/",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Foundation modules",
-          "url": "https://step.maths.org/assignments/foundation"
+          "url": "https://step.maths.org/assignments/foundation",
+          "filterTypes": [
+            "papers",
+            "written"
+          ]
         },
         {
           "label": "STEP 2 modules",
-          "url": "https://step.maths.org/assignments/step-2"
+          "url": "https://step.maths.org/assignments/step-2",
+          "filterTypes": [
+            "papers",
+            "written"
+          ]
         },
         {
           "label": "STEP 3 modules",
-          "url": "https://step.maths.org/assignments/step-3"
+          "url": "https://step.maths.org/assignments/step-3",
+          "filterTypes": [
+            "papers",
+            "written"
+          ]
         },
         {
           "label": "Foundation video solutions",
-          "url": "https://step.maths.org/step-foundation-assignment-videos"
+          "url": "https://step.maths.org/step-foundation-assignment-videos",
+          "filterTypes": [
+            "videos"
+          ]
         }
       ],
       "id": "cambridge-step-support-programme"
@@ -4107,15 +4125,26 @@
       "links": [
         {
           "label": "Worked-paper collection",
-          "url": "https://step.maths.org/worked-step-papers"
+          "url": "https://step.maths.org/worked-step-papers",
+          "filterTypes": [
+            "written"
+          ]
         },
         {
           "label": "2025 STEP 2 worked solutions",
-          "url": "https://step.maths.org/sites/default/files/2026-04/STEP2_2025_Mock_0.pdf"
+          "url": "https://step.maths.org/sites/default/files/2026-04/STEP2_2025_Mock_0.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2025
         },
         {
           "label": "2025 STEP 3 worked solutions",
-          "url": "https://step.maths.org/sites/default/files/2026-04/STEP3_2025_Mock_0.pdf"
+          "url": "https://step.maths.org/sites/default/files/2026-04/STEP3_2025_Mock_0.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2025
         }
       ],
       "id": "cambridge-worked-step-papers"
@@ -4127,11 +4156,17 @@
       "links": [
         {
           "label": "Search STEP questions",
-          "url": "https://stepdatabase.maths.org/database/index.html"
+          "url": "https://stepdatabase.maths.org/database/index.html",
+          "filterTypes": [
+            "papers"
+          ]
         },
         {
           "label": "Database home",
-          "url": "https://stepdatabase.maths.org/"
+          "url": "https://stepdatabase.maths.org/",
+          "filterTypes": [
+            "guides"
+          ]
         }
       ],
       "id": "step-question-database"
@@ -4143,7 +4178,11 @@
       "links": [
         {
           "label": "Free book and downloads",
-          "url": "https://www.openbookpublishers.com/books/10.11647/obp.0181"
+          "url": "https://www.openbookpublishers.com/books/10.11647/obp.0181",
+          "filterTypes": [
+            "papers",
+            "written"
+          ]
         }
       ],
       "id": "advanced-problems-in-mathematics"
@@ -4155,7 +4194,11 @@
       "links": [
         {
           "label": "Browse STEP questions",
-          "url": "https://undergroundmathematics.org/browse?typeOption=ReviewQuestion&reviewQuestionType=6"
+          "url": "https://undergroundmathematics.org/browse?typeOption=ReviewQuestion&reviewQuestionType=6",
+          "filterTypes": [
+            "papers",
+            "written"
+          ]
         }
       ],
       "id": "underground-mathematics-step-solutions"
@@ -4167,27 +4210,50 @@
       "links": [
         {
           "label": "Creator's collection and attribution",
-          "url": "https://mathsaurus.com/step/"
+          "url": "https://mathsaurus.com/step/",
+          "filterTypes": [
+            "written"
+          ]
         },
         {
           "label": "2016 written solutions",
-          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2016-solutions.pdf"
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2016-solutions.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2016
         },
         {
           "label": "2017 written solutions",
-          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2017-solutions.pdf"
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2017-solutions.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2017
         },
         {
           "label": "2018 written solutions",
-          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2018-solutions.pdf"
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2018-solutions.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2018
         },
         {
           "label": "2019 written solutions",
-          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2019-solutions.pdf"
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2019-solutions.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2019
         },
         {
           "label": "2020 written solutions (II and III)",
-          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2020-solutions-2.pdf"
+          "url": "https://mathsaurus.com/wp-content/uploads/2021/08/STEP-2020-solutions-2.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2020
         }
       ],
       "id": "mathsaurus-written-step-solutions"
@@ -4199,11 +4265,17 @@
       "links": [
         {
           "label": "Video-solution index",
-          "url": "https://mathsaurus.com/step/"
+          "url": "https://mathsaurus.com/step/",
+          "filterTypes": [
+            "videos"
+          ]
         },
         {
           "label": "STEP video playlist",
-          "url": "https://www.youtube.com/playlist?list=PLUuwecyIK3fg5KUof5d_PnK8xTqb42q3Y"
+          "url": "https://www.youtube.com/playlist?list=PLUuwecyIK3fg5KUof5d_PnK8xTqb42q3Y",
+          "filterTypes": [
+            "videos"
+          ]
         }
       ],
       "id": "mathsaurus-step-video-solutions"
@@ -4215,15 +4287,26 @@
       "links": [
         {
           "label": "Historical solution-bank index",
-          "url": "https://www.thestudentroom.co.uk/showthread.php?t=2403970"
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=2403970",
+          "filterTypes": [
+            "written"
+          ]
         },
         {
           "label": "1987 community solutions",
-          "url": "https://www.thestudentroom.co.uk/showthread.php?t=448558"
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=448558",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 1987
         },
         {
           "label": "1998 community solutions",
-          "url": "https://www.thestudentroom.co.uk/showthread.php?t=357961"
+          "url": "https://www.thestudentroom.co.uk/showthread.php?t=357961",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 1998
         }
       ],
       "id": "the-student-room-community-solutions"
@@ -4235,7 +4318,10 @@
       "links": [
         {
           "label": "Official STEP overview",
-          "url": "https://www.maths.cam.ac.uk/undergrad/admissions/step"
+          "url": "https://www.maths.cam.ac.uk/undergrad/admissions/step",
+          "filterTypes": [
+            "guides"
+          ]
         }
       ],
       "id": "cambridge-step-information"

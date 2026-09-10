@@ -2270,11 +2270,17 @@
       "links": [
         {
           "label": "Beyond Horizon mock TMUA Paper 1 — R2Drew2",
-          "url": "https://www.youtube.com/watch?v=IjJfRn5DNfI"
+          "url": "https://www.youtube.com/watch?v=IjJfRn5DNfI",
+          "filterTypes": [
+            "videos"
+          ]
         },
         {
           "label": "Beyond Horizon TMUA Specimen Paper 1 — R2Drew2",
-          "url": "https://www.youtube.com/watch?v=7budk5m8Ubs"
+          "url": "https://www.youtube.com/watch?v=7budk5m8Ubs",
+          "filterTypes": [
+            "videos"
+          ]
         }
       ]
     },
@@ -2284,23 +2290,39 @@
       "links": [
         {
           "label": "TMUA Specification",
-          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/03165619/TMUA_Content_Specification.pdf"
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/03165619/TMUA_Content_Specification.pdf",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "TMUA Specimen and Practice Tests",
-          "url": "https://www.pearsonvue.com/us/en/uatuk.html"
+          "url": "https://www.pearsonvue.com/us/en/uatuk.html",
+          "filterTypes": [
+            "papers",
+            "written"
+          ]
         },
         {
           "label": "Notes on Mathematics",
-          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/06/30103537/Notes_on_Mathematics_-for_TMUA_and_ESAT_M2.pdf"
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/06/30103537/Notes_on_Mathematics_-for_TMUA_and_ESAT_M2.pdf",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Notes on Logic and Proof – for TMUA Paper 2",
-          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/06/25160507/Notes_on_Logic_and_Proof_June2025.pdf"
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/06/25160507/Notes_on_Logic_and_Proof_June2025.pdf",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "TMUA Explanation of Results – October 2025 and January 2026",
-          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/02/11111432/TMUA_Explanation_of_Results-October2025_and_January2026.pdf"
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/02/11111432/TMUA_Explanation_of_Results-October2025_and_January2026.pdf",
+          "filterTypes": [
+            "guides"
+          ]
         }
       ]
     },
@@ -2310,39 +2332,66 @@
       "links": [
         {
           "label": "Basics of Implication and Deduction",
-          "url": "https://jzmaths.com/logic/implication-and-deduction"
+          "url": "https://jzmaths.com/logic/implication-and-deduction",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "P ⇒ Q: Equivalent Ways to Say It",
-          "url": "https://jzmaths.com/logic/equivalent-forms-of-implication"
+          "url": "https://jzmaths.com/logic/equivalent-forms-of-implication",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Negation and Quantifiers",
-          "url": "https://jzmaths.com/logic/negation"
+          "url": "https://jzmaths.com/logic/negation",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Counterexamples",
-          "url": "https://jzmaths.com/logic/counterexamples"
+          "url": "https://jzmaths.com/logic/counterexamples",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Converse and Equivalence",
-          "url": "https://jzmaths.com/logic/converse-and-equivalence"
+          "url": "https://jzmaths.com/logic/converse-and-equivalence",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "The Contrapositive",
-          "url": "https://jzmaths.com/logic/contrapositive"
+          "url": "https://jzmaths.com/logic/contrapositive",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Proof by Contradiction",
-          "url": "https://jzmaths.com/logic/proof-by-contradiction"
+          "url": "https://jzmaths.com/logic/proof-by-contradiction",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Truth Tables",
-          "url": "https://jzmaths.com/logic/truth-tables"
+          "url": "https://jzmaths.com/logic/truth-tables",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "TMUA Worked Examples",
-          "url": "https://jzmaths.com/logic/tmua-worked-examples"
+          "url": "https://jzmaths.com/logic/tmua-worked-examples",
+          "filterTypes": [
+            "written"
+          ]
         }
       ]
     },
@@ -2352,31 +2401,52 @@
       "links": [
         {
           "label": "Transformations: Part A — Core transformations and equations of curves",
-          "url": "https://jzmaths.com/topics/transformations-part-a"
+          "url": "https://jzmaths.com/topics/transformations-part-a",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Transformations: Part B — Modulus transformations, point mapping and rotations",
-          "url": "https://jzmaths.com/topics/transformations-part-b"
+          "url": "https://jzmaths.com/topics/transformations-part-b",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Methods in Sequences and Summations",
-          "url": "https://jzmaths.com/topics/methods-in-sequences-and-summations"
+          "url": "https://jzmaths.com/topics/methods-in-sequences-and-summations",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Standard Trigonometric Equations",
-          "url": "https://jzmaths.com/topics/standard-trigonometric-equations"
+          "url": "https://jzmaths.com/topics/standard-trigonometric-equations",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Multivariate Factorisation using the Factor Theorem",
-          "url": "https://jzmaths.com/topics/multivariate-factorisation"
+          "url": "https://jzmaths.com/topics/multivariate-factorisation",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Modulo arithmetic: remainders, equivalence and useful methods",
-          "url": "https://jzmaths.com/topics/modulo-arithmetic"
+          "url": "https://jzmaths.com/topics/modulo-arithmetic",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Cauchy-Schwarz and AM-GM Inequalities",
-          "url": "https://jzmaths.com/topics/cauchy-schwarz-am-gm-inequalities"
+          "url": "https://jzmaths.com/topics/cauchy-schwarz-am-gm-inequalities",
+          "filterTypes": [
+            "guides"
+          ]
         }
       ]
     },
@@ -2386,43 +2456,74 @@
       "links": [
         {
           "label": "Exam simulator",
-          "url": "https://jzmaths.com/exam"
+          "url": "https://jzmaths.com/exam",
+          "filterTypes": [
+            "papers"
+          ]
         },
         {
           "label": "Corrections",
-          "url": "https://jzmaths.com/corrections"
+          "url": "https://jzmaths.com/corrections",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Papers",
-          "url": "https://jzmaths.com/papers"
+          "url": "https://jzmaths.com/papers",
+          "filterTypes": [
+            "papers",
+            "written"
+          ]
         },
         {
           "label": "Logic",
-          "url": "https://jzmaths.com/logic"
+          "url": "https://jzmaths.com/logic",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Additional Topics",
-          "url": "https://jzmaths.com/topics"
+          "url": "https://jzmaths.com/topics",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Egg Hunt",
-          "url": "https://jzmaths.com/egg-hunt"
+          "url": "https://jzmaths.com/egg-hunt",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "News",
-          "url": "https://jzmaths.com/news"
+          "url": "https://jzmaths.com/news",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Mastery",
-          "url": "https://jzmaths.com/how-mastery-works"
+          "url": "https://jzmaths.com/how-mastery-works",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "TMUA info",
-          "url": "https://jzmaths.com/tmua"
+          "url": "https://jzmaths.com/tmua",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Useful links",
-          "url": "https://jzmaths.com/links"
+          "url": "https://jzmaths.com/links",
+          "filterTypes": [
+            "guides"
+          ]
         }
       ]
     },
@@ -2432,23 +2533,39 @@
       "links": [
         {
           "label": "Tyler Tutoring",
-          "url": "https://www.tylertutoring.com/"
+          "url": "https://www.tylertutoring.com/",
+          "filterTypes": [
+            "guides"
+          ]
         },
         {
           "label": "Rob Drew's YouTube channel (R2Drew2)",
-          "url": "https://www.youtube.com/@rtwodrew2"
+          "url": "https://www.youtube.com/@rtwodrew2",
+          "filterTypes": [
+            "videos"
+          ]
         },
         {
           "label": "Oxford MAT past papers",
-          "url": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          "url": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test",
+          "filterTypes": [
+            "papers",
+            "written"
+          ]
         },
         {
           "label": "Andrew Phan's TMUA resources",
-          "url": "https://adventurousandrewmaths.blogspot.com/2025/12/admission-tests-collection-of-resources.html"
+          "url": "https://adventurousandrewmaths.blogspot.com/2025/12/admission-tests-collection-of-resources.html",
+          "filterTypes": [
+            "papers"
+          ]
         },
         {
           "label": "Dr Trifon Madas's site MadasMaths.com",
-          "url": "https://madasmaths.com/"
+          "url": "https://madasmaths.com/",
+          "filterTypes": [
+            "guides"
+          ]
         }
       ]
     },
@@ -2458,147 +2575,287 @@
       "links": [
         {
           "label": "TMUA 2023 Paper 1 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2023_1.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2023_1.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2023
         },
         {
           "label": "TMUA 2023 Paper 1 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2023_1_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2023_1_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2023
         },
         {
           "label": "TMUA 2023 Paper 2 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2023_2.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2023_2.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2023
         },
         {
           "label": "TMUA 2023 Paper 2 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2023_2_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2023_2_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2023
         },
         {
           "label": "TMUA 2022 Paper 1 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2022_1.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2022_1.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2022
         },
         {
           "label": "TMUA 2022 Paper 1 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2022_1_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2022_1_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2022
         },
         {
           "label": "TMUA 2022 Paper 2 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2022_2.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2022_2.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2022
         },
         {
           "label": "TMUA 2022 Paper 2 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2022_2_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2022_2_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2022
         },
         {
           "label": "TMUA 2021 Paper 1 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2021_1.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2021_1.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2021
         },
         {
           "label": "TMUA 2021 Paper 1 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2021_1_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2021_1_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2021
         },
         {
           "label": "TMUA 2021 Paper 2 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2021_2.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2021_2.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2021
         },
         {
           "label": "TMUA 2021 Paper 2 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2021_2_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2021_2_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2021
         },
         {
           "label": "TMUA 2020 Paper 1 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2020_1.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2020_1.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2020
         },
         {
           "label": "TMUA 2020 Paper 1 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2020_1_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2020_1_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2020
         },
         {
           "label": "TMUA 2020 Paper 2 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2020_2.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2020_2.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2020
         },
         {
           "label": "TMUA 2020 Paper 2 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2020_2_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2020_2_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2020
         },
         {
           "label": "TMUA 2019 Paper 1 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2019_1.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2019_1.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2019
         },
         {
           "label": "TMUA 2019 Paper 1 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2019_1_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2019_1_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2019
         },
         {
           "label": "TMUA 2019 Paper 2 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2019_2.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2019_2.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2019
         },
         {
           "label": "TMUA 2019 Paper 2 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2019_2_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2019_2_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2019
         },
         {
           "label": "TMUA 2018 Paper 1 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2018_1.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2018_1.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2018
         },
         {
           "label": "TMUA 2018 Paper 1 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2018_1_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2018_1_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2018
         },
         {
           "label": "TMUA 2018 Paper 2 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2018_2.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2018_2.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2018
         },
         {
           "label": "TMUA 2018 Paper 2 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2018_2_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2018_2_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2018
         },
         {
           "label": "TMUA 2017 Paper 1 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2017_1.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2017_1.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2017
         },
         {
           "label": "TMUA 2017 Paper 1 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2017_1_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2017_1_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2017
         },
         {
           "label": "TMUA 2017 Paper 2 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2017_2.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2017_2.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2017
         },
         {
           "label": "TMUA 2017 Paper 2 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2017_2_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2017_2_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2017
         },
         {
           "label": "TMUA 2016 Paper 1 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2016_1.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2016_1.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2016
         },
         {
           "label": "TMUA 2016 Paper 1 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2016_1_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2016_1_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2016
         },
         {
           "label": "TMUA 2016 Paper 2 — Question paper (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2016_2.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2016_2.pdf",
+          "filterTypes": [
+            "papers"
+          ],
+          "filterYear": 2016
         },
         {
           "label": "TMUA 2016 Paper 2 — Mark scheme (PDF)",
-          "url": "https://jzmaths.com/papers/tmua_2016_2_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_2016_2_ms.pdf",
+          "filterTypes": [
+            "written"
+          ],
+          "filterYear": 2016
         },
         {
           "label": "tmua specimen 1",
-          "url": "https://jzmaths.com/papers/tmua_specimen_1.pdf"
+          "url": "https://jzmaths.com/papers/tmua_specimen_1.pdf",
+          "filterTypes": [
+            "papers"
+          ]
         },
         {
           "label": "tmua specimen 1 ms",
-          "url": "https://jzmaths.com/papers/tmua_specimen_1_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_specimen_1_ms.pdf",
+          "filterTypes": [
+            "written"
+          ]
         },
         {
           "label": "tmua specimen 2",
-          "url": "https://jzmaths.com/papers/tmua_specimen_2.pdf"
+          "url": "https://jzmaths.com/papers/tmua_specimen_2.pdf",
+          "filterTypes": [
+            "papers"
+          ]
         },
         {
           "label": "tmua specimen 2 ms",
-          "url": "https://jzmaths.com/papers/tmua_specimen_2_ms.pdf"
+          "url": "https://jzmaths.com/papers/tmua_specimen_2_ms.pdf",
+          "filterTypes": [
+            "written"
+          ]
         }
       ]
     }

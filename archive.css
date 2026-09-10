@@ -23,6 +23,24 @@
 .archive-page .archive-note p { margin: 0 0 8px; }
 .archive-page .archive-note p:last-child { margin-bottom: 0; }
 .archive-page .archive-note a { color: #5f4313; text-underline-offset: 3px; }
+.archive-page .archive-tuition { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 28px; padding: 22px; margin: 0 0 24px; background: #111; color: #eee8dc; border-radius: 10px; }
+.archive-page .archive-tuition > div { flex: 1 1 420px; }
+.archive-page .archive-tuition h2 { margin: 0 0 8px; color: #ead9b6; font-size: 1.45rem; letter-spacing: -.5px; line-height: 1.25; }
+.archive-page .archive-tuition p { margin: 0; color: #eee8dc; font-size: 1rem; }
+.archive-page .archive-tuition .resource-button { background: #ead9b6; color: #211b11 !important; font-size: .95rem; }
+.archive-page .archive-tuition .resource-button:hover { background: #fff; }
+.archive-page .archive-tuition :focus-visible { outline-color: #ead9b6; }
+.archive-page .archive-filters { margin: 0 0 22px; padding: 20px; border: 1px solid #d9d0c0; border-radius: 10px; background: #fff; color: #393329; }
+.archive-page .archive-filter-fields { display: flex; align-items: flex-end; flex-wrap: wrap; gap: 14px; }
+.archive-page .archive-filter-fields label { display: flex; flex: 1 1 230px; flex-direction: column; gap: 6px; min-width: 0; font-size: 1rem; font-weight: 700; }
+.archive-page .archive-filter-fields select, .archive-page .archive-filter-reset { min-height: 46px; max-width: 100%; padding: 10px 12px; border: 1px solid #ad9b7a; border-radius: 6px; background: #fff; color: #332b1f; font: inherit; }
+.archive-page .archive-filter-fields select { width: 100%; }
+.archive-page .archive-filter-reset { cursor: pointer; background: #111; color: #fff; font-weight: 700; }
+.archive-page .archive-filter-reset:hover { background: #72531c; }
+.archive-page .archive-filters p { margin: 12px 0 0; color: #5d564b; font-size: .9rem; }
+.archive-page .archive-filters .archive-filter-count { color: #332b1f; font-weight: 700; }
+.archive-page .archive-filter-empty { padding: 18px; border-left: 4px solid #8a6526; background: #eee8dc; color: #393329; }
+.archive-page [hidden] { display: none !important; }
 .archive-page .archive-jumps { display: flex; align-items: center; flex-wrap: wrap; gap: 9px 18px; margin: 12px 0 24px; }
 .archive-page .archive-jumps a { padding: 6px 0; color: #72531c; font-weight: 700; text-underline-offset: 5px; }
 .archive-page .archive-section { margin: 0 0 40px; scroll-margin-top: 100px; }
