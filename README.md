@@ -38,3 +38,5 @@ STEP uses S/1/2/3 thresholds by paper and year. STEP 1's historical papers are d
 ESAT separates official samples from historical ENGAA, NSAA and PAT practice. Old paper formats, syllabuses and admission thresholds must not be presented as current ESAT rules. British Physics Olympiad links are further physics practice.
 
 For TMUA, show N/A for unavailable or inapplicable items. Do not publish the Beyond Horizon or Yotta answer keys. Keep their paper credits, and attribute any R2Drew2 video walkthroughs separately to Rob Drew (R2Drew2).
+
+Historical TMUA score cells show the minimum combined raw total out of 40 for overall scores of at least 7, 8 and 9, with 5 and 6 as secondary values. Read the overall conversion column for the exact year; never average the two individual paper scores or interpolate between published raw marks. Keep source-table links neutral and label 2016 as practice papers. Community estimates stay separate from historical official-paper conversions.

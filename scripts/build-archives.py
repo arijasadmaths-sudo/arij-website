@@ -25,9 +25,9 @@ def page_path(exam):
     return exam + '-paper-archive.html' if exam in ('tmua', 'esat') else exam + '-past-papers.html'
 
 
-def score_heading(exam):
+def score_heading(exam, overall_raw=False):
     if exam == 'tmua':
-        return 'Score conversion'
+        return 'Raw total /40' if overall_raw else 'Score guidance'
     if exam == 'step':
         return 'Grade boundaries'
     if exam == 'esat':
@@ -58,6 +58,21 @@ def file_link(item, context):
 def boundary_cell(row, exam):
     b = row.get('boundaries') or {}
     parts = []
+    if exam == 'tmua' and b.get('overallRawThresholds'):
+        thresholds = b['overallRawThresholds']
+        badges = []
+        for score in ('7', '8', '9'):
+            if score in thresholds:
+                label = score if score == '9' else score + '+'
+                modifier = ' award-value--gold' if score == '9' else ''
+                badges.append(f'<div class="award-value{modifier}"><dt>{label}</dt><dd>{e(thresholds[score])}</dd></div>')
+        parts.append('<dl class="award-values">' + ''.join(badges) + '</dl>')
+        extra = [f'{score}+: <strong>{e(thresholds[score])}</strong>' for score in ('5', '6') if score in thresholds]
+        if extra:
+            parts.append('<span class="source-note">' + ' · '.join(extra) + '</span>')
+        if b.get('sourceUrl'):
+            parts.append(f'<a class="source-note" href="{e(b["sourceUrl"])}">Full conversion table</a>')
+        return ''.join(parts)
     labels = [('bronze', 'Bronze'), ('silver', 'Silver'), ('gold', 'Gold'),
               ('merit', 'Merit'), ('distinction', 'Distinction'),
               ('distinguishedHonorRoll', 'Distinguished Honor Roll')]
@@ -96,7 +111,7 @@ def boundary_cell(row, exam):
     return ''.join(parts)
 
 
-def row_html(row, exam):
+def row_html(row, exam, overall_raw=False):
     year = row['year']
     variant = row.get('variant') or ''
     if row.get('session') and row['session'] not in variant:
@@ -129,7 +144,7 @@ def row_html(row, exam):
         paper_content += '<span class="source-note">' + e(text(row['formatNote'])) + '</span>'
     if row.get('solutionNote'):
         answer_content += '<span class="source-note">' + e(row['solutionNote']) + '</span>'
-    score_label = score_heading(exam)
+    score_label = score_heading(exam, overall_raw)
     return (f'<tr role="row"><th role="rowheader" scope="row">{e(label)}' + (f'<span class="year-variant">{e(variant)}</span>' if variant else '') + '</th>'
             + '<td role="cell" class="paper-cell" data-label="Question papers"><div class="file-links">' + paper_content + '</div></td>'
             + '<td role="cell" class="solutions-cell" data-label="Solutions and answers"><div class="file-links">' + answer_content + '</div></td>'
@@ -137,10 +152,11 @@ def row_html(row, exam):
 
 
 def table(rows, exam, caption):
-    bounds_label = score_heading(exam)
+    overall_raw = exam == 'tmua' and any((r.get('boundaries') or {}).get('overallRawThresholds') for r in rows)
+    bounds_label = score_heading(exam, overall_raw)
     return ('<div class="archive-table-wrap"><table role="table" class="archive-table"><caption>' + e(caption) + '</caption>'
             + '<thead role="rowgroup"><tr role="row"><th role="columnheader" scope="col">Year / paper</th><th role="columnheader" scope="col">Question papers</th><th role="columnheader" scope="col">Solutions &amp; answers</th><th role="columnheader" scope="col">' + bounds_label + '</th></tr></thead><tbody role="rowgroup">'
-            + '\n'.join(row_html(r, exam) for r in rows) + '</tbody></table></div>')
+            + '\n'.join(row_html(r, exam, overall_raw) for r in rows) + '</tbody></table></div>')
 
 
 def render(data):
