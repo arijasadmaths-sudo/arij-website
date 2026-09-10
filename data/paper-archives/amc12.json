@@ -1,0 +1,3273 @@
+{
+  "exam": "amc12",
+  "title": "AMC 12 past papers, worked solutions and AIME cutoffs",
+  "years": [
+    {
+      "year": 2025,
+      "variant": "A",
+      "displayYear": "2025",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2025A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2025A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2025A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://maa.org/news/2025-26-aime-thresholds-are-now-available/",
+        "note": "See the official 2025 AIME qualification and distinction thresholds."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2025A",
+        "https://live.poshenloh.com/past-contests",
+        "https://maa.org/news/2025-26-aime-thresholds-are-now-available/"
+      ],
+      "label": "2025"
+    },
+    {
+      "year": 2025,
+      "variant": "B",
+      "displayYear": "2025",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2025B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2025B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2025B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://maa.org/news/2025-26-aime-thresholds-are-now-available/",
+        "note": "See the official 2025 AIME qualification and distinction thresholds."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2025B",
+        "https://live.poshenloh.com/past-contests",
+        "https://maa.org/news/2025-26-aime-thresholds-are-now-available/"
+      ],
+      "label": "2025"
+    },
+    {
+      "year": 2024,
+      "variant": "A",
+      "displayYear": "2024",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2024A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2024A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2024A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 76.5,
+        "qualificationLabel": "AIME qualification",
+        "distinction": 108,
+        "distinguishedHonorRoll": 133.5,
+        "awardSourceUrl": "https://ivyleaguecenter.org/2024/12/14/2025-aime-qualifying-thresholds/"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2024A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "https://ivyleaguecenter.org/2024/12/14/2025-aime-qualifying-thresholds/"
+      ],
+      "label": "2024"
+    },
+    {
+      "year": 2024,
+      "variant": "B",
+      "displayYear": "2024",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2024B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2024B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2024B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 88.5,
+        "qualificationLabel": "AIME qualification",
+        "distinction": 118.5,
+        "distinguishedHonorRoll": 139.5,
+        "awardSourceUrl": "https://ivyleaguecenter.org/2024/12/14/2025-aime-qualifying-thresholds/"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2024B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "https://ivyleaguecenter.org/2024/12/14/2025-aime-qualifying-thresholds/"
+      ],
+      "label": "2024"
+    },
+    {
+      "year": 2023,
+      "variant": "A",
+      "displayYear": "2023",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2023A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2023A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2023A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 85.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2023A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2023"
+    },
+    {
+      "year": 2023,
+      "variant": "B",
+      "displayYear": "2023",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2023B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2023B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2023B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 88.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2023B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2023"
+    },
+    {
+      "year": 2022,
+      "variant": "A",
+      "displayYear": "2022",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2022A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2022A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2022A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 85.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2022A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2022"
+    },
+    {
+      "year": 2022,
+      "variant": "B",
+      "displayYear": "2022",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2022B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2022B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2022B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 81,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2022B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2022"
+    },
+    {
+      "year": 2021,
+      "variant": "A",
+      "displayYear": "2021 Fall",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2021C-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2021C/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2021C/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 91.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2021C",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "session": "Fall",
+      "sortKey": "0A"
+    },
+    {
+      "year": 2021,
+      "variant": "B",
+      "displayYear": "2021 Fall",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2021D-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2021D/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2021D/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 84,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2021D",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "session": "Fall",
+      "sortKey": "0B"
+    },
+    {
+      "year": 2021,
+      "variant": "A",
+      "displayYear": "2021 Spring",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2021A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2021A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2021A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 93,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2021A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "session": "Spring",
+      "sortKey": "1A"
+    },
+    {
+      "year": 2021,
+      "variant": "B",
+      "displayYear": "2021 Spring",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2021B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2021B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2021B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 91.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2021B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "session": "Spring",
+      "sortKey": "1B"
+    },
+    {
+      "year": 2020,
+      "variant": "A",
+      "displayYear": "2020",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2020A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2020A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2020A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 87,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2020A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2020"
+    },
+    {
+      "year": 2020,
+      "variant": "B",
+      "displayYear": "2020",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2020B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2020B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2020B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 87,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2020B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2020"
+    },
+    {
+      "year": 2019,
+      "variant": "A",
+      "displayYear": "2019",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2019A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2019A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2019A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 84,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2019A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2019"
+    },
+    {
+      "year": 2019,
+      "variant": "B",
+      "displayYear": "2019",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2019B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2019B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2019B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 94.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2019B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2019"
+    },
+    {
+      "year": 2018,
+      "variant": "A",
+      "displayYear": "2018",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2018A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2018A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2018A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 93,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2018A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2018"
+    },
+    {
+      "year": 2018,
+      "variant": "B",
+      "displayYear": "2018",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2018B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2018B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2018B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 99,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2018B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2018"
+    },
+    {
+      "year": 2017,
+      "variant": "A",
+      "displayYear": "2017",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2017A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2017A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2017A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 96,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2017A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2017"
+    },
+    {
+      "year": 2017,
+      "variant": "B",
+      "displayYear": "2017",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2017B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2017B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2017B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2017B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2017"
+    },
+    {
+      "year": 2016,
+      "variant": "A",
+      "displayYear": "2016",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2016A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2016A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2016A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 92,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2016A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2016"
+    },
+    {
+      "year": 2016,
+      "variant": "B",
+      "displayYear": "2016",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2016B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2016B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2016B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2016B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2016"
+    },
+    {
+      "year": 2015,
+      "variant": "A",
+      "displayYear": "2015",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2015A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2015A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2015A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 99,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2015A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2015"
+    },
+    {
+      "year": 2015,
+      "variant": "B",
+      "displayYear": "2015",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2015B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2015B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2015B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2015B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2015"
+    },
+    {
+      "year": 2014,
+      "variant": "A",
+      "displayYear": "2014",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2014A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2014A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2014A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 93,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2014A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2014"
+    },
+    {
+      "year": 2014,
+      "variant": "B",
+      "displayYear": "2014",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2014B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2014B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2014B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2014B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2014"
+    },
+    {
+      "year": 2013,
+      "variant": "A",
+      "displayYear": "2013",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2013A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2013A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2013A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 88.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2013A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2013"
+    },
+    {
+      "year": 2013,
+      "variant": "B",
+      "displayYear": "2013",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2013B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2013B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2013B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 93,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2013B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2013"
+    },
+    {
+      "year": 2012,
+      "variant": "A",
+      "displayYear": "2012",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2012A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2012A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2012A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 94.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2012A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2012"
+    },
+    {
+      "year": 2012,
+      "variant": "B",
+      "displayYear": "2012",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2012B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2012B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2012B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 99,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2012B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2012"
+    },
+    {
+      "year": 2011,
+      "variant": "A",
+      "displayYear": "2011",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2011A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2011A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2011A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 93,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2011A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2011"
+    },
+    {
+      "year": 2011,
+      "variant": "B",
+      "displayYear": "2011",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2011B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2011B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2011B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 97.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2011B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2011"
+    },
+    {
+      "year": 2010,
+      "variant": "A",
+      "displayYear": "2010",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2010A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2010A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2010A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 88.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2010A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2010"
+    },
+    {
+      "year": 2010,
+      "variant": "B",
+      "displayYear": "2010",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2010B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2010B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2010B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 88.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2010B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2010"
+    },
+    {
+      "year": 2009,
+      "variant": "A",
+      "displayYear": "2009",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2009A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2009A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2009A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 97.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2009A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2009"
+    },
+    {
+      "year": 2009,
+      "variant": "B",
+      "displayYear": "2009",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2009B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2009B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2009B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2009B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2009"
+    },
+    {
+      "year": 2008,
+      "variant": "A",
+      "displayYear": "2008",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2008A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2008A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2008A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 97.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2008A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2008"
+    },
+    {
+      "year": 2008,
+      "variant": "B",
+      "displayYear": "2008",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2008B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2008B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2008B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 97.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2008B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2008"
+    },
+    {
+      "year": 2007,
+      "variant": "A",
+      "displayYear": "2007",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2007A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2007A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2007A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 97.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2007A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2007"
+    },
+    {
+      "year": 2007,
+      "variant": "B",
+      "displayYear": "2007",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2007B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2007B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2007B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2007B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2007"
+    },
+    {
+      "year": 2006,
+      "variant": "A",
+      "displayYear": "2006",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2006A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2006A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2006A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2006A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2006"
+    },
+    {
+      "year": 2006,
+      "variant": "B",
+      "displayYear": "2006",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2006B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2006B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2006B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2006B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2006"
+    },
+    {
+      "year": 2005,
+      "variant": "A",
+      "displayYear": "2005",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2005A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2005A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2005A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2005A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2005"
+    },
+    {
+      "year": 2005,
+      "variant": "B",
+      "displayYear": "2005",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2005B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2005B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2005B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2005B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2005"
+    },
+    {
+      "year": 2004,
+      "variant": "A",
+      "displayYear": "2004",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2004A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2004A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2004A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2004A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2004"
+    },
+    {
+      "year": 2004,
+      "variant": "B",
+      "displayYear": "2004",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2004B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2004B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2004B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2004B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2004"
+    },
+    {
+      "year": 2003,
+      "variant": "A",
+      "displayYear": "2003",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2003A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2003A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2003A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2003A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2003"
+    },
+    {
+      "year": 2003,
+      "variant": "B",
+      "displayYear": "2003",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2003B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2003B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2003B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2003B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2003"
+    },
+    {
+      "year": 2002,
+      "variant": "A",
+      "displayYear": "2002",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2002A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2002A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2002A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2002A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2002"
+    },
+    {
+      "year": 2002,
+      "variant": "B",
+      "displayYear": "2002",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2002B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2002B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2002B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 100,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2002B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2002"
+    },
+    {
+      "year": 2001,
+      "variant": "",
+      "displayYear": "2001",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2001-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2001/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2001/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 84,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2001",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2001"
+    },
+    {
+      "year": 2000,
+      "variant": "",
+      "displayYear": "2000",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-2000-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2000/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/2000/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 92,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/2000",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2000"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://live.poshenloh.com/past-contests",
+      "label": "LIVE by Po-Shen Loh: MAA-authorised past contest archive"
+    },
+    {
+      "url": "https://ivyleaguecenter.org/2016/01/23/1487/",
+      "label": "Published historical AIME cutoffs, 2000–2024"
+    },
+    {
+      "url": "https://maa.org/news/2025-26-aime-thresholds-are-now-available/",
+      "label": "MAA: official 2025 AIME qualification thresholds"
+    },
+    {
+      "url": "https://ivyleaguecenter.org/2024/12/14/2025-aime-qualifying-thresholds/",
+      "label": "Published 2024 AIME and distinction cutoffs"
+    }
+  ],
+  "notes": [
+    "Papers are linked from the MAA-authorised LIVE by Po-Shen Loh archive. Worked solutions include hints and explanatory reasoning; they are not labelled official MAA solutions.",
+    "The archive contains every named AMC 12 paper from 2000 to 2025: 52 papers. A and B variants began in 2002.",
+    "Both spring and fall competitions took place in 2021. LIVE uses C and D in its URLs for Fall A and Fall B; this archive labels the actual season and variant.",
+    "AIME qualification scores are historical thresholds for that paper, not forecasts for a future competition. AMC papers do not use UKMT gold, silver and bronze boundaries.",
+    "The 2026 AMC papers have not taken place as of 10 September 2026; the published MAA dates are 5 and 13 November 2026.",
+    "Before practising an older paper, check its original scoring instructions because blank-answer scoring changed over time.",
+    "The separately labelled 1950–1999 archive contains predecessor examinations, including AHSME. These were not called AMC 12 at the time and used different paper lengths and scoring."
+  ],
+  "legacyYears": [
+    {
+      "year": 1999,
+      "variant": "",
+      "displayYear": "1999",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1999-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1999/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1999/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1999",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1998,
+      "variant": "",
+      "displayYear": "1998",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1998-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1998/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1998/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1998",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1997,
+      "variant": "",
+      "displayYear": "1997",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1997-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1997/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1997/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1997",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1996,
+      "variant": "",
+      "displayYear": "1996",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1996-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1996/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1996/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1996",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1995,
+      "variant": "",
+      "displayYear": "1995",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1995-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1995/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1995/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1995",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1994,
+      "variant": "",
+      "displayYear": "1994",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1994-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1994/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1994/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1994",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1993,
+      "variant": "",
+      "displayYear": "1993",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1993-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1993/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1993/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1993",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1992,
+      "variant": "",
+      "displayYear": "1992",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1992-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1992/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1992/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1992",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1991,
+      "variant": "",
+      "displayYear": "1991",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1991-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1991/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1991/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1991",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1990,
+      "variant": "",
+      "displayYear": "1990",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1990-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1990/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1990/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1990",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1989,
+      "variant": "",
+      "displayYear": "1989",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1989-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1989/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1989/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1989",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1988,
+      "variant": "",
+      "displayYear": "1988",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1988-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1988/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1988/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1988",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1987,
+      "variant": "",
+      "displayYear": "1987",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1987-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1987/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1987/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1987",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1986,
+      "variant": "",
+      "displayYear": "1986",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1986-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1986/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1986/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1986",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1985,
+      "variant": "",
+      "displayYear": "1985",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1985-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1985/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1985/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1985",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1984,
+      "variant": "",
+      "displayYear": "1984",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1984-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1984/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1984/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1984",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1983,
+      "variant": "",
+      "displayYear": "1983",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1983-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1983/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1983/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1983",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1982,
+      "variant": "",
+      "displayYear": "1982",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1982-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1982/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1982/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1982",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1981,
+      "variant": "",
+      "displayYear": "1981",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1981-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1981/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1981/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1981",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1980,
+      "variant": "",
+      "displayYear": "1980",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1980-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1980/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1980/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1980",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1979,
+      "variant": "",
+      "displayYear": "1979",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1979-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1979/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1979/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1979",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1978,
+      "variant": "",
+      "displayYear": "1978",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1978-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1978/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1978/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1978",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1977,
+      "variant": "",
+      "displayYear": "1977",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1977-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1977/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1977/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1977",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1976,
+      "variant": "",
+      "displayYear": "1976",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1976-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1976/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1976/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1976",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1975,
+      "variant": "",
+      "displayYear": "1975",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1975-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1975/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1975/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1975",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1974,
+      "variant": "",
+      "displayYear": "1974",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1974-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1974/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1974/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1974",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1973,
+      "variant": "",
+      "displayYear": "1973",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1973-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1973/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1973/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1973",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1972,
+      "variant": "",
+      "displayYear": "1972",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1972-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1972/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1972/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1972",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1971,
+      "variant": "",
+      "displayYear": "1971",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1971-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1971/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1971/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1971",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1970,
+      "variant": "",
+      "displayYear": "1970",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1970-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1970/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1970/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1970",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1969,
+      "variant": "",
+      "displayYear": "1969",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1969-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1969/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1969/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1969",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1968,
+      "variant": "",
+      "displayYear": "1968",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1968-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1968/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1968/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1968",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1967,
+      "variant": "",
+      "displayYear": "1967",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1967-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1967/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1967/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1967",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1966,
+      "variant": "",
+      "displayYear": "1966",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1966-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1966/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1966/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1966",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1965,
+      "variant": "",
+      "displayYear": "1965",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1965-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1965/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1965/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1965",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1964,
+      "variant": "",
+      "displayYear": "1964",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1964-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1964/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1964/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1964",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1963,
+      "variant": "",
+      "displayYear": "1963",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1963-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1963/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1963/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1963",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1962,
+      "variant": "",
+      "displayYear": "1962",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1962-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1962/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1962/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1962",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1961,
+      "variant": "",
+      "displayYear": "1961",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1961-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1961/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1961/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1961",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1960,
+      "variant": "",
+      "displayYear": "1960",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1960-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1960/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1960/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1960",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1959,
+      "variant": "",
+      "displayYear": "1959",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1959-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1959/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1959/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1959",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1958,
+      "variant": "",
+      "displayYear": "1958",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1958-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1958/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1958/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1958",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1957,
+      "variant": "",
+      "displayYear": "1957",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1957-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1957/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1957/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1957",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1956,
+      "variant": "",
+      "displayYear": "1956",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1956-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1956/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1956/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1956",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1955,
+      "variant": "",
+      "displayYear": "1955",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1955-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1955/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1955/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1955",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1954,
+      "variant": "",
+      "displayYear": "1954",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1954-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1954/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1954/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1954",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1953,
+      "variant": "",
+      "displayYear": "1953",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1953-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1953/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1953/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1953",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1952,
+      "variant": "",
+      "displayYear": "1952",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1952-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1952/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1952/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1952",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1951,
+      "variant": "",
+      "displayYear": "1951",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1951-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1951/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1951/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1951",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    },
+    {
+      "year": 1950,
+      "variant": "",
+      "displayYear": "1950",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc12-1950-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1950/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc12/1950/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "note": "Earlier predecessor paper; current AMC 12 scoring and qualification rules do not apply."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc12/1950",
+        "https://live.poshenloh.com/past-contests"
+      ],
+      "exam": "AHSME / earlier high-school competition"
+    }
+  ],
+  "legacyTitle": "AHSME and earlier high-school competition papers, 1950–1999",
+  "legacySources": [
+    {
+      "url": "https://live.poshenloh.com/past-contests",
+      "label": "LIVE archive of the AMC 12 predecessor examinations"
+    }
+  ],
+  "displayNotes": [
+    "Select the exact A/B paper and sitting: 2021 had both spring and autumn competitions. The scores beside each paper are AIME qualification thresholds, not school grades.",
+    "The AMC 12 began in 2000. Earlier AHSME material is a predecessor archive and uses different formats and scoring."
+  ],
+  "pageTitle": "AMC 12 Past Papers, Solutions & AIME Cutoffs | Arij Asad"
+}

@@ -1,0 +1,1763 @@
+{
+  "exam": "amc10",
+  "title": "AMC 10 past papers, worked solutions and AIME cutoffs",
+  "years": [
+    {
+      "year": 2025,
+      "variant": "A",
+      "displayYear": "2025",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2025A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2025A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2025A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://maa.org/news/2025-26-aime-thresholds-are-now-available/",
+        "note": "See the official 2025 AIME qualification and distinction thresholds."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2025A",
+        "https://live.poshenloh.com/past-contests",
+        "https://maa.org/news/2025-26-aime-thresholds-are-now-available/"
+      ],
+      "label": "2025"
+    },
+    {
+      "year": 2025,
+      "variant": "B",
+      "displayYear": "2025",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2025B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2025B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2025B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://maa.org/news/2025-26-aime-thresholds-are-now-available/",
+        "note": "See the official 2025 AIME qualification and distinction thresholds."
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2025B",
+        "https://live.poshenloh.com/past-contests",
+        "https://maa.org/news/2025-26-aime-thresholds-are-now-available/"
+      ],
+      "label": "2025"
+    },
+    {
+      "year": 2024,
+      "variant": "A",
+      "displayYear": "2024",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2024A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2024A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2024A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 94.5,
+        "qualificationLabel": "AIME qualification",
+        "distinction": 105,
+        "distinguishedHonorRoll": 132,
+        "awardSourceUrl": "https://ivyleaguecenter.org/2024/12/14/2025-aime-qualifying-thresholds/"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2024A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "https://ivyleaguecenter.org/2024/12/14/2025-aime-qualifying-thresholds/"
+      ],
+      "label": "2024"
+    },
+    {
+      "year": 2024,
+      "variant": "B",
+      "displayYear": "2024",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2024B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2024B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2024B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 105,
+        "qualificationLabel": "AIME qualification",
+        "distinction": 114,
+        "distinguishedHonorRoll": 138,
+        "awardSourceUrl": "https://ivyleaguecenter.org/2024/12/14/2025-aime-qualifying-thresholds/"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2024B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "https://ivyleaguecenter.org/2024/12/14/2025-aime-qualifying-thresholds/"
+      ],
+      "label": "2024"
+    },
+    {
+      "year": 2023,
+      "variant": "A",
+      "displayYear": "2023",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2023A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2023A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2023A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 103.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2023A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2023"
+    },
+    {
+      "year": 2023,
+      "variant": "B",
+      "displayYear": "2023",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2023B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2023B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2023B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 105,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2023B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2023"
+    },
+    {
+      "year": 2022,
+      "variant": "A",
+      "displayYear": "2022",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2022A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2022A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2022A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 93,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2022A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2022"
+    },
+    {
+      "year": 2022,
+      "variant": "B",
+      "displayYear": "2022",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2022B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2022B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2022B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 94.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2022B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2022"
+    },
+    {
+      "year": 2021,
+      "variant": "A",
+      "displayYear": "2021 Fall",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2021C-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2021C/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2021C/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 96,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2021C",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "session": "Fall",
+      "sortKey": "0A"
+    },
+    {
+      "year": 2021,
+      "variant": "B",
+      "displayYear": "2021 Fall",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2021D-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2021D/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2021D/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 96,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2021D",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "session": "Fall",
+      "sortKey": "0B"
+    },
+    {
+      "year": 2021,
+      "variant": "A",
+      "displayYear": "2021 Spring",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2021A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2021A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2021A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 103.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2021A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "session": "Spring",
+      "sortKey": "1A"
+    },
+    {
+      "year": 2021,
+      "variant": "B",
+      "displayYear": "2021 Spring",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2021B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2021B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2021B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 102,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2021B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "session": "Spring",
+      "sortKey": "1B"
+    },
+    {
+      "year": 2020,
+      "variant": "A",
+      "displayYear": "2020",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2020A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2020A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2020A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 103.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2020A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2020"
+    },
+    {
+      "year": 2020,
+      "variant": "B",
+      "displayYear": "2020",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2020B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2020B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2020B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 102,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2020B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2020"
+    },
+    {
+      "year": 2019,
+      "variant": "A",
+      "displayYear": "2019",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2019A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2019A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2019A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 103.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2019A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2019"
+    },
+    {
+      "year": 2019,
+      "variant": "B",
+      "displayYear": "2019",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2019B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2019B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2019B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 108,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2019B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2019"
+    },
+    {
+      "year": 2018,
+      "variant": "A",
+      "displayYear": "2018",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2018A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2018A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2018A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 111,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2018A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2018"
+    },
+    {
+      "year": 2018,
+      "variant": "B",
+      "displayYear": "2018",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2018B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2018B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2018B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 108,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2018B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2018"
+    },
+    {
+      "year": 2017,
+      "variant": "A",
+      "displayYear": "2017",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2017A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2017A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2017A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 112.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2017A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2017"
+    },
+    {
+      "year": 2017,
+      "variant": "B",
+      "displayYear": "2017",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2017B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2017B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2017B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2017B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2017"
+    },
+    {
+      "year": 2016,
+      "variant": "A",
+      "displayYear": "2016",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2016A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2016A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2016A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 110,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2016A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2016"
+    },
+    {
+      "year": 2016,
+      "variant": "B",
+      "displayYear": "2016",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2016B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2016B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2016B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 110,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2016B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2016"
+    },
+    {
+      "year": 2015,
+      "variant": "A",
+      "displayYear": "2015",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2015A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2015A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2015A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 106.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2015A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2015"
+    },
+    {
+      "year": 2015,
+      "variant": "B",
+      "displayYear": "2015",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2015B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2015B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2015B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2015B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2015"
+    },
+    {
+      "year": 2014,
+      "variant": "A",
+      "displayYear": "2014",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2014A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2014A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2014A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2014A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2014"
+    },
+    {
+      "year": 2014,
+      "variant": "B",
+      "displayYear": "2014",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2014B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2014B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2014B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2014B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2014"
+    },
+    {
+      "year": 2013,
+      "variant": "A",
+      "displayYear": "2013",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2013A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2013A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2013A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 108,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2013A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2013"
+    },
+    {
+      "year": 2013,
+      "variant": "B",
+      "displayYear": "2013",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2013B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2013B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2013B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2013B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2013"
+    },
+    {
+      "year": 2012,
+      "variant": "A",
+      "displayYear": "2012",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2012A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2012A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2012A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 115.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2012A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2012"
+    },
+    {
+      "year": 2012,
+      "variant": "B",
+      "displayYear": "2012",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2012B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2012B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2012B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2012B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2012"
+    },
+    {
+      "year": 2011,
+      "variant": "A",
+      "displayYear": "2011",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2011A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2011A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2011A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 117,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2011A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2011"
+    },
+    {
+      "year": 2011,
+      "variant": "B",
+      "displayYear": "2011",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2011B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2011B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2011B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 117,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2011B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2011"
+    },
+    {
+      "year": 2010,
+      "variant": "A",
+      "displayYear": "2010",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2010A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2010A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2010A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 118.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2010A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2010"
+    },
+    {
+      "year": 2010,
+      "variant": "B",
+      "displayYear": "2010",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2010B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2010B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2010B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 118.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2010B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2010"
+    },
+    {
+      "year": 2009,
+      "variant": "A",
+      "displayYear": "2009",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2009A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2009A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2009A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2009A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2009"
+    },
+    {
+      "year": 2009,
+      "variant": "B",
+      "displayYear": "2009",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2009B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2009B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2009B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2009B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2009"
+    },
+    {
+      "year": 2008,
+      "variant": "A",
+      "displayYear": "2008",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2008A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2008A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2008A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 117,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2008A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2008"
+    },
+    {
+      "year": 2008,
+      "variant": "B",
+      "displayYear": "2008",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2008B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2008B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2008B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2008B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2008"
+    },
+    {
+      "year": 2007,
+      "variant": "A",
+      "displayYear": "2007",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2007A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2007A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2007A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 117,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2007A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2007"
+    },
+    {
+      "year": 2007,
+      "variant": "B",
+      "displayYear": "2007",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2007B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2007B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2007B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 115.5,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2007B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2007"
+    },
+    {
+      "year": 2006,
+      "variant": "A",
+      "displayYear": "2006",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2006A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2006A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2006A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2006A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2006"
+    },
+    {
+      "year": 2006,
+      "variant": "B",
+      "displayYear": "2006",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2006B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2006B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2006B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2006B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2006"
+    },
+    {
+      "year": 2005,
+      "variant": "A",
+      "displayYear": "2005",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2005A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2005A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2005A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2005A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2005"
+    },
+    {
+      "year": 2005,
+      "variant": "B",
+      "displayYear": "2005",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2005B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2005B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2005B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2005B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2005"
+    },
+    {
+      "year": 2004,
+      "variant": "A",
+      "displayYear": "2004",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2004A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2004A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2004A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 110,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2004A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2004"
+    },
+    {
+      "year": 2004,
+      "variant": "B",
+      "displayYear": "2004",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2004B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2004B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2004B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 120,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2004B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2004"
+    },
+    {
+      "year": 2003,
+      "variant": "A",
+      "displayYear": "2003",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2003A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2003A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2003A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 119,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2003A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2003"
+    },
+    {
+      "year": 2003,
+      "variant": "B",
+      "displayYear": "2003",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2003B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2003B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2003B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 121,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2003B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2003"
+    },
+    {
+      "year": 2002,
+      "variant": "A",
+      "displayYear": "2002",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2002A-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2002A/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2002A/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 115,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2002A",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2002"
+    },
+    {
+      "year": 2002,
+      "variant": "B",
+      "displayYear": "2002",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2002B-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2002B/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2002B/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 118,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2002B",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2002"
+    },
+    {
+      "year": 2001,
+      "variant": "",
+      "displayYear": "2001",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2001-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2001/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2001/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 116,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2001",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2001"
+    },
+    {
+      "year": 2000,
+      "variant": "",
+      "displayYear": "2000",
+      "papers": [
+        {
+          "label": "Paper (PDF)",
+          "url": "https://live.poshenloh.com/images/past-contests/pdf/amc10-2000-exam.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Worked solutions",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2000/solutions",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://live.poshenloh.com/past-contests/amc10/2000/answers",
+          "kind": "answers"
+        }
+      ],
+      "boundaries": {
+        "sourceUrl": "https://ivyleaguecenter.org/2016/01/23/1487/",
+        "qualification": 110,
+        "qualificationLabel": "AIME qualification"
+      },
+      "sourceUrls": [
+        "https://live.poshenloh.com/past-contests/amc10/2000",
+        "https://live.poshenloh.com/past-contests",
+        "https://ivyleaguecenter.org/2016/01/23/1487/"
+      ],
+      "label": "2000"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://live.poshenloh.com/past-contests",
+      "label": "LIVE by Po-Shen Loh: MAA-authorised past contest archive"
+    },
+    {
+      "url": "https://ivyleaguecenter.org/2016/01/23/1487/",
+      "label": "Published historical AIME cutoffs, 2000–2024"
+    },
+    {
+      "url": "https://maa.org/news/2025-26-aime-thresholds-are-now-available/",
+      "label": "MAA: official 2025 AIME qualification thresholds"
+    },
+    {
+      "url": "https://ivyleaguecenter.org/2024/12/14/2025-aime-qualifying-thresholds/",
+      "label": "Published 2024 AIME and distinction cutoffs"
+    }
+  ],
+  "notes": [
+    "Papers are linked from the MAA-authorised LIVE by Po-Shen Loh archive. Worked solutions include hints and explanatory reasoning; they are not labelled official MAA solutions.",
+    "The archive contains every named AMC 10 paper from 2000 to 2025: 52 papers. A and B variants began in 2002.",
+    "Both spring and fall competitions took place in 2021. LIVE uses C and D in its URLs for Fall A and Fall B; this archive labels the actual season and variant.",
+    "AIME qualification scores are historical thresholds for that paper, not forecasts for a future competition. AMC papers do not use UKMT gold, silver and bronze boundaries.",
+    "The 2026 AMC papers have not taken place as of 10 September 2026; the published MAA dates are 5 and 13 November 2026.",
+    "Before practising an older paper, check its original scoring instructions because blank-answer scoring changed over time."
+  ],
+  "displayNotes": [
+    "Select the exact A/B paper and sitting: 2021 had both spring and autumn competitions. The scores beside each paper are AIME qualification thresholds, not school grades.",
+    "Historical qualification rules differ from current entry policies. Use the organiser’s current guidance when preparing for an upcoming competition."
+  ],
+  "pageTitle": "AMC 10 Past Papers, Solutions & AIME Cutoffs | Arij Asad"
+}

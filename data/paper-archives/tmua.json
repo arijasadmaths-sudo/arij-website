@@ -1,0 +1,2275 @@
+{
+  "exam": "tmua",
+  "title": "TMUA",
+  "pageTitle": "TMUA Past Papers, Worked Solutions & Community Mocks | Arij Asad",
+  "description": "TMUA official past papers, worked answers and historical score conversions, plus JZ Maths, Gresty Academy, Tyler, Beyond Horizon and Yotta practice papers.",
+  "intro": "Official papers and worked answers, followed by community mocks, topic worksheets and video solutions. Score information stays beside the matching paper.",
+  "displayNotes": [
+    "Official papers currently run from the 2016 practice papers to 2023, plus an early specimen. UAT-UK has not added 2024–2026 past papers to its public archive.",
+    "Historical raw-mark conversions use the older scale. Current TMUA results are scaled and do not have a universal pass mark; community mock conversions are estimates."
+  ],
+  "years": [
+    {
+      "year": 2023,
+      "label": "2023",
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper 1",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/04/30144109/TMUA-2023-paper-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 2",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/04/30144111/TMUA-2023-paper-2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 1 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/06/04105227/TMUA-2023-paper-1-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Paper 2 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/06/04105226/TMUA-2023-paper-2-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/04/30144123/TMUA-2023-answer-keys.pdf",
+          "kind": "answers"
+        }
+      ],
+      "sourceUrls": [
+        "https://esat-tmua.ac.uk/tmua-preparation-materials/"
+      ],
+      "boundaries": {
+        "links": [
+          {
+            "label": "Score conversion (Vantage)",
+            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bced8fac5db3011ae859e6_TMUA%202023%20Score%20Conversion%20Tables.pdf",
+            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
+            "kind": "historical_score_conversion",
+            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
+          }
+        ],
+        "note": "Historical scale; not a current score prediction."
+      }
+    },
+    {
+      "year": 2022,
+      "label": "2022",
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper 1",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141241/TMUA-2022-paper-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 2",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141239/TMUA-2022-paper-2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 1 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/06/04105226/TMUA-2022-paper-1-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Paper 2 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/06/04105227/TMUA-2022-paper-2-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141242/TMUA-2022-answer-keys.pdf",
+          "kind": "answers"
+        }
+      ],
+      "sourceUrls": [
+        "https://esat-tmua.ac.uk/tmua-preparation-materials/"
+      ],
+      "boundaries": {
+        "links": [
+          {
+            "label": "Score conversion (Vantage)",
+            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcedc292985ef20e53c497_TMUA%202022%20Score%20Conversion%20Table.pdf",
+            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
+            "kind": "historical_score_conversion",
+            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
+          }
+        ],
+        "note": "Historical scale; not a current score prediction."
+      }
+    },
+    {
+      "year": 2021,
+      "label": "2021",
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper 1",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141119/TMUA-2021-paper-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 2",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141117/TMUA-2021-paper-2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 1 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141121/TMUA-2021-paper-1-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Paper 2 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141118/TMUA-2021-paper-2-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141122/TMUA-2021-answer-keys.pdf",
+          "kind": "answers"
+        }
+      ],
+      "sourceUrls": [
+        "https://esat-tmua.ac.uk/tmua-preparation-materials/"
+      ],
+      "boundaries": {
+        "links": [
+          {
+            "label": "Score conversion (Vantage)",
+            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bceddcdc04933c0a32ca04_TMUA%202021%20Score%20Conversion%20Table.pdf",
+            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
+            "kind": "historical_score_conversion",
+            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
+          }
+        ],
+        "note": "Historical scale; not a current score prediction."
+      }
+    },
+    {
+      "year": 2020,
+      "label": "2020",
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper 1",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07140953/TMUA-2020-paper-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 2",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07140951/TMUA-2020-paper-2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 1 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07140955/TMUA-2020-paper-1-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Paper 2 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07140952/TMUA-2020-paper-2-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07140956/TMUA-2020-answer-keys.pdf",
+          "kind": "answers"
+        }
+      ],
+      "sourceUrls": [
+        "https://esat-tmua.ac.uk/tmua-preparation-materials/"
+      ],
+      "boundaries": {
+        "links": [
+          {
+            "label": "Score conversion (Vantage)",
+            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcedf38f40137e229e9c94_TMUA%202020%20Score%20Conversion%20Table.pdf",
+            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
+            "kind": "historical_score_conversion",
+            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
+          }
+        ],
+        "note": "Historical scale; not a current score prediction."
+      }
+    },
+    {
+      "year": 2019,
+      "label": "2019",
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper 1",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07140825/TMUA-2019-paper-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 2",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07140823/TMUA-2019-paper-2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 1 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07140826/TMUA-2019-paper-1-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Paper 2 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07140824/TMUA-2019-paper-2-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07140827/TMUA-2019-answer-keys.pdf",
+          "kind": "answers"
+        }
+      ],
+      "sourceUrls": [
+        "https://esat-tmua.ac.uk/tmua-preparation-materials/"
+      ],
+      "boundaries": {
+        "links": [
+          {
+            "label": "Score conversion (Vantage)",
+            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee1103339308260e1803_TMUA%202019%20Score%20Conversion%20Table.pdf",
+            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
+            "kind": "historical_score_conversion",
+            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
+          }
+        ],
+        "note": "Historical scale; not a current score prediction."
+      }
+    },
+    {
+      "year": 2018,
+      "label": "2018",
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper 1",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125407/TMUA-2018-paper-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 2",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125404/TMUA-2018-paper-2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 1 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125413/TMUA-2018-paper-1-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Paper 2 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125406/TMUA-2018-paper-2-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125413/TMUA-2018-answer-keys.pdf",
+          "kind": "answers"
+        }
+      ],
+      "sourceUrls": [
+        "https://esat-tmua.ac.uk/tmua-preparation-materials/"
+      ],
+      "boundaries": {
+        "links": [
+          {
+            "label": "Score conversion (Vantage)",
+            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee291197dae3638805cc_TMUA%202018%20Score%20Conversion%20Table.pdf",
+            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
+            "kind": "historical_score_conversion",
+            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
+          }
+        ],
+        "note": "Historical scale; not a current score prediction."
+      }
+    },
+    {
+      "year": 2017,
+      "label": "2017",
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper 1",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125230/TMUA-2017-paper-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 2",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125224/TMUA-2017-paper-2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 1 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125231/TMUA-2017-paper-1-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Paper 2 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125228/TMUA-2017-paper-2-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125232/TMUA-2017-answer-keys.pdf",
+          "kind": "answers"
+        }
+      ],
+      "sourceUrls": [
+        "https://esat-tmua.ac.uk/tmua-preparation-materials/"
+      ],
+      "boundaries": {
+        "links": [
+          {
+            "label": "Score conversion (Vantage)",
+            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee4f084c0843e646567d_TMUA%202017%20Score%20Conversion%20Table.pdf",
+            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
+            "kind": "historical_score_conversion",
+            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
+          }
+        ],
+        "note": "Historical scale; not a current score prediction."
+      }
+    },
+    {
+      "year": 2016,
+      "label": "2016 practice papers",
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper 1",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125112/TMUA-2016-paper-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 2",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125102/TMUA-2016-paper-2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 1 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125113/TMUA-2016-paper-1-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Paper 2 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125106/TMUA-2016-paper-2-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07125113/TMUA-2016-answer-keys.pdf",
+          "kind": "answers"
+        }
+      ],
+      "sourceUrls": [
+        "https://esat-tmua.ac.uk/tmua-preparation-materials/"
+      ],
+      "boundaries": {
+        "links": [
+          {
+            "label": "Score conversion (Vantage)",
+            "url": "https://cdn.prod.website-files.com/647b5b55f3f42fc50b2f6e4e/67bcee889f3aad6e9027bdfd_TMUA%202016%20Score%20Conversion%20Table.pdf",
+            "sourceURL": "https://www.vantageadmissions.co.uk/resource/tmua-resources",
+            "kind": "historical_score_conversion",
+            "note": "External score-conversion table linked by Vantage. Historical scale; not a prediction of current results."
+          }
+        ],
+        "note": "The UAT archive calls these 2016 papers; their covers identify them as practice papers. The linked Vantage score guide is separately attributed."
+      }
+    },
+    {
+      "year": "specimen",
+      "label": "Early specimen",
+      "variant": "",
+      "papers": [
+        {
+          "label": "Paper 1",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141417/TMUA-early-specimen-paper-1.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 2",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141413/TMUA-early-specimen-paper-2.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Paper 1 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141418/TMUA-early-specimen-paper-1-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Paper 2 worked answers",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141415/TMUA-early-specimen-paper-2-worked-answers.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Answer key",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/07141414/TMUA-early-specimen-paper-answer-keys.pdf",
+          "kind": "answers"
+        }
+      ],
+      "sourceUrls": [
+        "https://esat-tmua.ac.uk/tmua-preparation-materials/"
+      ],
+      "boundaries": {
+        "links": [],
+        "note": "No score-conversion table published for the early specimen."
+      }
+    }
+  ],
+  "community": [
+    {
+      "title": "JZ Maths",
+      "description": "Five pairs of community mock papers, with worked solutions, video walkthroughs and an online simulator.",
+      "rows": [
+        {
+          "year": "JZ Mock A Paper 1",
+          "label": "JZ Mock A Paper 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_a_p1_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_a_p1_solution.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "R2Drew2 video walkthrough",
+              "url": "https://www.youtube.com/watch?v=PPQtXbXqwT4",
+              "kind": "solutions"
+            },
+            {
+              "label": "JZ exam simulator",
+              "url": "https://jzmaths.com/simulator/jz_mock_a_p1",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/papers/mock-a-paper-1"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/jzmaths_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate",
+                "note": "JZ model estimates; includes old-scale and estimated 2024+ readings. Not official TMUA grade boundaries."
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          },
+          "note": "Challenging community mock. JZ allows 120 minutes in its simulator, unlike the official 75-minute paper."
+        },
+        {
+          "year": "JZ Mock A Paper 2",
+          "label": "JZ Mock A Paper 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_a_p2_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_a_p2_solution.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "R2Drew2 video walkthrough",
+              "url": "https://www.youtube.com/watch?v=mPlpO9on3Lo&t=20s",
+              "kind": "solutions"
+            },
+            {
+              "label": "JZ exam simulator",
+              "url": "https://jzmaths.com/simulator/jz_mock_a_p2",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/papers/mock-a-paper-2"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/jzmaths_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate",
+                "note": "JZ model estimates; includes old-scale and estimated 2024+ readings. Not official TMUA grade boundaries."
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          },
+          "note": "Challenging community mock. JZ allows 120 minutes in its simulator, unlike the official 75-minute paper."
+        },
+        {
+          "year": "JZ Mock B Paper 1",
+          "label": "JZ Mock B Paper 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_b_p1_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_b_p1_solution.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "R2Drew2 video walkthrough",
+              "url": "https://www.youtube.com/watch?v=GbS5wVG432Q",
+              "kind": "solutions"
+            },
+            {
+              "label": "JZ exam simulator",
+              "url": "https://jzmaths.com/simulator/jz_mock_b_p1",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/papers/mock-b-paper-1"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/jzmaths_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate",
+                "note": "JZ model estimates; includes old-scale and estimated 2024+ readings. Not official TMUA grade boundaries."
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          },
+          "note": "Challenging community mock. JZ allows 120 minutes in its simulator, unlike the official 75-minute paper."
+        },
+        {
+          "year": "JZ Mock B Paper 2",
+          "label": "JZ Mock B Paper 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_b_p2_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_b_p2_solution.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "R2Drew2 video walkthrough",
+              "url": "https://www.youtube.com/watch?v=meVExEtwr0U",
+              "kind": "solutions"
+            },
+            {
+              "label": "JZ exam simulator",
+              "url": "https://jzmaths.com/simulator/jz_mock_b_p2",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/papers/mock-b-paper-2"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/jzmaths_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate",
+                "note": "JZ model estimates; includes old-scale and estimated 2024+ readings. Not official TMUA grade boundaries."
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          },
+          "note": "Challenging community mock. JZ allows 120 minutes in its simulator, unlike the official 75-minute paper."
+        },
+        {
+          "year": "JZ Mock C Paper 1",
+          "label": "JZ Mock C Paper 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_c_p1_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_c_p1_solution.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "R2Drew2 video walkthrough",
+              "url": "https://www.youtube.com/watch?v=sYml8GYZZfk",
+              "kind": "solutions"
+            },
+            {
+              "label": "JZ exam simulator",
+              "url": "https://jzmaths.com/simulator/jz_mock_c_p1",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/papers/mock-c-paper-1"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/jzmaths_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate",
+                "note": "JZ model estimates; includes old-scale and estimated 2024+ readings. Not official TMUA grade boundaries."
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          },
+          "note": "Challenging community mock. JZ allows 120 minutes in its simulator, unlike the official 75-minute paper."
+        },
+        {
+          "year": "JZ Mock C Paper 2",
+          "label": "JZ Mock C Paper 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_c_p2_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_c_p2_solution.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "R2Drew2 video walkthrough",
+              "url": "https://www.youtube.com/watch?v=K804e1RqMFA",
+              "kind": "solutions"
+            },
+            {
+              "label": "JZ exam simulator",
+              "url": "https://jzmaths.com/simulator/jz_mock_c_p2",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/papers/mock-c-paper-2"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/jzmaths_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate",
+                "note": "JZ model estimates; includes old-scale and estimated 2024+ readings. Not official TMUA grade boundaries."
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          },
+          "note": "Challenging community mock. JZ allows 120 minutes in its simulator, unlike the official 75-minute paper."
+        },
+        {
+          "year": "JZ Mock D Paper 1",
+          "label": "JZ Mock D Paper 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_d_p1_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_d_p1_solution.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "R2Drew2 video walkthrough",
+              "url": "https://www.youtube.com/watch?v=NNwWEwtIGWY",
+              "kind": "solutions"
+            },
+            {
+              "label": "JZ exam simulator",
+              "url": "https://jzmaths.com/simulator/jz_mock_d_p1",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/papers/mock-d-paper-1"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/jzmaths_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate",
+                "note": "JZ model estimates; includes old-scale and estimated 2024+ readings. Not official TMUA grade boundaries."
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          },
+          "note": "Challenging community mock. JZ allows 120 minutes in its simulator, unlike the official 75-minute paper."
+        },
+        {
+          "year": "JZ Mock D Paper 2",
+          "label": "JZ Mock D Paper 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_d_p2_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_d_p2_solution.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "R2Drew2 video walkthrough",
+              "url": "https://www.youtube.com/watch?v=34YXHl60-90&t=2103s",
+              "kind": "solutions"
+            },
+            {
+              "label": "JZ exam simulator",
+              "url": "https://jzmaths.com/simulator/jz_mock_d_p2",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/papers/mock-d-paper-2"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/jzmaths_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate",
+                "note": "JZ model estimates; includes old-scale and estimated 2024+ readings. Not official TMUA grade boundaries."
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          },
+          "note": "Challenging community mock. JZ allows 120 minutes in its simulator, unlike the official 75-minute paper."
+        },
+        {
+          "year": "JZ Mock E Paper 1",
+          "label": "JZ Mock E Paper 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_e_p1_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_e_p1_solution.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "R2Drew2 video walkthrough",
+              "url": "https://www.youtube.com/watch?v=DfZDDy9qo6o",
+              "kind": "solutions"
+            },
+            {
+              "label": "JZ exam simulator",
+              "url": "https://jzmaths.com/simulator/jz_mock_e_p1",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/papers/mock-e-paper-1"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/jzmaths_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate",
+                "note": "JZ model estimates; includes old-scale and estimated 2024+ readings. Not official TMUA grade boundaries."
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          },
+          "note": "Challenging community mock. JZ allows 120 minutes in its simulator, unlike the official 75-minute paper."
+        },
+        {
+          "year": "JZ Mock E Paper 2",
+          "label": "JZ Mock E Paper 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_e_p2_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/papers/jz_mocks/jz_mock_e_p2_solution.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "R2Drew2 video walkthrough",
+              "url": "https://www.youtube.com/watch?v=BWx99HezQic&t=2249s",
+              "kind": "solutions"
+            },
+            {
+              "label": "JZ exam simulator",
+              "url": "https://jzmaths.com/simulator/jz_mock_e_p2",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/papers/mock-e-paper-2"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/jzmaths_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate",
+                "note": "JZ model estimates; includes old-scale and estimated 2024+ readings. Not official TMUA grade boundaries."
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          },
+          "note": "Challenging community mock. JZ allows 120 minutes in its simulator, unlike the official 75-minute paper."
+        }
+      ]
+    },
+    {
+      "title": "Tyler Tutoring",
+      "description": "Four community mock sets, with worked solutions and optional online practice.",
+      "rows": [
+        {
+          "year": "Tyler Tutoring Set A",
+          "label": "Tyler Tutoring Set A",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Papers 1 & 2",
+              "url": "https://www.tylertutoring.com/_files/ugd/e40201_1c5409efd7204e0a93bc1a65386184d8.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://www.tylertutoring.com/_files/ugd/e40201_3f411e4d017543ac8c96f0b040b24ef6.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "Paper 1 simulator",
+              "url": "https://jzmaths.com/simulator/tyler_mock_a_p1",
+              "kind": "paper"
+            },
+            {
+              "label": "Paper 2 simulator",
+              "url": "https://jzmaths.com/simulator/tyler_mock_a_p2",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.tylertutoring.com/resources"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/tyler_tutoring_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate"
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          }
+        },
+        {
+          "year": "Tyler Tutoring Set B",
+          "label": "Tyler Tutoring Set B",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Papers 1 & 2",
+              "url": "https://www.tylertutoring.com/_files/ugd/e40201_c0a62ceec3b4493d9ae11b6e1d1f5719.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://www.tylertutoring.com/_files/ugd/e40201_2a5861e2bd8b4a58ba619b45fbc3b3b2.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "Paper 1 simulator",
+              "url": "https://jzmaths.com/simulator/tyler_mock_b_p1",
+              "kind": "paper"
+            },
+            {
+              "label": "Paper 2 simulator",
+              "url": "https://jzmaths.com/simulator/tyler_mock_b_p2",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.tylertutoring.com/resources"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/tyler_tutoring_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate"
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          }
+        },
+        {
+          "year": "Tyler Tutoring Set C",
+          "label": "Tyler Tutoring Set C",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Papers 1 & 2",
+              "url": "https://www.tylertutoring.com/_files/ugd/e40201_156a4d7b6fb94b4190b06a8972634aa3.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://www.tylertutoring.com/_files/ugd/e40201_a13f9db224de48d9a7e127f29383f3f6.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "Paper 1 simulator",
+              "url": "https://jzmaths.com/simulator/tyler_mock_c_p1",
+              "kind": "paper"
+            },
+            {
+              "label": "Paper 2 simulator",
+              "url": "https://jzmaths.com/simulator/tyler_mock_c_p2",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.tylertutoring.com/resources"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/tyler_tutoring_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate"
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          }
+        },
+        {
+          "year": "Tyler Tutoring Set D",
+          "label": "Tyler Tutoring Set D",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Papers 1 & 2",
+              "url": "https://www.tylertutoring.com/_files/ugd/e40201_feacec67387945f880826f15128890b3.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://www.tylertutoring.com/_files/ugd/e40201_117c467bb02d46de9e1179bceed73b30.pdf",
+              "kind": "extended-solutions"
+            },
+            {
+              "label": "Paper 1 simulator",
+              "url": "https://jzmaths.com/simulator/tyler_mock_d_p1",
+              "kind": "paper"
+            },
+            {
+              "label": "Paper 2 simulator",
+              "url": "https://jzmaths.com/simulator/tyler_mock_d_p2",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.tylertutoring.com/resources"
+          ],
+          "boundaries": {
+            "links": [
+              {
+                "label": "Implied boundaries (estimated)",
+                "url": "https://jzmaths.com/papers/grade_boundaries/tyler_tutoring_mock_grade_boundaries.pdf",
+                "sourceURL": "https://jzmaths.com/papers",
+                "kind": "modelled_estimate"
+              }
+            ],
+            "note": "Creator estimates; not official boundaries."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Gresty Academy",
+      "description": "Two community mock papers, with a video solution for every question.",
+      "rows": [
+        {
+          "year": "Gresty Academy Paper 1",
+          "label": "Gresty Academy Paper 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Paper 1",
+              "url": "https://storage.e.jimdo.com/file/547c5cc2-ffb9-477c-a315-413e9e4f91d3/TMUA%20MOCK%20PAPER%20ONE%20-%20Gresty%20Academy.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Video solutions: Paper One, Q1–20",
+              "url": "https://www.grestyacademy.com/tmua/tmua-revision-help/",
+              "kind": "solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.grestyacademy.com/tmua/tmua-revision-help/"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "No published score-conversion table found."
+          },
+          "note": "The source page lists an individual solution video for every question in both papers.",
+          "questionVideos": [
+            {
+              "label": "Q1 video solution",
+              "url": "https://www.youtube.com/shorts/d2quoKcUiNQ"
+            },
+            {
+              "label": "Q2 video solution",
+              "url": "https://www.youtube.com/shorts/L0IGiIvXv1w"
+            },
+            {
+              "label": "Q3 video solution",
+              "url": "https://www.youtube.com/shorts/spkT3zXMAdg"
+            },
+            {
+              "label": "Q4 video solution",
+              "url": "https://www.youtube.com/shorts/4Yx-i4oYe1o"
+            },
+            {
+              "label": "Q5 video solution",
+              "url": "https://www.youtube.com/shorts/I03i4WfNsxc"
+            },
+            {
+              "label": "Q6 video solution",
+              "url": "https://www.youtube.com/shorts/j9xZweJ7zrI"
+            },
+            {
+              "label": "Q7 video solution",
+              "url": "https://www.youtube.com/shorts/ByWk3hABrzw"
+            },
+            {
+              "label": "Q8 video solution",
+              "url": "https://www.youtube.com/shorts/Zpms0HI4OLQ"
+            },
+            {
+              "label": "Q9 video solution",
+              "url": "https://www.youtube.com/shorts/2z4NF80FG9g"
+            },
+            {
+              "label": "Q10 video solution",
+              "url": "https://www.youtube.com/shorts/XRB426GpdLA"
+            },
+            {
+              "label": "Q11 video solution",
+              "url": "https://www.youtube.com/shorts/eJIsXdBFTPk"
+            },
+            {
+              "label": "Q12 video solution",
+              "url": "https://www.youtube.com/shorts/geVH_RMnSTU"
+            },
+            {
+              "label": "Q13 video solution",
+              "url": "https://www.youtube.com/shorts/dxjP8U78O0Q"
+            },
+            {
+              "label": "Q14 video solution",
+              "url": "https://www.youtube.com/shorts/9ukxiPNClqk"
+            },
+            {
+              "label": "Q15 video solution",
+              "url": "https://www.youtube.com/shorts/_FghTNW9Nug"
+            },
+            {
+              "label": "Q16 video solution",
+              "url": "https://www.youtube.com/shorts/iUfMcC3hX7Q"
+            },
+            {
+              "label": "Q17 video solution",
+              "url": "https://www.youtube.com/shorts/D-qi_Ku5YMU"
+            },
+            {
+              "label": "Q18 video solution",
+              "url": "https://www.youtube.com/shorts/6b5LT_975Fg"
+            },
+            {
+              "label": "Q19 video solution",
+              "url": "https://www.youtube.com/shorts/Lntb6De_Rb4"
+            },
+            {
+              "label": "Q20 video solution",
+              "url": "https://www.youtube.com/shorts/YcwlDmBd_cg"
+            }
+          ]
+        },
+        {
+          "year": "Gresty Academy Paper 2",
+          "label": "Gresty Academy Paper 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Paper 2",
+              "url": "https://storage.e.jimdo.com/file/83e810b4-e3ac-4075-830b-1d50bff2b5ba/TMUA%20MOCK%20PAPER%20TWO%20-%20Gresty%20Academy.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Video solutions: Paper Two, Q1–20",
+              "url": "https://www.grestyacademy.com/tmua/tmua-revision-help/",
+              "kind": "solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.grestyacademy.com/tmua/tmua-revision-help/"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "No published score-conversion table found."
+          },
+          "note": "The source page lists an individual solution video for every question in both papers.",
+          "questionVideos": [
+            {
+              "label": "Q1 video solution",
+              "url": "https://www.youtube.com/shorts/tZvoY8TurfI"
+            },
+            {
+              "label": "Q2 video solution",
+              "url": "https://www.youtube.com/shorts/F0yFk5apJp8"
+            },
+            {
+              "label": "Q3 video solution",
+              "url": "https://www.youtube.com/shorts/H5dmSYEKgAw"
+            },
+            {
+              "label": "Q4 video solution",
+              "url": "https://www.youtube.com/shorts/qkXa7Y5RLS4"
+            },
+            {
+              "label": "Q5 video solution",
+              "url": "https://www.youtube.com/shorts/dz2r3gvKScg"
+            },
+            {
+              "label": "Q6 video solution",
+              "url": "https://www.youtube.com/shorts/IQ0Y4RZ04rI"
+            },
+            {
+              "label": "Q7 video solution",
+              "url": "https://www.youtube.com/shorts/uBNYVUJZjEc"
+            },
+            {
+              "label": "Q8 video solution",
+              "url": "https://www.youtube.com/shorts/wLmN2WLaJKk"
+            },
+            {
+              "label": "Q9 video solution",
+              "url": "https://www.youtube.com/shorts/S4NChc5ZJgo"
+            },
+            {
+              "label": "Q10 video solution",
+              "url": "https://www.youtube.com/shorts/O7uH8t5t2H4"
+            },
+            {
+              "label": "Q11 video solution",
+              "url": "https://www.youtube.com/shorts/edOt0qNEzQk"
+            },
+            {
+              "label": "Q12 video solution",
+              "url": "https://www.youtube.com/shorts/FDlzrsnEfik"
+            },
+            {
+              "label": "Q13 video solution",
+              "url": "https://www.youtube.com/shorts/MZVU2g36JRk"
+            },
+            {
+              "label": "Q14 video solution",
+              "url": "https://www.youtube.com/shorts/-KFB5JPIpQs"
+            },
+            {
+              "label": "Q15 video solution",
+              "url": "https://www.youtube.com/shorts/qAtvQ649QmQ"
+            },
+            {
+              "label": "Q16 video solution",
+              "url": "https://www.youtube.com/shorts/UsYHFoI0NcM"
+            },
+            {
+              "label": "Q17 video solution",
+              "url": "https://www.youtube.com/shorts/92n9-NzeGKg"
+            },
+            {
+              "label": "Q18 video solution",
+              "url": "https://www.youtube.com/shorts/RHK1RajfujM"
+            },
+            {
+              "label": "Q19 video solution",
+              "url": "https://www.youtube.com/shorts/79SeRRfCKq8"
+            },
+            {
+              "label": "Q20 video solution",
+              "url": "https://www.youtube.com/shorts/dCcYoo2isDM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Andrew Phan",
+      "description": "Additional community practice collections linked by JZ Maths.",
+      "rows": [
+        {
+          "year": "Andrew Phan — Booster A",
+          "label": "Andrew Phan — Booster A",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://drive.google.com/file/d/1_kCSM171cbMPUgjHx780IE1OnCDMwEXL/preview",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://adventurousandrewmaths.blogspot.com/2025/12/holidays-special-tmua-booster-a.html"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "No score conversion supplied."
+          },
+          "note": "Paper 1 practice. Creator says worked solutions are to follow; no published solution link found."
+        },
+        {
+          "year": "Andrew Phan — Booster B",
+          "label": "Andrew Phan — Booster B",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://drive.google.com/file/d/1mZrq4NXQeg7NBkdVMPlkQO3nYiSG7da2/preview",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://adventurousandrewmaths.blogspot.com/2025/12/holidays-special-tmua-booster-b.html"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "No score conversion supplied."
+          },
+          "note": "Paper 1 practice. Creator says worked solutions are to follow; no published solution link found."
+        },
+        {
+          "year": "Andrew Phan — Set A",
+          "label": "Andrew Phan — Set A",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Question paper",
+              "url": "https://drive.google.com/file/d/1QNh-p5BeUNrwkqArk7CzBdY2hQ5ZmUGg/preview",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://adventurousandrewmaths.blogspot.com/2025/12/holidays-special-tmua-set-a.html"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "No score conversion supplied."
+          },
+          "note": "Paper 1 practice. No separate worked-solution link found."
+        },
+        {
+          "year": "Andrew Phan — Practice booklet: Level 1",
+          "label": "Andrew Phan — Practice booklet: Level 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions and answers",
+              "url": "https://drive.google.com/file/d/1Ag0nnTvf20Zs62D2WkLt8r3K3LtR7Mp9/preview",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://adventurousandrewmaths.blogspot.com/2025/12/holidays-special-tmua-practice-part-1.html"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "No score conversion supplied."
+          },
+          "note": "Answers included in booklet; no separate worked-solution file found."
+        },
+        {
+          "year": "Andrew Phan — Practice booklet: Level 2",
+          "label": "Andrew Phan — Practice booklet: Level 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions and answers",
+              "url": "https://drive.google.com/file/d/183bFh4VHpYiGPdrcNWv8crZ4qL3dkX0N/preview",
+              "kind": "paper"
+            }
+          ],
+          "sourceUrls": [
+            "https://adventurousandrewmaths.blogspot.com/2025/12/holidays-special-tmua-practice-part-1.html"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "No score conversion supplied."
+          },
+          "note": "Answers included in booklet; no separate worked-solution file found."
+        }
+      ]
+    },
+    {
+      "title": "JZ Maths logic worksheets",
+      "rows": [
+        {
+          "year": "Basics of Implication and Deduction — worksheet 1",
+          "label": "Basics of Implication and Deduction — worksheet 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/implication-and-deduction-questions-1.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/implication-and-deduction-solutions-1.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/implication-and-deduction"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Basics of Implication and Deduction — worksheet 2",
+          "label": "Basics of Implication and Deduction — worksheet 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/implication-and-deduction-questions-2.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/implication-and-deduction-solutions-2.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/implication-and-deduction"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "P ⇒ Q: Equivalent Ways to Say It — worksheet 1",
+          "label": "P ⇒ Q: Equivalent Ways to Say It — worksheet 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/implication-equivalent-forms-questions-1.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/implication-equivalent-forms-solutions-1.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/equivalent-forms-of-implication"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "P ⇒ Q: Equivalent Ways to Say It — worksheet 2",
+          "label": "P ⇒ Q: Equivalent Ways to Say It — worksheet 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/implication-equivalent-forms-questions-2.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/implication-equivalent-forms-solutions-2.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/equivalent-forms-of-implication"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Negation and Quantifiers — worksheet 1",
+          "label": "Negation and Quantifiers — worksheet 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/negation-and-quantifiers-questions-1.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/negation-and-quantifiers-solutions-1.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/negation"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Negation and Quantifiers — worksheet 2",
+          "label": "Negation and Quantifiers — worksheet 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/negation-and-quantifiers-questions-2.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/negation-and-quantifiers-solutions-2.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/negation"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Negation and Quantifiers — worksheet 3",
+          "label": "Negation and Quantifiers — worksheet 3",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/negation-and-quantifiers-questions-3.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/negation-and-quantifiers-solutions-3.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/negation"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Counterexamples",
+          "label": "Counterexamples",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/counterexamples-questions-1.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/counterexamples-solutions-1.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/counterexamples"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Converse and Equivalence",
+          "label": "Converse and Equivalence",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/converse-and-equivalence-questions-1.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/converse-and-equivalence-solutions-1.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/converse-and-equivalence"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "The Contrapositive",
+          "label": "The Contrapositive",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/the-contrapositive-questions-1.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/the-contrapositive-solutions-1.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/contrapositive"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Proof by Contradiction",
+          "label": "Proof by Contradiction",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/proof-by-contradiction-questions-1.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/proof-by-contradiction-solutions-1.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/proof-by-contradiction"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Truth Tables",
+          "label": "Truth Tables",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/truth-tables-questions-1.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/truth-tables-solutions-1.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/truth-tables"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "TMUA Worked Examples",
+          "label": "TMUA Worked Examples",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/logic/worksheets/tmua-logic-worked-examples-questions-1.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/logic/worksheets/tmua-logic-worked-examples-solutions-1.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/logic/tmua-worked-examples"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        }
+      ]
+    },
+    {
+      "title": "JZ Maths additional-topic worksheets",
+      "rows": [
+        {
+          "year": "Transformations: Part A — Core transformations and equations of curves — worksheet 1",
+          "label": "Transformations: Part A — Core transformations and equations of curves — worksheet 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/tests/transformations_part_a_practice_1_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/tests/transformations_part_a_practice_1_solution.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/topics/transformations-part-a"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Transformations: Part A — Core transformations and equations of curves — worksheet 2",
+          "label": "Transformations: Part A — Core transformations and equations of curves — worksheet 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/tests/transformations_part_a_topic_test_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/tests/transformations_part_a_topic_test_solution.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/topics/transformations-part-a"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Transformations: Part B — Modulus transformations, point mapping and rotations",
+          "label": "Transformations: Part B — Modulus transformations, point mapping and rotations",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/tests/transformations_part_b_topic_test_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/tests/transformations_part_b_topic_test_solution.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/topics/transformations-part-b"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Multivariate Factorisation using the Factor Theorem — worksheet 1",
+          "label": "Multivariate Factorisation using the Factor Theorem — worksheet 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/tests/mulitivariate_factorisation_practice_1_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/tests/mulitivariate_factorisation_practice_1_solution.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/topics/multivariate-factorisation"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Multivariate Factorisation using the Factor Theorem — worksheet 2",
+          "label": "Multivariate Factorisation using the Factor Theorem — worksheet 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/tests/multivariate_factorisation_topic_test_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/tests/multivariate_factorisation_topic_test_solution.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/topics/multivariate-factorisation"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        },
+        {
+          "year": "Cauchy-Schwarz and AM-GM Inequalities",
+          "label": "Cauchy-Schwarz and AM-GM Inequalities",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Questions",
+              "url": "https://jzmaths.com/tests/cauchy_schwarz_am_gm_inequalities_topic_test_question.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Worked solutions",
+              "url": "https://jzmaths.com/tests/cauchy_schwarz_am_gm_inequalities_topic_test_solution.pdf",
+              "kind": "extended-solutions"
+            }
+          ],
+          "sourceUrls": [
+            "https://jzmaths.com/topics/cauchy-schwarz-am-gm-inequalities"
+          ],
+          "boundaries": {
+            "links": [],
+            "note": "Topic practice; no score conversion."
+          }
+        }
+      ]
+    },
+    {
+      "title": "Beyond Horizon — supplied collection",
+      "description": "Set 1 includes both papers and a spreadsheet of answer keys.",
+      "rows": [
+        {
+          "year": "Set 1 · Paper 1",
+          "label": "Set 1 · Paper 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Paper (PDF)",
+              "url": "assets/community-papers/beyond-horizon-set-1-paper-1.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Answer key (XLSX)",
+              "url": "assets/community-papers/beyond-horizon-set-1-answer-keys.xlsx",
+              "kind": "answers"
+            }
+          ],
+          "boundaries": {
+            "note": "No score conversion supplied."
+          },
+          "note": "Answer key only; no worked solutions supplied."
+        },
+        {
+          "year": "Set 1 · Paper 2",
+          "label": "Set 1 · Paper 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Paper (PDF)",
+              "url": "assets/community-papers/beyond-horizon-set-1-paper-2.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Answer key (XLSX)",
+              "url": "assets/community-papers/beyond-horizon-set-1-answer-keys.xlsx",
+              "kind": "answers"
+            }
+          ],
+          "boundaries": {
+            "note": "No score conversion supplied."
+          },
+          "note": "Answer key only; no worked solutions supplied."
+        }
+      ]
+    },
+    {
+      "title": "Yotta — supplied collection",
+      "description": "Two practice papers, with an answer key supplied for Paper 2.",
+      "rows": [
+        {
+          "year": "Yotta Paper 1",
+          "label": "Yotta Paper 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Paper (PDF)",
+              "url": "assets/community-papers/yotta-paper-1.pdf",
+              "kind": "paper"
+            }
+          ],
+          "boundaries": {
+            "note": "No score conversion supplied."
+          },
+          "note": "No answer key or worked solutions supplied."
+        },
+        {
+          "year": "Yotta Paper 2",
+          "label": "Yotta Paper 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Paper (PDF)",
+              "url": "assets/community-papers/yotta-paper-2.pdf",
+              "kind": "paper"
+            },
+            {
+              "label": "Answer key (DOCX)",
+              "url": "assets/community-papers/yotta-paper-2-answer-key.docx",
+              "kind": "answers"
+            }
+          ],
+          "boundaries": {
+            "note": "No score conversion supplied."
+          },
+          "note": "Answer key only; no worked solutions supplied."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "UAT-UK official TMUA preparation archive",
+      "url": "https://esat-tmua.ac.uk/tmua-preparation-materials/"
+    },
+    {
+      "label": "Current TMUA score guidance",
+      "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/02/11111432/TMUA_Explanation_of_Results-October2025_and_January2026.pdf"
+    },
+    {
+      "label": "Historical score conversion tables via Vantage Admissions",
+      "url": "https://www.vantageadmissions.co.uk/resource/tmua-resources"
+    },
+    {
+      "label": "JZ Maths resources",
+      "url": "https://jzmaths.com/papers"
+    },
+    {
+      "label": "Tyler Tutoring resources",
+      "url": "https://www.tylertutoring.com/resources"
+    },
+    {
+      "label": "Gresty Academy resources",
+      "url": "https://www.grestyacademy.com/tmua/tmua-revision-help/"
+    },
+    {
+      "label": "Andrew Phan resources",
+      "url": "https://adventurousandrewmaths.blogspot.com/2025/12/admission-tests-collection-of-resources.html"
+    }
+  ],
+  "linkSections": [
+    {
+      "id": "official-preparation",
+      "title": "Current official preparation",
+      "links": [
+        {
+          "label": "TMUA Specification",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/05/03165619/TMUA_Content_Specification.pdf"
+        },
+        {
+          "label": "TMUA Specimen and Practice Tests",
+          "url": "https://www.pearsonvue.com/us/en/uatuk.html"
+        },
+        {
+          "label": "Notes on Mathematics",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/06/30103537/Notes_on_Mathematics_-for_TMUA_and_ESAT_M2.pdf"
+        },
+        {
+          "label": "Notes on Logic and Proof – for TMUA Paper 2",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2025/06/25160507/Notes_on_Logic_and_Proof_June2025.pdf"
+        },
+        {
+          "label": "TMUA Explanation of Results – October 2025 and January 2026",
+          "url": "https://uat-wp.s3.eu-west-2.amazonaws.com/wp-content/uploads/2026/02/11111432/TMUA_Explanation_of_Results-October2025_and_January2026.pdf"
+        }
+      ]
+    },
+    {
+      "id": "jzlogicarticles",
+      "title": "JZ Maths logic course",
+      "links": [
+        {
+          "label": "Basics of Implication and Deduction",
+          "url": "https://jzmaths.com/logic/implication-and-deduction"
+        },
+        {
+          "label": "P ⇒ Q: Equivalent Ways to Say It",
+          "url": "https://jzmaths.com/logic/equivalent-forms-of-implication"
+        },
+        {
+          "label": "Negation and Quantifiers",
+          "url": "https://jzmaths.com/logic/negation"
+        },
+        {
+          "label": "Counterexamples",
+          "url": "https://jzmaths.com/logic/counterexamples"
+        },
+        {
+          "label": "Converse and Equivalence",
+          "url": "https://jzmaths.com/logic/converse-and-equivalence"
+        },
+        {
+          "label": "The Contrapositive",
+          "url": "https://jzmaths.com/logic/contrapositive"
+        },
+        {
+          "label": "Proof by Contradiction",
+          "url": "https://jzmaths.com/logic/proof-by-contradiction"
+        },
+        {
+          "label": "Truth Tables",
+          "url": "https://jzmaths.com/logic/truth-tables"
+        },
+        {
+          "label": "TMUA Worked Examples",
+          "url": "https://jzmaths.com/logic/tmua-worked-examples"
+        }
+      ]
+    },
+    {
+      "id": "jzadditionaltopics",
+      "title": "JZ Maths additional topics",
+      "links": [
+        {
+          "label": "Transformations: Part A — Core transformations and equations of curves",
+          "url": "https://jzmaths.com/topics/transformations-part-a"
+        },
+        {
+          "label": "Transformations: Part B — Modulus transformations, point mapping and rotations",
+          "url": "https://jzmaths.com/topics/transformations-part-b"
+        },
+        {
+          "label": "Methods in Sequences and Summations",
+          "url": "https://jzmaths.com/topics/methods-in-sequences-and-summations"
+        },
+        {
+          "label": "Standard Trigonometric Equations",
+          "url": "https://jzmaths.com/topics/standard-trigonometric-equations"
+        },
+        {
+          "label": "Multivariate Factorisation using the Factor Theorem",
+          "url": "https://jzmaths.com/topics/multivariate-factorisation"
+        },
+        {
+          "label": "Modulo arithmetic: remainders, equivalence and useful methods",
+          "url": "https://jzmaths.com/topics/modulo-arithmetic"
+        },
+        {
+          "label": "Cauchy-Schwarz and AM-GM Inequalities",
+          "url": "https://jzmaths.com/topics/cauchy-schwarz-am-gm-inequalities"
+        }
+      ]
+    },
+    {
+      "id": "jzpublicnavigation",
+      "title": "More JZ Maths resources",
+      "links": [
+        {
+          "label": "Exam simulator",
+          "url": "https://jzmaths.com/exam"
+        },
+        {
+          "label": "Corrections",
+          "url": "https://jzmaths.com/corrections"
+        },
+        {
+          "label": "Papers",
+          "url": "https://jzmaths.com/papers"
+        },
+        {
+          "label": "Logic",
+          "url": "https://jzmaths.com/logic"
+        },
+        {
+          "label": "Additional Topics",
+          "url": "https://jzmaths.com/topics"
+        },
+        {
+          "label": "Egg Hunt",
+          "url": "https://jzmaths.com/egg-hunt"
+        },
+        {
+          "label": "News",
+          "url": "https://jzmaths.com/news"
+        },
+        {
+          "label": "Mastery",
+          "url": "https://jzmaths.com/how-mastery-works"
+        },
+        {
+          "label": "TMUA info",
+          "url": "https://jzmaths.com/tmua"
+        },
+        {
+          "label": "Useful links",
+          "url": "https://jzmaths.com/links"
+        }
+      ]
+    },
+    {
+      "id": "jzusefulexternalresources",
+      "title": "Further resources linked by JZ Maths",
+      "links": [
+        {
+          "label": "Tyler Tutoring",
+          "url": "https://www.tylertutoring.com/"
+        },
+        {
+          "label": "Rob Drew's YouTube channel (R2Drew2)",
+          "url": "https://www.youtube.com/@rtwodrew2"
+        },
+        {
+          "label": "Oxford MAT past papers",
+          "url": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+        },
+        {
+          "label": "Andrew Phan's TMUA resources",
+          "url": "https://adventurousandrewmaths.blogspot.com/2025/12/admission-tests-collection-of-resources.html"
+        },
+        {
+          "label": "Dr Trifon Madas's site MadasMaths.com",
+          "url": "https://madasmaths.com/"
+        }
+      ]
+    },
+    {
+      "id": "jz-official-mirrors",
+      "title": "Official-paper mirrors on JZ Maths",
+      "links": [
+        {
+          "label": "TMUA 2023 Paper 1 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2023_1.pdf"
+        },
+        {
+          "label": "TMUA 2023 Paper 1 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2023_1_ms.pdf"
+        },
+        {
+          "label": "TMUA 2023 Paper 2 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2023_2.pdf"
+        },
+        {
+          "label": "TMUA 2023 Paper 2 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2023_2_ms.pdf"
+        },
+        {
+          "label": "TMUA 2022 Paper 1 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2022_1.pdf"
+        },
+        {
+          "label": "TMUA 2022 Paper 1 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2022_1_ms.pdf"
+        },
+        {
+          "label": "TMUA 2022 Paper 2 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2022_2.pdf"
+        },
+        {
+          "label": "TMUA 2022 Paper 2 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2022_2_ms.pdf"
+        },
+        {
+          "label": "TMUA 2021 Paper 1 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2021_1.pdf"
+        },
+        {
+          "label": "TMUA 2021 Paper 1 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2021_1_ms.pdf"
+        },
+        {
+          "label": "TMUA 2021 Paper 2 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2021_2.pdf"
+        },
+        {
+          "label": "TMUA 2021 Paper 2 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2021_2_ms.pdf"
+        },
+        {
+          "label": "TMUA 2020 Paper 1 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2020_1.pdf"
+        },
+        {
+          "label": "TMUA 2020 Paper 1 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2020_1_ms.pdf"
+        },
+        {
+          "label": "TMUA 2020 Paper 2 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2020_2.pdf"
+        },
+        {
+          "label": "TMUA 2020 Paper 2 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2020_2_ms.pdf"
+        },
+        {
+          "label": "TMUA 2019 Paper 1 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2019_1.pdf"
+        },
+        {
+          "label": "TMUA 2019 Paper 1 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2019_1_ms.pdf"
+        },
+        {
+          "label": "TMUA 2019 Paper 2 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2019_2.pdf"
+        },
+        {
+          "label": "TMUA 2019 Paper 2 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2019_2_ms.pdf"
+        },
+        {
+          "label": "TMUA 2018 Paper 1 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2018_1.pdf"
+        },
+        {
+          "label": "TMUA 2018 Paper 1 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2018_1_ms.pdf"
+        },
+        {
+          "label": "TMUA 2018 Paper 2 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2018_2.pdf"
+        },
+        {
+          "label": "TMUA 2018 Paper 2 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2018_2_ms.pdf"
+        },
+        {
+          "label": "TMUA 2017 Paper 1 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2017_1.pdf"
+        },
+        {
+          "label": "TMUA 2017 Paper 1 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2017_1_ms.pdf"
+        },
+        {
+          "label": "TMUA 2017 Paper 2 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2017_2.pdf"
+        },
+        {
+          "label": "TMUA 2017 Paper 2 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2017_2_ms.pdf"
+        },
+        {
+          "label": "TMUA 2016 Paper 1 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2016_1.pdf"
+        },
+        {
+          "label": "TMUA 2016 Paper 1 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2016_1_ms.pdf"
+        },
+        {
+          "label": "TMUA 2016 Paper 2 — Question paper (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2016_2.pdf"
+        },
+        {
+          "label": "TMUA 2016 Paper 2 — Mark scheme (PDF)",
+          "url": "https://jzmaths.com/papers/tmua_2016_2_ms.pdf"
+        },
+        {
+          "label": "tmua specimen 1",
+          "url": "https://jzmaths.com/papers/tmua_specimen_1.pdf"
+        },
+        {
+          "label": "tmua specimen 1 ms",
+          "url": "https://jzmaths.com/papers/tmua_specimen_1_ms.pdf"
+        },
+        {
+          "label": "tmua specimen 2",
+          "url": "https://jzmaths.com/papers/tmua_specimen_2.pdf"
+        },
+        {
+          "label": "tmua specimen 2 ms",
+          "url": "https://jzmaths.com/papers/tmua_specimen_2_ms.pdf"
+        }
+      ]
+    }
+  ]
+}

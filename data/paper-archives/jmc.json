@@ -1,0 +1,1067 @@
+{
+  "exam": "jmc",
+  "title": "Junior Mathematical Challenge",
+  "years": [
+    {
+      "year": 2026,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2026/05/JMC_Paper_2026.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2026/05/JMC2026__Solutions_and_Investigations__web_version_.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2026/05/JMC_Solutions_2026.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 75,
+        "silver": 59,
+        "bronze": 47,
+        "qualification": {
+          "Junior Kangaroo": 80,
+          "Junior Mathematical Olympiad": 112
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards"
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2025,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2025/05/JMC-2025-Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2025/05/JMC-2025-solutions-and-investigations.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2025/05/JMC-2025-Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 91,
+        "silver": 73,
+        "bronze": 54,
+        "qualification": {
+          "Junior Kangaroo": 100,
+          "Junior Mathematical Olympiad": 125
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards"
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2024,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2024/04/JMC-2024-Question-Paper-4.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2024/04/JMC-2024-Extended-Solutions-1.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2024/04/JMC-2024-Solutions-1.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 86,
+        "silver": 70,
+        "bronze": 57,
+        "qualification": {
+          "Junior Kangaroo": 92,
+          "Junior Mathematical Olympiad": 123
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards"
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2023,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC-2023_Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC-2023-Extended-Solutions_0.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC-2023-Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 82,
+        "silver": 66,
+        "bronze": 52,
+        "qualification": {
+          "Junior Kangaroo": 88,
+          "Junior Mathematical Olympiad": 113
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards"
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2022,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC_2022_Paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC2022__Extended_solutions__web_version__web_version_.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC_2022_Solutions_0.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 84,
+        "silver": 66,
+        "bronze": 52,
+        "qualification": {
+          "Junior Kangaroo": 92,
+          "Junior Mathematical Olympiad": 120
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards"
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2021,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC-2021-paper.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC-2021-Extended-Solutions.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC-2021-Solutions.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 73,
+        "silver": 57,
+        "bronze": 45,
+        "qualification": {
+          "Junior Kangaroo": 73,
+          "Junior Mathematical Olympiad": 98
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards"
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2020,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC-2020-q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC-2020-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/JMC-2020-s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 102,
+        "silver": 86,
+        "bronze": 70,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": null
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Held online; no follow-on qualification thresholds. Use the scoring rules printed on this year’s paper."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2019,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2019-q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2019-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2019-s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 71,
+        "silver": 54,
+        "bronze": 41,
+        "qualification": {
+          "Junior Kangaroo": 78,
+          "Junior Mathematical Olympiad": 106
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards"
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2018,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2018-q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2018-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2018-s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 75,
+        "silver": 61,
+        "bronze": 49,
+        "qualification": {
+          "Junior Kangaroo": 82,
+          "Junior Mathematical Olympiad": 105
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards"
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2017,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2017-q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2017-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2017-s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 77,
+        "silver": 63,
+        "bronze": 52,
+        "qualification": {
+          "Junior Kangaroo": 86,
+          "Junior Mathematical Olympiad": 107
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards"
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2016,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2016-q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2016-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2016-s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 81,
+        "silver": 65,
+        "bronze": 51,
+        "qualification": {
+          "Junior Kangaroo": 93,
+          "Junior Mathematical Olympiad": 113
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards"
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2015,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question Paper",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2015-q.pdf",
+          "kind": "paper"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2015-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Solutions",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2015-s.pdf",
+          "kind": "solutions"
+        }
+      ],
+      "boundaries": {
+        "gold": 78,
+        "silver": 62,
+        "bronze": 51,
+        "qualification": {
+          "Junior Kangaroo": 88,
+          "Junior Mathematical Olympiad": 105
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards"
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/"
+      ]
+    },
+    {
+      "year": 2014,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2014%20Paper.pdf?id=162902699",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2014-paper/"
+        },
+        {
+          "label": "Extended solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2014%20Paper%20%2B%20MS.pdf?id=155008539",
+          "kind": "extended-solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2014-extended-solutions/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2014%20Short%20Solutions.pdf?id=155008526",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2014-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 79,
+        "silver": 63,
+        "bronze": 50,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 108
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2013,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2013%20Paper.pdf?id=162902708",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2013-paper/"
+        },
+        {
+          "label": "Extended solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2013%20Paper%20%2B%20MS.pdf?id=155008541",
+          "kind": "extended-solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2013-extended-solutions/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2013%20Short%20Solutions.pdf?id=155008523",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2013-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 82,
+        "silver": 63,
+        "bronze": 49,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 113
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2012,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2012-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2012%20Short%20Solutions.pdf?id=162902711",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2012-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 86,
+        "silver": 71,
+        "bronze": 56,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 110
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/",
+        "https://ukmt.org.uk/free-past-papers/junior-mathematical-challenge-2012"
+      ],
+      "note": "All 25 questions appear in the extended solutions. The standalone paper found in another archive was incomplete, so it has not been linked."
+    },
+    {
+      "year": 2011,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2011%20Paper.pdf?id=162863186",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2011-paper/"
+        },
+        {
+          "label": "Extended solutions & investigations",
+          "url": "https://ukmt.org.uk/wp-content/uploads/2023/08/jmc-2011-extended.pdf",
+          "kind": "extended-solutions"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2011%20Short%20Solutions.pdf?id=162902685",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2011-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 77,
+        "silver": 61,
+        "bronze": 49,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 104
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/",
+        "https://ukmt.org.uk/free-past-papers/junior-mathematical-challenge-2011"
+      ]
+    },
+    {
+      "year": 2010,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2010%20Paper.pdf?id=164288740",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2010-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2010%20Short%20Solutions.pdf?id=162902704",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2010-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 73,
+        "silver": 56,
+        "bronze": 44,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 102
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2009,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2009%20Paper.pdf?id=162902694",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2009-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2009%20Short%20Solutions.pdf?id=162902700",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2009-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 72,
+        "silver": 57,
+        "bronze": 45,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 100
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2008,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2008%20Paper.pdf?id=162902701",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2008-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2008%20Short%20Solutions.pdf?id=162902697",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2008-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 71,
+        "silver": 56,
+        "bronze": 45,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 99
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2007,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2007%20Paper.pdf?id=162902684",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2007-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2007%20Short%20Solutions.pdf?id=162902698",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2007-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 69,
+        "silver": 54,
+        "bronze": 43,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 94
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2006,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2006%20Paper.pdf?id=162902687",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2006-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2006%20Short%20Solutions.pdf?id=162902686",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2006-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 66,
+        "silver": 51,
+        "bronze": 39,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 92
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2005,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2005%20Paper.pdf?id=162902682",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2005-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2005%20Short%20Solutions.pdf?id=162902683",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2005-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 79,
+        "silver": 64,
+        "bronze": 51,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 102
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2004,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2004%20Paper.pdf?id=162902681",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2004-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2004%20Short%20Solutions.pdf?id=162902692",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2004-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 75,
+        "silver": 60,
+        "bronze": 47,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 100
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2003,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2003%20Paper.pdf?id=162902693",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2003-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2003%20Short%20Solutions.pdf?id=162902689",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2003-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 75,
+        "silver": 57,
+        "bronze": 44,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 105
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2002,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2002%20Paper.pdf?id=162902691",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2002-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2002%20Short%20Solutions.pdf?id=162902690",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2002-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 73,
+        "silver": 57,
+        "bronze": 45,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 100
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2001,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2001%20Paper.pdf?id=162902706",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2001-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2001%20Short%20Solutions.pdf?id=162902702",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2001-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 88,
+        "silver": 73,
+        "bronze": 58,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 114
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 2000,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2000%20Paper.pdf?id=162902714",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2000-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/2000%20Short%20Solutions.pdf?id=162902712",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-2000-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 82,
+        "silver": 66,
+        "bronze": 52,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 106
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 1999,
+      "variant": "",
+      "papers": [
+        {
+          "label": "Question paper",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/1999%20Paper.pdf?id=162902713",
+          "kind": "paper",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-1999-paper/"
+        },
+        {
+          "label": "Short solutions",
+          "url": "https://www.mymathscloud.com/api/download/modules/11/UKMT%20Challenge/junior-challenge/1999%20Short%20Solutions.pdf?id=162902710",
+          "kind": "solutions",
+          "landingUrl": "https://www.mymathscloud.com/maths/documents/past-papers/ukmt/junior-challenge-1999-short-solutions/"
+        }
+      ],
+      "boundaries": {
+        "gold": 71,
+        "silver": 56,
+        "bronze": 43,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 97
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Junior Kangaroo qualification not applicable in this year."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/"
+      ]
+    },
+    {
+      "year": 1998,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "gold": 70,
+        "silver": 55,
+        "bronze": 42,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 95
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Award and qualification thresholds verified; no free individual paper or solution link found in the checked archives."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/product/junior-problems"
+      ]
+    },
+    {
+      "year": 1997,
+      "variant": "",
+      "papers": [],
+      "boundaries": {
+        "gold": 86,
+        "silver": 69,
+        "bronze": 54,
+        "qualification": {
+          "Junior Kangaroo": null,
+          "Junior Mathematical Olympiad": 108
+        },
+        "sourceUrl": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "note": "Award and qualification thresholds verified; no free individual paper or solution link found in the checked archives."
+      },
+      "sourceUrls": [
+        "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+        "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+        "https://ukmt.org.uk/product/junior-problems"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ukmt.org.uk/junior-challenges/junior-maths-challenge-awards",
+      "label": "UKMT official JMC awards and historical thresholds"
+    },
+    {
+      "url": "https://mathsaurus.com/junior-maths-challenge-grade-boundaries/",
+      "label": "Mathsaurus JMC papers and boundaries"
+    },
+    {
+      "url": "https://www.mymathscloud.com/modules/11-plus/ukmt-challenge/junior-challenge/",
+      "label": "MyMathsCloud older JMC paper archive"
+    },
+    {
+      "url": "https://ukmt.org.uk/competition-papers",
+      "label": "UKMT competition paper archive"
+    },
+    {
+      "url": "https://ukmt.org.uk/product/junior-problems",
+      "label": "UKMT Junior Problems book (paid; includes 1997–2016 questions)"
+    }
+  ],
+  "notes": [
+    "Verified award thresholds 1997–2026; question papers and short solutions 1999–2026, except that the complete 2012 questions are provided within the extended-solutions document. Extended solutions are available 2011–2026.",
+    "Official UKMT files are preferred for 2015 onward, and for the 2011–2012 extended solutions. Earlier files are UKMT papers hosted by MyMathsCloud.",
+    "MyMathsCloud boundary values were not used: its 2022 and 2023 gold thresholds conflict with official UKMT values.",
+    "1997–1998 have verified thresholds but no free paper links found. Older UKMT collections are sold by UKMT; no guessed PDF URLs were added.",
+    "Scoring changed over time. For comparisons with historical thresholds follow the instructions on the matching paper.",
+    "The 2020 challenge was held online; no follow-on qualification thresholds applied.",
+    "The purported MyMathsCloud 2012 standalone paper was checked and contains only questions 18–25. It has been excluded. Its extended-solutions document contains all 25 questions."
+  ],
+  "displayNotes": [
+    "Minimum award scores are shown for each year. Scoring rules and follow-on eligibility have changed over time; compare your result with the same paper’s thresholds.",
+    "Extended solutions include investigations and alternative approaches where available. The 2012 extended document contains the questions; no complete separate 2012 paper was located."
+  ]
+}
