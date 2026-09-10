@@ -420,8 +420,7 @@
         "https://esat-tmua.ac.uk/tmua-preparation-materials/"
       ],
       "boundaries": {
-        "links": [],
-        "note": "No score-conversion table published for the early specimen."
+        "links": []
       }
     }
   ],
@@ -1056,8 +1055,7 @@
             "https://www.grestyacademy.com/tmua/tmua-revision-help/"
           ],
           "boundaries": {
-            "links": [],
-            "note": "No published score-conversion table found."
+            "links": []
           },
           "note": "The source page lists an individual solution video for every question in both papers.",
           "questionVideos": [
@@ -1163,8 +1161,7 @@
             "https://www.grestyacademy.com/tmua/tmua-revision-help/"
           ],
           "boundaries": {
-            "links": [],
-            "note": "No published score-conversion table found."
+            "links": []
           },
           "note": "The source page lists an individual solution video for every question in both papers.",
           "questionVideos": [
@@ -1271,10 +1268,9 @@
             "https://adventurousandrewmaths.blogspot.com/2025/12/holidays-special-tmua-booster-a.html"
           ],
           "boundaries": {
-            "links": [],
-            "note": "No score conversion supplied."
+            "links": []
           },
-          "note": "Paper 1 practice. Creator says worked solutions are to follow; no published solution link found."
+          "note": "Paper 1 practice."
         },
         {
           "year": "Andrew Phan — Booster B",
@@ -1291,10 +1287,9 @@
             "https://adventurousandrewmaths.blogspot.com/2025/12/holidays-special-tmua-booster-b.html"
           ],
           "boundaries": {
-            "links": [],
-            "note": "No score conversion supplied."
+            "links": []
           },
-          "note": "Paper 1 practice. Creator says worked solutions are to follow; no published solution link found."
+          "note": "Paper 1 practice."
         },
         {
           "year": "Andrew Phan — Set A",
@@ -1311,10 +1306,9 @@
             "https://adventurousandrewmaths.blogspot.com/2025/12/holidays-special-tmua-set-a.html"
           ],
           "boundaries": {
-            "links": [],
-            "note": "No score conversion supplied."
+            "links": []
           },
-          "note": "Paper 1 practice. No separate worked-solution link found."
+          "note": "Paper 1 practice."
         },
         {
           "year": "Andrew Phan — Practice booklet: Level 1",
@@ -1331,10 +1325,9 @@
             "https://adventurousandrewmaths.blogspot.com/2025/12/holidays-special-tmua-practice-part-1.html"
           ],
           "boundaries": {
-            "links": [],
-            "note": "No score conversion supplied."
+            "links": []
           },
-          "note": "Answers included in booklet; no separate worked-solution file found."
+          "note": "Answers included in booklet"
         },
         {
           "year": "Andrew Phan — Practice booklet: Level 2",
@@ -1351,10 +1344,9 @@
             "https://adventurousandrewmaths.blogspot.com/2025/12/holidays-special-tmua-practice-part-1.html"
           ],
           "boundaries": {
-            "links": [],
-            "note": "No score conversion supplied."
+            "links": []
           },
-          "note": "Answers included in booklet; no separate worked-solution file found."
+          "note": "Answers included in booklet"
         }
       ]
     },
@@ -1381,8 +1373,7 @@
             "https://jzmaths.com/logic/implication-and-deduction"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1405,8 +1396,7 @@
             "https://jzmaths.com/logic/implication-and-deduction"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1429,8 +1419,7 @@
             "https://jzmaths.com/logic/equivalent-forms-of-implication"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1453,8 +1442,7 @@
             "https://jzmaths.com/logic/equivalent-forms-of-implication"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1477,8 +1465,7 @@
             "https://jzmaths.com/logic/negation"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1501,8 +1488,7 @@
             "https://jzmaths.com/logic/negation"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1525,8 +1511,7 @@
             "https://jzmaths.com/logic/negation"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1549,8 +1534,7 @@
             "https://jzmaths.com/logic/counterexamples"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1573,8 +1557,7 @@
             "https://jzmaths.com/logic/converse-and-equivalence"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1597,8 +1580,7 @@
             "https://jzmaths.com/logic/contrapositive"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1621,8 +1603,7 @@
             "https://jzmaths.com/logic/proof-by-contradiction"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1645,8 +1626,7 @@
             "https://jzmaths.com/logic/truth-tables"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1669,8 +1649,7 @@
             "https://jzmaths.com/logic/tmua-worked-examples"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         }
       ]
@@ -1698,8 +1677,7 @@
             "https://jzmaths.com/topics/transformations-part-a"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1722,8 +1700,7 @@
             "https://jzmaths.com/topics/transformations-part-a"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1746,8 +1723,7 @@
             "https://jzmaths.com/topics/transformations-part-b"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1770,8 +1746,7 @@
             "https://jzmaths.com/topics/multivariate-factorisation"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1794,8 +1769,7 @@
             "https://jzmaths.com/topics/multivariate-factorisation"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         },
         {
@@ -1818,15 +1792,14 @@
             "https://jzmaths.com/topics/cauchy-schwarz-am-gm-inequalities"
           ],
           "boundaries": {
-            "links": [],
-            "note": "Topic practice; no score conversion."
+            "links": []
           }
         }
       ]
     },
     {
       "title": "Beyond Horizon — community papers",
-      "description": "Set 1 includes both papers and a spreadsheet of answer keys.",
+      "description": "Set 1, Papers 1 and 2.",
       "rows": [
         {
           "year": "Set 1 · Paper 1",
@@ -1837,17 +1810,9 @@
               "label": "Paper (PDF)",
               "url": "assets/community-papers/beyond-horizon-set-1-paper-1.pdf",
               "kind": "paper"
-            },
-            {
-              "label": "Answer key (XLSX)",
-              "url": "assets/community-papers/beyond-horizon-set-1-answer-keys.xlsx",
-              "kind": "answers"
             }
           ],
-          "boundaries": {
-            "note": "No score conversion supplied."
-          },
-          "note": "Answer key only; no worked solutions supplied.",
+          "boundaries": {},
           "creator": "Beyond Horizon"
         },
         {
@@ -1861,15 +1826,13 @@
               "kind": "paper"
             },
             {
-              "label": "Answer key (XLSX)",
-              "url": "assets/community-papers/beyond-horizon-set-1-answer-keys.xlsx",
-              "kind": "answers"
+              "label": "Video walkthrough — R2Drew2",
+              "url": "https://www.youtube.com/watch?v=lacg3lyqfiE",
+              "kind": "video",
+              "credit": "Rob Drew (R2Drew2)."
             }
           ],
-          "boundaries": {
-            "note": "No score conversion supplied."
-          },
-          "note": "Answer key only; no worked solutions supplied.",
+          "boundaries": {},
           "creator": "Beyond Horizon"
         }
       ],
@@ -1879,7 +1842,7 @@
     },
     {
       "title": "Yotta — community papers",
-      "description": "Two practice papers, with an answer key supplied for Paper 2.",
+      "description": "Two community practice papers.",
       "rows": [
         {
           "year": "Yotta Paper 1",
@@ -1890,12 +1853,15 @@
               "label": "Paper (PDF)",
               "url": "assets/community-papers/yotta-paper-1.pdf",
               "kind": "paper"
+            },
+            {
+              "label": "Video walkthrough — R2Drew2",
+              "url": "https://www.youtube.com/watch?v=CMEajVzVe9s",
+              "kind": "video",
+              "credit": "Rob Drew (R2Drew2)."
             }
           ],
-          "boundaries": {
-            "note": "No score conversion supplied."
-          },
-          "note": "No answer key or worked solutions supplied.",
+          "boundaries": {},
           "creator": "Yotta"
         },
         {
@@ -1909,15 +1875,13 @@
               "kind": "paper"
             },
             {
-              "label": "Answer key (DOCX)",
-              "url": "assets/community-papers/yotta-paper-2-answer-key.docx",
-              "kind": "answers"
+              "label": "Video walkthrough — R2Drew2",
+              "url": "https://www.youtube.com/watch?v=eE8oNBL7-aE",
+              "kind": "video",
+              "credit": "Rob Drew (R2Drew2)."
             }
           ],
-          "boundaries": {
-            "note": "No score conversion supplied."
-          },
-          "note": "Answer key only; no worked solutions supplied.",
+          "boundaries": {},
           "creator": "Yotta"
         }
       ],
@@ -1957,6 +1921,22 @@
     }
   ],
   "linkSections": [
+    {
+      "id": "r2drew-walkthroughs",
+      "title": "More R2Drew2 TMUA walkthroughs",
+      "description": "Further Beyond Horizon videos by Rob Drew (R2Drew2). Use the paper shown in each video; the specimen and mock versions are separate resources.",
+      "credit": "Papers by Beyond Horizon. Video solutions by Rob Drew (R2Drew2).",
+      "links": [
+        {
+          "label": "Beyond Horizon mock TMUA Paper 1 — R2Drew2",
+          "url": "https://www.youtube.com/watch?v=IjJfRn5DNfI"
+        },
+        {
+          "label": "Beyond Horizon TMUA Specimen Paper 1 — R2Drew2",
+          "url": "https://www.youtube.com/watch?v=7budk5m8Ubs"
+        }
+      ]
+    },
     {
       "id": "official-preparation",
       "title": "Current official preparation",
@@ -2282,5 +2262,5 @@
       ]
     }
   ],
-  "sourceNote": "This archive is curated by Arij Asad. Papers and solutions remain the work of their credited creators. Links lead to the original publishers, except for the Beyond Horizon and Yotta community downloads hosted here. The original file contents and credits are preserved. Missing papers or thresholds are marked explicitly."
+  "sourceNote": "This archive is curated by Arij Asad. Papers and solutions remain the work of their credited creators. Links lead to the original publishers, except for the Beyond Horizon and Yotta community downloads hosted here. The original file contents and credits are preserved. N/A means that an item is unavailable or not applicable."
 }
