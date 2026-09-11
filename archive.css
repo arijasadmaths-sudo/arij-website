@@ -14,7 +14,6 @@
 .archive-page .archive-guidance-grid li { min-width: 0; padding: 22px; border: 1px solid #d9d0c0; border-top: 3px solid #8a6526; border-radius: 8px; background: #fff; color: #393329; }
 .archive-page .archive-guidance-grid h3 { margin: 0 0 10px; font-size: 1.1rem; line-height: 1.4; }
 .archive-page .archive-guidance-grid p { margin: 0; font-size: 1rem; line-height: 1.65; }
-.archive-page .archive-facts { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 20px; color: #ead9b6; font-size: .9rem; }
 .archive-page .archive-intro + .container { padding-top: 20px; }
 .archive-page .archive-nav { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 0 20px; }
 .archive-page .archive-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 7px 16px; border: 1px solid #d2c8b4; border-radius: 8px; background: #fff; color: #332b1f; font-size: .9rem; font-weight: 700; text-decoration: none; }
