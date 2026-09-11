@@ -233,9 +233,6 @@ def render(data):
         else:
             groups['Specimen papers'].append(row)
     groups = dict(sorted(groups.items(), key=lambda pair: int(pair[0][:-1]) if pair[0][:-1].isdigit() else 0, reverse=True))
-    numeric_years = [r['year'] for r in rows if isinstance(r['year'], int)]
-    coverage = data.get('coverageLabel') or (f'{min(numeric_years)}–{max(numeric_years)}' if numeric_years else 'Specimen and practice papers')
-    paper_count = sum(1 for r in rows if any(x.get('kind') == 'paper' for x in r.get('papers', [])))
     nav = ''
     if exam == 'tmua':
         nav = '<nav class="archive-nav" aria-label="TMUA archive shortcuts"><a href="#2020s">Official past papers</a><a href="#community-papers">Community papers</a><a href="#practice-guidance">How to practise</a><a href="tmua-past-papers.html">Past-paper study guide</a></nav>'
@@ -325,7 +322,6 @@ def render(data):
       <h1>{e(name)} {paper_heading} &amp; <span>solutions.</span></h1>
       <p>{e(intro)}</p>
 {curator}
-      <div class="archive-facts"><span>{coverage}</span><span>{paper_count} paper entries</span><span>Checked 10 September 2026</span></div>
     </div></header>
     <div class="container">
 {nav}
