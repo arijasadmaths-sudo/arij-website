@@ -24,7 +24,7 @@ def page(path, title, description, content, hub=False):
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{e(title)} | Arij Asad</title><meta name="description" content="{e(description)}">
 <link rel="canonical" href="{ORIGIN+path}"><link rel="icon" href="/favicon.ico?v=dd9f0d4a0c">
-<link rel="stylesheet" href="site.css?v=challenges-20260910"><link rel="stylesheet" href="topic-practice.css?v=20260912-1">
+<link rel="stylesheet" href="site.css?v=challenges-20260910"><link rel="stylesheet" href="topic-practice.css?v=20260912-2">
 <meta name="theme-color" content="#111111"><meta property="og:type" content="{'website' if hub else 'article'}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{ORIGIN+path}">
 <script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script>
