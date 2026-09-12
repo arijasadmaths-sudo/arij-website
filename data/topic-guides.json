@@ -1,0 +1,251 @@
+[
+  {
+    "slug": "modulus-and-graphs",
+    "label": "Functions and graphs",
+    "title": "Modulus and graph reflections",
+    "description": "Understand modulus signs and graph reflections with a worked example, a practice question, hints and full solutions.",
+    "intro": "Keep track of which part of an expression changes sign, then use a sketch to organise the cases.",
+    "approachTitle": "Find the sign changes before doing the algebra",
+    "approach": "<p>A minus sign outside a modulus reflects the output; it does not make the quantity inside the modulus negative. Write down where the inside is zero, then work on each side of that point. A quick substitution on each branch is a useful check.</p>",
+    "steps": [
+      "Mark every point where an expression inside a modulus is zero. These divide the number line into cases.",
+      "Replace each modulus with the correct expression on that interval.",
+      "Check the resulting branches meet at the breakpoints, then test the answers in the original equation."
+    ],
+    "mistakes": [
+      "Treating −|x| as |−x|. The first is non-positive; the second equals |x|.",
+      "Solving a branch equation without checking that its answer lies in that branch’s interval."
+    ],
+    "exampleTitle": "A reflection with a shift",
+    "exampleQuestion": "<p>Sketch <i>y</i> = 2 − |<i>x</i> − 1|. Find its maximum and its intersections with the axes.</p>",
+    "exampleSolution": "<p>The breakpoint is <i>x</i> = 1. For <i>x</i> ≤ 1, |<i>x</i> − 1| = 1 − <i>x</i>, so <i>y</i> = <i>x</i> + 1. For <i>x</i> ≥ 1, |<i>x</i> − 1| = <i>x</i> − 1, so <i>y</i> = 3 − <i>x</i>.</p><p>The two lines meet at <strong>(1, 2)</strong>. The graph rises to this point and then falls, so its maximum is <strong>2</strong>. Setting <i>y</i> = 0 gives <strong>(−1, 0)</strong> and <strong>(3, 0)</strong>; setting <i>x</i> = 0 gives <strong>(0, 1)</strong>.</p><p>You can also start from |<i>x</i>|, move it one unit right, reflect it in the horizontal axis, and move it two units up. Both routes must give the same sketch.</p>",
+    "practiceTitle": "Two modulus expressions",
+    "practiceQuestion": "<p>Solve |<i>x</i> − 1| + |<i>x</i> + 2| = 5.</p>",
+    "hint": "<p>The breakpoints are −2 and 1. Between them, think of the expression as the sum of the distances from <i>x</i> to the two endpoints.</p>",
+    "solution": "<p>If <i>x</i> ≤ −2, the equation is (1 − <i>x</i>) + (−<i>x</i> − 2) = 5, giving <i>x</i> = −3. This belongs to the interval.</p><p>If −2 ≤ <i>x</i> ≤ 1, the sum is (1 − <i>x</i>) + (<i>x</i> + 2) = 3, so there is no solution here.</p><p>If <i>x</i> ≥ 1, the equation is (<i>x</i> − 1) + (<i>x</i> + 2) = 5, giving <i>x</i> = 2. Both candidates satisfy the original equation. The solutions are <strong>−3 and 2</strong>.</p>",
+    "review": "Before moving on, explain why there are three intervals and why the middle one gives a constant.",
+    "sequence": "Practise a few graph transformations, then modulus equations. Return to a mixed paper once you can choose the cases without help.",
+    "resources": [
+      {
+        "url": "https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/algebra-and-functions/",
+        "label": "Physics & Maths Tutor: algebra and functions",
+        "note": "Use the transformations-and-graphs and modulus question packs, with their matching model answers."
+      },
+      {
+        "url": "mat-past-papers.html#additional-tests",
+        "label": "Oxford MAT additional multiple-choice tests",
+        "note": "Use these for mixed problem-solving after focused practice; they are historical papers."
+      }
+    ]
+  },
+  {
+    "slug": "algebra-and-factorisation",
+    "label": "Algebra",
+    "title": "Factorisation and useful identities",
+    "description": "Recognise differences of cubes, simplify algebra without losing domain restrictions, and use identities in unfamiliar questions.",
+    "intro": "Look for structure before expanding. An identity can reveal a cancellation or turn a long calculation into a short argument.",
+    "approachTitle": "Name the pattern you can see",
+    "approach": "<p>The difference of two squares is often familiar; the difference of two cubes deserves the same fluency. Check an identity by multiplying its factors, then practise spotting it when the terms have been rearranged.</p><p class=\"math-line\">a³ − b³ = (a − b)(a² + ab + b²)</p><p class=\"math-line\">a³ + b³ = (a + b)(a² − ab + b²)</p>",
+    "steps": [
+      "Record excluded values before cancelling anything in a fraction.",
+      "Factor the whole numerator and denominator; cancel common factors, not separate terms.",
+      "Check by multiplying back or substituting a permitted value. A numerical check can catch an error, but is not a proof of an identity."
+    ],
+    "mistakes": [
+      "Cancelling the x² terms inside a sum rather than cancelling a common factor.",
+      "Assuming a simplified expression has the same domain when a cancelled factor was originally in the denominator."
+    ],
+    "exampleTitle": "A difference of cubes inside a fraction",
+    "exampleQuestion": "<p>Simplify (<i>x</i>³ − 8)/(<i>x</i>² − 4), stating all excluded values.</p>",
+    "exampleSolution": "<p>The original denominator vanishes at <i>x</i> = 2 and <i>x</i> = −2, so both are excluded. Factor:</p><p class=\"math-line\">x³ − 8 = (x − 2)(x² + 2x + 4)</p><p class=\"math-line\">x² − 4 = (x − 2)(x + 2).</p><p>For permitted values of <i>x</i>, cancel the common factor <i>x</i> − 2. The result is <strong>(<i>x</i>² + 2<i>x</i> + 4)/(<i>x</i> + 2), with <i>x</i> ≠ ±2</strong>.</p><p>The simplified formula happens to have a value at 2, but that does not put 2 back into the domain of the original expression.</p>",
+    "practiceTitle": "Use an identity without solving for x",
+    "practiceQuestion": "<p>A positive real number <i>x</i> satisfies <i>x</i> + 1/<i>x</i> = 3. Find <i>x</i>³ + 1/<i>x</i>³.</p>",
+    "hint": "<p>Expand (a + b)³ and group the middle two terms as 3ab(a + b).</p>",
+    "solution": "<p>The identity is a³ + b³ = (a + b)³ − 3ab(a + b). Put a = <i>x</i> and b = 1/<i>x</i>. Then ab = 1 and a + b = 3.</p><p class=\"math-line\">x³ + 1/x³ = 3³ − 3 × 1 × 3 = <strong>18</strong>.</p><p>Solving a quadratic for <i>x</i> would work, but it introduces square roots that cancel later. The symmetric expression lets you avoid that work.</p>",
+    "review": "Say which identity you used and why it avoided finding x. Then try the same argument with x + 1/x = k.",
+    "sequence": "Build fluency with factorisation and the factor theorem, then practise expressions where the useful pattern is hidden.",
+    "resources": [
+      {
+        "url": "https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/algebra-and-functions/",
+        "label": "Physics & Maths Tutor: algebra and functions",
+        "note": "Start with factor theorem, quadratics and algebraic-methods resources; use the matching solutions."
+      },
+      {
+        "url": "tmua-paper-archive.html",
+        "label": "TMUA papers and community practice",
+        "note": "Apply the same habits to unfamiliar algebra questions in a mixed paper."
+      }
+    ]
+  },
+  {
+    "slug": "sequences-and-series",
+    "label": "Sequences",
+    "title": "Sequences, recurrence and sums",
+    "description": "Read recurrence notation, distinguish terms from sums, and use shifted geometric sequences and telescoping sums.",
+    "intro": "Separate the term number from the value of the term. Write the first few terms before choosing a formula.",
+    "approachTitle": "Make the notation concrete",
+    "approach": "<p>In <i>t</i><sub>n</sub>, the subscript labels a term; it does not mean multiplication by <i>n</i>. A recurrence tells you how to obtain another term from earlier ones. A formula for the nth term and a formula for the sum answer different questions.</p>",
+    "steps": [
+      "Write the initial term and calculate the next few terms directly.",
+      "Look at differences or ratios. If neither is constant, try subtracting a fixed value.",
+      "Check any proposed formula against the initial term and the recurrence, not just a few numerical examples."
+    ],
+    "mistakes": [
+      "Using a geometric-sum formula when only the shifted terms form a geometric sequence.",
+      "Changing the starting index and forgetting to change the exponent or number of terms."
+    ],
+    "exampleTitle": "A recurrence hiding a geometric sequence",
+    "exampleQuestion": "<p>Let <i>t</i><sub>1</sub> = 2 and <i>t</i><sub>n+1</sub> = 3<i>t</i><sub>n</sub> − 2 for <i>n</i> ≥ 1. Find a formula for <i>t</i><sub>n</sub>.</p>",
+    "exampleSolution": "<p>The first four terms are 2, 4, 10 and 28. Their ratios are not constant. The fixed value satisfies c = 3c − 2, giving c = 1.</p><p>Subtract 1 from both sides of the recurrence:</p><p class=\"math-line\">t<sub>n+1</sub> − 1 = 3(t<sub>n</sub> − 1).</p><p>Thus u<sub>n</sub> = t<sub>n</sub> − 1 is geometric, with first term 1 and ratio 3. Hence <strong>t<sub>n</sub> = 1 + 3<sup>n−1</sup></strong>.</p><p>At n = 1 this gives 2. Substituting into 3t<sub>n</sub> − 2 gives 1 + 3<sup>n</sup>, exactly the proposed formula for t<sub>n+1</sub>. This verifies the formula for the sequence.</p>",
+    "practiceTitle": "A sum with cancellation",
+    "practiceQuestion": "<p>For a positive integer <i>n</i>, find 1/(1 × 2) + 1/(2 × 3) + ··· + 1/[<i>n</i>(<i>n</i> + 1)].</p>",
+    "hint": "<p>Write 1/[k(k + 1)] as a difference of two simple fractions.</p>",
+    "solution": "<p>Since 1/k − 1/(k + 1) = 1/[k(k + 1)], the sum becomes</p><p class=\"math-line\">(1 − 1/2) + (1/2 − 1/3) + ··· + (1/n − 1/(n + 1)).</p><p>All the internal terms cancel. The result is <strong>1 − 1/(n + 1) = n/(n + 1)</strong>.</p><p>For n = 1 this is 1/2, matching the first term. As n increases, the sum approaches 1 from below, which is consistent with adding positive terms.</p>",
+    "review": "Write out the n = 3 case and point to every cancellation. Then explain why the same pattern holds for any positive integer n.",
+    "sequence": "Practise recurrence notation and geometric series separately. Then mix recurrence questions with sums so that you must decide which method applies.",
+    "resources": [
+      {
+        "url": "https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/sequences-and-series/",
+        "label": "Physics & Maths Tutor: sequences and series",
+        "note": "Topic questions and model answers for sequences and sums."
+      },
+      {
+        "url": "step-past-papers.html",
+        "label": "STEP archive and support resources",
+        "note": "For a longer challenge, use the linked STEP question database to look for sequence and series problems."
+      }
+    ]
+  },
+  {
+    "slug": "calculus-and-graph-sketches",
+    "label": "Calculus",
+    "title": "Calculus: sketch before calculating",
+    "description": "Use symmetry and signed area before integration, distinguish area from an integral, and check chain-rule factors.",
+    "intro": "A graph can reveal a cancellation before you integrate. Keep signed area, total area and differentiation rules distinct.",
+    "approachTitle": "Ask what the graph already tells you",
+    "approach": "<p>Before integrating, locate the roots and decide where the function is positive or negative. Check for symmetry. An integral can be zero because positive and negative contributions cancel, even when the curve encloses a substantial area.</p>",
+    "steps": [
+      "Mark roots, signs and the interval of integration on a sketch.",
+      "Decide whether the question asks for an integral or a total geometric area. Split the interval at sign changes when finding area.",
+      "After calculating, check the sign and size against the sketch. Check an antiderivative by differentiating it."
+    ],
+    "mistakes": [
+      "Concluding that zero integral means zero total area.",
+      "Forgetting the derivative of the inner function when using the chain rule."
+    ],
+    "exampleTitle": "Zero integral, positive area",
+    "exampleQuestion": "<p>For f(<i>x</i>) = <i>x</i>³ − 4<i>x</i> on [−2, 2], find both the definite integral and the total area between the graph and the horizontal axis.</p>",
+    "exampleSolution": "<p>The roots are −2, 0 and 2. The function is odd: f(−<i>x</i>) = −f(<i>x</i>). Its signed contributions on a symmetric interval cancel, so <strong>the integral from −2 to 2 is 0</strong>.</p><p>On (0, 2), f(<i>x</i>) is negative. The positive area of that half is the integral of 4<i>x</i> − <i>x</i>³ from 0 to 2. An antiderivative is 2<i>x</i>² − <i>x</i>⁴/4, giving 8 − 4 = 4.</p><p>The other half has the same area by symmetry. Therefore <strong>the total area is 8 square units</strong>. The two answers differ because an integral keeps the sign, while geometric area does not.</p>",
+    "practiceTitle": "Keep the inner derivative",
+    "practiceQuestion": "<p>For g(<i>x</i>) = (2<i>x</i> − 1)⁴, find g′(<i>x</i>) and an antiderivative of g(<i>x</i>).</p>",
+    "hint": "<p>For the derivative, use the chain rule. For the antiderivative, try a multiple of (2x − 1)⁵ and differentiate to find that multiple.</p>",
+    "solution": "<p>The outer derivative contributes 4(2<i>x</i> − 1)³ and the inner derivative contributes 2. Thus <strong>g′(<i>x</i>) = 8(2<i>x</i> − 1)³</strong>.</p><p>Differentiating A(2<i>x</i> − 1)⁵ gives 10A(2<i>x</i> − 1)⁴. Choose A = 1/10. An antiderivative is therefore <strong>(2<i>x</i> − 1)⁵/10 + C</strong>.</p><p>The factor of 2 is multiplied in differentiation and compensated for in integration. Differentiating the final antiderivative checks both the power and the coefficient.</p>",
+    "review": "Explain the factor of 2 in each answer. Revisit the worked example and describe the cancellation without using an antiderivative.",
+    "sequence": "Keep differentiation and integration practice separate until the rules are secure. Then practise selecting a method from the graph or algebra.",
+    "resources": [
+      {
+        "url": "https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/integration/",
+        "label": "Physics & Maths Tutor: integration",
+        "note": "Use definite-integral and area questions with the corresponding model answers."
+      },
+      {
+        "url": "https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/differentiation/",
+        "label": "Physics & Maths Tutor: differentiation",
+        "note": "Practise composite functions and chain-rule calculations before mixing them into longer problems."
+      },
+      {
+        "url": "mat-past-papers.html",
+        "label": "Historical MAT practice",
+        "note": "Return to a mixed problem and check whether a sketch can save calculation."
+      }
+    ]
+  },
+  {
+    "slug": "geometry-and-trigonometry",
+    "label": "Geometry",
+    "title": "Turn a diagram into equations",
+    "description": "Translate geometry into algebra using distances and loci, then choose trigonometric rules from the information given.",
+    "intro": "Label the quantities you know and translate each condition separately. A useful diagram helps you choose an equation.",
+    "approachTitle": "Write one equation for each condition",
+    "approach": "<p>A phrase such as “equidistant from two points” is already an algebraic instruction. With coordinates, compare squared distances to avoid unnecessary square roots. In a triangle, identify which sides and angles are known before choosing a trigonometric rule.</p>",
+    "steps": [
+      "Draw and label the configuration, including all possible positions allowed by the question.",
+      "Translate each condition independently. Choose coordinates or a geometric theorem that simplifies the relationships.",
+      "Check that every resulting point or angle satisfies all the original conditions. A plausible sketch alone is not a proof."
+    ],
+    "mistakes": [
+      "Discarding a second intersection because it was not included in the first sketch.",
+      "Using the sine rule without a known side–opposite-angle pair, or treating a non-right-angled triangle as right-angled."
+    ],
+    "exampleTitle": "A locus meeting a circle",
+    "exampleQuestion": "<p>A point P = (<i>x</i>, <i>y</i>) is equidistant from A = (−2, 0) and B = (4, 0). It also lies on <i>x</i>² + <i>y</i>² = 10. Find all possible positions of P.</p>",
+    "exampleSolution": "<p>Equal squared distances give (<i>x</i> + 2)² + <i>y</i>² = (<i>x</i> − 4)² + <i>y</i>². Cancel <i>y</i>² and expand:</p><p class=\"math-line\">x² + 4x + 4 = x² − 8x + 16.</p><p>Hence 12<i>x</i> = 12, so <i>x</i> = 1. This is the perpendicular bisector of AB, which also follows directly from the midpoint (1, 0).</p><p>Substitution into the circle equation gives <i>y</i>² = 9. Thus <strong>P = (1, 3) or (1, −3)</strong>. Both have squared distance 18 from A and B, and both lie on the circle.</p>",
+    "practiceTitle": "Two sides and the included angle",
+    "practiceQuestion": "<p>A triangle has sides of lengths 5 and 7 enclosing an angle of 60°. Find the third side and the exact area.</p>",
+    "hint": "<p>The included angle gives the third side by the cosine rule and the area by one half times the two sides times the sine of their included angle.</p>",
+    "solution": "<p>By the cosine rule, the third side c satisfies c² = 5² + 7² − 2 × 5 × 7 × cos 60° = 25 + 49 − 35 = 39. As a length, <strong>c = √39</strong>.</p><p>The area is (1/2) × 5 × 7 × sin 60° = (35/2)(√3/2) = <strong>35√3/4 square units</strong>.</p><p>The third side lies between 2 and 12, as required by the triangle inequality. Keep exact trigonometric values until the end.</p>",
+    "review": "Explain why the two questions call for different tools. Which words in each question told you what equation to write?",
+    "sequence": "Practise coordinates and loci first, then triangles. On a mixed question, explain your choice of method before calculating.",
+    "resources": [
+      {
+        "url": "https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/coordinate-geometry/",
+        "label": "Physics & Maths Tutor: coordinate geometry",
+        "note": "Use straight-line and circle questions, checking all intersections."
+      },
+      {
+        "url": "https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/trigonometry/",
+        "label": "Physics & Maths Tutor: trigonometry",
+        "note": "Practise exact values and triangle rules with the matching solutions."
+      },
+      {
+        "url": "cambridge-interview-problems.html",
+        "label": "Interview practice problems",
+        "note": "Practise explaining how the geometry and algebra fit together."
+      }
+    ]
+  },
+  {
+    "slug": "counting-and-overlap",
+    "label": "Counting",
+    "title": "Counting without double-counting",
+    "description": "Use inclusion–exclusion and systematic cases to count accurately, with worked examples, hints and full solutions.",
+    "intro": "Define exactly what is being counted. Check overlap and whether order matters before reaching for a formula.",
+    "approachTitle": "Make the cases exhaustive and control overlap",
+    "approach": "<p>Adding two counts works directly only when the two groups are disjoint. If an object appears in both groups, subtract the overlap once. For several choices, decide whether changing the order creates a new outcome.</p>",
+    "steps": [
+      "Describe one outcome precisely: an integer, an ordered tuple, a selection or an arrangement.",
+      "Choose disjoint cases, or explicitly correct overlapping ones.",
+      "For a small version of the problem, list outcomes and compare with the method before using it at full size."
+    ],
+    "mistakes": [
+      "Counting an element of the overlap twice when the question says “or”.",
+      "Using a standard selection formula when there are restrictions or when order changes the outcome."
+    ],
+    "exampleTitle": "Multiples of either number",
+    "exampleQuestion": "<p>How many integers from 1 to 60 inclusive are divisible by 3 or 5, including integers divisible by both?</p>",
+    "exampleSolution": "<p>There are 60/3 = 20 multiples of 3 and 60/5 = 12 multiples of 5. An integer divisible by both is a multiple of 15; there are 60/15 = 4 of these.</p><p>The sum 20 + 12 counts those four twice. Subtract them once:</p><p class=\"math-line\">20 + 12 − 4 = <strong>28</strong>.</p><p>If the question instead asked for integers divisible by exactly one of 3 and 5, the overlap would need to disappear altogether. That count would be 20 + 12 − 2 × 4 = 24. Read the wording before choosing the correction.</p>",
+    "practiceTitle": "A restriction on one variable",
+    "practiceQuestion": "<p>How many ordered triples (<i>x</i>, <i>y</i>, <i>z</i>) of non-negative integers satisfy <i>x</i> + <i>y</i> + <i>z</i> = 7 and <i>x</i> ≤ 3?</p>",
+    "hint": "<p>Take x = 0, 1, 2 and 3 separately. For a fixed x, how many choices for y are possible, and what then determines z?</p>",
+    "solution": "<p>For a fixed <i>x</i>, <i>y</i> can be any integer from 0 to 7 − <i>x</i>, giving 8 − <i>x</i> choices. Each determines exactly one valid <i>z</i>.</p><p>The four disjoint cases give 8 + 7 + 6 + 5 = <strong>26 ordered triples</strong>.</p><p>Another route uses stars and bars. Without the restriction, the count is C(9, 2) = 36. Invalid triples have <i>x</i> ≥ 4. Setting u = <i>x</i> − 4 gives u + <i>y</i> + <i>z</i> = 3, with C(5, 2) = 10 solutions. Thus 36 − 10 = 26. Here C(n, 2) = n(n − 1)/2.</p><p>The first method makes the restriction visible and needs no memorised formula. Both methods count ordered triples, so swapping unequal values between positions changes the outcome.</p>",
+    "review": "Check the four cases by listing their possible y values. Explain why none of the cases overlap.",
+    "sequence": "Start with sets and overlapping events, then move to restricted counting. These are general problem-solving exercises; check your test’s current specification for its assessed content.",
+    "resources": [
+      {
+        "url": "https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/probability/",
+        "label": "Physics & Maths Tutor: probability",
+        "note": "Use the sets and Venn-diagram resources to practise overlap; the whole collection is broader than counting."
+      },
+      {
+        "url": "tmua-logic-proof.html",
+        "label": "Logic and proof guide",
+        "note": "Practise reading conditions and testing claims carefully."
+      },
+      {
+        "url": "maths-challenges.html#papers",
+        "label": "Maths challenge and Olympiad archives",
+        "note": "Use unfamiliar counting problems for further enrichment."
+      }
+    ]
+  }
+]

@@ -10,16 +10,21 @@ Deployment source: the `main` branch, published from the repository root.
 
 ## Paper archives
 
-Ten static archives cover JMC, IMC, SMC, AMC 10, AMC 12, AIME, BMO, TMUA, STEP and ESAT. The Olympiad and TMUA tuition pages link to these larger grids. The existing `tmua-past-papers.html` remains the study guide; the catalogue is `tmua-paper-archive.html`.
+Eleven static archives cover JMC, IMC, SMC, AMC 10, AMC 12, AIME, BMO, TMUA, MAT, STEP and ESAT. The Olympiad and TMUA tuition pages link to these larger grids. The existing `tmua-past-papers.html` remains the study guide; the catalogue is `tmua-paper-archive.html`.
 
 Reviewed source data lives in `data/paper-archives/`. After checking new papers and thresholds against their source, edit the relevant JSON and regenerate the HTML with:
 
 ```sh
 python3 scripts/build-archives.py
+python3 scripts/build-topic-guides.py
 python3 scripts/build-navigation.py
 ```
 
 Commit both the data and generated pages. The live site needs no Python, build step or client-side data loading. `archive.css` extends the shared black, cream and gold styles.
+
+`data/topic-guides.json` contains the original examples, hints, solutions and credited resource links for the six topic guides. `scripts/build-topic-guides.py` renders those pages and `maths-topic-practice.html`; their styles live in `topic-practice.css`. Keep student identities and individual feedback out of public source. Topic guidance is general skill practice, not a claim that every linked topic is on every test specification.
+
+MAT is historical from 2026, when Oxford replaced it with TMUA. `data/paper-archives/mat.json` preserves the distinction between main papers, specimens and additional tests. Its three means are Oxford Mathematics-group applicant, shortlisted and offer-holder averages out of 100, not grade boundaries. Keep them labelled as such. Update both `years` and the matching `archiveSections` rows when modifying the catalogue.
 
 `scripts/site_navigation.py` owns the separate past-paper archive bar. `scripts/build-navigation.py` installs it below the main header on every root HTML page; archive generation also includes it automatically. Its scoped styles live in `paper-navigation.css`, including the scrollable row for smaller screens. Keep links root-relative so they also work on the 404 page.
 

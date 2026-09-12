@@ -1,0 +1,1848 @@
+{
+  "exam": "mat",
+  "dateModified": "2026-09-12",
+  "pageTitle": "MAT Past Papers, Worked Solutions & Score Averages | Arij Asad",
+  "description": "Historical Oxford MAT papers from 2007 to 2025, specimens and additional multiple-choice tests, with worked solutions, feedback and correctly labelled score averages.",
+  "intro": "Oxford MAT papers and worked solutions for extra mathematical problem-solving and interview practice.",
+  "hub": "resources.html",
+  "hubLabel": "Free preparation resources",
+  "displayNotes": [
+    "Oxford uses TMUA from 2026. MAT is no longer held; this is a historical practice archive.",
+    "The averages below are Oxford’s published scores for applicants to Mathematics, Mathematics & Statistics, and Mathematics & Philosophy. They are means out of 100, not grade boundaries or guaranteed interview or offer scores.",
+    "Older papers have different formats and course-specific question choices. Read each paper’s instructions and the linked syllabus notes. Specimens and additional tests have no comparable averages here."
+  ],
+  "years": [
+    {
+      "year": 2025,
+      "label": "2025",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/inline-files/test25.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/inline-files/websolutions25.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/inline-files/Feedback%202025.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 49.6,
+          "shortlisted": 66.7,
+          "offers": 74.0
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      },
+      "formatNote": "Historical format: 25 multiple-choice questions and two longer questions."
+    },
+    {
+      "year": 2024,
+      "label": "2024",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test24.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions24.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202024_0.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 54.4,
+          "shortlisted": 71.7,
+          "offers": 77.4
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      },
+      "formatNote": "Historical format: 25 multiple-choice questions and two longer questions."
+    },
+    {
+      "year": 2023,
+      "label": "2023",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test23.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions23_1.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202023.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2023",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 51.2,
+          "shortlisted": 68.1,
+          "offers": 75.1
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2022,
+      "label": "2022",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test22.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions22_2.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202022.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 48.3,
+          "shortlisted": 65.2,
+          "offers": 71.5
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2021,
+      "label": "2021",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test21.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions21_0.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202021.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 51.1,
+          "shortlisted": 69.5,
+          "offers": 73.5
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2020,
+      "label": "2020",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test20_0.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions20_2.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202020_0.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2020",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 57.9,
+          "shortlisted": 75.2,
+          "offers": 81.7
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2019,
+      "label": "2019",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test19.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions19.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202019.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 44.9,
+          "shortlisted": 63.6,
+          "offers": 69.3
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2018,
+      "label": "2018",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test18_1.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/media/websolutions18_2.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup%20feedback%202018_0.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2018",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 50.8,
+          "shortlisted": 67.1,
+          "offers": 72.9
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2017,
+      "label": "2017",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test17.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions17.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup%20feedback%202017.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2017",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 51.3,
+          "shortlisted": 68.7,
+          "offers": 73.6
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2016,
+      "label": "2016",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test16.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions16%20v2_1.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup%20feedback%202016.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2016",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 50.3,
+          "shortlisted": 66.7,
+          "offers": 73.1
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2015,
+      "label": "2015",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test15_1.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions15_3.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup%20feedback%202015.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2015",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 43.7,
+          "shortlisted": 56.3,
+          "offers": 62.7
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2014,
+      "label": "2014",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test14.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions14_1.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup%20feedback%202014.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2014",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 48.4,
+          "shortlisted": 63.1,
+          "offers": 71.5
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2013,
+      "label": "2013",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test13.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions13_0.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup_feedback_2013.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2013",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 44.8,
+          "shortlisted": 54.2,
+          "offers": 60.6
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2012,
+      "label": "2012",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test12.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/media/websolutions12.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/mathsgroup_feedback_2012.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2012",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 52.1,
+          "shortlisted": 63.0,
+          "offers": 68.2
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2011,
+      "label": "2011",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test11.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions11_0.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/maths_feedback_2011.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2011",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 50.3,
+          "shortlisted": 63.3,
+          "offers": 71.0
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2010,
+      "label": "2010",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test10.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions10-2025.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford feedback",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/mathsgroup_feedback_2010.pdf",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2010",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 49.0,
+          "shortlisted": 61.4,
+          "offers": 69.3
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2009,
+      "label": "2009",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test09.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions09_1.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2009",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 51.3,
+          "shortlisted": 61.2,
+          "offers": 70.5
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2008,
+      "label": "2008",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test08.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions08.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2008",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 58.7,
+          "shortlisted": 68.0,
+          "offers": 77.0
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": 2007,
+      "label": "2007",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test07.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions07.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#2007",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ],
+      "boundaries": {
+        "means": {
+          "all": 56.9,
+          "shortlisted": 63.0,
+          "offers": 75.2
+        },
+        "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+      }
+    },
+    {
+      "year": "Specimen",
+      "label": "Specimen 1",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/speca.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/solutionsa.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#spec1",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "Specimen",
+      "label": "Specimen 2",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/specb.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/solutionsb.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Syllabus notes",
+          "kind": "guide",
+          "url": "https://www.maths.ox.ac.uk/node/38244#spec2",
+          "credit": "",
+          "filterTypes": [
+            "guides"
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "label": "2023b",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test2023b.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions23b.pdf",
+          "credit": "University of Oxford"
+        }
+      ],
+      "variant": "Additional multiple-choice test",
+      "note": "Separate historical test; not the main MAT paper."
+    },
+    {
+      "year": 2022,
+      "label": "2022b",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test2022b_1.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions22b_0.pdf",
+          "credit": "University of Oxford"
+        }
+      ],
+      "variant": "Additional multiple-choice test",
+      "note": "Separate historical test; not the main MAT paper."
+    },
+    {
+      "year": 2021,
+      "label": "2021b",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test2021b_0.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions21b_0.pdf",
+          "credit": "University of Oxford"
+        }
+      ],
+      "variant": "Additional multiple-choice test",
+      "note": "Separate historical test; not the main MAT paper."
+    },
+    {
+      "year": 2020,
+      "label": "2020b",
+      "papers": [
+        {
+          "label": "Question paper",
+          "kind": "paper",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/test2020b_0.pdf",
+          "credit": "University of Oxford"
+        },
+        {
+          "label": "Oxford worked solutions",
+          "kind": "solutions",
+          "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions20b_0.pdf",
+          "credit": "University of Oxford"
+        }
+      ],
+      "variant": "Additional multiple-choice test",
+      "note": "Separate historical test; not the main MAT paper."
+    }
+  ],
+  "archiveSections": [
+    {
+      "id": "main-papers",
+      "title": "MAT past papers",
+      "rows": [
+        {
+          "year": 2025,
+          "label": "2025",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/inline-files/test25.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/inline-files/websolutions25.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/inline-files/Feedback%202025.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 49.6,
+              "shortlisted": 66.7,
+              "offers": 74.0
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          },
+          "formatNote": "Historical format: 25 multiple-choice questions and two longer questions."
+        },
+        {
+          "year": 2024,
+          "label": "2024",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test24.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions24.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202024_0.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 54.4,
+              "shortlisted": 71.7,
+              "offers": 77.4
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          },
+          "formatNote": "Historical format: 25 multiple-choice questions and two longer questions."
+        },
+        {
+          "year": 2023,
+          "label": "2023",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test23.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions23_1.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202023.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2023",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 51.2,
+              "shortlisted": 68.1,
+              "offers": 75.1
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2022,
+          "label": "2022",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test22.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions22_2.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202022.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 48.3,
+              "shortlisted": 65.2,
+              "offers": 71.5
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2021,
+          "label": "2021",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test21.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions21_0.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202021.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 51.1,
+              "shortlisted": 69.5,
+              "offers": 73.5
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2020,
+          "label": "2020",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test20_0.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions20_2.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202020_0.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2020",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 57.9,
+              "shortlisted": 75.2,
+              "offers": 81.7
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2019,
+          "label": "2019",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test19.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions19.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Feedback%202019.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 44.9,
+              "shortlisted": 63.6,
+              "offers": 69.3
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2018,
+          "label": "2018",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test18_1.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/media/websolutions18_2.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup%20feedback%202018_0.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2018",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 50.8,
+              "shortlisted": 67.1,
+              "offers": 72.9
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2017,
+          "label": "2017",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test17.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions17.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup%20feedback%202017.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2017",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 51.3,
+              "shortlisted": 68.7,
+              "offers": 73.6
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2016,
+          "label": "2016",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test16.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions16%20v2_1.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup%20feedback%202016.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2016",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 50.3,
+              "shortlisted": 66.7,
+              "offers": 73.1
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2015,
+          "label": "2015",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test15_1.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions15_3.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup%20feedback%202015.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2015",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 43.7,
+              "shortlisted": 56.3,
+              "offers": 62.7
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2014,
+          "label": "2014",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test14.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions14_1.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup%20feedback%202014.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2014",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 48.4,
+              "shortlisted": 63.1,
+              "offers": 71.5
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2013,
+          "label": "2013",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test13.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions13_0.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/Mathsgroup_feedback_2013.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2013",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 44.8,
+              "shortlisted": 54.2,
+              "offers": 60.6
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2012,
+          "label": "2012",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test12.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/media/websolutions12.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/mathsgroup_feedback_2012.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2012",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 52.1,
+              "shortlisted": 63.0,
+              "offers": 68.2
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2011,
+          "label": "2011",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test11.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions11_0.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/maths_feedback_2011.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2011",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 50.3,
+              "shortlisted": 63.3,
+              "offers": 71.0
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2010,
+          "label": "2010",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test10.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions10-2025.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford feedback",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/mathsgroup_feedback_2010.pdf",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2010",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 49.0,
+              "shortlisted": 61.4,
+              "offers": 69.3
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2009,
+          "label": "2009",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test09.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions09_1.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2009",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 51.3,
+              "shortlisted": 61.2,
+              "offers": 70.5
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2008,
+          "label": "2008",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test08.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions08.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2008",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 58.7,
+              "shortlisted": 68.0,
+              "offers": 77.0
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        },
+        {
+          "year": 2007,
+          "label": "2007",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test07.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions07.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#2007",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ],
+          "boundaries": {
+            "means": {
+              "all": 56.9,
+              "shortlisted": 63.0,
+              "offers": 75.2
+            },
+            "sourceUrl": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+          }
+        }
+      ]
+    },
+    {
+      "id": "additional-tests",
+      "title": "Additional multiple-choice tests",
+      "description": "Oxford published separate tests for 2020–2023. Each has matching written solutions.",
+      "rows": [
+        {
+          "year": 2023,
+          "label": "2023b",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test2023b.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions23b.pdf",
+              "credit": "University of Oxford"
+            }
+          ],
+          "variant": "Additional multiple-choice test",
+          "note": "Separate historical test; not the main MAT paper."
+        },
+        {
+          "year": 2022,
+          "label": "2022b",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test2022b_1.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions22b_0.pdf",
+              "credit": "University of Oxford"
+            }
+          ],
+          "variant": "Additional multiple-choice test",
+          "note": "Separate historical test; not the main MAT paper."
+        },
+        {
+          "year": 2021,
+          "label": "2021b",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test2021b_0.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions21b_0.pdf",
+              "credit": "University of Oxford"
+            }
+          ],
+          "variant": "Additional multiple-choice test",
+          "note": "Separate historical test; not the main MAT paper."
+        },
+        {
+          "year": 2020,
+          "label": "2020b",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/test2020b_0.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/websolutions20b_0.pdf",
+              "credit": "University of Oxford"
+            }
+          ],
+          "variant": "Additional multiple-choice test",
+          "note": "Separate historical test; not the main MAT paper."
+        }
+      ]
+    },
+    {
+      "id": "specimens",
+      "title": "Specimen papers",
+      "rows": [
+        {
+          "year": "Specimen",
+          "label": "Specimen 1",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/speca.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/solutionsa.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#spec1",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Specimen",
+          "label": "Specimen 2",
+          "papers": [
+            {
+              "label": "Question paper",
+              "kind": "paper",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/specb.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Oxford worked solutions",
+              "kind": "solutions",
+              "url": "https://www.maths.ox.ac.uk/system/files/attachments/solutionsb.pdf",
+              "credit": "University of Oxford"
+            },
+            {
+              "label": "Syllabus notes",
+              "kind": "guide",
+              "url": "https://www.maths.ox.ac.uk/node/38244#spec2",
+              "credit": "",
+              "filterTypes": [
+                "guides"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "University of Oxford: MAT papers, solutions, feedback and score statistics",
+      "url": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/maths-admissions-test"
+    },
+    {
+      "label": "Current TMUA preparation: UAT-UK",
+      "url": "https://esat-tmua.ac.uk/prepare/"
+    }
+  ],
+  "sourceNote": "Papers, solutions and feedback are hosted by the University of Oxford and remain its work. Arij Asad curates this collection and provides the practice guidance."
+}

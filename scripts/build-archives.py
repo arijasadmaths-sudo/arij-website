@@ -12,7 +12,7 @@ DATA = ROOT / 'data' / 'paper-archives'
 ORIGIN = 'https://maths.arijasad.com/'
 EXAMS = [('jmc', 'JMC'), ('imc', 'IMC'), ('smc', 'SMC'), ('amc10', 'AMC 10'),
          ('amc12', 'AMC 12'), ('aime', 'AIME'), ('bmo', 'BMO')]
-ADMISSIONS = [('tmua', 'TMUA'), ('step', 'STEP'), ('esat', 'ESAT')]
+ADMISSIONS = [('tmua', 'TMUA'), ('mat', 'MAT'), ('step', 'STEP'), ('esat', 'ESAT')]
 LABELS = dict(EXAMS + ADMISSIONS)
 CHECKED = '2026-09-10'
 
@@ -26,6 +26,8 @@ def page_path(exam):
 
 
 def score_heading(exam, overall_raw=False):
+    if exam == 'mat':
+        return 'Historical averages /100'
     if exam == 'tmua':
         return 'Raw total /40' if overall_raw else 'Score guidance'
     if exam == 'step':
@@ -91,6 +93,16 @@ def file_link(item, context):
 def boundary_cell(row, exam):
     b = row.get('boundaries') or {}
     parts = []
+    if exam == 'mat':
+        means = b.get('means', {})
+        for key, label in [('all', 'All applicants'), ('shortlisted', 'Shortlisted'), ('offers', 'Offer holders')]:
+            if key in means:
+                parts.append(f'<div class="boundary-note">{label}: <strong>{float(means[key]):.1f}</strong></div>')
+        if b.get('note'):
+            parts.append('<span class="source-note">' + e(b['note']) + '</span>')
+        if b.get('sourceUrl'):
+            parts.append(f'<a class="source-note" href="{e(b["sourceUrl"])}">Oxford score statistics</a>')
+        return ''.join(parts) or '<span class="unavailable">N/A</span>'
     if exam == 'tmua' and b.get('overallRawThresholds'):
         thresholds = b['overallRawThresholds']
         badges = []
@@ -196,6 +208,8 @@ def table(rows, exam, caption):
 
 
 def practice_guidance(exam):
+    if exam == 'mat':
+        return '''<section class="archive-guidance archive-section" id="practice-guidance"><h2>Using historical MAT questions</h2><p>For shorter practice, use the multiple-choice part of a paper or one of the additional tests below. For interview preparation, take a longer question and explain why each step works. Follow the instructions on the original paper: formats and the questions required for different courses changed over time.</p><p>Start untimed, record the point where you became stuck, then redo the question without the solution. Use the <a href="maths-topic-practice.html">maths topic-practice guides</a> to strengthen the underlying skill before another attempt. These papers provide extra practice; use <a href="tmua-paper-archive.html">TMUA papers and current official guidance</a> for TMUA-specific preparation.</p></section>'''
     if exam == 'step':
         return '''<aside class="archive-note"><p>Working through a STEP paper? Read <a href="strong-step-solution.html">how to write a strong STEP solution</a> for advice on complete arguments and clear working, or <a href="when-to-start-step.html">plan when to start STEP preparation</a>.</p></aside>'''
     if exam != 'tmua':
@@ -209,6 +223,7 @@ def practice_guidance(exam):
         <li><h3>3. Find the decision that cost you marks</h3><p>Before opening a worked solution or video, note where your approach stopped working. Would a sketch, a special case or eliminating an option have helped? Close the solution and redo the question after a few days. Review correct answers reached through guesswork too. My <a href="tmua-past-papers.html">past-paper study guide</a> explains how to keep a useful error log.</p></li>
         <li><h3>4. Practise timing and working on screen</h3><p>Use complete official papers for timed practice, then use the <a href="https://www.pearsonvue.com/us/en/uatuk.html">official computer-based practice tests</a> to get used to reading on screen and navigating the test. <a href="#community-papers">Community mocks</a> provide more unfamiliar questions; use them to identify weaknesses and treat suggested score conversions as estimates.</p></li>
       </ol>
+      <p>For focused work between papers, try my <a href="maths-topic-practice.html">maths topic-practice guides</a>: modulus, factorisation, sequences, calculus, geometry and counting, with worked examples and questions to try independently. The <a href="mat-past-papers.html#additional-tests">historical MAT additional tests</a> provide more multiple-choice practice.</p>
       <p class="source-note">For the current specification and test instructions, see <a href="https://esat-tmua.ac.uk/prepare/">UAT-UK’s official preparation guidance</a>.</p>
     </section>'''
 
@@ -286,12 +301,12 @@ def render(data):
               'url':ORIGIN + path,'description':description,'dateModified':data.get('dateModified', CHECKED),
               'author':{'@type':'Person','@id':ORIGIN+'about.html#arij-asad','name':'Arij Asad'},
               'isPartOf':{'@type':'WebSite','name':'Arij Asad Maths','url':ORIGIN}}
-    if data.get('community') or exam in ('step', 'esat'):
+    if data.get('community') or exam in ('step', 'esat', 'mat'):
         schema['editor'] = schema.pop('author')
     source_note = data.get('sourceNote', 'Resources open on their original websites unless labelled as a supplied collection. Papers and solutions remain the work of their respective authors. Missing papers or thresholds are marked explicitly.')
     intro = data.get('intro') or 'Question papers, solutions and historical thresholds, together in one place. Choose the year and paper you are practising.'
-    service = {'tmua':'TMUA%20preparation', 'step':'STEP%20preparation', 'esat':'ESAT%20mathematics%20preparation'}.get(exam, 'Maths%20challenges%20and%20Olympiads')
-    enquiry_label = 'ESAT maths' if exam == 'esat' else name
+    service = {'tmua':'TMUA%20preparation', 'mat':'TMUA%20preparation', 'step':'STEP%20preparation', 'esat':'ESAT%20mathematics%20preparation'}.get(exam, 'Maths%20challenges%20and%20Olympiads')
+    enquiry_label = 'admissions preparation' if exam == 'mat' else 'ESAT maths' if exam == 'esat' else name
     css_version = '20260910-filters1'
     paper_heading = 'practice papers' if exam == 'esat' else 'past papers'
     curator = '<p class="archive-curator">Curated by <a href="about.html">Arij Asad</a>. Papers, worked solutions and videos are credited to their original creators.</p>' if exam == 'tmua' else ''
