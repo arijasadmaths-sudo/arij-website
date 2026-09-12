@@ -7,7 +7,7 @@ const { parseHTML } = require('linkedom');
 
 const root = path.resolve(__dirname, '..');
 const script = fs.readFileSync(path.join(root, 'archive-filters.js'), 'utf8');
-const archives = ['tmua-paper-archive', 'step-past-papers', 'esat-paper-archive',
+const archives = ['tmua-paper-archive', 'mat-past-papers', 'step-past-papers', 'esat-paper-archive',
   'jmc-past-papers', 'imc-past-papers', 'smc-past-papers', 'amc10-past-papers',
   'amc12-past-papers', 'aime-past-papers', 'bmo-past-papers'];
 
@@ -30,7 +30,7 @@ function load(name, run = true) {
   };
 }
 
-test('all ten archives preserve complete resources without JavaScript and after reset', () => {
+test('all archives preserve complete resources without JavaScript and after reset', () => {
   for (const name of archives) {
     const plain = load(name, false);
     assert.ok(plain.document.getElementById('archive-filters').hidden);

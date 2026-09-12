@@ -4,6 +4,7 @@ import re
 
 ARCHIVES = [
     ('tmua-paper-archive.html', 'TMUA'),
+    ('mat-past-papers.html', 'MAT'),
     ('step-past-papers.html', 'STEP'),
     ('esat-paper-archive.html', 'ESAT'),
     ('jmc-past-papers.html', 'JMC'),
