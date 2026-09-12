@@ -47,3 +47,12 @@ For TMUA, show N/A for unavailable or inapplicable items. Do not publish the Bey
 Historical TMUA score cells show the minimum combined raw total out of 40 for overall scores of at least 7, 8 and 9, with 5 and 6 as secondary values. Read the overall conversion column for the exact year; never average the two individual paper scores or interpolate between published raw marks. Keep source-table links neutral and label 2016 as practice papers. Community estimates stay separate from historical official-paper conversions.
 
 Archive filters use the actual exam year on each row and preserve the whole matching row, including credits and boundaries. Undated mocks, specimens and multi-year collections share the “Undated / collections” option. Link-section cards use reviewed `filterTypes` (`papers`, `written`, `answers`, `videos`, `guides`) and optional numeric `filterYear`; never infer an exam year from an upload URL. Combined resources can have multiple types. `archive-filters.js` enhances the static HTML: without JavaScript every original resource remains visible. Run `node --test scripts/archive-filters.test.cjs` after installing `linkedom` in a separate QA directory and setting `NODE_PATH` to its `node_modules` directory.
+
+
+## Edexcel textbook companions
+
+`data/edexcel-textbooks.json` records the six UK 2017-series PMT SolutionBank catalogues, retaining chapter, exercise and original-source labels. Do not merge International A-level or legacy modular numbering into these companions. Textbooks and SolutionBank PDFs remain on their existing publisher/provider hosts; the site links to them and credits Pearson and PMT.
+
+`data/edexcel-practice.json` holds 18 original questions and six find-the-mistake examples. Build the companions with `NODE_PATH=/path/to/katex/node_modules python3 scripts/build-textbook-companions.py` (KaTeX 0.16.22, build-time MathML only). Run `python3 scripts/build-textbook-sheets.py` with pdfLaTeX installed to regenerate the six PDFs and Overleaf ZIP in `assets/textbook-practice/`. These downloads contain original material only. Keep the PDFs, TeX sources and generated HTML in sync.
+
+The source catalogue currently has only Review Exercise 2 for Statistics & Mechanics Year 1; do not fabricate a Review Exercise 1 link. Resource availability checks are not independent verification of every Pearson solution.

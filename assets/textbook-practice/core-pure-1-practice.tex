@@ -1,0 +1,76 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,graphicx,enumitem,microtype,fancyhdr,xcolor,needspace}
+\usepackage[hidelinks]{hyperref}
+\definecolor{lightgrey}{gray}{0.94}
+\definecolor{midgrey}{gray}{0.35}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlist[enumerate]{itemsep=5pt,topsep=4pt}
+\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{midgrey}Arij Asad}
+\fancyfoot[C]{\footnotesize\color{midgrey}Edexcel companion practice}
+\fancyfoot[R]{\footnotesize\color{midgrey}\thepage}
+\newcounter{question}
+\newenvironment{question}[1]{\refstepcounter{question}\Needspace{5\baselineskip}\par\medskip\textbf{\thequestion.\ #1}\par}{\par\vspace{12mm}}
+\begin{document}
+\hypersetup{pdftitle={Core Pure Mathematics 1 - Original practice and solutions},pdfauthor={Arij Asad}}
+\begin{minipage}[c]{0.78\textwidth}{\Large\bfseries Core Pure Mathematics 1}\par Original practice check\end{minipage}\hfill\begin{minipage}[c]{0.17\textwidth}\IfFileExists{PS_logo.png}{\includegraphics[width=\linewidth]{PS_logo.png}}{\rule{0pt}{16mm}}\end{minipage}
+
+\medskip\fcolorbox{black!20}{lightgrey}{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{Three short checks on complex numbers, matrices and proof by induction. In the proof, state why the induction step establishes the result for every positive integer. Attempt the questions before reading the solutions. These original questions sample selected skills; they are not an official Edexcel paper.}}
+
+\begin{question}{Complex quadratic roots}
+Solve \(z^2-4z+13=0\), giving both roots in the form \(a+bi\).
+\end{question}
+\begin{question}{Inverse matrices}
+Find the inverse of \(M=\begin{pmatrix}2&1\\1&1\end{pmatrix}\), and use it to solve \(2x+y=7\), \(x+y=4\).
+\end{question}
+\begin{question}{Proof by induction}
+Prove by induction that \(\displaystyle\sum_{r=1}^{n}r(r+1)=\frac{n(n+1)(n+2)}3\) for every positive integer \(n\).
+\end{question}
+\Needspace{7\baselineskip}\textbf{Find the mistake}\par
+Let \(A=\begin{pmatrix}1&1\\0&1\end{pmatrix}\) and \(B=\begin{pmatrix}2&0\\0&1\end{pmatrix}\). A student assumes \(AB=BA\), as for ordinary numbers. Calculate both products to check the claim.
+
+\vfill\small Further practice: \href{https://maths.arijasad.com/tmua-paper-archive.html}{TMUA papers and solutions} and \href{https://maths.arijasad.com/maths-topic-practice.html}{maths topic guides}.
+\newpage
+{\Large\bfseries Hints and worked solutions}\par\medskip
+\Needspace{8\baselineskip}\subsection*{1. Complex quadratic roots}
+\textit{Hint: Complete the square and remember that \(i^2=-1\).}\par
+Completing the square gives \((z-2)^2+9=0\), so \((z-2)^2=-9\).
+
+Therefore \(z-2=\pm3i\), giving the conjugate roots \(2+3i\) and \(2-3i\).
+
+\textbf{Answer:} \(z=2+3i\) or \(z=2-3i\).
+
+\Needspace{8\baselineskip}\subsection*{2. Inverse matrices}
+\textit{Hint: Calculate the determinant before applying the inverse formula for a two-by-two matrix.}\par
+The determinant is \(2(1)-1(1)=1\), so \(M^{-1}=\begin{pmatrix}1&-1\\-1&2\end{pmatrix}\).
+
+The equations are \(M\begin{pmatrix}x\\y\end{pmatrix}=\begin{pmatrix}7\\4\end{pmatrix}\). Premultiplying by \(M^{-1}\) gives \(\begin{pmatrix}x\\y\end{pmatrix}=\begin{pmatrix}7-4\\-7+8\end{pmatrix}=\begin{pmatrix}3\\1\end{pmatrix}\).
+
+\textbf{Answer:} \(M^{-1}=\begin{pmatrix}1&-1\\-1&2\end{pmatrix}\), \(x=3\), \(y=1\).
+
+\Needspace{8\baselineskip}\subsection*{3. Proof by induction}
+\textit{Hint: After assuming the formula for \(n=k\), add the next term \((k+1)(k+2)\) and factorise.}\par
+For \(n=1\), the left side is \(1(2)=2\) and the right side is \(1(2)(3)/3=2\), so the statement is true.
+
+Assume it is true for a positive integer \(k\): \(\sum_{r=1}^{k}r(r+1)=k(k+1)(k+2)/3\).
+
+Then \[\begin{aligned}\sum_{r=1}^{k+1}r(r+1)&=\frac{k(k+1)(k+2)}3\\&\quad +(k+1)(k+2)\\&=\frac{(k+1)(k+2)(k+3)}3.\end{aligned}\]
+
+This is the required formula with \(n=k+1\). The statement holds at \(n=1\), and truth at any positive integer implies truth at the next; therefore it holds for every positive integer by induction.
+
+\textbf{Answer:} \(\displaystyle\sum_{r=1}^{n}r(r+1)=\dfrac{n(n+1)(n+2)}3\) for all positive integers \(n\).
+
+\Needspace{9\baselineskip}\subsection*{Find the mistake: correction}
+\(AB=\begin{pmatrix}2&1\\0&1\end{pmatrix}\), whereas \(BA=\begin{pmatrix}2&2\\0&1\end{pmatrix}\).
+
+The top-right entries differ, so \(AB\neq BA\). Matrix multiplication is not commutative in general; factors cannot be reordered without justification.
+
+\Needspace{6\baselineskip}\subsection*{What to practise next}\begin{enumerate}
+\item Check complex roots by substitution and use an Argand sketch to connect algebra with geometry.
+\item When using matrices, preserve multiplication order and verify an inverse by multiplying back to the identity.
+\item Write induction proofs with a base case, a clearly stated assumption, the next-step calculation and a conclusion.
+\end{enumerate}\end{document}

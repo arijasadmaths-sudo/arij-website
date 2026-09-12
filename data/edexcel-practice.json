@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "content_type": "original_short_practice",
+  "description": "Original short practice and find-the-mistake examples for six UK A-level textbook companion pages. These are not official Edexcel questions and do not constitute a full syllabus diagnostic.",
+  "math_format": "LaTeX with inline \\( ... \\) and display \\[ ... \\] delimiters",
+  "timing_note": "Suggested time applies to the three core questions in each book. The find-the-mistake question is an optional extension.",
+  "books": {
+    "pure-year-1": {
+      "title": "Pure Mathematics Year 1",
+      "intro": "Three short checks on inequalities, stationary points and definite integration. Show enough working to make your method clear.",
+      "questions": [
+        {
+          "id": "py1-1",
+          "topic": "Quadratic inequalities",
+          "minutes": 2,
+          "prompt": "Solve \\(x^2-5x+6\\leq 0\\).",
+          "hint": "Factorise, then decide where the upward-opening quadratic is on or below the horizontal axis.",
+          "solution": [
+            "Factorising gives \\(x^2-5x+6=(x-2)(x-3)\\), so the roots are \\(2\\) and \\(3\\).",
+            "The coefficient of \\(x^2\\) is positive, so the graph is below the axis between the roots. Equality is allowed, so both endpoints are included."
+          ],
+          "answer": "\\(2\\leq x\\leq 3\\)."
+        },
+        {
+          "id": "py1-2",
+          "topic": "Stationary points",
+          "minutes": 3,
+          "prompt": "For \\(f(x)=x^3-6x^2+9x+1\\), find the coordinates of both stationary points and classify each one.",
+          "hint": "Solve \\(f^{\\prime}(x)=0\\), substitute back into \\(f\\), then use the sign of \\(f^{\\prime\\prime}\\).",
+          "solution": [
+            "\\(f^{\\prime}(x)=3x^2-12x+9=3(x-1)(x-3)\\), so the stationary points occur at \\(x=1\\) and \\(x=3\\).",
+            "\\(f(1)=5\\) and \\(f(3)=1\\), giving the points \\((1,5)\\) and \\((3,1)\\).",
+            "\\(f^{\\prime\\prime}(x)=6x-12\\). Since \\(f^{\\prime\\prime}(1)=-6<0\\), \\((1,5)\\) is a local maximum. Since \\(f^{\\prime\\prime}(3)=6>0\\), \\((3,1)\\) is a local minimum."
+          ],
+          "answer": "Local maximum \\((1,5)\\); local minimum \\((3,1)\\)."
+        },
+        {
+          "id": "py1-3",
+          "topic": "Definite integration",
+          "minutes": 1,
+          "prompt": "Evaluate \\(\\displaystyle\\int_1^3(2x+1)\\,\\mathrm{d}x\\).",
+          "hint": "Find an antiderivative and subtract its value at the lower limit from its value at the upper limit.",
+          "solution": [
+            "An antiderivative of \\(2x+1\\) is \\(x^2+x\\).",
+            "\\[\\int_1^3(2x+1)\\,\\mathrm{d}x=[x^2+x]_1^3=(9+3)-(1+1)=10.\\]"
+          ],
+          "answer": "\\(10\\)."
+        }
+      ],
+      "mistake": {
+        "id": "py1-mistake",
+        "topic": "Square roots and modulus",
+        "minutes": 2,
+        "prompt": "A student writes \\(\\sqrt{(x-2)^2}=x-2\\) for every real \\(x\\). Explain the error and give a statement that is always correct.",
+        "hint": "The square-root symbol denotes the non-negative square root. Test a value less than \\(2\\).",
+        "solution": [
+          "At \\(x=0\\), the left side is \\(\\sqrt{4}=2\\), whereas the claimed right side is \\(-2\\). Squaring removes a sign, so taking the non-negative square root does not always recover the original expression.",
+          "The correct identity is \\(\\sqrt{(x-2)^2}=|x-2|\\). This equals \\(x-2\\) when \\(x\\geq 2\\), and \\(2-x\\) when \\(x<2\\)."
+        ],
+        "answer": "\\(\\sqrt{(x-2)^2}=|x-2|\\)."
+      },
+      "recommendations": [
+        "Pair quadratic factorisation with a quick sketch, then practise choosing intervals for both strict and inclusive inequalities.",
+        "For stationary-point questions, finish the full chain: derivative, roots, coordinates and classification.",
+        "After practising one method, try a mixed exercise without looking at its chapter heading. Explain how you chose the method."
+      ]
+    },
+    "pure-year-2": {
+      "title": "Pure Mathematics Year 2",
+      "intro": "Three short checks on trigonometric equations, parametric tangents and integration by parts. Angles are in radians.",
+      "questions": [
+        {
+          "id": "py2-1",
+          "topic": "Trigonometric equations",
+          "minutes": 2,
+          "prompt": "Solve \\(2\\sin^2x+\\sin x-1=0\\) for \\(0\\leq x<2\\pi\\).",
+          "hint": "Treat \\(\\sin x\\) as the variable while factorising, then find every angle in the stated interval.",
+          "solution": [
+            "\\(2\\sin^2x+\\sin x-1=(2\\sin x-1)(\\sin x+1)\\). Hence \\(\\sin x=\\tfrac12\\) or \\(\\sin x=-1\\).",
+            "In the given interval, \\(\\sin x=\\tfrac12\\) gives \\(x=\\tfrac\\pi6\\) and \\(x=\\tfrac{5\\pi}6\\). The equation \\(\\sin x=-1\\) gives \\(x=\\tfrac{3\\pi}2\\)."
+          ],
+          "answer": "\\(x=\\dfrac\\pi6,\\ \\dfrac{5\\pi}6,\\ \\dfrac{3\\pi}2\\)."
+        },
+        {
+          "id": "py2-2",
+          "topic": "Parametric differentiation",
+          "minutes": 3,
+          "prompt": "A curve is given by \\(x=t^2+1\\), \\(y=t^3-3t\\). Find the equation of its tangent at \\(t=2\\).",
+          "hint": "Use \\(\\mathrm{d}y/\\mathrm{d}x=(\\mathrm{d}y/\\mathrm{d}t)/(\\mathrm{d}x/\\mathrm{d}t)\\), and find the point as well as the gradient.",
+          "solution": [
+            "At \\(t=2\\), \\(x=5\\) and \\(y=2\\), so the required point is \\((5,2)\\).",
+            "\\(\\mathrm{d}x/\\mathrm{d}t=2t\\) and \\(\\mathrm{d}y/\\mathrm{d}t=3t^2-3\\). Thus \\(\\mathrm{d}y/\\mathrm{d}x=(3t^2-3)/(2t)\\), which is \\(9/4\\) at \\(t=2\\).",
+            "The tangent through \\((5,2)\\) with gradient \\(9/4\\) is \\(y-2=\\tfrac94(x-5)\\)."
+          ],
+          "answer": "\\(y-2=\\dfrac94(x-5)\\)."
+        },
+        {
+          "id": "py2-3",
+          "topic": "Integration by parts",
+          "minutes": 2,
+          "prompt": "Evaluate \\(\\displaystyle\\int_0^1 xe^x\\,\\mathrm{d}x\\).",
+          "hint": "In integration by parts, differentiate \\(x\\) and integrate \\(e^x\\).",
+          "solution": [
+            "Take \\(u=x\\) and \\(\\mathrm{d}v=e^x\\,\\mathrm{d}x\\), so \\(\\mathrm{d}u=\\mathrm{d}x\\) and \\(v=e^x\\).",
+            "\\[\\begin{aligned}\\int_0^1 xe^x\\,\\mathrm{d}x&=[xe^x]_0^1-\\int_0^1e^x\\,\\mathrm{d}x\\\\&=e-(e-1)=1.\\end{aligned}\\]"
+          ],
+          "answer": "\\(1\\)."
+        }
+      ],
+      "mistake": {
+        "id": "py2-mistake",
+        "topic": "Signed integrals and total area",
+        "minutes": 2,
+        "prompt": "A student calculates \\(\\int_{-1}^1x\\,\\mathrm{d}x=0\\) and concludes that the total area between \\(y=x\\) and the horizontal axis on this interval is zero. Correct the conclusion.",
+        "hint": "Sketch the line. Contributions to a definite integral can cancel even when geometric areas are positive.",
+        "solution": [
+          "The integral is correctly calculated as zero: the contribution below the axis is \\(-1/2\\) and the contribution above the axis is \\(1/2\\).",
+          "Total area adds their magnitudes. Equivalently, \\(\\int_{-1}^1|x|\\,\\mathrm{d}x=\\tfrac12+\\tfrac12=1\\)."
+        ],
+        "answer": "The signed integral is \\(0\\); the total area is \\(1\\) square unit."
+      },
+      "recommendations": [
+        "Keep the interval and angle units visible when solving trigonometric equations; use a sketch to check for missing roots.",
+        "Before integrating, decide whether simplification, substitution or integration by parts makes the structure easier.",
+        "Use graph sketches to check signs, turning points and cancellation before committing to lengthy algebra."
+      ]
+    },
+    "statistics-mechanics-year-1": {
+      "title": "Statistics and Mechanics Year 1",
+      "intro": "Three short checks on probability, coded data and motion under a constant force. Include units in mechanics answers.",
+      "questions": [
+        {
+          "id": "sm1-1",
+          "topic": "Binomial probability",
+          "minutes": 2,
+          "prompt": "A biased coin has probability \\(1/3\\) of landing heads on each toss. Four tosses are independent. Find the probability of at least one head.",
+          "hint": "The complement of at least one head is no heads.",
+          "solution": [
+            "The probability of a tail on one toss is \\(2/3\\). Independence means that the probability of four tails is \\((2/3)^4=16/81\\).",
+            "Therefore \\(P(\\text{at least one head})=1-16/81=65/81\\)."
+          ],
+          "answer": "\\(\\dfrac{65}{81}\\)."
+        },
+        {
+          "id": "sm1-2",
+          "topic": "Coding and measures of spread",
+          "minutes": 2,
+          "prompt": "A data set has mean \\(12\\) and standard deviation \\(3\\). Every value \\(x\\) is replaced by \\(y=2x-5\\). Find the mean and standard deviation of the new data set.",
+          "hint": "A translation changes the centre but not the spread; multiplying every value scales the spread.",
+          "solution": [
+            "The mean transforms in the same way as each value: \\(\\bar y=2\\bar x-5=2(12)-5=19\\).",
+            "Subtracting \\(5\\) does not change deviations from the mean. Multiplication by \\(2\\) doubles their sizes, so the standard deviation is \\(2(3)=6\\)."
+          ],
+          "answer": "Mean \\(19\\); standard deviation \\(6\\)."
+        },
+        {
+          "id": "sm1-3",
+          "topic": "Newton's second law and constant acceleration",
+          "minutes": 2,
+          "prompt": "A particle of mass \\(3\\,\\mathrm{kg}\\) starts from rest on a smooth horizontal surface. A constant horizontal force of \\(12\\,\\mathrm{N}\\) acts on it. Find its displacement after \\(4\\,\\mathrm{s}\\).",
+          "hint": "Find the acceleration from the horizontal resultant force, then use a constant-acceleration equation.",
+          "solution": [
+            "The surface is smooth, so there is no friction. Vertically, weight and the normal reaction balance. Horizontally, \\(F=ma\\) gives \\(12=3a\\), so \\(a=4\\,\\mathrm{m\\,s^{-2}}\\).",
+            "With \\(u=0\\) and \\(t=4\\), \\(s=ut+\\tfrac12at^2=0+\\tfrac12(4)(4^2)=32\\,\\mathrm{m}\\)."
+          ],
+          "answer": "\\(32\\,\\mathrm{m}\\) in the direction of the force."
+        }
+      ],
+      "mistake": {
+        "id": "sm1-mistake",
+        "topic": "Distance and displacement",
+        "minutes": 3,
+        "prompt": "A particle has velocity \\(v=(6-2t)\\,\\mathrm{m\\,s^{-1}}\\) for \\(0\\leq t\\leq5\\), with \\(t\\) in seconds. A student finds a displacement of \\(5\\,\\mathrm{m}\\) and calls this the distance travelled. Find the actual distance.",
+        "hint": "Locate the time at which the velocity changes sign, then add the distances on either side.",
+        "solution": [
+          "The particle changes direction when \\(6-2t=0\\), at \\(t=3\\). Its displacement over the whole interval is indeed \\([6t-t^2]_0^5=5\\,\\mathrm{m}\\).",
+          "From \\(0\\) to \\(3\\) seconds it travels \\([6t-t^2]_0^3=9\\,\\mathrm{m}\\). From \\(3\\) to \\(5\\) seconds its displacement is \\([6t-t^2]_3^5=-4\\,\\mathrm{m}\\), so it travels a further \\(4\\,\\mathrm{m}\\).",
+          "Total distance is \\(9+4=13\\,\\mathrm{m}\\)."
+        ],
+        "answer": "Distance \\(13\\,\\mathrm{m}\\); displacement \\(5\\,\\mathrm{m}\\)."
+      },
+      "recommendations": [
+        "Write down the random variable and modelling assumptions before calculating a binomial probability.",
+        "Predict how the mean and spread should change under coding before using a calculator.",
+        "For mechanics, start with a force diagram, a positive direction and a list of known quantities; check units at the end."
+      ]
+    },
+    "statistics-mechanics-year-2": {
+      "title": "Statistics and Mechanics Year 2",
+      "intro": "Three short checks on the normal distribution, projectiles and moments. A calculator may be used. Take gravitational acceleration as 9.8 metres per second squared.",
+      "questions": [
+        {
+          "id": "sm2-1",
+          "topic": "Normal distribution",
+          "minutes": 2,
+          "prompt": "\\(X\\) is normally distributed with mean \\(50\\) and standard deviation \\(4\\). Find \\(P(X>54)\\), giving your answer to three significant figures.",
+          "hint": "Standardise using the standard deviation, then choose the upper tail.",
+          "solution": [
+            "With \\(Z=(X-50)/4\\), the threshold \\(X=54\\) corresponds to \\(Z=1\\).",
+            "Hence \\(P(X>54)=P(Z>1)=1-\\Phi(1)\\approx0.158655\\), where \\(\\Phi\\) is the standard normal cumulative distribution function."
+          ],
+          "answer": "\\(1-\\Phi(1)\\approx0.159\\) (three significant figures)."
+        },
+        {
+          "id": "sm2-2",
+          "topic": "Projectiles",
+          "minutes": 3,
+          "prompt": "A particle is projected from level ground at \\(20\\,\\mathrm{m\\,s^{-1}}\\), at \\(30^\\circ\\) above the horizontal. Neglect air resistance and take \\(g=9.8\\,\\mathrm{m\\,s^{-2}}\\). Find its time of flight and horizontal range when it returns to the same level.",
+          "hint": "Resolve the initial velocity into components. Use zero vertical displacement to find the non-zero flight time.",
+          "solution": [
+            "The initial horizontal and vertical velocity components are \\(20\\cos30^\\circ=10\\sqrt3\\,\\mathrm{m\\,s^{-1}}\\) and \\(20\\sin30^\\circ=10\\,\\mathrm{m\\,s^{-1}}\\).",
+            "Taking upward as positive, vertical displacement is \\(y=10t-4.9t^2\\). At landing, \\(y=0\\); the non-zero solution is \\(t=10/4.9=100/49\\,\\mathrm{s}\\approx2.04\\,\\mathrm{s}\\).",
+            "Horizontal velocity is constant, so the range is \\((10\\sqrt3)(100/49)=1000\\sqrt3/49\\,\\mathrm{m}\\approx35.3\\,\\mathrm{m}\\)."
+          ],
+          "answer": "Time \\(\\dfrac{100}{49}\\,\\mathrm{s}\\); range \\(\\dfrac{1000\\sqrt3}{49}\\,\\mathrm{m}\\) (approximately \\(2.04\\,\\mathrm{s}\\) and \\(35.3\\,\\mathrm{m}\\))."
+        },
+        {
+          "id": "sm2-3",
+          "topic": "Moments and equilibrium",
+          "minutes": 2,
+          "prompt": "A uniform horizontal beam \\(AB\\) is \\(4\\,\\mathrm{m}\\) long and weighs \\(40\\,\\mathrm{N}\\). It is supported at \\(A\\) and \\(B\\). A further downward load of \\(20\\,\\mathrm{N}\\) acts \\(1\\,\\mathrm{m}\\) from \\(A\\). Find the upward reactions at the two supports.",
+          "hint": "The beam's weight acts at its midpoint. Taking moments about one support eliminates its reaction.",
+          "solution": [
+            "Let the upward reactions be \\(R_A\\) and \\(R_B\\). Vertical equilibrium gives \\(R_A+R_B=40+20=60\\,\\mathrm{N}\\).",
+            "Taking moments about \\(A\\), \\(4R_B=40(2)+20(1)=100\\). Therefore \\(R_B=25\\,\\mathrm{N}\\).",
+            "It follows that \\(R_A=60-25=35\\,\\mathrm{N}\\)."
+          ],
+          "answer": "\\(R_A=35\\,\\mathrm{N}\\), \\(R_B=25\\,\\mathrm{N}\\)."
+        }
+      ],
+      "mistake": {
+        "id": "sm2-mistake",
+        "topic": "Conditional probability and independence",
+        "minutes": 2,
+        "prompt": "Events \\(A\\) and \\(B\\) satisfy \\(P(A)=0.4\\), \\(P(B)=0.5\\) and \\(P(A\\cap B)=0.3\\). A student writes \\(P(A\\mid B)=P(A)=0.4\\). Explain why this is wrong and find the correct conditional probability.",
+        "hint": "Conditioning on \\(B\\) changes the denominator. Independence must be established rather than assumed.",
+        "solution": [
+          "\\(P(A\\mid B)=P(A\\cap B)/P(B)=0.3/0.5=0.6\\).",
+          "The student's equality would hold for independent events. Here \\(P(A)P(B)=0.4(0.5)=0.2\\), which differs from \\(P(A\\cap B)=0.3\\); the events are not independent."
+        ],
+        "answer": "\\(P(A\\mid B)=\\dfrac35=0.6\\)."
+      },
+      "recommendations": [
+        "For normal probabilities, draw and shade the required tail before entering values; distinguish variance from standard deviation.",
+        "For projectiles, keep separate horizontal and vertical equations linked by the same time.",
+        "For equilibrium, draw every force at its point of application and choose a moment centre that removes an unknown."
+      ]
+    },
+    "core-pure-1": {
+      "title": "Core Pure Mathematics 1",
+      "intro": "Three short checks on complex numbers, matrices and proof by induction. In the proof, state why the induction step establishes the result for every positive integer.",
+      "questions": [
+        {
+          "id": "cp1-1",
+          "topic": "Complex quadratic roots",
+          "minutes": 2,
+          "prompt": "Solve \\(z^2-4z+13=0\\), giving both roots in the form \\(a+bi\\).",
+          "hint": "Complete the square and remember that \\(i^2=-1\\).",
+          "solution": [
+            "Completing the square gives \\((z-2)^2+9=0\\), so \\((z-2)^2=-9\\).",
+            "Therefore \\(z-2=\\pm3i\\), giving the conjugate roots \\(2+3i\\) and \\(2-3i\\)."
+          ],
+          "answer": "\\(z=2+3i\\) or \\(z=2-3i\\)."
+        },
+        {
+          "id": "cp1-2",
+          "topic": "Inverse matrices",
+          "minutes": 2,
+          "prompt": "Find the inverse of \\(M=\\begin{pmatrix}2&1\\\\1&1\\end{pmatrix}\\), and use it to solve \\(2x+y=7\\), \\(x+y=4\\).",
+          "hint": "Calculate the determinant before applying the inverse formula for a two-by-two matrix.",
+          "solution": [
+            "The determinant is \\(2(1)-1(1)=1\\), so \\(M^{-1}=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}\\).",
+            "The equations are \\(M\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}7\\\\4\\end{pmatrix}\\). Premultiplying by \\(M^{-1}\\) gives \\(\\begin{pmatrix}x\\\\y\\end{pmatrix}=\\begin{pmatrix}7-4\\\\-7+8\\end{pmatrix}=\\begin{pmatrix}3\\\\1\\end{pmatrix}\\)."
+          ],
+          "answer": "\\(M^{-1}=\\begin{pmatrix}1&-1\\\\-1&2\\end{pmatrix}\\), \\(x=3\\), \\(y=1\\)."
+        },
+        {
+          "id": "cp1-3",
+          "topic": "Proof by induction",
+          "minutes": 4,
+          "prompt": "Prove by induction that \\(\\displaystyle\\sum_{r=1}^{n}r(r+1)=\\frac{n(n+1)(n+2)}3\\) for every positive integer \\(n\\).",
+          "hint": "After assuming the formula for \\(n=k\\), add the next term \\((k+1)(k+2)\\) and factorise.",
+          "solution": [
+            "For \\(n=1\\), the left side is \\(1(2)=2\\) and the right side is \\(1(2)(3)/3=2\\), so the statement is true.",
+            "Assume it is true for a positive integer \\(k\\): \\(\\sum_{r=1}^{k}r(r+1)=k(k+1)(k+2)/3\\).",
+            "Then \\[\\begin{aligned}\\sum_{r=1}^{k+1}r(r+1)&=\\frac{k(k+1)(k+2)}3\\\\&\\quad +(k+1)(k+2)\\\\&=\\frac{(k+1)(k+2)(k+3)}3.\\end{aligned}\\]",
+            "This is the required formula with \\(n=k+1\\). The statement holds at \\(n=1\\), and truth at any positive integer implies truth at the next; therefore it holds for every positive integer by induction."
+          ],
+          "answer": "\\(\\displaystyle\\sum_{r=1}^{n}r(r+1)=\\dfrac{n(n+1)(n+2)}3\\) for all positive integers \\(n\\)."
+        }
+      ],
+      "mistake": {
+        "id": "cp1-mistake",
+        "topic": "Order of matrix multiplication",
+        "minutes": 2,
+        "prompt": "Let \\(A=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}\\) and \\(B=\\begin{pmatrix}2&0\\\\0&1\\end{pmatrix}\\). A student assumes \\(AB=BA\\), as for ordinary numbers. Calculate both products to check the claim.",
+        "hint": "Calculate entries using row-by-column multiplication; preserve the order of the matrices.",
+        "solution": [
+          "\\(AB=\\begin{pmatrix}2&1\\\\0&1\\end{pmatrix}\\), whereas \\(BA=\\begin{pmatrix}2&2\\\\0&1\\end{pmatrix}\\).",
+          "The top-right entries differ, so \\(AB\\neq BA\\). Matrix multiplication is not commutative in general; factors cannot be reordered without justification."
+        ],
+        "answer": "\\(AB=\\begin{pmatrix}2&1\\\\0&1\\end{pmatrix}\\neq\\begin{pmatrix}2&2\\\\0&1\\end{pmatrix}=BA\\)."
+      },
+      "recommendations": [
+        "Check complex roots by substitution and use an Argand sketch to connect algebra with geometry.",
+        "When using matrices, preserve multiplication order and verify an inverse by multiplying back to the identity.",
+        "Write induction proofs with a base case, a clearly stated assumption, the next-step calculation and a conclusion."
+      ]
+    },
+    "core-pure-2": {
+      "title": "Core Pure Mathematics 2",
+      "intro": "Three short checks on complex roots, hyperbolic functions and differential equations. Give exact answers.",
+      "questions": [
+        {
+          "id": "cp2-1",
+          "topic": "Roots of a complex number",
+          "minutes": 2,
+          "prompt": "Find all three complex roots of \\(z^3=8\\), in the form \\(a+bi\\).",
+          "hint": "Write \\(8=8e^{2k\\pi i}\\), then take cube roots with three distinct arguments.",
+          "solution": [
+            "The roots have modulus \\(8^{1/3}=2\\) and arguments \\(2k\\pi/3\\), for \\(k=0,1,2\\).",
+            "Using \\(z=2(\\cos(2k\\pi/3)+i\\sin(2k\\pi/3))\\) gives \\(2\\), \\(-1+i\\sqrt3\\) and \\(-1-i\\sqrt3\\). These are distinct and account for all roots of the cubic."
+          ],
+          "answer": "\\(2,\\ -1+i\\sqrt3,\\ -1-i\\sqrt3\\)."
+        },
+        {
+          "id": "cp2-2",
+          "topic": "Hyperbolic functions",
+          "minutes": 2,
+          "prompt": "Solve \\(\\sinh x=3/4\\) for real \\(x\\), giving an exact answer.",
+          "hint": "Use the exponential definition of \\(\\sinh x\\), and set \\(u=e^x>0\\).",
+          "solution": [
+            "\\((e^x-e^{-x})/2=3/4\\). With \\(u=e^x>0\\), this becomes \\(u-1/u=3/2\\).",
+            "Multiplying by \\(2u\\) gives \\(2u^2-3u-2=0\\), or \\((2u+1)(u-2)=0\\).",
+            "The root \\(u=-1/2\\) is impossible because \\(e^x>0\\). Thus \\(u=2\\), so \\(x=\\ln2\\)."
+          ],
+          "answer": "\\(x=\\ln2\\)."
+        },
+        {
+          "id": "cp2-3",
+          "topic": "Second-order differential equations",
+          "minutes": 3,
+          "prompt": "Solve \\(y^{\\prime\\prime}-3y^{\\prime}+2y=0\\), given \\(y(0)=1\\) and \\(y^{\\prime}(0)=0\\).",
+          "hint": "Find the two auxiliary roots, then use both initial conditions to determine the constants.",
+          "solution": [
+            "The auxiliary equation is \\(m^2-3m+2=(m-1)(m-2)=0\\), giving distinct roots \\(1\\) and \\(2\\).",
+            "The general solution is \\(y=Ae^x+Be^{2x}\\), with \\(y^{\\prime}=Ae^x+2Be^{2x}\\).",
+            "The initial conditions give \\(A+B=1\\) and \\(A+2B=0\\). Subtraction gives \\(B=-1\\), then \\(A=2\\). Hence \\(y=2e^x-e^{2x}\\)."
+          ],
+          "answer": "\\(y=2e^x-e^{2x}\\)."
+        }
+      ],
+      "mistake": {
+        "id": "cp2-mistake",
+        "topic": "Area in polar coordinates",
+        "minutes": 3,
+        "prompt": "The curve \\(r=2\\cos\\theta\\), for \\(-\\pi/2\\leq\\theta\\leq\\pi/2\\), traces a circle once. A student calculates its enclosed area as \\(\\int_{-\\pi/2}^{\\pi/2}2\\cos\\theta\\,\\mathrm{d}\\theta=4\\). Identify the error and find the area.",
+        "hint": "The polar area element is \\(\\tfrac12r^2\\,\\mathrm{d}\\theta\\). Use the double-angle identity for \\(\\cos^2\\theta\\).",
+        "solution": [
+          "The student has integrated \\(r\\); the correct area formula is \\(\\tfrac12\\int r^2\\,\\mathrm{d}\\theta\\).",
+          "Here the area is \\[\\begin{aligned}A&=\\frac12\\int_{-\\pi/2}^{\\pi/2}4\\cos^2\\theta\\,\\mathrm{d}\\theta\\\\&=\\int_{-\\pi/2}^{\\pi/2}(1+\\cos2\\theta)\\,\\mathrm{d}\\theta\\\\&=\\left[\\theta+\\frac12\\sin2\\theta\\right]_{-\\pi/2}^{\\pi/2}\\\\&=\\pi.\\end{aligned}\\]",
+          "As a check, multiplying the polar equation by \\(r\\) gives \\(x^2+y^2=2x\\), or \\((x-1)^2+y^2=1\\): a circle of radius \\(1\\), whose area is \\(\\pi\\)."
+        ],
+        "answer": "\\(\\pi\\) square units."
+      },
+      "recommendations": [
+        "For complex roots, organise modulus and argument separately and check that you have found the required number of distinct roots.",
+        "Derive unfamiliar hyperbolic identities from exponentials instead of transferring trigonometric signs from memory.",
+        "Check differential-equation solutions twice: substitute into the equation and then verify every initial or boundary condition."
+      ]
+    }
+  }
+}
