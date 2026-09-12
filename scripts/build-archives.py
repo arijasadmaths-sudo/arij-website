@@ -283,7 +283,7 @@ def render(data):
             communities.append('</ul></section>')
     sources = ''.join(f'<li><a href="{e(s["url"])}">{e(s["label"])}</a></li>' for s in data.get('sources', []) + data.get('legacySources', []))
     schema = {'@context':'https://schema.org','@type':'CollectionPage','name':title.split(' | ')[0],
-              'url':ORIGIN + path,'description':description,'dateModified':CHECKED,
+              'url':ORIGIN + path,'description':description,'dateModified':data.get('dateModified', CHECKED),
               'author':{'@type':'Person','@id':ORIGIN+'about.html#arij-asad','name':'Arij Asad'},
               'isPartOf':{'@type':'WebSite','name':'Arij Asad Maths','url':ORIGIN}}
     if data.get('community') or exam in ('step', 'esat'):

@@ -1377,6 +1377,75 @@
       ]
     },
     {
+      "title": "TMUA Euclid — community papers",
+      "description": "Two free sample papers and the R2Drew2 Edition Paper 1, each with a video walkthrough. The creators provide solutions through these videos.",
+      "rows": [
+        {
+          "year": "Euclid Sample Paper 1",
+          "label": "Euclid Sample Paper 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Paper (PDF)",
+              "url": "https://www.tmuaeuclid.com/euclid/sample-paper-1",
+              "kind": "paper"
+            },
+            {
+              "label": "Video walkthrough — R2Drew2",
+              "url": "https://www.youtube.com/watch?v=A9nweCrvXaU",
+              "kind": "video",
+              "credit": "Rob Drew (R2Drew2)."
+            }
+          ],
+          "boundaries": {},
+          "creator": "TMUA Euclid"
+        },
+        {
+          "year": "Euclid Sample Paper 2",
+          "label": "Euclid Sample Paper 2",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Paper (PDF)",
+              "url": "https://www.tmuaeuclid.com/euclid/sample-paper-2",
+              "kind": "paper"
+            },
+            {
+              "label": "Video walkthrough — R2Drew2",
+              "url": "https://www.youtube.com/watch?v=0yt8iLUccBc",
+              "kind": "video",
+              "credit": "Rob Drew (R2Drew2)."
+            }
+          ],
+          "boundaries": {},
+          "creator": "TMUA Euclid"
+        },
+        {
+          "year": "Euclid R2Drew2 Edition — Paper 1",
+          "label": "Euclid R2Drew2 Edition — Paper 1",
+          "variant": "",
+          "papers": [
+            {
+              "label": "Paper (PDF)",
+              "url": "https://www.tmuaeuclid.com/euclid/r2drew2-paper-1",
+              "kind": "paper"
+            },
+            {
+              "label": "Video walkthrough — R2Drew2",
+              "url": "https://www.youtube.com/watch?v=6YfMSlvCtos",
+              "kind": "video",
+              "credit": "Rob Drew (R2Drew2)."
+            }
+          ],
+          "boundaries": {},
+          "creator": "TMUA Euclid and Rob Drew (R2Drew2)"
+        }
+      ],
+      "id": "euclid",
+      "navLabel": "Euclid",
+      "credit": "Papers by TMUA Euclid. R2Drew2 Edition created with Rob Drew (R2Drew2); video solutions by Rob Drew (R2Drew2)."
+    },
+    {
       "title": "Gresty Academy",
       "description": "Two community mock papers, with a video solution for every question.",
       "rows": [
@@ -2259,6 +2328,14 @@
     {
       "label": "Andrew Phan resources",
       "url": "https://adventurousandrewmaths.blogspot.com/2025/12/admission-tests-collection-of-resources.html"
+    },
+    {
+      "label": "TMUA Euclid free sample papers",
+      "url": "https://www.tmuaeuclid.com/store/euclid-sample"
+    },
+    {
+      "label": "TMUA Euclid R2Drew2 Edition",
+      "url": "https://www.tmuaeuclid.com/r2drew2"
     }
   ],
   "linkSections": [
@@ -2860,5 +2937,6 @@
       ]
     }
   ],
-  "sourceNote": "This archive is curated by Arij Asad. Papers and solutions remain the work of their credited creators. Links lead to the original publishers, except for the Beyond Horizon and Yotta community downloads hosted here. The original file contents and credits are preserved. N/A means that an item is unavailable or not applicable."
+  "sourceNote": "This archive is curated by Arij Asad. Papers and solutions remain the work of their credited creators. Links lead to the original publishers, except for the Beyond Horizon and Yotta community downloads hosted here. The original file contents and credits are preserved. N/A means that an item is unavailable or not applicable.",
+  "dateModified": "2026-09-12"
 }
