@@ -1,0 +1,72 @@
+<div id="edexcel-review">
+  <style>
+    /* REVIEW_STYLES */
+    #edexcel-review { background:#f7f5f0; color:#1c1c1c; font:16px/1.6 Arial,sans-serif; }
+    #edexcel-review .review-toolbar { display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:12px 20px;background:#ead9b6;color:#211b11;border-bottom:1px solid #b69250; }
+    #edexcel-review .review-toolbar label { display:flex;align-items:center;gap:8px;margin-left:auto; }
+    #edexcel-review .review-toolbar select { max-width:100%;min-height:44px;padding:7px 10px;background:#fff;color:#211b11;border:1px solid #72531c;border-radius:5px;font:inherit; }
+    #edexcel-review .review-toolbar strong { font-size:15px; }
+    #edexcel-review .review-toolbar small { font-size:14px; }
+    #edexcel-review .resource-page { font-size:16px; }
+    #edexcel-review .site-header { position:relative; }
+    #edexcel-review .chapter-menu { position:static;max-height:none; }
+    #edexcel-review .review-page { min-width:0; }
+    @media(max-width:600px){#edexcel-review .review-toolbar label{margin-left:0;width:100%;}#edexcel-review .review-toolbar select{min-width:0;flex:1;}}
+  </style>
+  <div class="review-toolbar">
+    <strong>Edexcel companions</strong><small>Draft preview</small>
+    <label for="edexcel-review-page">Page <select id="edexcel-review-page"></select></label>
+  </div>
+  <div class="review-page" id="edexcel-review-content"></div>
+  <script type="application/json" id="edexcel-review-data">REVIEW_DATA</script>
+  <script>
+    (() => {
+      const root = document.getElementById('edexcel-review');
+      const data = JSON.parse(root.querySelector('#edexcel-review-data').textContent);
+      const picker = root.querySelector('#edexcel-review-page');
+      const content = root.querySelector('#edexcel-review-content');
+      let current = data.home;
+      for (const [path, page] of Object.entries(data.pages)) {
+        const option = document.createElement('option');
+        option.value=path;option.textContent=page.label;picker.appendChild(option);
+      }
+      function anchor(hash) {
+        if (!hash) return;
+        let id;try{id=decodeURIComponent(hash.slice(1));}catch(_){return;}
+        const target=content.querySelector('[id="'+CSS.escape(id)+'"]');
+        if(target){if(target.matches('details'))target.open=true;target.scrollIntoView({block:'start'});}
+      }
+      function show(path,hash='',scroll=true) {
+        if(!data.pages[path]) return;
+        current=path;picker.value=path;
+        content.className='review-page '+data.pages[path].bodyClass;
+        content.innerHTML=data.pages[path].html;
+        content.querySelectorAll('a[href]').forEach(a=>{
+          const u=new URL(a.getAttribute('href'),'https://maths.arijasad.com/'+path);
+          if(u.protocol==='https:' && (u.origin!=='https://maths.arijasad.com'||(!data.pages[u.pathname.slice(1)]&&!data.downloads[u.pathname.slice(1)]))){a.href=u.href;a.target='_blank';a.rel='noopener';}
+        });
+        if(hash)anchor(hash);else if(scroll)root.scrollIntoView({block:'start'});
+      }
+      function download(path) {
+        const f=data.downloads[path];if(!f)return;
+        const bytes=Uint8Array.from(atob(f.data),c=>c.charCodeAt(0));
+        const url=URL.createObjectURL(new Blob([bytes],{type:f.type}));
+        const a=document.createElement('a');a.href=url;a.download=path.split('/').pop();a.click();
+        setTimeout(()=>URL.revokeObjectURL(url),30000);
+      }
+      picker.addEventListener('change',()=>show(picker.value));
+      content.addEventListener('click',event=>{
+        const button=event.target.closest('.menu-button');
+        if(button){const nav=content.querySelector('.nav-links');const open=nav.classList.toggle('open');button.setAttribute('aria-expanded',String(open));return;}
+        const a=event.target.closest('a[href]');if(!a)return;
+        const raw=a.getAttribute('href');
+        if(raw.startsWith('#')){event.preventDefault();anchor(raw);return;}
+        const url=new URL(raw,'https://maths.arijasad.com/'+current);
+        const path=url.pathname.slice(1);
+        if(url.origin==='https://maths.arijasad.com'&&data.pages[path]){event.preventDefault();show(path,url.hash);}
+        else if(url.origin==='https://maths.arijasad.com'&&data.downloads[path]){event.preventDefault();download(path);}
+      });
+      show(data.home,'',false);
+    })();
+  </script>
+</div>

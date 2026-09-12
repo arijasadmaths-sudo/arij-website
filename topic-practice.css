@@ -52,7 +52,8 @@
 .topic-page .topic-tuition > div { flex:1 1 450px; }
 .topic-page .topic-tuition h2 { margin:0 0 10px; color:#ead9b6; }
 .topic-page .topic-tuition p { margin:0; color:#eee8dc; }
-.topic-page .topic-tuition .resource-button { background:#ead9b6; color:#211b11; text-align:center; }
+.topic-page .topic-tuition .resource-button { background:#ead9b6; color:#211b11 !important; text-align:center; }
+.topic-page .topic-tuition .resource-button:hover,.topic-page .topic-tuition .resource-button:focus-visible { background:#72531c; color:#fff !important; }
 .topic-page .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
 .topic-page :focus-visible { outline:3px solid #856020; outline-offset:4px; }
 .topic-page .topic-hero :focus-visible,.topic-page .topic-tuition :focus-visible { outline-color:#ead9b6; }

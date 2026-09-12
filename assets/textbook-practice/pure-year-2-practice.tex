@@ -1,0 +1,74 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,graphicx,enumitem,microtype,fancyhdr,xcolor,needspace}
+\usepackage[hidelinks]{hyperref}
+\definecolor{lightgrey}{gray}{0.94}
+\definecolor{midgrey}{gray}{0.35}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlist[enumerate]{itemsep=5pt,topsep=4pt}
+\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{midgrey}Arij Asad}
+\fancyfoot[C]{\footnotesize\color{midgrey}Edexcel companion practice}
+\fancyfoot[R]{\footnotesize\color{midgrey}\thepage}
+\newcounter{question}
+\newenvironment{question}[1]{\refstepcounter{question}\Needspace{5\baselineskip}\par\medskip\textbf{\thequestion.\ #1}\par}{\par\vspace{12mm}}
+\begin{document}
+\hypersetup{pdftitle={Pure Mathematics Year 2 - Original practice and solutions},pdfauthor={Arij Asad}}
+\begin{minipage}[c]{0.78\textwidth}{\Large\bfseries Pure Mathematics Year 2}\par Original practice check\end{minipage}\hfill\begin{minipage}[c]{0.17\textwidth}\IfFileExists{PS_logo.png}{\includegraphics[width=\linewidth]{PS_logo.png}}{\rule{0pt}{16mm}}\end{minipage}
+
+\medskip\fcolorbox{black!20}{lightgrey}{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{Three short checks on trigonometric equations, parametric tangents and integration by parts. Angles are in radians. Attempt the questions before reading the solutions. These original questions sample selected skills; they are not an official Edexcel paper.}}
+
+\begin{question}{Trigonometric equations}
+Solve \(2\sin^2x+\sin x-1=0\) for \(0\leq x<2\pi\).
+\end{question}
+\begin{question}{Parametric differentiation}
+A curve is given by \(x=t^2+1\), \(y=t^3-3t\). Find the equation of its tangent at \(t=2\).
+\end{question}
+\begin{question}{Integration by parts}
+Evaluate \(\displaystyle\int_0^1 xe^x\,\mathrm{d}x\).
+\end{question}
+\Needspace{7\baselineskip}\textbf{Find the mistake}\par
+A student calculates \(\int_{-1}^1x\,\mathrm{d}x=0\) and concludes that the total area between \(y=x\) and the horizontal axis on this interval is zero. Correct the conclusion.
+
+\vfill\small Further practice: \href{https://maths.arijasad.com/tmua-paper-archive.html}{TMUA papers and solutions} and \href{https://maths.arijasad.com/maths-topic-practice.html}{maths topic guides}.
+\newpage
+{\Large\bfseries Hints and worked solutions}\par\medskip
+\Needspace{8\baselineskip}\subsection*{1. Trigonometric equations}
+\textit{Hint: Treat \(\sin x\) as the variable while factorising, then find every angle in the stated interval.}\par
+\(2\sin^2x+\sin x-1=(2\sin x-1)(\sin x+1)\). Hence \(\sin x=\tfrac12\) or \(\sin x=-1\).
+
+In the given interval, \(\sin x=\tfrac12\) gives \(x=\tfrac\pi6\) and \(x=\tfrac{5\pi}6\). The equation \(\sin x=-1\) gives \(x=\tfrac{3\pi}2\).
+
+\textbf{Answer:} \(x=\dfrac\pi6,\ \dfrac{5\pi}6,\ \dfrac{3\pi}2\).
+
+\Needspace{8\baselineskip}\subsection*{2. Parametric differentiation}
+\textit{Hint: Use \(\mathrm{d}y/\mathrm{d}x=(\mathrm{d}y/\mathrm{d}t)/(\mathrm{d}x/\mathrm{d}t)\), and find the point as well as the gradient.}\par
+At \(t=2\), \(x=5\) and \(y=2\), so the required point is \((5,2)\).
+
+\(\mathrm{d}x/\mathrm{d}t=2t\) and \(\mathrm{d}y/\mathrm{d}t=3t^2-3\). Thus \(\mathrm{d}y/\mathrm{d}x=(3t^2-3)/(2t)\), which is \(9/4\) at \(t=2\).
+
+The tangent through \((5,2)\) with gradient \(9/4\) is \(y-2=\tfrac94(x-5)\).
+
+\textbf{Answer:} \(y-2=\dfrac94(x-5)\).
+
+\Needspace{8\baselineskip}\subsection*{3. Integration by parts}
+\textit{Hint: In integration by parts, differentiate \(x\) and integrate \(e^x\).}\par
+Take \(u=x\) and \(\mathrm{d}v=e^x\,\mathrm{d}x\), so \(\mathrm{d}u=\mathrm{d}x\) and \(v=e^x\).
+
+\[\begin{aligned}\int_0^1 xe^x\,\mathrm{d}x&=[xe^x]_0^1-\int_0^1e^x\,\mathrm{d}x\\&=e-(e-1)=1.\end{aligned}\]
+
+\textbf{Answer:} \(1\).
+
+\Needspace{9\baselineskip}\subsection*{Find the mistake: correction}
+The integral is correctly calculated as zero: the contribution below the axis is \(-1/2\) and the contribution above the axis is \(1/2\).
+
+Total area adds their magnitudes. Equivalently, \(\int_{-1}^1|x|\,\mathrm{d}x=\tfrac12+\tfrac12=1\).
+
+\Needspace{6\baselineskip}\subsection*{What to practise next}\begin{enumerate}
+\item Keep the interval and angle units visible when solving trigonometric equations; use a sketch to check for missing roots.
+\item Before integrating, decide whether simplification, substitution or integration by parts makes the structure easier.
+\item Use graph sketches to check signs, turning points and cancellation before committing to lengthy algebra.
+\end{enumerate}\end{document}

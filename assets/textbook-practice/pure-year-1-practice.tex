@@ -1,0 +1,74 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,graphicx,enumitem,microtype,fancyhdr,xcolor,needspace}
+\usepackage[hidelinks]{hyperref}
+\definecolor{lightgrey}{gray}{0.94}
+\definecolor{midgrey}{gray}{0.35}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlist[enumerate]{itemsep=5pt,topsep=4pt}
+\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{midgrey}Arij Asad}
+\fancyfoot[C]{\footnotesize\color{midgrey}Edexcel companion practice}
+\fancyfoot[R]{\footnotesize\color{midgrey}\thepage}
+\newcounter{question}
+\newenvironment{question}[1]{\refstepcounter{question}\Needspace{5\baselineskip}\par\medskip\textbf{\thequestion.\ #1}\par}{\par\vspace{12mm}}
+\begin{document}
+\hypersetup{pdftitle={Pure Mathematics Year 1 - Original practice and solutions},pdfauthor={Arij Asad}}
+\begin{minipage}[c]{0.78\textwidth}{\Large\bfseries Pure Mathematics Year 1}\par Original practice check\end{minipage}\hfill\begin{minipage}[c]{0.17\textwidth}\IfFileExists{PS_logo.png}{\includegraphics[width=\linewidth]{PS_logo.png}}{\rule{0pt}{16mm}}\end{minipage}
+
+\medskip\fcolorbox{black!20}{lightgrey}{\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{Three short checks on inequalities, stationary points and definite integration. Show enough working to make your method clear. Attempt the questions before reading the solutions. These original questions sample selected skills; they are not an official Edexcel paper.}}
+
+\begin{question}{Quadratic inequalities}
+Solve \(x^2-5x+6\leq 0\).
+\end{question}
+\begin{question}{Stationary points}
+For \(f(x)=x^3-6x^2+9x+1\), find the coordinates of both stationary points and classify each one.
+\end{question}
+\begin{question}{Definite integration}
+Evaluate \(\displaystyle\int_1^3(2x+1)\,\mathrm{d}x\).
+\end{question}
+\Needspace{7\baselineskip}\textbf{Find the mistake}\par
+A student writes \(\sqrt{(x-2)^2}=x-2\) for every real \(x\). Explain the error and give a statement that is always correct.
+
+\vfill\small Further practice: \href{https://maths.arijasad.com/tmua-paper-archive.html}{TMUA papers and solutions} and \href{https://maths.arijasad.com/maths-topic-practice.html}{maths topic guides}.
+\newpage
+{\Large\bfseries Hints and worked solutions}\par\medskip
+\Needspace{8\baselineskip}\subsection*{1. Quadratic inequalities}
+\textit{Hint: Factorise, then decide where the upward-opening quadratic is on or below the horizontal axis.}\par
+Factorising gives \(x^2-5x+6=(x-2)(x-3)\), so the roots are \(2\) and \(3\).
+
+The coefficient of \(x^2\) is positive, so the graph is below the axis between the roots. Equality is allowed, so both endpoints are included.
+
+\textbf{Answer:} \(2\leq x\leq 3\).
+
+\Needspace{8\baselineskip}\subsection*{2. Stationary points}
+\textit{Hint: Solve \(f^{\prime}(x)=0\), substitute back into \(f\), then use the sign of \(f^{\prime\prime}\).}\par
+\(f^{\prime}(x)=3x^2-12x+9=3(x-1)(x-3)\), so the stationary points occur at \(x=1\) and \(x=3\).
+
+\(f(1)=5\) and \(f(3)=1\), giving the points \((1,5)\) and \((3,1)\).
+
+\(f^{\prime\prime}(x)=6x-12\). Since \(f^{\prime\prime}(1)=-6<0\), \((1,5)\) is a local maximum. Since \(f^{\prime\prime}(3)=6>0\), \((3,1)\) is a local minimum.
+
+\textbf{Answer:} Local maximum \((1,5)\); local minimum \((3,1)\).
+
+\Needspace{8\baselineskip}\subsection*{3. Definite integration}
+\textit{Hint: Find an antiderivative and subtract its value at the lower limit from its value at the upper limit.}\par
+An antiderivative of \(2x+1\) is \(x^2+x\).
+
+\[\int_1^3(2x+1)\,\mathrm{d}x=[x^2+x]_1^3=(9+3)-(1+1)=10.\]
+
+\textbf{Answer:} \(10\).
+
+\Needspace{9\baselineskip}\subsection*{Find the mistake: correction}
+At \(x=0\), the left side is \(\sqrt{4}=2\), whereas the claimed right side is \(-2\). Squaring removes a sign, so taking the non-negative square root does not always recover the original expression.
+
+The correct identity is \(\sqrt{(x-2)^2}=|x-2|\). This equals \(x-2\) when \(x\geq 2\), and \(2-x\) when \(x<2\).
+
+\Needspace{6\baselineskip}\subsection*{What to practise next}\begin{enumerate}
+\item Pair quadratic factorisation with a quick sketch, then practise choosing intervals for both strict and inclusive inequalities.
+\item For stationary-point questions, finish the full chain: derivative, roots, coordinates and classification.
+\item After practising one method, try a mixed exercise without looking at its chapter heading. Explain how you chose the method.
+\end{enumerate}\end{document}
