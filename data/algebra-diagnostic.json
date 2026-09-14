@@ -1,0 +1,233 @@
+{
+  "title": "Algebra to TMUA: a short diagnostic",
+  "author": "Arij Asad",
+  "suggested_minutes": 20,
+  "note": "Eight original questions to help choose practice. This is not a TMUA mock, a complete syllabus assessment or a score predictor.",
+  "questions": [
+    {
+      "number": 1,
+      "title": "Square roots and signs",
+      "prompt": "For \\(x<3\\), simplify \\(\\dfrac{\\sqrt{(x-3)^2}}{x-3}\\).",
+      "hint": "Use \\(\\sqrt{u^2}=|u|\\), then decide the sign of \\(x-3\\).",
+      "solution": [
+        "The square root is non-negative, so \\(\\sqrt{(x-3)^2}=|x-3|\\). Since \\(x<3\\), we have \\(x-3<0\\) and therefore \\(|x-3|=-(x-3)\\).",
+        "Hence \\[\\frac{\\sqrt{(x-3)^2}}{x-3}=\\frac{-(x-3)}{x-3}=-1.\\] The denominator is non-zero because \\(x<3\\)."
+      ],
+      "answer": "\\(-1\\)",
+      "misconception": "Writing \\(\\sqrt{u^2}=u\\) loses the sign information when \\(u<0\\).",
+      "followup": "For \\(x>4\\), simplify \\(\\dfrac{\\sqrt{(4-x)^2}}{x-4}\\).",
+      "followup_solution": [
+        "Since \\(x>4\\), \\(4-x<0\\), so \\(\\sqrt{(4-x)^2}=|4-x|=x-4\\). Dividing by the non-zero quantity \\(x-4\\) gives \\(1\\)."
+      ],
+      "followup_answer": "\\(1\\)",
+      "links": [
+        [
+          "modulus-and-graphs.html",
+          "Modulus and graphs"
+        ],
+        [
+          "edexcel-pure-year-2.html#chapter-2",
+          "Pure Year 2: Functions and Graphs"
+        ]
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Factorisation and domain",
+      "prompt": "Simplify \\(\\dfrac{x^3+27}{x^2-9}\\), stating all excluded values of \\(x\\).",
+      "hint": "Record the zeros of the original denominator before using the sum-of-cubes identity.",
+      "solution": [
+        "The original denominator is zero at \\(x=3\\) and \\(x=-3\\), so both values are excluded.",
+        "Factor the numerator and denominator: \\[x^3+27=(x+3)(x^2-3x+9),\\qquad x^2-9=(x+3)(x-3).\\]",
+        "For permitted values, cancel the common factor \\(x+3\\). This gives \\(\\dfrac{x^2-3x+9}{x-3}\\), with \\(x\\ne -3,3\\). The cancellation does not restore \\(x=-3\\) to the original domain."
+      ],
+      "answer": "\\(\\dfrac{x^2-3x+9}{x-3}\\), with \\(x\\ne\\pm3\\)",
+      "misconception": "A cancelled factor can remove a visible restriction from the formula, but it does not change the domain of the original expression.",
+      "followup": "Simplify \\(\\dfrac{x^3-125}{x^2-25}\\), stating all excluded values.",
+      "followup_solution": [
+        "The original denominator gives \\(x\\ne\\pm5\\). Factor \\(x^3-125=(x-5)(x^2+5x+25)\\) and \\(x^2-25=(x-5)(x+5)\\).",
+        "Cancel \\(x-5\\) for permitted values to obtain \\(\\dfrac{x^2+5x+25}{x+5}\\), still with \\(x\\ne\\pm5\\)."
+      ],
+      "followup_answer": "\\(\\dfrac{x^2+5x+25}{x+5}\\), with \\(x\\ne\\pm5\\)",
+      "links": [
+        [
+          "algebra-and-factorisation.html",
+          "Factorisation and useful identities"
+        ],
+        [
+          "edexcel-pure-year-1.html#chapter-7",
+          "Pure Year 1: Algebraic Methods"
+        ]
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Rational inequalities",
+      "prompt": "Solve \\(\\dfrac{x-1}{x+2}\\geq2\\).",
+      "hint": "Move everything to one side and use a sign chart. Do not multiply by an expression whose sign you have not fixed.",
+      "solution": [
+        "First exclude \\(x=-2\\). Subtracting \\(2\\) gives \\[\\frac{x-1}{x+2}-2=\\frac{-x-5}{x+2}\\geq0.\\]",
+        "The critical values are \\(-5\\) and \\(-2\\). For \\(x<-5\\), the numerator is positive and the denominator negative. For \\(-5<x<-2\\), both are negative. For \\(x>-2\\), the numerator is negative and the denominator positive.",
+        "The fraction is non-negative on \\([-5,-2)\\). Include \\(-5\\), where the numerator is zero; exclude \\(-2\\), where the expression is undefined."
+      ],
+      "answer": "\\(-5\\leq x<-2\\)",
+      "misconception": "Multiplying by \\(x+2\\) without considering its sign can reverse an inequality incorrectly or lose an entire interval.",
+      "followup": "Solve \\(\\dfrac{x+2}{x-1}\\leq3\\).",
+      "followup_solution": [
+        "With \\(x\\ne1\\), rearrange to \\(\\dfrac{5-2x}{x-1}\\leq0\\). The critical values are \\(1\\) and \\(5/2\\).",
+        "The fraction is negative for \\(x<1\\), positive for \\(1<x<5/2\\), and negative for \\(x>5/2\\). Include \\(5/2\\), where the fraction is zero, and exclude \\(1\\)."
+      ],
+      "followup_answer": "\\(x<1\\) or \\(x\\geq\\dfrac52\\)",
+      "links": [
+        [
+          "edexcel-pure-year-1.html#chapter-3",
+          "Pure Year 1: Equations and Inequalities"
+        ],
+        [
+          "tmua-logic-proof.html",
+          "Logic and proof"
+        ]
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Combining conditions",
+      "prompt": "Find all real \\(x\\) such that \\(x^2>9\\) and \\(x<1\\).",
+      "hint": "Solve each condition separately, then take their intersection.",
+      "solution": [
+        "The inequality \\(x^2>9\\) gives \\(x<-3\\) or \\(x>3\\). The second condition is \\(x<1\\).",
+        "Every value with \\(x<-3\\) satisfies \\(x<1\\), while no value with \\(x>3\\) does. Therefore the intersection is \\(x<-3\\)."
+      ],
+      "answer": "\\(x<-3\\)",
+      "misconception": "The word \"and\" requires both conditions. Squaring inequalities can also hide a negative branch.",
+      "followup": "Find all real \\(x\\) such that \\(x^2\\leq16\\) and \\(x>-1\\).",
+      "followup_solution": [
+        "The first condition gives \\(-4\\leq x\\leq4\\). Intersect this with \\(x>-1\\) to obtain \\(-1<x\\leq4\\)."
+      ],
+      "followup_answer": "\\(-1<x\\leq4\\)",
+      "links": [
+        [
+          "tmua-logic-proof.html",
+          "Logic and proof"
+        ],
+        [
+          "edexcel-pure-year-1.html#chapter-3",
+          "Pure Year 1: Equations and Inequalities"
+        ]
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Modulus equations",
+      "prompt": "Solve \\(|2x-1|=x+2\\).",
+      "hint": "Split at \\(x=1/2\\), and keep the condition attached to each branch.",
+      "solution": [
+        "If \\(x\\geq1/2\\), then \\(|2x-1|=2x-1\\). Thus \\(2x-1=x+2\\), giving \\(x=3\\), which satisfies this branch condition.",
+        "If \\(x<1/2\\), then \\(|2x-1|=1-2x\\). Thus \\(1-2x=x+2\\), giving \\(x=-1/3\\), which also satisfies its branch condition.",
+        "Both values satisfy the original equation, so the complete solution set is \\(\\{-1/3,3\\}\\)."
+      ],
+      "answer": "\\(x=-\\dfrac13\\) or \\(x=3\\)",
+      "misconception": "Using both signs without checking branch conditions can admit values that do not satisfy the original equation.",
+      "followup": "Solve \\(|3x+2|=x+4\\).",
+      "followup_solution": [
+        "For \\(x\\geq-2/3\\), solve \\(3x+2=x+4\\), giving \\(x=1\\). For \\(x<-2/3\\), solve \\(-3x-2=x+4\\), giving \\(x=-3/2\\).",
+        "Both values meet their branch conditions and satisfy the original equation."
+      ],
+      "followup_answer": "\\(x=1\\) or \\(x=-\\dfrac32\\)",
+      "links": [
+        [
+          "modulus-and-graphs.html",
+          "Modulus and graph reflections"
+        ],
+        [
+          "edexcel-pure-year-2.html#chapter-2",
+          "Pure Year 2: Functions and Graphs"
+        ]
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Graphs and transformed inputs",
+      "prompt": "The graph of a quadratic \\(f\\) opens upwards and has roots \\(-2\\) and \\(4\\). Given \\(f(0)<0\\), find all \\(x\\) for which \\(f(2x-1)<0\\).",
+      "hint": "Find which inputs make \\(f\\) negative, then put \\(2x-1\\) between those inputs.",
+      "solution": [
+        "An upward-opening quadratic is negative strictly between its roots, so \\(f(t)<0\\) exactly when \\(-2<t<4\\).",
+        "Use \\(t=2x-1\\): \\[-2<2x-1<4\\quad\\Longleftrightarrow\\quad -1<2x<5\\quad\\Longleftrightarrow\\quad-\\frac12<x<\\frac52.\\]",
+        "The endpoints are excluded because the quadratic is zero there. The condition \\(f(0)<0\\) agrees with the sign of the graph between its roots."
+      ],
+      "answer": "\\(-\\dfrac12<x<\\dfrac52\\)",
+      "misconception": "Changing the input of a function requires solving for the new variable; the original root interval cannot simply be reused.",
+      "followup": "A quadratic \\(g\\) opens upwards and has roots \\(1\\) and \\(7\\). Find all \\(x\\) such that \\(g(3x+1)>0\\).",
+      "followup_solution": [
+        "The function is positive outside its roots: \\(g(t)>0\\) when \\(t<1\\) or \\(t>7\\). Thus \\(3x+1<1\\) or \\(3x+1>7\\), giving \\(x<0\\) or \\(x>2\\)."
+      ],
+      "followup_answer": "\\(x<0\\) or \\(x>2\\)",
+      "links": [
+        [
+          "modulus-and-graphs.html",
+          "Modulus and graphs"
+        ],
+        [
+          "edexcel-pure-year-1.html#chapter-4",
+          "Pure Year 1: Graphs and Transformations"
+        ]
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Using identities efficiently",
+      "prompt": "A positive real number \\(x\\) satisfies \\(x+1/x=4\\). Find \\((x-1/x)^2\\).",
+      "hint": "Compare the expansions of the sum squared and the difference squared.",
+      "solution": [
+        "Expanding gives \\((x+1/x)^2=x^2+2+1/x^2\\) and \\((x-1/x)^2=x^2-2+1/x^2\\).",
+        "The second expression is four less than the first. Hence \\[(x-1/x)^2=(x+1/x)^2-4=16-4=12.\\] There is no need to solve a quadratic for \\(x\\)."
+      ],
+      "answer": "\\(12\\)",
+      "misconception": "The middle term of a square matters: \\((a-b)^2\\) is not \\(a^2-b^2\\).",
+      "followup": "A positive real number \\(x\\) satisfies \\(x+1/x=5\\). Find \\((x-1/x)^2\\).",
+      "followup_solution": [
+        "The same identity gives \\((x-1/x)^2=(x+1/x)^2-4=25-4=21\\)."
+      ],
+      "followup_answer": "\\(21\\)",
+      "links": [
+        [
+          "algebra-and-factorisation.html",
+          "Factorisation and useful identities"
+        ],
+        [
+          "edexcel-pure-year-1.html#chapter-1",
+          "Pure Year 1: Algebraic Expressions"
+        ]
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Counting distinct roots",
+      "prompt": "For which values of \\(k>0\\) does \\(|x^2-4|=k\\) have exactly two distinct real solutions?",
+      "hint": "Rewrite the equation as two equations for \\(x^2\\), and check the point where one right-hand side becomes zero.",
+      "solution": [
+        "The equation is equivalent to \\(x^2=4+k\\) or \\(x^2=4-k\\). Since \\(k>0\\), the first equation always has two distinct real roots.",
+        "When \\(0<k<4\\), the second equation also has two distinct non-zero roots. They differ from the first pair, so there are four roots in total.",
+        "When \\(k=4\\), the second equation gives only \\(x=0\\), so there are three distinct roots. When \\(k>4\\), it has no real roots, leaving exactly two."
+      ],
+      "answer": "\\(k>4\\)",
+      "misconception": "At a transition value, the two expressions \\(+0\\) and \\(-0\\) are the same root. Count distinct roots separately at the boundary.",
+      "followup": "For which values of \\(k>0\\) does \\(|x^2-9|=k\\) have exactly three distinct real solutions?",
+      "followup_solution": [
+        "The equations are \\(x^2=9+k\\) and \\(x^2=9-k\\). For \\(0<k<9\\) there are four distinct roots; for \\(k>9\\) there are two.",
+        "At \\(k=9\\), the roots are \\(x=0\\) and \\(x=\\pm\\sqrt{18}=\\pm3\\sqrt2\\). These are three distinct real roots, so \\(k=9\\) is the only value."
+      ],
+      "followup_answer": "\\(k=9\\)",
+      "links": [
+        [
+          "modulus-and-graphs.html",
+          "Modulus and graph reflections"
+        ],
+        [
+          "edexcel-pure-year-2.html#chapter-2",
+          "Pure Year 2: Functions and Graphs"
+        ]
+      ]
+    }
+  ]
+}
