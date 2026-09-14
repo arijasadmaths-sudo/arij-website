@@ -356,7 +356,7 @@ def render(data):
     </div>
   </main>
 {footer}
-  <script src="site.js" defer></script>
+  <script src="site.js?v=20260914-1" defer></script>
   <script src="archive-filters.js?v=20260910-1" defer></script>
 </body>
 </html>
