@@ -1,0 +1,42 @@
+/* Static teaching resources: explicit colours on every reading surface. */
+.diagnostic-page{background:#f7f5f0;color:#28231b}
+.diagnostic-page .diagnostic-content{max-width:1060px}
+.diagnostic-page .diagnostic-section{padding:32px 0;scroll-margin-top:100px}
+.diagnostic-page .diagnostic-section + .diagnostic-section{border-top:1px solid #d9d0c0}
+.diagnostic-page .diagnostic-section h2{font:700 clamp(1.55rem,3vw,2.1rem)/1.25 Georgia,serif;color:#111;margin:0 0 16px}
+.diagnostic-page .diagnostic-section h3,.diagnostic-page .diagnostic-section h4{color:#111}
+.diagnostic-page .diagnostic-section p,.diagnostic-page .diagnostic-section li{color:#28231b}
+.diagnostic-page .diagnostic-section a{color:#634614;text-underline-offset:4px}
+.diagnostic-page .topic-hero .topic-breadcrumbs a,.diagnostic-page .topic-hero .topic-byline a{color:#ead9b6}
+.diagnostic-page .diagnostic-card{border:1px solid #cdbfa7;border-radius:10px;overflow:hidden;background:#fff;color:#28231b;margin:24px 0;scroll-margin-top:100px}
+.diagnostic-page .diagnostic-question{padding:22px 26px;border-top:3px solid #b69250;background:#111;color:#fff}
+.diagnostic-page .diagnostic-question h3{margin:0 0 12px;color:#fff;font-size:1.3rem}
+.diagnostic-page .diagnostic-question p{color:#f7f5f0;margin:10px 0 0}
+.diagnostic-page .diagnostic-question .diagnostic-number{color:#ead9b6;margin:0 0 8px;font-size:.88rem;font-weight:700}
+.diagnostic-page .diagnostic-answer{padding:14px 22px 20px;background:#fff;color:#28231b}
+.diagnostic-page .diagnostic-answer details{border:1px solid #cdbfa7;background:#fff;color:#28231b;border-radius:7px;margin-top:10px}
+.diagnostic-page .diagnostic-answer summary{padding:13px 16px;min-height:44px;cursor:pointer;color:#634614;font-weight:700}
+.diagnostic-page .diagnostic-answer details>div{padding:0 16px 14px}
+.diagnostic-page .diagnostic-answer h4{margin:16px 0 8px}
+.diagnostic-page .diagnostic-review{background:#eee8dc;color:#28231b;border-left:4px solid #8a6526;padding:16px 20px;margin:20px 0}
+.diagnostic-page .diagnostic-review h3,.diagnostic-page .diagnostic-review h4{margin:0 0 8px;color:#111}
+.diagnostic-page .diagnostic-review p:last-child{margin-bottom:0}
+.diagnostic-page .diagnostic-downloads{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}
+.diagnostic-page .diagnostic-downloads a,.diagnostic-page .diagnostic-section .diagnostic-inline-button{display:inline-flex;align-items:center;min-height:44px;padding:12px 18px;background:#111;color:#ead9b6;border:1px solid #72531c;border-radius:7px;font-weight:700;text-decoration:none}
+.diagnostic-page .diagnostic-downloads a:hover,.diagnostic-page .diagnostic-section .diagnostic-inline-button:hover{background:#28231b;color:#fff}
+.diagnostic-page .diagnostic-caption{font-size:.9rem;color:#514a40}
+.diagnostic-page .diagnostic-table-wrap{overflow-x:auto}
+.diagnostic-page .diagnostic-routes{width:100%;border-collapse:collapse;background:#fff;color:#28231b;font-size:.96rem}
+.diagnostic-page .diagnostic-routes th,.diagnostic-page .diagnostic-routes td{padding:12px 15px;border:1px solid #d9d0c0;text-align:left;vertical-align:top}
+.diagnostic-page .diagnostic-routes thead th{background:#111;color:#ead9b6}
+.diagnostic-page .practice-sequence{padding-left:26px}
+.diagnostic-page .practice-sequence li{padding:3px 0 14px 6px}
+.diagnostic-page .practice-sequence h3{margin:8px 0;font-size:1.12rem}
+.diagnostic-page .practice-sequence h3 span{display:inline-block;font-size:.9rem;font-weight:400;color:#514a40;padding-left:10px}
+.diagnostic-page .practice-sequence p{margin:8px 0}
+.diagnostic-page .katex{display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle}
+.diagnostic-page math{font-size:1.1em}
+.diagnostic-page math[display="block"]{max-width:100%;overflow-x:auto;overflow-y:hidden;padding:7px 0;box-sizing:border-box}
+.diagnostic-page .diagnostic-answer :focus-visible,.diagnostic-page .diagnostic-section a:focus-visible{outline:3px solid #72531c;outline-offset:3px}
+@media(max-width:620px){.diagnostic-page .diagnostic-question{padding:18px}.diagnostic-page .diagnostic-answer{padding:10px 12px 16px}.diagnostic-page .diagnostic-routes th,.diagnostic-page .diagnostic-routes td{padding:10px 8px}.diagnostic-page .diagnostic-downloads a{flex:1 1 100%;justify-content:center;text-align:center}.diagnostic-page .diagnostic-section{padding:26px 0}.diagnostic-page .practice-sequence h3 span{display:block;padding:4px 0 0}}
+@media print{.diagnostic-page,.diagnostic-page .diagnostic-card,.diagnostic-page .diagnostic-question,.diagnostic-page .diagnostic-review{background:#fff;color:#111}.diagnostic-page .diagnostic-question p,.diagnostic-page .diagnostic-question h3,.diagnostic-page .diagnostic-question .diagnostic-number{color:#111}.diagnostic-page .diagnostic-downloads{display:none}.diagnostic-page .diagnostic-card{break-inside:avoid}.diagnostic-page .topic-hero a{color:#111!important}}

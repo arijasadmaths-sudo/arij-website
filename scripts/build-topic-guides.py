@@ -17,8 +17,10 @@ FOOTER = re.search(r'  <footer>.*?</footer>', TEMPLATE, re.S)[0]
 def page(path, title, description, content, hub=False):
     schema = {'@context': 'https://schema.org', '@type': 'CollectionPage' if hub else 'Article',
               'name': title, 'description': description, 'url': ORIGIN + path,
-              'datePublished': '2026-09-12', 'dateModified': '2026-09-12',
+              'datePublished': '2026-09-12', 'dateModified': '2026-09-14',
               'author': {'@type': 'Person', 'name': 'Arij Asad', 'url': ORIGIN+'about.html'}}
+    if not hub:
+        schema['headline'] = title
     return install_archive_navigation(f'''<!DOCTYPE html>
 <html lang="en-GB"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +33,7 @@ def page(path, title, description, content, hub=False):
 </head><body class="resource-page topic-page">
 <a class="skip-link" href="#main-content">Skip to main content</a>
 {HEADER}<main id="main-content">{content}</main>{FOOTER}
-<script src="site.js" defer></script></body></html>''', path)
+<script src="site.js?v=20260914-1" defer></script></body></html>''', path)
 
 
 def tuition():
@@ -60,7 +62,7 @@ for t in DATA:
 
 cards=''.join(f'''<article class="topic-card"><p class="topic-kicker">{e(t['label'])}</p><h2><a href="{e(t['slug'])}.html">{e(t['title'])}</a></h2><p>{e(t['intro'])}</p><a class="topic-card-link" href="{e(t['slug'])}.html">Open the guide<span class="sr-only">: {e(t['title'])}</span></a></article>''' for t in DATA)
 content=f'''<header class="topic-hero"><div class="container"><nav class="topic-breadcrumbs" aria-label="Breadcrumb"><a href="resources.html">All resources</a></nav><p class="topic-kicker">Build the skill behind the answer</p><h1>Maths practice by topic.</h1><p class="topic-lede">Work on the step that keeps costing marks: a sign, an unfamiliar identity, a missing case or a diagram that never became an equation.</p><p class="topic-byline">Guidance by <a href="about.html">Arij Asad</a>, drawing on the difficulties addressed in individual lessons.</p><nav class="topic-jumps" aria-label="Topic practice shortcuts"><a href="#topics">Choose a topic</a><a href="mat-past-papers.html">MAT past papers</a><a href="tmua-paper-archive.html">TMUA past papers</a></nav></div></header>
-<div class="container"><section class="topic-start"><h2>Start with a question you could not finish</h2><p>Identify the mathematical decision you missed. Work through the relevant example below, try the practice question before revealing its solution, then return to the original paper. A correct answer you guessed deserves a review too.</p></section><section id="topics" class="topic-grid" aria-label="Maths topic guides">{cards}<article class="topic-card"><p class="topic-kicker">Reasoning</p><h2><a href="tmua-logic-proof.html">Logic and proof</a></h2><p>Separate an implication from its converse, test counterexamples and distinguish necessary from sufficient conditions.</p><a class="topic-card-link" href="tmua-logic-proof.html">Open the logic guide</a></article></section>
+<div class="container"><section class="topic-start"><h2>Start with a question you could not finish</h2><p>Not sure where to begin? Try the <a href="algebra-to-tmua-diagnostic.html">20-minute algebra diagnostic</a>, then use the matched follow-up questions. For a lesson or independent study session, follow the <a href="teaching-practice-sequences.html">algebra-to-TMUA and calculus-to-STEP practice sequences</a>.</p><p>Identify the mathematical decision you missed. Work through the relevant example below, try the practice question before revealing its solution, then return to the original paper. A correct answer you guessed deserves a review too.</p></section><section id="topics" class="topic-grid" aria-label="Maths topic guides">{cards}<article class="topic-card"><p class="topic-kicker">Reasoning</p><h2><a href="tmua-logic-proof.html">Logic and proof</a></h2><p>Separate an implication from its converse, test counterexamples and distinguish necessary from sufficient conditions.</p><a class="topic-card-link" href="tmua-logic-proof.html">Open the logic guide</a></article></section>
 <section class="topic-return"><h2>Put the skill back into a paper</h2><p>Use these guides for focused practice, then return to unfamiliar problems. Historical MAT questions are supplementary practice; the MAT is no longer held from 2026. Use current official specifications when preparing for TMUA, ESAT or STEP.</p><div class="topic-jumps"><a href="mat-past-papers.html">Historical MAT papers</a><a href="tmua-paper-archive.html">TMUA papers and mocks</a><a href="step-past-papers.html">STEP papers and solutions</a><a href="esat-paper-archive.html">ESAT practice</a></div></section>{tuition()}</div>'''
 (ROOT/'maths-topic-practice.html').write_text(page('maths-topic-practice.html','Maths Topic Practice: Worked Examples, Hints & Solutions','Strengthen modulus, algebra, sequences, calculus, geometry, counting and logic with Arij Asad’s worked examples, practice questions and credited resources.',content,True))
 print(f'Built {len(DATA)} topic guides and maths-topic-practice.html')

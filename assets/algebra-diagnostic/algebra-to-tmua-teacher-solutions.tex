@@ -1,0 +1,207 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=22mm,headheight=14pt]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+\setlength{\emergencystretch}{2em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{\small Arij Asad\quad |\quad maths.arijasad.com}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.3pt}
+\newcommand{\smallheading}[1]{\par\vspace{9pt}{\large\bfseries #1}\par\vspace{1pt}}
+\begin{document}
+
+\fancyhead[L]{\small Algebra to TMUA}
+\fancyhead[R]{\small Teacher solutions}
+{\LARGE\bfseries 1. Square roots and signs}\par
+\smallheading{Diagnostic question}
+For \(x<3\), simplify \(\dfrac{\sqrt{(x-3)^2}}{x-3}\).\par
+\textbf{Hint.} Use \(\sqrt{u^2}=|u|\), then decide the sign of \(x-3\).\par
+\smallheading{Worked solution}
+The square root is non-negative, so \(\sqrt{(x-3)^2}=|x-3|\). Since \(x<3\), we have \(x-3<0\) and therefore \(|x-3|=-(x-3)\).
+
+Hence \[\frac{\sqrt{(x-3)^2}}{x-3}=\frac{-(x-3)}{x-3}=-1.\] The denominator is non-zero because \(x<3\).
+
+\textbf{Answer:} \(-1\)\par
+\smallheading{What to notice}
+Writing \(\sqrt{u^2}=u\) loses the sign information when \(u<0\).\par
+\smallheading{Matched follow-up}
+For \(x>4\), simplify \(\dfrac{\sqrt{(4-x)^2}}{x-4}\).\par
+Since \(x>4\), \(4-x<0\), so \(\sqrt{(4-x)^2}=|4-x|=x-4\). Dividing by the non-zero quantity \(x-4\) gives \(1\).
+
+\textbf{Follow-up answer:} \(1\)\par
+\vfill\smallheading{Teaching note}
+Ask the student to explain the step that made the difference, then try the follow-up without looking at the worked solution.\par
+{\small Further practice: \href{https://maths.arijasad.com/modulus-and-graphs.html}{Modulus and graphs}; \href{https://maths.arijasad.com/edexcel-pure-year-2.html#chapter-2}{Pure Year 2: Functions and Graphs}.}
+\newpage
+{\LARGE\bfseries 2. Factorisation and domain}\par
+\smallheading{Diagnostic question}
+Simplify \(\dfrac{x^3+27}{x^2-9}\), stating all excluded values of \(x\).\par
+\textbf{Hint.} Record the zeros of the original denominator before using the sum-of-cubes identity.\par
+\smallheading{Worked solution}
+The original denominator is zero at \(x=3\) and \(x=-3\), so both values are excluded.
+
+Factor the numerator and denominator: \[x^3+27=(x+3)(x^2-3x+9),\qquad x^2-9=(x+3)(x-3).\]
+
+For permitted values, cancel the common factor \(x+3\). This gives \(\dfrac{x^2-3x+9}{x-3}\), with \(x\ne -3,3\). The cancellation does not restore \(x=-3\) to the original domain.
+
+\textbf{Answer:} \(\dfrac{x^2-3x+9}{x-3}\), with \(x\ne\pm3\)\par
+\smallheading{What to notice}
+A cancelled factor can remove a visible restriction from the formula, but it does not change the domain of the original expression.\par
+\smallheading{Matched follow-up}
+Simplify \(\dfrac{x^3-125}{x^2-25}\), stating all excluded values.\par
+The original denominator gives \(x\ne\pm5\). Factor \(x^3-125=(x-5)(x^2+5x+25)\) and \(x^2-25=(x-5)(x+5)\).
+
+Cancel \(x-5\) for permitted values to obtain \(\dfrac{x^2+5x+25}{x+5}\), still with \(x\ne\pm5\).
+
+\textbf{Follow-up answer:} \(\dfrac{x^2+5x+25}{x+5}\), with \(x\ne\pm5\)\par
+\vfill\smallheading{Teaching note}
+Ask the student to explain the step that made the difference, then try the follow-up without looking at the worked solution.\par
+{\small Further practice: \href{https://maths.arijasad.com/algebra-and-factorisation.html}{Factorisation and useful identities}; \href{https://maths.arijasad.com/edexcel-pure-year-1.html#chapter-7}{Pure Year 1: Algebraic Methods}.}
+\newpage
+{\LARGE\bfseries 3. Rational inequalities}\par
+\smallheading{Diagnostic question}
+Solve \(\dfrac{x-1}{x+2}\geq2\).\par
+\textbf{Hint.} Move everything to one side and use a sign chart. Do not multiply by an expression whose sign you have not fixed.\par
+\smallheading{Worked solution}
+First exclude \(x=-2\). Subtracting \(2\) gives \[\frac{x-1}{x+2}-2=\frac{-x-5}{x+2}\geq0.\]
+
+The critical values are \(-5\) and \(-2\). For \(x<-5\), the numerator is positive and the denominator negative. For \(-5<x<-2\), both are negative. For \(x>-2\), the numerator is negative and the denominator positive.
+
+The fraction is non-negative on \([-5,-2)\). Include \(-5\), where the numerator is zero; exclude \(-2\), where the expression is undefined.
+
+\textbf{Answer:} \(-5\leq x<-2\)\par
+\smallheading{What to notice}
+Multiplying by \(x+2\) without considering its sign can reverse an inequality incorrectly or lose an entire interval.\par
+\smallheading{Matched follow-up}
+Solve \(\dfrac{x+2}{x-1}\leq3\).\par
+With \(x\ne1\), rearrange to \(\dfrac{5-2x}{x-1}\leq0\). The critical values are \(1\) and \(5/2\).
+
+The fraction is negative for \(x<1\), positive for \(1<x<5/2\), and negative for \(x>5/2\). Include \(5/2\), where the fraction is zero, and exclude \(1\).
+
+\textbf{Follow-up answer:} \(x<1\) or \(x\geq\dfrac52\)\par
+\vfill\smallheading{Teaching note}
+Ask the student to explain the step that made the difference, then try the follow-up without looking at the worked solution.\par
+{\small Further practice: \href{https://maths.arijasad.com/edexcel-pure-year-1.html#chapter-3}{Pure Year 1: Equations and Inequalities}; \href{https://maths.arijasad.com/tmua-logic-proof.html}{Logic and proof}.}
+\newpage
+{\LARGE\bfseries 4. Combining conditions}\par
+\smallheading{Diagnostic question}
+Find all real \(x\) such that \(x^2>9\) and \(x<1\).\par
+\textbf{Hint.} Solve each condition separately, then take their intersection.\par
+\smallheading{Worked solution}
+The inequality \(x^2>9\) gives \(x<-3\) or \(x>3\). The second condition is \(x<1\).
+
+Every value with \(x<-3\) satisfies \(x<1\), while no value with \(x>3\) does. Therefore the intersection is \(x<-3\).
+
+\textbf{Answer:} \(x<-3\)\par
+\smallheading{What to notice}
+The word "and" requires both conditions. Squaring inequalities can also hide a negative branch.\par
+\smallheading{Matched follow-up}
+Find all real \(x\) such that \(x^2\leq16\) and \(x>-1\).\par
+The first condition gives \(-4\leq x\leq4\). Intersect this with \(x>-1\) to obtain \(-1<x\leq4\).
+
+\textbf{Follow-up answer:} \(-1<x\leq4\)\par
+\vfill\smallheading{Teaching note}
+Ask the student to explain the step that made the difference, then try the follow-up without looking at the worked solution.\par
+{\small Further practice: \href{https://maths.arijasad.com/tmua-logic-proof.html}{Logic and proof}; \href{https://maths.arijasad.com/edexcel-pure-year-1.html#chapter-3}{Pure Year 1: Equations and Inequalities}.}
+\newpage
+{\LARGE\bfseries 5. Modulus equations}\par
+\smallheading{Diagnostic question}
+Solve \(|2x-1|=x+2\).\par
+\textbf{Hint.} Split at \(x=1/2\), and keep the condition attached to each branch.\par
+\smallheading{Worked solution}
+If \(x\geq1/2\), then \(|2x-1|=2x-1\). Thus \(2x-1=x+2\), giving \(x=3\), which satisfies this branch condition.
+
+If \(x<1/2\), then \(|2x-1|=1-2x\). Thus \(1-2x=x+2\), giving \(x=-1/3\), which also satisfies its branch condition.
+
+Both values satisfy the original equation, so the complete solution set is \(\{-1/3,3\}\).
+
+\textbf{Answer:} \(x=-\dfrac13\) or \(x=3\)\par
+\smallheading{What to notice}
+Using both signs without checking branch conditions can admit values that do not satisfy the original equation.\par
+\smallheading{Matched follow-up}
+Solve \(|3x+2|=x+4\).\par
+For \(x\geq-2/3\), solve \(3x+2=x+4\), giving \(x=1\). For \(x<-2/3\), solve \(-3x-2=x+4\), giving \(x=-3/2\).
+
+Both values meet their branch conditions and satisfy the original equation.
+
+\textbf{Follow-up answer:} \(x=1\) or \(x=-\dfrac32\)\par
+\vfill\smallheading{Teaching note}
+Ask the student to explain the step that made the difference, then try the follow-up without looking at the worked solution.\par
+{\small Further practice: \href{https://maths.arijasad.com/modulus-and-graphs.html}{Modulus and graph reflections}; \href{https://maths.arijasad.com/edexcel-pure-year-2.html#chapter-2}{Pure Year 2: Functions and Graphs}.}
+\newpage
+{\LARGE\bfseries 6. Graphs and transformed inputs}\par
+\smallheading{Diagnostic question}
+The graph of a quadratic \(f\) opens upwards and has roots \(-2\) and \(4\). Given \(f(0)<0\), find all \(x\) for which \(f(2x-1)<0\).\par
+\textbf{Hint.} Find which inputs make \(f\) negative, then put \(2x-1\) between those inputs.\par
+\smallheading{Worked solution}
+An upward-opening quadratic is negative strictly between its roots, so \(f(t)<0\) exactly when \(-2<t<4\).
+
+Use \(t=2x-1\): \[-2<2x-1<4\quad\Longleftrightarrow\quad -1<2x<5\quad\Longleftrightarrow\quad-\frac12<x<\frac52.\]
+
+The endpoints are excluded because the quadratic is zero there. The condition \(f(0)<0\) agrees with the sign of the graph between its roots.
+
+\textbf{Answer:} \(-\dfrac12<x<\dfrac52\)\par
+\smallheading{What to notice}
+Changing the input of a function requires solving for the new variable; the original root interval cannot simply be reused.\par
+\smallheading{Matched follow-up}
+A quadratic \(g\) opens upwards and has roots \(1\) and \(7\). Find all \(x\) such that \(g(3x+1)>0\).\par
+The function is positive outside its roots: \(g(t)>0\) when \(t<1\) or \(t>7\). Thus \(3x+1<1\) or \(3x+1>7\), giving \(x<0\) or \(x>2\).
+
+\textbf{Follow-up answer:} \(x<0\) or \(x>2\)\par
+\vfill\smallheading{Teaching note}
+Ask the student to explain the step that made the difference, then try the follow-up without looking at the worked solution.\par
+{\small Further practice: \href{https://maths.arijasad.com/modulus-and-graphs.html}{Modulus and graphs}; \href{https://maths.arijasad.com/edexcel-pure-year-1.html#chapter-4}{Pure Year 1: Graphs and Transformations}.}
+\newpage
+{\LARGE\bfseries 7. Using identities efficiently}\par
+\smallheading{Diagnostic question}
+A positive real number \(x\) satisfies \(x+1/x=4\). Find \((x-1/x)^2\).\par
+\textbf{Hint.} Compare the expansions of the sum squared and the difference squared.\par
+\smallheading{Worked solution}
+Expanding gives \((x+1/x)^2=x^2+2+1/x^2\) and \((x-1/x)^2=x^2-2+1/x^2\).
+
+The second expression is four less than the first. Hence \[(x-1/x)^2=(x+1/x)^2-4=16-4=12.\] There is no need to solve a quadratic for \(x\).
+
+\textbf{Answer:} \(12\)\par
+\smallheading{What to notice}
+The middle term of a square matters: \((a-b)^2\) is not \(a^2-b^2\).\par
+\smallheading{Matched follow-up}
+A positive real number \(x\) satisfies \(x+1/x=5\). Find \((x-1/x)^2\).\par
+The same identity gives \((x-1/x)^2=(x+1/x)^2-4=25-4=21\).
+
+\textbf{Follow-up answer:} \(21\)\par
+\vfill\smallheading{Teaching note}
+Ask the student to explain the step that made the difference, then try the follow-up without looking at the worked solution.\par
+{\small Further practice: \href{https://maths.arijasad.com/algebra-and-factorisation.html}{Factorisation and useful identities}; \href{https://maths.arijasad.com/edexcel-pure-year-1.html#chapter-1}{Pure Year 1: Algebraic Expressions}.}
+\newpage
+{\LARGE\bfseries 8. Counting distinct roots}\par
+\smallheading{Diagnostic question}
+For which values of \(k>0\) does \(|x^2-4|=k\) have exactly two distinct real solutions?\par
+\textbf{Hint.} Rewrite the equation as two equations for \(x^2\), and check the point where one right-hand side becomes zero.\par
+\smallheading{Worked solution}
+The equation is equivalent to \(x^2=4+k\) or \(x^2=4-k\). Since \(k>0\), the first equation always has two distinct real roots.
+
+When \(0<k<4\), the second equation also has two distinct non-zero roots. They differ from the first pair, so there are four roots in total.
+
+When \(k=4\), the second equation gives only \(x=0\), so there are three distinct roots. When \(k>4\), it has no real roots, leaving exactly two.
+
+\textbf{Answer:} \(k>4\)\par
+\smallheading{What to notice}
+At a transition value, the two expressions \(+0\) and \(-0\) are the same root. Count distinct roots separately at the boundary.\par
+\smallheading{Matched follow-up}
+For which values of \(k>0\) does \(|x^2-9|=k\) have exactly three distinct real solutions?\par
+The equations are \(x^2=9+k\) and \(x^2=9-k\). For \(0<k<9\) there are four distinct roots; for \(k>9\) there are two.
+
+At \(k=9\), the roots are \(x=0\) and \(x=\pm\sqrt{18}=\pm3\sqrt2\). These are three distinct real roots, so \(k=9\) is the only value.
+
+\textbf{Follow-up answer:} \(k=9\)\par
+\vfill\smallheading{Teaching note}
+Ask the student to explain the step that made the difference, then try the follow-up without looking at the worked solution.\par
+{\small Further practice: \href{https://maths.arijasad.com/modulus-and-graphs.html}{Modulus and graph reflections}; \href{https://maths.arijasad.com/edexcel-pure-year-2.html#chapter-2}{Pure Year 2: Functions and Graphs}.}
+\end{document}
