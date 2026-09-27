@@ -2,7 +2,7 @@
   "exam": "tmua",
   "title": "TMUA",
   "pageTitle": "TMUA Past Papers, Worked Solutions & Community Mocks | Arij Asad",
-  "description": "TMUA official past papers, worked answers and historical score conversions, plus JZ Maths, Gresty Academy, Tyler, Beyond Horizon and Yotta practice papers.",
+  "description": "TMUA official past papers, worked answers and historical score conversions, plus JZ Maths, Hercules / PrepTMUA, Gresty Academy, Tyler, Beyond Horizon and Yotta mocks.",
   "intro": "Official papers and worked answers, followed by community mocks, topic worksheets and video solutions. Score information stays beside the matching paper.",
   "displayNotes": [
     "Official papers currently run from the 2016 practice papers to 2023, plus an early specimen. UAT-UK has not added 2024–2026 past papers to its public archive.",
@@ -2336,9 +2336,38 @@
     {
       "label": "TMUA Euclid R2Drew2 Edition",
       "url": "https://www.tmuaeuclid.com/r2drew2"
+    },
+    {
+      "label": "Hercules / PrepTMUA mocks",
+      "url": "https://www.preptmua.com/pricing/"
     }
   ],
   "linkSections": [
+    {
+      "id": "hercules-preptmua",
+      "title": "Hercules / PrepTMUA mock papers",
+      "description": "Independent TMUA-style practice: six mock papers with worked solutions on PrepTMUA (paid access). A free sample quiz is available. These are not official past papers.",
+      "credit": "Three two-paper mock sets written by Ming Chun So (Hercules) and Ashmit Rao.",
+      "links": [
+        {
+          "label": "Free sample quiz",
+          "url": "https://www.preptmua.com/questions/intro_quiz_intro/",
+          "description": "Publisher-hosted sample; no purchase required.",
+          "filterTypes": [
+            "papers"
+          ]
+        },
+        {
+          "label": "Six mock papers and worked solutions (paid)",
+          "url": "https://www.preptmua.com/pricing/",
+          "description": "Access to the full sets and solutions requires payment.",
+          "filterTypes": [
+            "papers",
+            "written"
+          ]
+        }
+      ]
+    },
     {
       "id": "r2drew-walkthroughs",
       "title": "More R2Drew2 TMUA walkthroughs",
@@ -2938,5 +2967,5 @@
     }
   ],
   "sourceNote": "This archive is curated by Arij Asad. Papers and solutions remain the work of their credited creators. Links lead to the original publishers, except for the Beyond Horizon and Yotta community downloads hosted here. The original file contents and credits are preserved. N/A means that an item is unavailable or not applicable.",
-  "dateModified": "2026-09-12"
+  "dateModified": "2026-09-27"
 }
